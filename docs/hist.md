@@ -54,7 +54,7 @@
 - 2021-11-03   [Offload](/0028_OPT_PARA_OpenMP_Offload)
 - 2021-11-03   [SIMD](/0027_OPT_PARA_OpenMP_SIMD)
 - 2021-10-28   [DPCPP](/0036_OPT_PARA_DPCPP)
-- 2021-10-28   [comment line](/0055_Build_Cmake_语法)
+- 2021-10-28   [语法](/0055_Build_Cmake_语法)
 - 2021-10-26   [cpack](/0062_Build_Cmake_cpack)
 - 2021-10-25   [CPP](/0067_Tools_Jupyter_CPP)
 - 2021-10-13   [pk-config](/0064_Build_pkgconfig)
