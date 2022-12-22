@@ -21,6 +21,7 @@
 - 2022-01-04   [UseCase](/0155_Programing_Compiler_GCC_UseCase)
 - 2022-01-02   [Windows](/0061_Build_Cmake_Windows)
 - 2022-01-02   [Platforms](/0058_Build_Cmake_Platforms)
+- 2022-01-02   [Generators](/0156_Build_Cmake_Generators)
 - 2022-01-02   [Debug](/0057_Build_Cmake_Debug)
 - 2021-12-30   [变量](/0056_Build_Cmake_VAR)
 - 2021-12-27   [oneDPL](/0075_OPT_LIB_OneAPI_oneDPL)
