@@ -2,6 +2,7 @@
   - Github
     - [Pages](/0126_Tools_Github_Pages)
       - [BaiduMap](/0132_Tools_Github_Pages_BaiduMap)
+        - [部署到 Gitee](/0172_Tools_Github_Pages_BaiduMap_Issues)
       - [Mirror](/0128_Tools_Github_Pages_Mirror)
       - [docsify](/0130_Tools_Github_Pages_docsify)
       - [Markline Timeline](/0131_Tools_Github_Pages_Markline)

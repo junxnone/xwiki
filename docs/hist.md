@@ -83,6 +83,7 @@
 - 2021-04-21   [IPP Intel Integrated Performance Primitives](/0032_OPT_LIB_IPP)
 - 2021-04-08   [Decorator 装饰器](/0088_Programing_Python_Decorator)
 - 2021-03-10   [psutil](/0098_Programing_Python_psutil)
+- 2021-02-13   [部署到 Gitee](/0172_Tools_Github_Pages_BaiduMap_Issues)
 - 2021-02-09   [BaiduMap](/0132_Tools_Github_Pages_BaiduMap)
 - 2021-02-08   [README Stats](/0127_Tools_Github_Pages_ReadmeStats)
 - 2021-02-07   [Markline Timeline](/0131_Tools_Github_Pages_Markline)
