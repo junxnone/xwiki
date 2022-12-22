@@ -33,6 +33,7 @@
 - 2021-10-28   [DPCPP](/0036_OPT_PARA_DPCPP)
 - 2021-10-28   [comment line](/0055_Build_Cmake_语法)
 - 2021-10-26   [cpack](/0062_Build_Cmake_cpack)
+- 2021-10-25   [CPP](/0067_Tools_Jupyter_CPP)
 - 2021-10-13   [pk-config](/0064_Build_pkgconfig)
 - 2021-08-12   [绑定 Socker & Core](/0033_OPT_BindSocketCore)
 - 2021-08-09   [绑定CPU核](/0026_OPT_PARA_OpenMP_BindCore)

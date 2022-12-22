@@ -73,4 +73,5 @@
 - Tools
   - Jupyter
     - [JupyterLab](/0065_Tools_Jupyter_JupyterLab)
+    - [CPP](/0067_Tools_Jupyter_CPP)
 - [Wiki History](/hist)
