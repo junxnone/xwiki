@@ -4,8 +4,10 @@
   - [并行计算](/0022_OPT_PARA)
     - [OpenMP](/0023_OPT_PARA_OpenMP)
       - [UseCase](/0025_OPT_PARA_OpenMP_UseCase)
+      - [Directives](/0029_OPT_PARA_OpenMP_Directives)
       - [API](/0024_OPT_PARA_OpenMP_API)
       - [SIMD](/0027_OPT_PARA_OpenMP_SIMD)
+      - [Offload](/0028_OPT_PARA_OpenMP_Offload)
       - [绑定CPU核](/0026_OPT_PARA_OpenMP_BindCore)
   - Tools
     - [Vtune](/0019_OPT_Tools_Vtune)
