@@ -189,6 +189,9 @@
 - [Pandas](/0181_Pandas)
   - UseCase
     - [list2csv](/0183_Pandas_UseCase_list2csv)
+    - [排序](/0186_Pandas_UseCase_sort)
+  - Issues
+    - [SettingWithCopyWarning](/0185_Pandas_Issues_SettingWithCopyWarning)
   - [DataFrame](/0182_Pandas_DataFrame)
   - [Series](/0184_Pandas_Series)
 - Linux

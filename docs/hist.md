@@ -132,6 +132,8 @@
 - 2019-09-06   [Gitlab](/0133_Tools_Gitlab)
 - 2019-08-27   [plugins](/0165_Tools_Remote_tmux_plugins)
 - 2019-08-27   [Arch](/0164_Tools_Remote_tmux_Arch)
+- 2019-08-15   [排序](/0186_Pandas_UseCase_sort)
+- 2019-08-14   [SettingWithCopyWarning](/0185_Pandas_Issues_SettingWithCopyWarning)
 - 2019-08-14   [Series](/0184_Pandas_Series)
 - 2019-08-12   [list2csv](/0183_Pandas_UseCase_list2csv)
 - 2019-08-07   [YAML](/0140_Doc_YAML)
