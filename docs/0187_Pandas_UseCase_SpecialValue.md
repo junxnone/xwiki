@@ -1,8 +1,8 @@
 ---
-Title | Pandas UseCase DataFrame
+Title | Pandas UseCase SpecialValue
 -- | --
 Created @ | `2019-08-15T11:05:16Z`
-Last Modify @| `2022-12-22T09:36:08Z`
+Last Modify @| `2022-12-22T09:36:40Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/187)
 
