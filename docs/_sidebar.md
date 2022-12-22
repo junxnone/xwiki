@@ -1,10 +1,8 @@
-- [Features](/0016_Features)
+- Features
   - [Mermaid 图表支持](/0020_Features_Mermaid)
   - [MindMap](/0022_Features_MindMap)
   - [自动生成 Sidebar](/0024_Features_AutoSidebar)
   - [Timeline](/0034_Features_Timeline)
-  - [Latex](/0018_Features_Latex)
-  - [Markdown](/0017_Features_Markdown)
 - [Guide](/0023_Guide)
   - [WriteWiki](/0027_Guide_WriteWiki)
   - [AutoSidebar](/0026_Guide_AutoSidebar)
@@ -15,9 +13,10 @@
   - GPU
     - [iGPU](/0005_Hardware_GPU_iGPU)
     - [NVIDIA](/0006_Hardware_GPU_NVIDIA)
+  - [Memory](/0004_Hardware_Memory)
+    - [Cache](/0016_Hardware_Memory_Cache)
   - [CPU](/0002_Hardware_CPU)
     - [Intel](/0003_Hardware_CPU_Intel)
-  - [Memory](/0004_Hardware_Memory)
 - Programing
   - [编译器](/0012_Programing_Compiler)
     - [ICX Intel Compiler](/0013_Programing_Compiler_ICX)
@@ -25,4 +24,6 @@
     - [Tools](/0011_Programing_Library_Tools)
 - [性能优化](/0014_OPT)
   - [内存优化](/0015_OPT_Memory)
+    - [CacheLine](/0017_OPT_Memory_CacheLine)
+  - [Loop](/0018_OPT_Loop)
 - [Wiki History](/hist)
