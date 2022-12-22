@@ -75,6 +75,7 @@
   - [Conda](/0073_Tools_Conda)
   - [UseCase](/0142_Tools_mosquitto)
   - [manim](/0141_Tools_manim)
+  - [VisualStudio](/0144_Tools_VisualStudio)
   - [opengrok](/0143_Tools_opengrok)
 - [性能优化](/0014_OPT)
   - [并行计算](/0022_OPT_PARA)
@@ -151,4 +152,10 @@
     - [List](/0137_Doc_Markdown_List)
     - [text in gray](/0136_Doc_Markdown_Text)
   - [YAML](/0140_Doc_YAML)
+- X
+  - [Open Source License](/0147_X_OpenSourceLicense)
+  - [CRLF](/0145_X_CRLF)
+  - [版本号定义](/0146_X_Version)
+- Linux
+  - [History](/0148_Linux_History)
 - [Wiki History](/hist)
