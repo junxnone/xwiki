@@ -48,4 +48,5 @@
 - Hypervisor
   - [Docker](/0044_Hypervisor_Docker)
     - [Network](/0045_Hypervisor_Docker_Network)
+    - [GUI](/0046_Hypervisor_Docker_GUI)
 - [Wiki History](/hist)
