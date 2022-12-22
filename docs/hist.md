@@ -10,6 +10,7 @@
 - 2021-12-22   [Tools](/0011_Programing_Library_Tools)
 - 2021-12-22   [Library](/0010_Programing_Library)
 - 2021-12-14   [Loop](/0018_OPT_Loop)
+- 2021-12-13   [Projects](/0039_OPT_PARA_SYCL_Projects)
 - 2021-12-12   [LevelZero](/0037_OPT_PARA_DPCPP_LevelZero)
 - 2021-11-18   [Task](/0030_OPT_PARA_OpenMP_Task)
 - 2021-11-18   [NVIDIA](/0006_Hardware_GPU_NVIDIA)

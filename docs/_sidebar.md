@@ -11,9 +11,10 @@
     - [DPCPP](/0036_OPT_PARA_DPCPP)
       - [DEBUG](/0038_OPT_PARA_DPCPP_DEBUG)
       - [LevelZero](/0037_OPT_PARA_DPCPP_LevelZero)
+    - [SYCL](/0031_OPT_PARA_SYCL)
+      - [Projects](/0039_OPT_PARA_SYCL_Projects)
     - [OpenCL](/0034_OPT_PARA_OpenCL)
       - [Install](/0035_OPT_PARA_OpenCL_Install)
-    - [SYCL](/0031_OPT_PARA_SYCL)
   - Tools
     - [Vtune](/0019_OPT_Tools_Vtune)
       - [CommandLine](/0020_OPT_Tools_Vtune_CommandLine)
