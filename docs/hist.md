@@ -1,7 +1,6 @@
 # Wiki History
 
 - 2022-12-20   [Timeline](/0034_Features_Timeline)
-- 2022-12-20   [WriteWiki](/0027_Guide_WriteWiki)
 - 2022-09-09   [CommandLine](/0020_OPT_Tools_Vtune_CommandLine)
 - 2022-04-27   [CPU](/0002_Hardware_CPU)
 - 2022-04-27   [CacheLine](/0017_OPT_Memory_CacheLine)
@@ -18,6 +17,7 @@
 - 2021-11-10   [硬件](/0001_Hardware)
 - 2021-11-05   [UseCase](/0025_OPT_PARA_OpenMP_UseCase)
 - 2021-11-05   [并行计算](/0022_OPT_PARA)
+- 2021-11-03   [SIMD](/0027_OPT_PARA_OpenMP_SIMD)
 - 2021-08-09   [绑定CPU核](/0026_OPT_PARA_OpenMP_BindCore)
 - 2021-08-07   [API](/0024_OPT_PARA_OpenMP_API)
 - 2021-08-02   [原理](/0008_Hardware_SIMD_原理)
