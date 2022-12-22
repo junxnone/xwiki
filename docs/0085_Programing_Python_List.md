@@ -2,11 +2,13 @@
 Title | Programing Python List
 -- | --
 Created @ | `2019-05-29T17:10:44Z`
-Last Modify @| `2022-12-22T06:30:44Z`
+Last Modify @| `2022-12-22T09:38:50Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/85)
 
 ---
+# 列表
+
 ## Brief
 
 Name | Description
@@ -85,15 +87,15 @@ Out[8]: [1, 3, 5, 7, 9]
 
 ```
 if a:
-# 非空
+## 非空
 else:
-# 空
+## 空
 ```
 ```
 if len(a):
-# 非空
+## 非空
 else:
-# 空
+## 空
 ```
 
 >Python if 条件 False,0,'',[],{},()都可以视为假。
