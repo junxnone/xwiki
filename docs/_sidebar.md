@@ -145,7 +145,7 @@
   - [CPU](/0002_Hardware_CPU)
     - [Intel](/0003_Hardware_CPU_Intel)
   - [NUMA](/0158_Hardware_NUMA)
-- Build
+- [构建工具](/0190_Build)
   - [Cmake](/0053_Build_Cmake)
     - [变量](/0056_Build_Cmake_VAR)
     - [Debug](/0057_Build_Cmake_Debug)
@@ -171,6 +171,17 @@
     - [Tools](/0050_Hypervisor_Docker_Tools)
     - [Compose](/0047_Hypervisor_Docker_Compose)
     - [UI](/0051_Hypervisor_Docker_UI)
+- [Pandas](/0181_Pandas)
+  - UseCase
+    - [list2csv](/0183_Pandas_UseCase_list2csv)
+    - [排序](/0186_Pandas_UseCase_sort)
+    - [传递函数，效果同上](/0187_Pandas_UseCase_DataFrame)
+    - [创建 DataFrame](/0188_Pandas_UseCase_Create)
+  - [可视化](/0189_Pandas_Visualization)
+  - Issues
+    - [SettingWithCopyWarning](/0185_Pandas_Issues_SettingWithCopyWarning)
+  - [DataFrame](/0182_Pandas_DataFrame)
+  - [Series](/0184_Pandas_Series)
 - Doc
   - [Markdown](/0135_Doc_Markdown)
     - [GithubEmoji](/0160_Doc_Markdown_GithubEmoji)
@@ -186,20 +197,4 @@
   - [CRLF](/0145_X_CRLF)
   - [版本号定义](/0146_X_Version)
   - [PECOFF](/0152_X_PECOFF)
-- [Pandas](/0181_Pandas)
-  - UseCase
-    - [list2csv](/0183_Pandas_UseCase_list2csv)
-    - [排序](/0186_Pandas_UseCase_sort)
-  - Issues
-    - [SettingWithCopyWarning](/0185_Pandas_Issues_SettingWithCopyWarning)
-  - [DataFrame](/0182_Pandas_DataFrame)
-  - [Series](/0184_Pandas_Series)
-- Linux
-  - IPC
-    - [Tools](/0168_Linux_IPC_SharedMemory)
-    - [Semaphore](/0167_Linux_IPC_Semaphore)
-  - [History](/0148_Linux_History)
-- Ubuntu
-  - Issues
-    - [USB 耳机没声音](/0170_Ubuntu_Issues_USBHeadphoneNoSound)
 - [Wiki History](/hist)
