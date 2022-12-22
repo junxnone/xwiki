@@ -21,6 +21,7 @@
 - 2021-11-05   [并行计算](/0022_OPT_PARA)
 - 2021-11-03   [Offload](/0028_OPT_PARA_OpenMP_Offload)
 - 2021-11-03   [SIMD](/0027_OPT_PARA_OpenMP_SIMD)
+- 2021-08-12   [绑定 Socker & Core](/0033_OPT_BindSocketCore)
 - 2021-08-09   [绑定CPU核](/0026_OPT_PARA_OpenMP_BindCore)
 - 2021-08-07   [API](/0024_OPT_PARA_OpenMP_API)
 - 2021-08-02   [原理](/0008_Hardware_SIMD_原理)

@@ -17,6 +17,7 @@
   - [内存优化](/0015_OPT_Memory)
     - [CacheLine](/0017_OPT_Memory_CacheLine)
   - [Loop](/0018_OPT_Loop)
+  - [绑定 Socker & Core](/0033_OPT_BindSocketCore)
   - LIB
     - [IPP Intel Integrated Performance Primitives](/0032_OPT_LIB_IPP)
   - [TMA](/0021_OPT_TMA)
