@@ -55,6 +55,7 @@
       - [bandit](/0091_Programing_Python_CodeAnalysis_bandit)
     - [logging](/0097_Programing_Python_logging)
     - [非空](/0085_Programing_Python_List)
+    - [virtualenv](/0176_Programing_Python_virtualenv)
     - [Slice](/0086_Programing_Python_Slice)
     - [pip](/0095_Programing_Python_pip)
     - [virtualenvwrapper](/0175_Programing_Python_virtualenvwrapper)

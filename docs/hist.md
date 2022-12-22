@@ -160,6 +160,7 @@
 - 2018-12-01   [USB 耳机没声音](/0170_Ubuntu_Issues_USBHeadphoneNoSound)
 - 2018-11-29   [Reference](/0079_Programing_Shell)
 - 2018-11-25   [putty](/0161_Tools_putty)
+- 2018-11-25   [virtualenv](/0176_Programing_Python_virtualenv)
 - 2018-11-25   [pip](/0095_Programing_Python_pip)
 - 2018-11-24   [UseCase](/0142_Tools_mosquitto)
 - 2018-11-22   [Markdown](/0135_Doc_Markdown)
