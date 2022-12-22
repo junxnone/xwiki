@@ -53,6 +53,7 @@
 - 2021-01-13   [JupyterLab](/0065_Tools_Jupyter_JupyterLab)
 - 2020-11-03   [Volume](/0049_Hypervisor_Docker_Volume)
 - 2020-10-28   [Tools](/0050_Hypervisor_Docker_Tools)
+- 2020-10-25   [Extensions](/0071_Tools_Jupyter_Extensions)
 - 2020-06-05   [Make](/0063_Build_Make)
 - 2020-03-19   [移动数据到新位置](/0052_Hypervisor_Docker_MoveData)
 - 2020-03-18   [Install](/0035_OPT_PARA_OpenCL_Install)

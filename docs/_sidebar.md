@@ -68,6 +68,7 @@
     - [Arch](/0069_Tools_Jupyter_Arch)
     - [JupyterHub](/0066_Tools_Jupyter_JupyterHub)
     - [UseLocalPackage](/0068_Tools_Jupyter_UseLocalPackage)
+    - [Extensions](/0071_Tools_Jupyter_Extensions)
     - [Docker Image](/0070_Tools_Jupyter_DockerImage)
     - [JupyterLab](/0065_Tools_Jupyter_JupyterLab)
     - [CPP](/0067_Tools_Jupyter_CPP)
