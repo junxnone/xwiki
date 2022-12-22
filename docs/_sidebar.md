@@ -5,7 +5,6 @@
   - [Timeline](/0034_Features_Timeline)
   - [Latex](/0018_Features_Latex)
   - [Markdown](/0017_Features_Markdown)
-  - [Include Content](/0013_Features_IncludeContent)
 - [Guide](/0023_Guide)
   - [WriteWiki](/0027_Guide_WriteWiki)
   - [AutoSidebar](/0026_Guide_AutoSidebar)
@@ -20,4 +19,9 @@
   - [CPU](/0002_Hardware_CPU)
     - [Intel](/0003_Hardware_CPU_Intel)
   - [Memory](/0004_Hardware_Memory)
+- Programing
+  - [编译器](/0012_Programing_Compiler)
+    - [ICX Intel Compiler](/0013_Programing_Compiler_ICX)
+  - [Library](/0010_Programing_Library)
+    - [Tools](/0011_Programing_Library_Tools)
 - [Wiki History](/hist)
