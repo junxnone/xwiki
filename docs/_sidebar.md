@@ -73,6 +73,7 @@
   - [Gitlab](/0133_Tools_Gitlab)
     - [CICD](/0134_Tools_Gitlab_CICD)
   - [Conda](/0073_Tools_Conda)
+  - [manim](/0141_Tools_manim)
 - [性能优化](/0014_OPT)
   - [并行计算](/0022_OPT_PARA)
     - [OpenMP](/0023_OPT_PARA_OpenMP)
@@ -143,6 +144,9 @@
     - [UI](/0051_Hypervisor_Docker_UI)
 - Doc
   - [Markdown](/0135_Doc_Markdown)
+    - [Image](/0139_Doc_Markdown_Image)
+    - [表格](/0138_Doc_Markdown_Table)
     - [List](/0137_Doc_Markdown_List)
     - [text in gray](/0136_Doc_Markdown_Text)
+  - [YAML](/0140_Doc_YAML)
 - [Wiki History](/hist)
