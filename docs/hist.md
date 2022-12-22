@@ -8,6 +8,7 @@
 - 2022-12-12   [MindMap](/0022_Features_MindMap)
 - 2022-05-02   [Mermaid 图表支持](/0020_Features_Mermaid)
 - 2022-04-27   [CPU](/0002_Hardware_CPU)
+- 2022-04-25   [性能优化](/0014_OPT)
 - 2021-12-22   [Tools](/0011_Programing_Library_Tools)
 - 2021-12-22   [Library](/0010_Programing_Library)
 - 2021-11-21   [Latex](/0018_Features_Latex)

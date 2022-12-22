@@ -8,7 +8,6 @@
 - [Guide](/0023_Guide)
   - [WriteWiki](/0027_Guide_WriteWiki)
   - [AutoSidebar](/0026_Guide_AutoSidebar)
-- [About](/0014_About)
 - [硬件](/0001_Hardware)
   - [SIMD](/0007_Hardware_SIMD)
     - [原理](/0008_Hardware_SIMD_原理)
@@ -24,4 +23,5 @@
     - [ICX Intel Compiler](/0013_Programing_Compiler_ICX)
   - [Library](/0010_Programing_Library)
     - [Tools](/0011_Programing_Library_Tools)
+- [性能优化](/0014_OPT)
 - [Wiki History](/hist)
