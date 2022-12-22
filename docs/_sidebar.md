@@ -41,8 +41,6 @@
     - [Platforms](/0058_Build_Cmake_Platforms)
     - [设置安装相关](/0059_Build_Cmake_InstallFiles)
   - [Make](/0063_Build_Make)
-  - Jupyter
-    - [JupyterHub](/0066_Build_Jupyter_JupyterHub)
   - [pk-config](/0064_Build_pkgconfig)
 - [硬件](/0001_Hardware)
   - [SIMD](/0007_Hardware_SIMD)
@@ -72,6 +70,8 @@
     - [Tools](/0011_Programing_Library_Tools)
 - Tools
   - Jupyter
+    - [JupyterHub](/0066_Tools_Jupyter_JupyterHub)
+    - [UseLocalPackage](/0068_Tools_Jupyter_UseLocalPackage)
     - [JupyterLab](/0065_Tools_Jupyter_JupyterLab)
     - [CPP](/0067_Tools_Jupyter_CPP)
 - [Wiki History](/hist)
