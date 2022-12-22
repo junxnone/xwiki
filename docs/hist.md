@@ -58,6 +58,7 @@
 - 2020-03-18   [Install](/0035_OPT_PARA_OpenCL_Install)
 - 2019-12-27   [Intel](/0003_Hardware_CPU_Intel)
 - 2019-12-19   [SIMD](/0007_Hardware_SIMD)
+- 2019-12-07   [Arch](/0069_Tools_Jupyter_Arch)
 - 2019-11-18   [Dockerfile](/0048_Hypervisor_Docker_Dockerfile)
 - 2019-10-29   [UseLocalPackage](/0068_Tools_Jupyter_UseLocalPackage)
 - 2019-05-11   [JupyterHub](/0066_Tools_Jupyter_JupyterHub)

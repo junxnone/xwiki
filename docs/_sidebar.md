@@ -63,15 +63,16 @@
     - [Tools](/0050_Hypervisor_Docker_Tools)
     - [Compose](/0047_Hypervisor_Docker_Compose)
     - [UI](/0051_Hypervisor_Docker_UI)
+- Tools
+  - Jupyter
+    - [Arch](/0069_Tools_Jupyter_Arch)
+    - [JupyterHub](/0066_Tools_Jupyter_JupyterHub)
+    - [UseLocalPackage](/0068_Tools_Jupyter_UseLocalPackage)
+    - [JupyterLab](/0065_Tools_Jupyter_JupyterLab)
+    - [CPP](/0067_Tools_Jupyter_CPP)
 - Programing
   - [编译器](/0012_Programing_Compiler)
     - [ICX Intel Compiler](/0013_Programing_Compiler_ICX)
   - [Library](/0010_Programing_Library)
     - [Tools](/0011_Programing_Library_Tools)
-- Tools
-  - Jupyter
-    - [JupyterHub](/0066_Tools_Jupyter_JupyterHub)
-    - [UseLocalPackage](/0068_Tools_Jupyter_UseLocalPackage)
-    - [JupyterLab](/0065_Tools_Jupyter_JupyterLab)
-    - [CPP](/0067_Tools_Jupyter_CPP)
 - [Wiki History](/hist)
