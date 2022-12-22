@@ -11,4 +11,5 @@
   - [AutoSidebar](/0026_Guide_AutoSidebar)
 - [TODO](/0004_TODO)
 - [About](/0014_About)
+- [硬件](/0001_Hardware)
 - [Wiki History](/hist)
