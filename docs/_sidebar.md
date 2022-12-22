@@ -53,6 +53,17 @@
     - [Cache](/0016_Hardware_Memory_Cache)
   - [CPU](/0002_Hardware_CPU)
     - [Intel](/0003_Hardware_CPU_Intel)
+- Tools
+  - Jupyter
+    - [Arch](/0069_Tools_Jupyter_Arch)
+    - [JupyterHub](/0066_Tools_Jupyter_JupyterHub)
+    - [UseLocalPackage](/0068_Tools_Jupyter_UseLocalPackage)
+    - [动态显示图片](/0072_Tools_Jupyter_ShowImageDynamic)
+    - [Extensions](/0071_Tools_Jupyter_Extensions)
+    - [Docker Image](/0070_Tools_Jupyter_DockerImage)
+    - [JupyterLab](/0065_Tools_Jupyter_JupyterLab)
+    - [CPP](/0067_Tools_Jupyter_CPP)
+  - [Conda](/0073_Tools_Conda)
 - Hypervisor
   - [Docker](/0044_Hypervisor_Docker)
     - [Volume](/0049_Hypervisor_Docker_Volume)
@@ -63,15 +74,6 @@
     - [Tools](/0050_Hypervisor_Docker_Tools)
     - [Compose](/0047_Hypervisor_Docker_Compose)
     - [UI](/0051_Hypervisor_Docker_UI)
-- Tools
-  - Jupyter
-    - [Arch](/0069_Tools_Jupyter_Arch)
-    - [JupyterHub](/0066_Tools_Jupyter_JupyterHub)
-    - [UseLocalPackage](/0068_Tools_Jupyter_UseLocalPackage)
-    - [Extensions](/0071_Tools_Jupyter_Extensions)
-    - [Docker Image](/0070_Tools_Jupyter_DockerImage)
-    - [JupyterLab](/0065_Tools_Jupyter_JupyterLab)
-    - [CPP](/0067_Tools_Jupyter_CPP)
 - Programing
   - [编译器](/0012_Programing_Compiler)
     - [ICX Intel Compiler](/0013_Programing_Compiler_ICX)
