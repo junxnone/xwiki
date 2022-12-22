@@ -17,6 +17,8 @@
   - [内存优化](/0015_OPT_Memory)
     - [CacheLine](/0017_OPT_Memory_CacheLine)
   - [Loop](/0018_OPT_Loop)
+  - LIB
+    - [IPP Intel Integrated Performance Primitives](/0032_OPT_LIB_IPP)
   - [TMA](/0021_OPT_TMA)
 - [硬件](/0001_Hardware)
   - [SIMD](/0007_Hardware_SIMD)
