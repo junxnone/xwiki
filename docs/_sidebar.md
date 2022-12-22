@@ -34,10 +34,6 @@
     - [submodule](/0114_Tools_Git_submodule)
     - [branch](/0115_Tools_Git_branch)
     - [archive](/0118_Tools_Git_archive)
-  - Remote
-    - tmux
-      - [Arch](/0164_Tools_Remote_tmux_Arch)
-      - [plugins](/0165_Tools_Remote_tmux_plugins)
   - [Gitlab](/0133_Tools_Gitlab)
     - [CICD](/0134_Tools_Gitlab_CICD)
   - [Conda](/0073_Tools_Conda)
@@ -68,7 +64,7 @@
     - [psutil](/0098_Programing_Python_psutil)
     - [Decorator 装饰器](/0088_Programing_Python_Decorator)
     - [assert](/0094_Programing_Python_assert)
-  - [Reference](/0079_Programing_Shell)
+  - [Shell](/0079_Programing_Shell)
     - [this is comment test](/0105_Programing_Shell_comment)
     - [if  判断](/0102_Programing_Shell_if)
     - [UseCase](/0108_Programing_Shell_UseCase)
@@ -91,7 +87,7 @@
     - [ICX Intel Compiler](/0013_Programing_Compiler_ICX)
   - [Socket](/0109_Programing_Socket)
     - [Function](/0110_Programing_Socket_Function)
-  - [Library](/0010_Programing_Library)
+  - [库 动态库 静态库](/0010_Programing_Library)
     - [Tools](/0011_Programing_Library_Tools)
 - [性能优化](/0014_OPT)
   - [并行计算](/0022_OPT_PARA)
@@ -115,7 +111,7 @@
       - [Install](/0035_OPT_PARA_OpenCL_Install)
     - [OpenMPI](/0043_OPT_PARA_OpenMPI)
     - [NDRange](/0042_OPT_PARA_NDRange)
-  - LIB
+  - [性能优化库](/0195_OPT_LIB)
     - [OneAPI](/0076_OPT_LIB_OneAPI)
       - [oneDPL](/0075_OPT_LIB_OneAPI_oneDPL)
       - [IntelMKL](/0074_OPT_LIB_OneAPI_IntelMKL)

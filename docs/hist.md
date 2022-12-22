@@ -1,5 +1,6 @@
 # Wiki History
 
+- 2022-12-22   [性能优化库](/0195_OPT_LIB)
 - 2022-12-22   [编程](/0193_Programing)
 - 2022-12-22   [容器](/0192_Hypervisor)
 - 2022-12-22   [文档文本](/0191_Doc)
@@ -30,7 +31,7 @@
 - 2021-12-30   [变量](/0056_Build_Cmake_VAR)
 - 2021-12-27   [oneDPL](/0075_OPT_LIB_OneAPI_oneDPL)
 - 2021-12-22   [Tools](/0011_Programing_Library_Tools)
-- 2021-12-22   [Library](/0010_Programing_Library)
+- 2021-12-22   [库 动态库 静态库](/0010_Programing_Library)
 - 2021-12-14   [Loop](/0018_OPT_Loop)
 - 2021-12-13   [Tools](/0153_Hardware_GPU_iGPU_Tools)
 - 2021-12-13   [Issues](/0154_Hardware_GPU_iGPU_Issues)
@@ -132,8 +133,6 @@
 - 2019-09-17   [编译可执行文件](/0089_Programing_Python_BuildExe)
 - 2019-09-08   [Docker Image](/0070_Tools_Jupyter_DockerImage)
 - 2019-09-06   [Gitlab](/0133_Tools_Gitlab)
-- 2019-08-27   [plugins](/0165_Tools_Remote_tmux_plugins)
-- 2019-08-27   [Arch](/0164_Tools_Remote_tmux_Arch)
 - 2019-08-15   [创建 DataFrame](/0188_Pandas_UseCase_Create)
 - 2019-08-15   [传递函数，效果同上](/0187_Pandas_UseCase_DataFrame)
 - 2019-08-15   [排序](/0186_Pandas_UseCase_sort)
@@ -171,7 +170,7 @@
 - 2018-12-12   [Token](/0123_Tools_Github_Token)
 - 2018-12-10   [proxy](/0113_Tools_Git_proxy)
 - 2018-12-10   [submodule](/0114_Tools_Git_submodule)
-- 2018-11-29   [Reference](/0079_Programing_Shell)
+- 2018-11-29   [Shell](/0079_Programing_Shell)
 - 2018-11-25   [putty](/0161_Tools_putty)
 - 2018-11-25   [virtualenv](/0176_Programing_Python_virtualenv)
 - 2018-11-25   [pip](/0095_Programing_Python_pip)
