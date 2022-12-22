@@ -94,6 +94,8 @@
   - Github
     - [ChromeExtensions](/0124_Tools_Github_ChromeExtensions)
       - [Sourcegraph](/0125_Tools_Github_ChromeExtensions_Sourcegraph)
+    - [Pages](/0126_Tools_Github_Pages)
+      - [README Stats](/0127_Tools_Github_Pages_ReadmeStats)
     - [actions](/0122_Tools_Github_actions)
     - [Token](/0123_Tools_Github_Token)
     - [backup](/0121_Tools_Github_backup)
