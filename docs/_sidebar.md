@@ -102,6 +102,7 @@
     - [简单查看数据](/0197_Pandas_UseCase_ShowSummaryInfo)
     - [Index 操作](/0202_Pandas_UseCase_Index)
     - [创建 DataFrame](/0188_Pandas_UseCase_Create)
+    - [抽样](/0203_Pandas_UseCase_sampling)
     - [单元格操作](/0200_Pandas_UseCase_xy)
     - [条件操作](/0201_Pandas_UseCase_condition)
   - [可视化](/0189_Pandas_Visualization)
