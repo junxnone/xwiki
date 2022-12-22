@@ -79,6 +79,7 @@
     - [Vector](/0080_Programing_CPP_Vector)
   - [编译器](/0012_Programing_Compiler)
     - [GCC](/0159_Programing_Compiler_GCC)
+      - [Ubuntu Install](/0166_Programing_Compiler_GCC_UbuntuInstall)
       - [UseCase](/0155_Programing_Compiler_GCC_UseCase)
     - [ICX Intel Compiler](/0013_Programing_Compiler_ICX)
   - [Socket](/0109_Programing_Socket)
@@ -124,6 +125,7 @@
   - GPU
     - [iGPU](/0005_Hardware_GPU_iGPU)
       - [Tools](/0153_Hardware_GPU_iGPU_Tools)
+        - [xorg-intel-gpu-tools](/0169_Hardware_GPU_iGPU_Tools_xorgintelgpu)
       - [Issues](/0154_Hardware_GPU_iGPU_Issues)
     - [NVIDIA](/0006_Hardware_GPU_NVIDIA)
   - [SIMD](/0007_Hardware_SIMD)
@@ -175,5 +177,8 @@
   - [版本号定义](/0146_X_Version)
   - [PECOFF](/0152_X_PECOFF)
 - Linux
+  - IPC
+    - [Tools](/0168_Linux_IPC_SharedMemory)
+    - [Semaphore](/0167_Linux_IPC_Semaphore)
   - [History](/0148_Linux_History)
 - [Wiki History](/hist)
