@@ -186,15 +186,16 @@
   - [CRLF](/0145_X_CRLF)
   - [版本号定义](/0146_X_Version)
   - [PECOFF](/0152_X_PECOFF)
+- [Pandas](/0181_Pandas)
+  - UseCase
+    - [list2csv](/0183_Pandas_UseCase_list2csv)
+  - [DataFrame](/0182_Pandas_DataFrame)
+  - [Series](/0184_Pandas_Series)
 - Linux
   - IPC
     - [Tools](/0168_Linux_IPC_SharedMemory)
     - [Semaphore](/0167_Linux_IPC_Semaphore)
   - [History](/0148_Linux_History)
-- [Pandas](/0181_Pandas)
-  - UseCase
-    - [list2csv](/0183_Pandas_UseCase_list2csv)
-  - [DataFrame](/0182_Pandas_DataFrame)
 - Ubuntu
   - Issues
     - [USB 耳机没声音](/0170_Ubuntu_Issues_USBHeadphoneNoSound)
