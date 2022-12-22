@@ -23,6 +23,7 @@
   - [内存优化](/0015_OPT_Memory)
     - [CacheLine](/0017_OPT_Memory_CacheLine)
   - [Loop](/0018_OPT_Loop)
+  - [TMA](/0021_OPT_TMA)
 - Programing
   - [编译器](/0012_Programing_Compiler)
     - [ICX Intel Compiler](/0013_Programing_Compiler_ICX)
