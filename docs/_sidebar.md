@@ -2,12 +2,12 @@
   - [Timeline](/0034_Features_Timeline)
 - Guide
   - [WriteWiki](/0027_Guide_WriteWiki)
-  - [AutoSidebar](/0026_Guide_AutoSidebar)
 - [性能优化](/0014_OPT)
   - [并行计算](/0022_OPT_PARA)
     - [OpenMP](/0023_OPT_PARA_OpenMP)
       - [UseCase](/0025_OPT_PARA_OpenMP_UseCase)
       - [API](/0024_OPT_PARA_OpenMP_API)
+      - [绑定CPU核](/0026_OPT_PARA_OpenMP_BindCore)
   - Tools
     - [Vtune](/0019_OPT_Tools_Vtune)
       - [CommandLine](/0020_OPT_Tools_Vtune_CommandLine)
