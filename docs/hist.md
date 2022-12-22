@@ -61,6 +61,7 @@
 - 2019-12-07   [Arch](/0069_Tools_Jupyter_Arch)
 - 2019-11-18   [Dockerfile](/0048_Hypervisor_Docker_Dockerfile)
 - 2019-10-29   [UseLocalPackage](/0068_Tools_Jupyter_UseLocalPackage)
+- 2019-09-08   [Docker Image](/0070_Tools_Jupyter_DockerImage)
 - 2019-05-11   [JupyterHub](/0066_Tools_Jupyter_JupyterHub)
 - 2019-01-31   [OpenMPI](/0043_OPT_PARA_OpenMPI)
 - 2018-10-29   [Network](/0045_Hypervisor_Docker_Network)
