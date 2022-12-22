@@ -2,11 +2,12 @@
 Title | Doc Markdown Image
 -- | --
 Created @ | `2021-09-22T10:09:29Z`
-Last Modify @| `2022-12-22T07:18:35Z`
+Last Modify @| `2022-12-22T09:17:40Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/139)
 
 ---
+# 图像
 
 ## Brief
 - html label 控制图片显示不同比例
