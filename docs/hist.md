@@ -45,4 +45,5 @@
 - 2018-10-29   [Network](/0045_Hypervisor_Docker_Network)
 - 2018-10-11   [GUI](/0046_Hypervisor_Docker_GUI)
 - 2018-09-28   [Vtune](/0019_OPT_Tools_Vtune)
+- 2018-09-06   [Compose](/0047_Hypervisor_Docker_Compose)
 - 2018-09-06   [Docker](/0044_Hypervisor_Docker)
