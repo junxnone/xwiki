@@ -7,6 +7,7 @@
       - [Directives](/0029_OPT_PARA_OpenMP_Directives)
       - [API](/0024_OPT_PARA_OpenMP_API)
       - [SIMD](/0027_OPT_PARA_OpenMP_SIMD)
+      - [Task](/0030_OPT_PARA_OpenMP_Task)
       - [Offload](/0028_OPT_PARA_OpenMP_Offload)
       - [绑定CPU核](/0026_OPT_PARA_OpenMP_BindCore)
   - Tools
