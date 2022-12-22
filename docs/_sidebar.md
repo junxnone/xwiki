@@ -41,6 +41,7 @@
   - [Gitlab](/0133_Tools_Gitlab)
     - [CICD](/0134_Tools_Gitlab_CICD)
   - [Conda](/0073_Tools_Conda)
+  - [yarn](/0178_Tools_yarn)
   - [UseCase](/0142_Tools_mosquitto)
   - [manim](/0141_Tools_manim)
   - [VisualStudio](/0144_Tools_VisualStudio)
@@ -180,6 +181,8 @@
   - [YAML](/0140_Doc_YAML)
 - X
   - [Open Source License](/0147_X_OpenSourceLicense)
+  - [LAPACK](/0180_X_LAPACK)
+  - [BLAS](/0179_X_BLAS)
   - [CRLF](/0145_X_CRLF)
   - [版本号定义](/0146_X_Version)
   - [PECOFF](/0152_X_PECOFF)
@@ -188,6 +191,8 @@
     - [Tools](/0168_Linux_IPC_SharedMemory)
     - [Semaphore](/0167_Linux_IPC_Semaphore)
   - [History](/0148_Linux_History)
+- [Pandas](/0181_Pandas)
+  - [DataFrame](/0182_Pandas_DataFrame)
 - Ubuntu
   - Issues
     - [USB 耳机没声音](/0170_Ubuntu_Issues_USBHeadphoneNoSound)
