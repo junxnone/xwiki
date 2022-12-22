@@ -34,6 +34,7 @@
 - 2021-11-10   [硬件](/0001_Hardware)
 - 2021-11-05   [UseCase](/0025_OPT_PARA_OpenMP_UseCase)
 - 2021-11-05   [并行计算](/0022_OPT_PARA)
+- 2021-11-04   [docsify](/0130_Tools_Github_Pages_docsify)
 - 2021-11-03   [Offload](/0028_OPT_PARA_OpenMP_Offload)
 - 2021-11-03   [SIMD](/0027_OPT_PARA_OpenMP_SIMD)
 - 2021-10-28   [DPCPP](/0036_OPT_PARA_DPCPP)
