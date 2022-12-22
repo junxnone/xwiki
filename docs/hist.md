@@ -1,5 +1,6 @@
 # Wiki History
 
+- 2022-12-22   [Index 操作](/0202_Pandas_UseCase_Index)
 - 2022-12-22   [条件操作](/0201_Pandas_UseCase_condition)
 - 2022-12-22   [单元格操作](/0200_Pandas_UseCase_xy)
 - 2022-12-22   [行操作](/0199_Pandas_UseCase_row)
