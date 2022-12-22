@@ -8,9 +8,11 @@
       - [Task](/0030_OPT_PARA_OpenMP_Task)
       - [Offload](/0028_OPT_PARA_OpenMP_Offload)
       - [绑定CPU核](/0026_OPT_PARA_OpenMP_BindCore)
+    - [DPCPP](/0036_OPT_PARA_DPCPP)
+      - [DEBUG](/0038_OPT_PARA_DPCPP_DEBUG)
+      - [LevelZero](/0037_OPT_PARA_DPCPP_LevelZero)
     - [OpenCL](/0034_OPT_PARA_OpenCL)
       - [Install](/0035_OPT_PARA_OpenCL_Install)
-    - [DPCPP](/0036_OPT_PARA_DPCPP)
     - [SYCL](/0031_OPT_PARA_SYCL)
   - Tools
     - [Vtune](/0019_OPT_Tools_Vtune)
