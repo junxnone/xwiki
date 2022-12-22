@@ -16,5 +16,7 @@
 - 2021-11-10   [iGPU](/0005_Hardware_GPU_iGPU)
 - 2021-11-10   [硬件](/0001_Hardware)
 - 2021-11-07   [Include Content](/0013_Features_IncludeContent)
+- 2021-08-02   [原理](/0008_Hardware_SIMD_原理)
+- 2021-08-02   [AVX](/0009_Hardware_SIMD_AVX)
 - 2019-12-27   [Intel](/0003_Hardware_CPU_Intel)
 - 2019-12-19   [SIMD](/0007_Hardware_SIMD)
