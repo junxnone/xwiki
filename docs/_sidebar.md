@@ -84,6 +84,8 @@
   - [Git](/0111_Tools_Git)
     - [proxy](/0113_Tools_Git_proxy)
     - [config](/0112_Tools_Git_config)
+    - [precommit](/0117_Tools_Git_precommit)
+    - [tag](/0116_Tools_Git_tag)
     - [submodule](/0114_Tools_Git_submodule)
     - [branch](/0115_Tools_Git_branch)
   - [Conda](/0073_Tools_Conda)
