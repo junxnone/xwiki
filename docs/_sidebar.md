@@ -78,6 +78,7 @@
   - [UseCase](/0142_Tools_mosquitto)
   - [manim](/0141_Tools_manim)
   - [VisualStudio](/0144_Tools_VisualStudio)
+  - [putty](/0161_Tools_putty)
   - [opengrok](/0143_Tools_opengrok)
 - [性能优化](/0014_OPT)
   - [并行计算](/0022_OPT_PARA)
