@@ -2,11 +2,13 @@
 Title | Build Cmake 语法
 -- | --
 Created @ | `2021-10-28T04:25:32Z`
-Last Modify @| `2022-12-22T06:00:51Z`
+Last Modify @| `2022-12-22T09:04:08Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/55)
 
 ---
+# 语法
+
 ## Reference
 
 - [cmake 预定义变量](https://cmake.org/cmake/help/latest/manual/cmake-variables.7.html)
