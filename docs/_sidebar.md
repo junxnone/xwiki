@@ -1,5 +1,3 @@
-- Features
-  - [Timeline](/0034_Features_Timeline)
 - [性能优化](/0014_OPT)
   - [并行计算](/0022_OPT_PARA)
     - [OpenMP](/0023_OPT_PARA_OpenMP)
@@ -11,6 +9,7 @@
       - [Offload](/0028_OPT_PARA_OpenMP_Offload)
       - [绑定CPU核](/0026_OPT_PARA_OpenMP_BindCore)
     - [SYCL](/0031_OPT_PARA_SYCL)
+    - [OpenCL](/0034_OPT_PARA_OpenCL)
   - Tools
     - [Vtune](/0019_OPT_Tools_Vtune)
       - [CommandLine](/0020_OPT_Tools_Vtune_CommandLine)
