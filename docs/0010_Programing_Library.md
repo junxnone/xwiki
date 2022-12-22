@@ -2,11 +2,13 @@
 Title | Programing Library
 -- | --
 Created @ | `2021-12-22T06:00:12Z`
-Last Modify @| `2022-12-22T03:32:56Z`
+Last Modify @| `2022-12-22T08:45:06Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/10)
 
 ---
+# 库 动态库 静态库
+
 ## Reference
 - [windows中静态库lib和动态dll的区别及使用方法](https://blog.csdn.net/dxzysk/article/details/66477147)
 - [什么是 DLL](https://docs.microsoft.com/zh-cn/troubleshoot/windows-client/deployment/dynamic-link-library)
