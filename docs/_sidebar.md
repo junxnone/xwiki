@@ -19,6 +19,7 @@
     - [this is comment test](/0105_Programing_Shell_comment)
     - [if  判断](/0102_Programing_Shell_if)
     - [读取文件](/0104_Programing_Shell_ReadFile)
+    - [错误检查](/0107_Programing_Shell_ErrorCheck)
     - [case](/0103_Programing_Shell_case)
     - [for](/0101_Programing_Shell_for)
     - [函数](/0100_Programing_Shell_Function)

@@ -93,6 +93,7 @@
 - 2019-07-19   [格式化字符串](/0087_Programing_Python_FormatString)
 - 2019-07-15   [函数](/0100_Programing_Shell_Function)
 - 2019-05-29   [非空](/0085_Programing_Python_List)
+- 2019-05-28   [错误检查](/0107_Programing_Shell_ErrorCheck)
 - 2019-05-22   [读取文件](/0104_Programing_Shell_ReadFile)
 - 2019-05-14   [Slice](/0086_Programing_Python_Slice)
 - 2019-05-11   [JupyterHub](/0066_Tools_Jupyter_JupyterHub)
