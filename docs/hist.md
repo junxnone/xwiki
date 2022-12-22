@@ -2,6 +2,7 @@
 
 - 2022-09-09   [CommandLine](/0020_OPT_Tools_Vtune_CommandLine)
 - 2022-08-25   [UI](/0051_Hypervisor_Docker_UI)
+- 2022-06-16   [for](/0101_Programing_Shell_for)
 - 2022-05-27   [switch](/0081_Programing_CPP_switch)
 - 2022-04-27   [CPU](/0002_Hardware_CPU)
 - 2022-04-27   [CacheLine](/0017_OPT_Memory_CacheLine)
@@ -84,6 +85,7 @@
 - 2019-10-29   [UseLocalPackage](/0068_Tools_Jupyter_UseLocalPackage)
 - 2019-09-17   [编译可执行文件](/0089_Programing_Python_BuildExe)
 - 2019-09-08   [Docker Image](/0070_Tools_Jupyter_DockerImage)
+- 2019-07-25   [if  判断](/0102_Programing_Shell_if)
 - 2019-07-19   [tqdm](/0099_Programing_Python_tqdm)
 - 2019-07-19   [格式化字符串](/0087_Programing_Python_FormatString)
 - 2019-07-15   [函数](/0100_Programing_Shell_Function)
