@@ -44,6 +44,8 @@
   - [manim](/0141_Tools_manim)
   - [VisualStudio](/0144_Tools_VisualStudio)
   - [putty](/0161_Tools_putty)
+  - [OpenProject 项目管理工具](/0174_Tools_OpenProject)
+  - [Windows SSH 工具](/0173_Tools_WindowsSSHClient)
   - [opengrok](/0143_Tools_opengrok)
 - Programing
   - [Python](/0078_Programing_Python)
@@ -55,6 +57,7 @@
     - [非空](/0085_Programing_Python_List)
     - [Slice](/0086_Programing_Python_Slice)
     - [pip](/0095_Programing_Python_pip)
+    - [virtualenvwrapper](/0175_Programing_Python_virtualenvwrapper)
     - [tqdm](/0099_Programing_Python_tqdm)
     - [time](/0096_Programing_Python_time)
     - [编译可执行文件](/0089_Programing_Python_BuildExe)
