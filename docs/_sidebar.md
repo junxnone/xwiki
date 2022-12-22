@@ -1,5 +1,4 @@
 - Features
-  - [Mermaid 图表支持](/0020_Features_Mermaid)
   - [MindMap](/0022_Features_MindMap)
   - [自动生成 Sidebar](/0024_Features_AutoSidebar)
   - [Timeline](/0034_Features_Timeline)
@@ -18,11 +17,12 @@
   - [CPU](/0002_Hardware_CPU)
     - [Intel](/0003_Hardware_CPU_Intel)
 - [性能优化](/0014_OPT)
+  - Tools
+    - [Vtune](/0019_OPT_Tools_Vtune)
+      - [CommandLine](/0020_OPT_Tools_Vtune_CommandLine)
   - [内存优化](/0015_OPT_Memory)
     - [CacheLine](/0017_OPT_Memory_CacheLine)
   - [Loop](/0018_OPT_Loop)
-  - Tools
-    - [Vtune](/0019_OPT_Tools_Vtune)
 - Programing
   - [编译器](/0012_Programing_Compiler)
     - [ICX Intel Compiler](/0013_Programing_Compiler_ICX)
