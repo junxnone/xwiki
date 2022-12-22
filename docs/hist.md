@@ -26,6 +26,7 @@
 - 2021-08-02   [原理](/0008_Hardware_SIMD_原理)
 - 2021-08-02   [AVX](/0009_Hardware_SIMD_AVX)
 - 2021-07-29   [ICX Intel Compiler](/0013_Programing_Compiler_ICX)
+- 2021-07-29   [SYCL](/0031_OPT_PARA_SYCL)
 - 2021-06-01   [编译器](/0012_Programing_Compiler)
 - 2021-05-20   [OpenMP](/0023_OPT_PARA_OpenMP)
 - 2019-12-27   [Intel](/0003_Hardware_CPU_Intel)
