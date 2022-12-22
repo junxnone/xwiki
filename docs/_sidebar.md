@@ -192,6 +192,8 @@
     - [Semaphore](/0167_Linux_IPC_Semaphore)
   - [History](/0148_Linux_History)
 - [Pandas](/0181_Pandas)
+  - UseCase
+    - [list2csv](/0183_Pandas_UseCase_list2csv)
   - [DataFrame](/0182_Pandas_DataFrame)
 - Ubuntu
   - Issues
