@@ -31,6 +31,7 @@
 - 2021-05-20   [OpenMP](/0023_OPT_PARA_OpenMP)
 - 2021-04-21   [IPP Intel Integrated Performance Primitives](/0032_OPT_LIB_IPP)
 - 2021-01-25   [OpenCL](/0034_OPT_PARA_OpenCL)
+- 2020-03-18   [Install](/0035_OPT_PARA_OpenCL_Install)
 - 2019-12-27   [Intel](/0003_Hardware_CPU_Intel)
 - 2019-12-19   [SIMD](/0007_Hardware_SIMD)
 - 2018-09-28   [Vtune](/0019_OPT_Tools_Vtune)
