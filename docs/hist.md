@@ -110,6 +110,7 @@
 - 2019-05-14   [Slice](/0086_Programing_Python_Slice)
 - 2019-05-11   [JupyterHub](/0066_Tools_Jupyter_JupyterHub)
 - 2019-03-25   [branch](/0115_Tools_Git_branch)
+- 2019-03-02   [jekyll](/0129_Tools_Github_Pages_jekyll)
 - 2019-02-18   [移除 stage 文件](/0119_Tools_Git_RMStageFile)
 - 2019-02-03   [ChromeExtensions](/0124_Tools_Github_ChromeExtensions)
 - 2019-02-03   [Sourcegraph](/0125_Tools_Github_ChromeExtensions_Sourcegraph)

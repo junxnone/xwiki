@@ -82,6 +82,16 @@
     - [submodule](/0114_Tools_Git_submodule)
     - [branch](/0115_Tools_Git_branch)
     - [archive](/0118_Tools_Git_archive)
+  - Github
+    - [Pages](/0126_Tools_Github_Pages)
+      - [Mirror](/0128_Tools_Github_Pages_Mirror)
+      - [jekyll](/0129_Tools_Github_Pages_jekyll)
+      - [README Stats](/0127_Tools_Github_Pages_ReadmeStats)
+    - [ChromeExtensions](/0124_Tools_Github_ChromeExtensions)
+      - [Sourcegraph](/0125_Tools_Github_ChromeExtensions_Sourcegraph)
+    - [actions](/0122_Tools_Github_actions)
+    - [Token](/0123_Tools_Github_Token)
+    - [backup](/0121_Tools_Github_backup)
   - Jupyter
     - [Arch](/0069_Tools_Jupyter_Arch)
     - [JupyterHub](/0066_Tools_Jupyter_JupyterHub)
@@ -91,15 +101,6 @@
     - [Docker Image](/0070_Tools_Jupyter_DockerImage)
     - [JupyterLab](/0065_Tools_Jupyter_JupyterLab)
     - [CPP](/0067_Tools_Jupyter_CPP)
-  - Github
-    - [Pages](/0126_Tools_Github_Pages)
-      - [Mirror](/0128_Tools_Github_Pages_Mirror)
-      - [README Stats](/0127_Tools_Github_Pages_ReadmeStats)
-    - [ChromeExtensions](/0124_Tools_Github_ChromeExtensions)
-      - [Sourcegraph](/0125_Tools_Github_ChromeExtensions_Sourcegraph)
-    - [actions](/0122_Tools_Github_actions)
-    - [Token](/0123_Tools_Github_Token)
-    - [backup](/0121_Tools_Github_backup)
   - [Conda](/0073_Tools_Conda)
 - Build
   - [Cmake](/0053_Build_Cmake)
