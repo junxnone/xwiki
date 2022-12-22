@@ -2,7 +2,7 @@
 Title | Tools mosquitto
 -- | --
 Created @ | `2018-11-24T18:39:41Z`
-Last Modify @| `2022-12-22T07:21:00Z`
+Last Modify @| `2022-12-22T09:20:44Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/142)
 
@@ -49,7 +49,7 @@ Publication | `mosquitto_pub -t test -m 'hello world'`
 password_file ../build/pwfile.example
 ```
 
-# UseCase
+## UseCase
 - work with username&password, Configure the  `allow_anonymous` to false
 
 Usecase | cmd
