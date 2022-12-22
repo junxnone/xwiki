@@ -10,6 +10,7 @@
       - [绑定CPU核](/0026_OPT_PARA_OpenMP_BindCore)
     - [OpenCL](/0034_OPT_PARA_OpenCL)
       - [Install](/0035_OPT_PARA_OpenCL_Install)
+    - [DPCPP](/0036_OPT_PARA_DPCPP)
     - [SYCL](/0031_OPT_PARA_SYCL)
   - Tools
     - [Vtune](/0019_OPT_Tools_Vtune)
