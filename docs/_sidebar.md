@@ -117,6 +117,7 @@
     - [Debug](/0057_Build_Cmake_Debug)
     - [Windows](/0061_Build_Cmake_Windows)
     - [Install](/0054_Build_Cmake_Install)
+    - [命令行](/0151_Build_Cmake_CMD)
     - [UseCase](/0060_Build_Cmake_UseCase)
     - [cpack](/0062_Build_Cmake_cpack)
     - [comment line](/0055_Build_Cmake_语法)
@@ -126,8 +127,9 @@
   - [pk-config](/0064_Build_pkgconfig)
 - [硬件](/0001_Hardware)
   - [SIMD](/0007_Hardware_SIMD)
-    - [原理](/0008_Hardware_SIMD_原理)
     - [AVX](/0009_Hardware_SIMD_AVX)
+      - [CodeCompile](/0150_Hardware_SIMD_AVX_CodeCompile)
+    - [原理](/0008_Hardware_SIMD_原理)
   - GPU
     - [iGPU](/0005_Hardware_GPU_iGPU)
     - [NVIDIA](/0006_Hardware_GPU_NVIDIA)
