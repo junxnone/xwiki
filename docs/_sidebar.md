@@ -32,6 +32,10 @@
     - [submodule](/0114_Tools_Git_submodule)
     - [branch](/0115_Tools_Git_branch)
     - [archive](/0118_Tools_Git_archive)
+  - Remote
+    - tmux
+      - [Arch](/0164_Tools_Remote_tmux_Arch)
+      - [plugins](/0165_Tools_Remote_tmux_plugins)
   - [Gitlab](/0133_Tools_Gitlab)
     - [CICD](/0134_Tools_Gitlab_CICD)
   - [Conda](/0073_Tools_Conda)

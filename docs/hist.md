@@ -122,6 +122,8 @@
 - 2019-09-17   [编译可执行文件](/0089_Programing_Python_BuildExe)
 - 2019-09-08   [Docker Image](/0070_Tools_Jupyter_DockerImage)
 - 2019-09-06   [Gitlab](/0133_Tools_Gitlab)
+- 2019-08-27   [plugins](/0165_Tools_Remote_tmux_plugins)
+- 2019-08-27   [Arch](/0164_Tools_Remote_tmux_Arch)
 - 2019-08-07   [YAML](/0140_Doc_YAML)
 - 2019-08-03   [backup](/0121_Tools_Github_backup)
 - 2019-07-25   [if  判断](/0102_Programing_Shell_if)
