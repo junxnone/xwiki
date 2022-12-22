@@ -29,6 +29,21 @@
   - LIB
     - [IPP Intel Integrated Performance Primitives](/0032_OPT_LIB_IPP)
   - [TMA](/0021_OPT_TMA)
+- Build
+  - [Cmake](/0053_Build_Cmake)
+    - [变量](/0056_Build_Cmake_VAR)
+    - [Debug](/0057_Build_Cmake_Debug)
+    - [Windows](/0061_Build_Cmake_Windows)
+    - [Install](/0054_Build_Cmake_Install)
+    - [UseCase](/0060_Build_Cmake_UseCase)
+    - [cpack](/0062_Build_Cmake_cpack)
+    - [comment line](/0055_Build_Cmake_语法)
+    - [Platforms](/0058_Build_Cmake_Platforms)
+    - [设置安装相关](/0059_Build_Cmake_InstallFiles)
+  - [Make](/0063_Build_Make)
+  - Jupyter
+    - [JupyterHub](/0066_Build_Jupyter_JupyterHub)
+  - [pk-config](/0064_Build_pkgconfig)
 - [硬件](/0001_Hardware)
   - [SIMD](/0007_Hardware_SIMD)
     - [原理](/0008_Hardware_SIMD_原理)
@@ -50,17 +65,12 @@
     - [Tools](/0050_Hypervisor_Docker_Tools)
     - [Compose](/0047_Hypervisor_Docker_Compose)
     - [UI](/0051_Hypervisor_Docker_UI)
-- Build
-  - [Cmake](/0053_Build_Cmake)
-    - [变量](/0056_Build_Cmake_VAR)
-    - [Debug](/0057_Build_Cmake_Debug)
-    - [Install](/0054_Build_Cmake_Install)
-    - [comment line](/0055_Build_Cmake_语法)
-    - [Platforms](/0058_Build_Cmake_Platforms)
-    - [设置安装相关](/0059_Build_Cmake_InstallFiles)
 - Programing
   - [编译器](/0012_Programing_Compiler)
     - [ICX Intel Compiler](/0013_Programing_Compiler_ICX)
   - [Library](/0010_Programing_Library)
     - [Tools](/0011_Programing_Library_Tools)
+- Tools
+  - Jupyter
+    - [JupyterLab](/0065_Tools_Jupyter_JupyterLab)
 - [Wiki History](/hist)
