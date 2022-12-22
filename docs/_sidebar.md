@@ -157,6 +157,7 @@
     - [UI](/0051_Hypervisor_Docker_UI)
 - Doc
   - [Markdown](/0135_Doc_Markdown)
+    - [GithubEmoji](/0160_Doc_Markdown_GithubEmoji)
     - [Image](/0139_Doc_Markdown_Image)
     - [表格](/0138_Doc_Markdown_Table)
     - [List](/0137_Doc_Markdown_List)
