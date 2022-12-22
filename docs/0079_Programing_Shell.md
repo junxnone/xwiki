@@ -2,12 +2,12 @@
 Title | Programing Shell
 -- | --
 Created @ | `2018-11-29T11:55:17Z`
-Last Modify @| `2022-12-22T06:25:29Z`
+Last Modify @| `2022-12-22T08:43:32Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/79)
 
 ---
-# Reference
+## Reference
 - [Linux下Shell的for循环语句](https://www.cnblogs.com/EasonJim/p/8315939.html)
 - [Shell 教程](http://www.runoob.com/linux/linux-shell.html)
 - [Shell脚本书写规范](https://www.cnblogs.com/thatsit/p/shell-jiao-ben-shu-xie-gui-fan.html)
@@ -15,7 +15,7 @@ Edit @| [here](https://github.com/junxnone/xwiki/issues/79)
 - [命令行的艺术](https://github.com/jlevy/the-art-of-command-line/blob/master/README-zh.md)
 
 
-# Brief
+## Brief
 
 - 变量
 - [函数](/Shell_Function)
