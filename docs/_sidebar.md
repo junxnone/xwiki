@@ -16,5 +16,6 @@
     - [NVIDIA](/0006_Hardware_GPU_NVIDIA)
   - [CPU](/0002_Hardware_CPU)
     - [Intel](/0003_Hardware_CPU_Intel)
+  - [SIMD](/0007_Hardware_SIMD)
   - [Memory](/0004_Hardware_Memory)
 - [Wiki History](/hist)
