@@ -17,6 +17,8 @@
       - [LevelZero](/0037_OPT_PARA_DPCPP_LevelZero)
     - [OpenCL](/0034_OPT_PARA_OpenCL)
       - [Install](/0035_OPT_PARA_OpenCL_Install)
+    - [OpenMPI](/0043_OPT_PARA_OpenMPI)
+    - [NDRange](/0042_OPT_PARA_NDRange)
   - Tools
     - [Vtune](/0019_OPT_Tools_Vtune)
       - [CommandLine](/0020_OPT_Tools_Vtune_CommandLine)
@@ -43,4 +45,6 @@
     - [ICX Intel Compiler](/0013_Programing_Compiler_ICX)
   - [Library](/0010_Programing_Library)
     - [Tools](/0011_Programing_Library_Tools)
+- Hypervisor
+  - [Docker](/0044_Hypervisor_Docker)
 - [Wiki History](/hist)
