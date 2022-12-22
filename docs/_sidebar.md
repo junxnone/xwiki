@@ -73,6 +73,7 @@
   - [Gitlab](/0133_Tools_Gitlab)
     - [CICD](/0134_Tools_Gitlab_CICD)
   - [Conda](/0073_Tools_Conda)
+  - [UseCase](/0142_Tools_mosquitto)
   - [manim](/0141_Tools_manim)
 - [性能优化](/0014_OPT)
   - [并行计算](/0022_OPT_PARA)
