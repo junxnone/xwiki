@@ -12,4 +12,5 @@
 - [TODO](/0004_TODO)
 - [About](/0014_About)
 - [硬件](/0001_Hardware)
+  - [CPU](/0002_Hardware_CPU)
 - [Wiki History](/hist)

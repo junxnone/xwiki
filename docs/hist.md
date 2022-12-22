@@ -7,6 +7,7 @@
 - 2022-12-15   [Guide](/0023_Guide)
 - 2022-12-12   [MindMap](/0022_Features_MindMap)
 - 2022-05-02   [Mermaid 图表支持](/0020_Features_Mermaid)
+- 2022-04-27   [CPU](/0002_Hardware_CPU)
 - 2021-11-21   [Latex](/0018_Features_Latex)
 - 2021-11-21   [Markdown](/0017_Features_Markdown)
 - 2021-11-21   [Features](/0016_Features)
