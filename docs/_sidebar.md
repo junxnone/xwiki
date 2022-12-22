@@ -55,4 +55,9 @@
     - [ICX Intel Compiler](/0013_Programing_Compiler_ICX)
   - [Library](/0010_Programing_Library)
     - [Tools](/0011_Programing_Library_Tools)
+- Build
+  - [Cmake](/0053_Build_Cmake)
+    - [变量](/0056_Build_Cmake_VAR)
+    - [Install](/0054_Build_Cmake_Install)
+    - [comment line](/0055_Build_Cmake_语法)
 - [Wiki History](/hist)
