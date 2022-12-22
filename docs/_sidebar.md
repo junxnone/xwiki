@@ -1,8 +1,7 @@
 - Features
-  - [MindMap](/0022_Features_MindMap)
   - [自动生成 Sidebar](/0024_Features_AutoSidebar)
   - [Timeline](/0034_Features_Timeline)
-- [Guide](/0023_Guide)
+- Guide
   - [WriteWiki](/0027_Guide_WriteWiki)
   - [AutoSidebar](/0026_Guide_AutoSidebar)
 - [硬件](/0001_Hardware)
@@ -17,6 +16,8 @@
   - [CPU](/0002_Hardware_CPU)
     - [Intel](/0003_Hardware_CPU_Intel)
 - [性能优化](/0014_OPT)
+  - [并行计算](/0022_OPT_PARA)
+    - [OpenMP](/0023_OPT_PARA_OpenMP)
   - Tools
     - [Vtune](/0019_OPT_Tools_Vtune)
       - [CommandLine](/0020_OPT_Tools_Vtune_CommandLine)
