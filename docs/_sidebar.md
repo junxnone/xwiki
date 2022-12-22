@@ -19,6 +19,11 @@
       - [Install](/0035_OPT_PARA_OpenCL_Install)
     - [OpenMPI](/0043_OPT_PARA_OpenMPI)
     - [NDRange](/0042_OPT_PARA_NDRange)
+  - LIB
+    - OneAPI
+      - [oneDPL](/0075_OPT_LIB_OneAPI_oneDPL)
+      - [IntelMKL](/0074_OPT_LIB_OneAPI_IntelMKL)
+    - [IPP Intel Integrated Performance Primitives](/0032_OPT_LIB_IPP)
   - Tools
     - [Vtune](/0019_OPT_Tools_Vtune)
       - [CommandLine](/0020_OPT_Tools_Vtune_CommandLine)
@@ -26,8 +31,6 @@
     - [CacheLine](/0017_OPT_Memory_CacheLine)
   - [Loop](/0018_OPT_Loop)
   - [绑定 Socker & Core](/0033_OPT_BindSocketCore)
-  - LIB
-    - [IPP Intel Integrated Performance Primitives](/0032_OPT_LIB_IPP)
   - [TMA](/0021_OPT_TMA)
 - Build
   - [Cmake](/0053_Build_Cmake)
