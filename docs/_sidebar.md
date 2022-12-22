@@ -1,9 +1,20 @@
 - Features
-  - [自动生成 Sidebar](/0024_Features_AutoSidebar)
   - [Timeline](/0034_Features_Timeline)
 - Guide
   - [WriteWiki](/0027_Guide_WriteWiki)
   - [AutoSidebar](/0026_Guide_AutoSidebar)
+- [性能优化](/0014_OPT)
+  - [并行计算](/0022_OPT_PARA)
+    - [OpenMP](/0023_OPT_PARA_OpenMP)
+      - [UseCase](/0025_OPT_PARA_OpenMP_UseCase)
+      - [API](/0024_OPT_PARA_OpenMP_API)
+  - Tools
+    - [Vtune](/0019_OPT_Tools_Vtune)
+      - [CommandLine](/0020_OPT_Tools_Vtune_CommandLine)
+  - [内存优化](/0015_OPT_Memory)
+    - [CacheLine](/0017_OPT_Memory_CacheLine)
+  - [Loop](/0018_OPT_Loop)
+  - [TMA](/0021_OPT_TMA)
 - [硬件](/0001_Hardware)
   - [SIMD](/0007_Hardware_SIMD)
     - [原理](/0008_Hardware_SIMD_原理)
@@ -15,16 +26,6 @@
     - [Cache](/0016_Hardware_Memory_Cache)
   - [CPU](/0002_Hardware_CPU)
     - [Intel](/0003_Hardware_CPU_Intel)
-- [性能优化](/0014_OPT)
-  - [并行计算](/0022_OPT_PARA)
-    - [OpenMP](/0023_OPT_PARA_OpenMP)
-  - Tools
-    - [Vtune](/0019_OPT_Tools_Vtune)
-      - [CommandLine](/0020_OPT_Tools_Vtune_CommandLine)
-  - [内存优化](/0015_OPT_Memory)
-    - [CacheLine](/0017_OPT_Memory_CacheLine)
-  - [Loop](/0018_OPT_Loop)
-  - [TMA](/0021_OPT_TMA)
 - Programing
   - [编译器](/0012_Programing_Compiler)
     - [ICX Intel Compiler](/0013_Programing_Compiler_ICX)
