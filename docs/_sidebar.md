@@ -20,7 +20,7 @@
     - [OpenMPI](/0043_OPT_PARA_OpenMPI)
     - [NDRange](/0042_OPT_PARA_NDRange)
   - LIB
-    - OneAPI
+    - [OneAPI](/0076_OPT_LIB_OneAPI)
       - [oneDPL](/0075_OPT_LIB_OneAPI_oneDPL)
       - [IntelMKL](/0074_OPT_LIB_OneAPI_IntelMKL)
     - [IPP Intel Integrated Performance Primitives](/0032_OPT_LIB_IPP)
@@ -80,6 +80,10 @@
 - Programing
   - [编译器](/0012_Programing_Compiler)
     - [ICX Intel Compiler](/0013_Programing_Compiler_ICX)
+  - [C++](/0077_Programing_CPP)
+    - [Vector](/0080_Programing_CPP_Vector)
   - [Library](/0010_Programing_Library)
     - [Tools](/0011_Programing_Library_Tools)
+  - [Reference](/0079_Programing_Shell)
+  - [Python](/0078_Programing_Python)
 - [Wiki History](/hist)
