@@ -126,6 +126,7 @@
     - [iGPU](/0005_Hardware_GPU_iGPU)
       - [Tools](/0153_Hardware_GPU_iGPU_Tools)
         - [xorg-intel-gpu-tools](/0169_Hardware_GPU_iGPU_Tools_xorgintelgpu)
+        - [intel-telemetry-tool](/0171_Hardware_GPU_iGPU_Tools_telemetry)
       - [Issues](/0154_Hardware_GPU_iGPU_Issues)
     - [NVIDIA](/0006_Hardware_GPU_NVIDIA)
   - [SIMD](/0007_Hardware_SIMD)
@@ -181,4 +182,7 @@
     - [Tools](/0168_Linux_IPC_SharedMemory)
     - [Semaphore](/0167_Linux_IPC_Semaphore)
   - [History](/0148_Linux_History)
+- Ubuntu
+  - Issues
+    - [USB 耳机没声音](/0170_Ubuntu_Issues_USBHeadphoneNoSound)
 - [Wiki History](/hist)
