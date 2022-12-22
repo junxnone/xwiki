@@ -88,6 +88,7 @@
     - [tag](/0116_Tools_Git_tag)
     - [submodule](/0114_Tools_Git_submodule)
     - [branch](/0115_Tools_Git_branch)
+    - [archive](/0118_Tools_Git_archive)
   - [Conda](/0073_Tools_Conda)
 - Build
   - [Cmake](/0053_Build_Cmake)
