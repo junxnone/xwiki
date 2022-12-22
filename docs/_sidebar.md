@@ -9,8 +9,12 @@
 - [Guide](/0023_Guide)
   - [WriteWiki](/0027_Guide_WriteWiki)
   - [AutoSidebar](/0026_Guide_AutoSidebar)
-- [TODO](/0004_TODO)
 - [About](/0014_About)
 - [硬件](/0001_Hardware)
+  - GPU
+    - [iGPU](/0005_Hardware_GPU_iGPU)
+    - [NVIDIA](/0006_Hardware_GPU_NVIDIA)
   - [CPU](/0002_Hardware_CPU)
+    - [Intel](/0003_Hardware_CPU_Intel)
+  - [Memory](/0004_Hardware_Memory)
 - [Wiki History](/hist)
