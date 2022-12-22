@@ -92,9 +92,10 @@
     - [JupyterLab](/0065_Tools_Jupyter_JupyterLab)
     - [CPP](/0067_Tools_Jupyter_CPP)
   - Github
+    - [ChromeExtensions](/0124_Tools_Github_ChromeExtensions)
+      - [Sourcegraph](/0125_Tools_Github_ChromeExtensions_Sourcegraph)
     - [actions](/0122_Tools_Github_actions)
     - [Token](/0123_Tools_Github_Token)
-    - [ChromeExtensions](/0124_Tools_Github_ChromeExtensions)
     - [backup](/0121_Tools_Github_backup)
   - [Conda](/0073_Tools_Conda)
 - Build
