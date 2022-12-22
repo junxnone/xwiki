@@ -50,14 +50,17 @@
     - [Tools](/0050_Hypervisor_Docker_Tools)
     - [Compose](/0047_Hypervisor_Docker_Compose)
     - [UI](/0051_Hypervisor_Docker_UI)
+- Build
+  - [Cmake](/0053_Build_Cmake)
+    - [变量](/0056_Build_Cmake_VAR)
+    - [Debug](/0057_Build_Cmake_Debug)
+    - [Install](/0054_Build_Cmake_Install)
+    - [comment line](/0055_Build_Cmake_语法)
+    - [Platforms](/0058_Build_Cmake_Platforms)
+    - [设置安装相关](/0059_Build_Cmake_InstallFiles)
 - Programing
   - [编译器](/0012_Programing_Compiler)
     - [ICX Intel Compiler](/0013_Programing_Compiler_ICX)
   - [Library](/0010_Programing_Library)
     - [Tools](/0011_Programing_Library_Tools)
-- Build
-  - [Cmake](/0053_Build_Cmake)
-    - [变量](/0056_Build_Cmake_VAR)
-    - [Install](/0054_Build_Cmake_Install)
-    - [comment line](/0055_Build_Cmake_语法)
 - [Wiki History](/hist)
