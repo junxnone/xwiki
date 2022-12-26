@@ -25,7 +25,35 @@
     - UseCase
   - Compiler
 - Build  
+  - Cmake
+    - Install
+    - CMD
+    - UseCase
+    - VAR
+    - Debug
+    - InstallFiles
+    - Windows
+    - Generators
+    - Platforms
+    - cpack
 - OPT  
+  - Loop
+  - Memory
+  - PARA
+    - OpenMP
+      - Task
+      - VAR
+      - SIMD
+      - UseCase
+      - BindCore
+      - Directives
+      - Offload
+    - DPCPP
+    - SYCL
+    - OpenCL
+  - BindSocketCore
+  - LIB
+  - Tools
 - Pandas  
   - Series
   - DataFrame
@@ -40,11 +68,29 @@
     - SpecialValue
     - sampling
     - Merge
-    - 
   - Visualization
   - Issues
 - Tools  
+  - Jupyter
+  - Git
+    - config
+    - branch
+    - tag
+    - submodule
+    - proxy
+    - RMStageFile
+  - Conda
+  - Github
 - Hypervisor  
+  - Docker
+    - Dockerfile
+    - Volume
+    - Network
+    - Tools
+    - UseCase
+    - Compose
+    - UI
+    - MoveData
 - Hardware  
 - Doc  
 - X  
