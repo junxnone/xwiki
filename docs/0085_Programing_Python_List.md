@@ -2,7 +2,7 @@
 Title | Programing Python List
 -- | --
 Created @ | `2019-05-29T17:10:44Z`
-Last Modify @| `2022-12-26T07:50:05Z`
+Last Modify @| `2022-12-26T09:01:59Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/85)
 
@@ -19,7 +19,8 @@ Name | Description
 切片 | `list1[0:0] = list2`<br>`list1[1:1]=list2`<br>`list1[::2]`<br>`list1[1::2]`
 list2str | `str = ''.join(list1)`
 相减 | `list(set(list1) - set(list2))`
-
+删除最后一个元素 | `inlist.pop()`
+删除最后第 n 个元素 | `inlist.pop(n)`
 
 ## Examples
 ### 复制
