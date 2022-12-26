@@ -17,6 +17,7 @@
     - [psutil](/0098_Programing_Python_psutil)
     - [Decorator 装饰器](/0088_Programing_Python_Decorator)
     - [assert](/0094_Programing_Python_assert)
+    - [re 正则表达式模块](/0207_Programing_Python_re)
   - [Shell](/0079_Programing_Shell)
     - [this is comment test](/0105_Programing_Shell_comment)
     - [if  判断](/0102_Programing_Shell_if)
