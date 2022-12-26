@@ -2,12 +2,11 @@
 Title | Programing Python re
 -- | --
 Created @ | `2019-05-23T15:35:05Z`
-Last Modify @| `2022-12-26T03:17:59Z`
+Last Modify @| `2022-12-26T03:19:16Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/207)
 
 ---
-
 # re 正则表达式模块
 ## Reference
 - [Python3 正则表达式](https://www.runoob.com/python3/python3-reg-expressions.html) 
@@ -27,6 +26,7 @@ Edit @| [here](https://github.com/junxnone/xwiki/issues/207)
 - 查找字符串中的数字
 
 ```
+import re
 pattern = re.compile('[0-9]+')
 match = pattern.findall(str)
 ```
