@@ -2,7 +2,7 @@
 Title | Programing Python List
 -- | --
 Created @ | `2019-05-29T17:10:44Z`
-Last Modify @| `2022-12-22T09:38:50Z`
+Last Modify @| `2022-12-26T07:50:05Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/85)
 
@@ -18,6 +18,8 @@ Name | Description
 合并 | `list1 = list2 + list3`<br> `list1 += list2` <br> `list1.extend(list2)`
 切片 | `list1[0:0] = list2`<br>`list1[1:1]=list2`<br>`list1[::2]`<br>`list1[1::2]`
 list2str | `str = ''.join(list1)`
+相减 | `list(set(list1) - set(list2))`
+
 
 ## Examples
 ### 复制
@@ -106,3 +108,20 @@ else:
 str = ''.join(list)
 ```
 
+### 去重
+
+#### set 去重
+
+```
+inlist = [1, 2, 3, 4, 5, 4, 3, 4, 2]
+
+outlist = set(inlist )
+```
+
+#### 不改顺序去重
+```
+from functools import reduce
+inlist = [1, 2, 3, 4, 5, 4, 3, 4, 2]
+rdup = lambda x,y:x if y in x else x + [y]
+outlist = reduce(rdup, [[], ] + inlist )
+```
