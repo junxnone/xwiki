@@ -205,4 +205,6 @@
   - [PECOFF](/0152_X_PECOFF)
   - [版本号定义](/0146_X_Version)
 - [Wiki History](/hist)
-<kbd>Junxnone<sub>@2022.12.27</sub></kbd>
+
+---
+<kbd>2022.12.27<sub>Junx</sub></kbd>
