@@ -89,6 +89,7 @@
     - [IPP Intel Integrated Performance Primitives](/0032_OPT_LIB_IPP)
     - [OneAPI](/0076_OPT_LIB_OneAPI)
       - [IntelMKL](/0074_OPT_LIB_OneAPI_IntelMKL)
+      - [OneAPI iGPU](/0210_OPT_LIB_OneAPI_iGPU)
       - [oneDPL](/0075_OPT_LIB_OneAPI_oneDPL)
   - Tools
     - [Vtune](/0019_OPT_Tools_Vtune)
@@ -205,6 +206,7 @@
   - [Open Source License](/0147_X_OpenSourceLicense)
   - [PECOFF](/0152_X_PECOFF)
   - [版本号定义](/0146_X_Version)
+  - [iso3dfd](/0209_X_iso3dfd)
 - [Wiki History](/hist)
 
 ---
