@@ -58,7 +58,7 @@
   - Series
   - DataFrame
   - UseCase
-    - Create
+    - IO
     - columns
     - row
     - xy
