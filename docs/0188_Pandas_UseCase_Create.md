@@ -2,7 +2,7 @@
 Title | Pandas UseCase Create
 -- | --
 Created @ | `2019-08-15T11:23:03Z`
-Last Modify @| `2022-12-28T04:47:33Z`
+Last Modify @| `2022-12-28T04:53:47Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/188)
 
@@ -109,7 +109,7 @@ pd.DataFrame(data2, columns=['a', 'b'])
 1  5  10
 ```
 
-### 使用 numpy array 创建
+## 使用 numpy array 创建
 
 ```
 data = np.zeros((2,), dtype=[('A', 'i4'),('B', 'f4'),('C', 'a10')])
@@ -133,12 +133,12 @@ pd.DataFrame(data, columns=['C', 'A', 'B'])
 1  World  2  3.0
 ```
 
-### 使用 Serie 创建
+## 使用 Serie 创建
 
 - 索引与输入的 Series 相同，并且单个列的名称是 Series 的原始名称（仅当没有提供其他列名时）
 
 
-##  Read/Write Files
+## 从文件创建
 
 - csv
 
