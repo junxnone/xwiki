@@ -2,7 +2,7 @@
 Title | Tools Github Pages BaiduMap
 -- | --
 Created @ | `2021-02-09T09:21:30Z`
-Last Modify @| `2022-12-22T07:05:05Z`
+Updated @| `2023-02-23T08:35:08Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/132)
 
@@ -15,6 +15,8 @@ Edit @| [here](https://github.com/junxnone/xwiki/issues/132)
 - [坐标拾取](http://api.map.baidu.com/lbsapi/getpoint/index.html)
 - [坐标系转换](https://github.com/hujiulong/gcoord/wiki/%E5%9C%B0%E7%90%86%E5%9D%90%E6%A0%87%E7%B3%BB)
 - [Baidu Map API Reference](https://mapopen-pub-jsapi.bj.bcebos.com/jsapi/reference/jsapi_reference.html)
+- [JavaScript API GL](https://lbsyun.baidu.com/index.php?title=jspopularGL)
+
 
 ## TODO
 - https://github.com/junxnone/bdmap
