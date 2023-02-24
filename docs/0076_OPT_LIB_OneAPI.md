@@ -2,7 +2,7 @@
 Title | OPT LIB OneAPI
 -- | --
 Created @ | `2021-06-23T06:24:28Z`
-Updated @| `2023-02-24T03:00:49Z`
+Updated @| `2023-02-24T03:23:28Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/76)
 
@@ -25,9 +25,9 @@ Edit @| [here](https://github.com/junxnone/xwiki/issues/76)
 
 ## Reference
 
-- [OneAPI Specification](https://spec.oneapi.io/versions/1.2-rev-1/)
-- [oneapi](https://software.intel.com/content/www/us/en/develop/tools/oneapi.html)
-
+- [OneAPI](https://www.intel.com/content/www/us/en/developer/tools/oneapi/overview.html)
+- [OneAPI Specification](https://spec.oneapi.io/versions/1.2-rev-1/) [[repo](https://github.com/oneapi-src/oneAPI-spec)]
+- [oneAPI-samples](https://github.com/oneapi-src/oneAPI-samples)
 
 
 
