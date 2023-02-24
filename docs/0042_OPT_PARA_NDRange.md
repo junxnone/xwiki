@@ -2,7 +2,7 @@
 Title | OPT PARA NDRange
 -- | --
 Created @ | `2021-11-19T01:12:36Z`
-Last Modify @| `2022-12-22T05:48:25Z`
+Updated @| `2023-02-24T03:26:48Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/42)
 
@@ -30,7 +30,7 @@ Three Dim | ![image](https://user-images.githubusercontent.com/2216970/142524937
 
 Devices | Mapping
 -- | --
-CPU | ![image](https://user-images.githubusercontent.com/2216970/146120540-25781497-6827-42df-804e-a7827c3ab93d.png)
+CPU | ![image](https://user-images.githubusercontent.com/2216970/221084720-632452b3-2aff-4441-8f63-25b616a7a7b0.png)
 iGPU | ![image](https://user-images.githubusercontent.com/2216970/142132985-86a8e414-1596-4378-9069-d8609d0f329f.png)
 FPGA | ![image](https://user-images.githubusercontent.com/2216970/146120629-aef3232d-7d90-4930-96b5-0917e11d195a.png)
 
