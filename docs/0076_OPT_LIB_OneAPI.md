@@ -2,14 +2,34 @@
 Title | OPT LIB OneAPI
 -- | --
 Created @ | `2021-06-23T06:24:28Z`
-Last Modify @| `2022-12-22T06:23:17Z`
+Updated @| `2023-02-24T02:58:23Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/76)
 
 ---
+
+## OneAPI
+
+- **SYCL** : 主要的编程语言，用于加速器和多处理器编程，可以跨硬件(CPU/GPU/FPGA)编程
+- **oneDPL** : `oneAPI DPC++ Library` 实现了一些基本功能函数
+  - **Parallel API**: 并行算法实现
+  - **SYCL Kernels API**: 
+- **oneDNN** : 高性能实现的深度学习框架
+- **oneCCL** : 服务于深度学习框架的跨硬件通信库
+- **Level Zero**: 系统硬件接口
+- **oneDAL**: 数据科学加速算法
+- **oneTBB**: 基于线程的并行编程库
+- **oneVPL**:视频处理加速库
+- **oneMKL**: 高性能数学库实现
+- **Ray Tracing**: 光线追踪库
+
+
 ## Reference
 
+- [OneAPI Specification](https://spec.oneapi.io/versions/1.2-rev-1/)
 - [oneapi](https://software.intel.com/content/www/us/en/develop/tools/oneapi.html)
+
+
 
 ## Brief
 - Components
