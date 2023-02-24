@@ -2,25 +2,42 @@
 Title | OPT LIB OneAPI
 -- | --
 Created @ | `2021-06-23T06:24:28Z`
-Updated @| `2023-02-24T03:23:28Z`
+Updated @| `2023-02-24T03:55:02Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/76)
 
 ---
 ## OneAPI
 
-- **SYCL** : 主要的编程语言，用于加速器和多处理器编程，可以跨硬件(CPU/GPU/FPGA)编程
-- **oneDPL** : `oneAPI DPC++ Library` 实现了一些基本功能函数
-  - **Parallel API**: 并行算法实现
-  - **SYCL Kernels API**: 
-- **oneDNN** : `Deep Neural Network` 高性能实现的深度学习框架
-- **oneCCL** : `Collective Communications Library` 服务于深度学习框架的跨硬件通信库
-- **Level Zero**: 系统硬件接口
-- **oneDAL**: `Data Analytics Library` 数据科学加速算法
+### Compilers & Language 
+
+- **C++ compiler Classic**
+-  **DPC++/C++ Compiler**
+- **Fortran Compiler**
+
+### Libraries
+
+- **IPP**: `Integrated Performance Primitives` : 视觉/信号/安全/存储 优化库
+- **oneDPL**: 基于 `C++ STL`  `Parallel STL` `Boost.Compute` `SYCL*` 的 API
+- **oneMKL**: `Math Kernel Library` 高性能数学库实现
 - **oneTBB**: `Threading Building Blocks` 基于线程的并行编程库
 - **oneVPL**: `Video Processing Library` 视频处理加速库
-- **oneMKL**: `Math Kernel Library` 高性能数学库实现
-- **Ray Tracing**: 光线追踪库
+- **oneDAL**: `Data Analytics Library` 数据科学加速算法
+- **oneDNN**: `Deep Neural Network` 高性能实现的深度学习框架
+- **oneCCL**: `Collective Communications Library` 服务于深度学习框架的跨硬件通信库
+- **Intel MPI**: 通信相关
+
+### Analyzers and Debuggers
+
+- **Advisor**: 设计和分析向量化并行化等高性能应用
+- **VTune Profiler**: 查找应用性能瓶颈的工具
+- **Inspector**: 定位和调试 线程/内存
+- **Trace Analyzer and Collector** MPI 调试
+
+### CUDA 迁移工具
+
+- **DPCT**: `DPC++ Compatibility Tool`  迁移 `CUDA* code` 到 `SCYL Code`
+
 
 
 ## Reference
@@ -28,7 +45,7 @@ Edit @| [here](https://github.com/junxnone/xwiki/issues/76)
 - [OneAPI](https://www.intel.com/content/www/us/en/developer/tools/oneapi/overview.html)
 - [OneAPI Specification](https://spec.oneapi.io/versions/1.2-rev-1/) [[repo](https://github.com/oneapi-src/oneAPI-spec)]
 - [oneAPI-samples](https://github.com/oneapi-src/oneAPI-samples)
-
+- [oneAPI Components](https://www.intel.com/content/www/us/en/developer/tools/oneapi/components.html)
 
 
 
