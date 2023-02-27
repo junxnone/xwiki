@@ -2,7 +2,7 @@
 Title | OPT PARA OpenMP
 -- | --
 Created @ | `2021-05-20T03:29:59Z`
-Last Modify @| `2022-12-22T03:48:02Z`
+Updated @| `2023-02-27T02:46:13Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/23)
 
@@ -79,10 +79,10 @@ UMA | NUMA
 - 2000 OpenMP 2.0 for FORTRAN
 - 2002 OpenMP 2.0 for C and C++
 - 2005 OpenMP 2.5 now includes both programming languages.
-- 05/2008 OpenMP 3.0
+- 05/2008 OpenMP 3.0 Task Parallelism
 - 07/2011 OpenMP 3.1
-- 07/2013 OpenMP 4.0
+- 07/2013 OpenMP 4.0  SIMD Support
 - 11/2015 OpenMP 4.5
-- 11/2018 OpenMP 5.0
+- 11/2018 OpenMP 5.0 C11/C++17/Fortran 2008 Support
 
 
