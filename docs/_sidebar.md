@@ -117,6 +117,7 @@
   - [可视化](/0189_Pandas_Visualization)
   - Issues
     - [SettingWithCopyWarning](/0185_Pandas_Issues_SettingWithCopyWarning)
+    - [存储为 csv 再读入后, 单元格值 `list` 类型会变成 `str` 类型](/0213_Pandas_Issues_csvliststr)
 - Tools
   - [Jupyter](/0163_Tools_Jupyter)
     - [Arch](/0069_Tools_Jupyter_Arch)
@@ -212,4 +213,4 @@
 - [Wiki History](/hist)
 
 ---
-<kbd>2023.02.28<sub>Junx16</sub></kbd>
+<kbd>2023.02.28<sub>Junx17</sub></kbd>
