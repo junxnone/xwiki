@@ -2,7 +2,7 @@
 Title | Programing Python pip
 -- | --
 Created @ | `2018-11-25T09:47:54Z`
-Last Modify @| `2022-12-22T06:38:53Z`
+Updated @| `2023-02-28T14:52:20Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/95)
 
@@ -31,7 +31,9 @@ Export requirements.txt | `pip freeze > requirements.txt`
 
 
 ## Config
-### Config default Mirrors
+### Setup default Mirrors
+
+
 ```
 vi ~/.config/pip/pip.conf
 ```
@@ -53,6 +55,14 @@ trusted-host = pypi.douban.com
 unset all_proxy && unset ALL_PROXY && unset http_proxy && unset https_proxy
 ```
 
+#### 常用 mirrors
+- 清华 https://pypi.tuna.tsinghua.edu.cn/simple
+- 豆瓣 http://pypi.doubanio.com/simple
+- 阿里 https://mirrors.aliyun.com/pypi/simple
+- 华为 https://repo.huaweicloud.com/repository/pypi/simple
+- 网易 http://mirrors.163.com/pypi/simple/
+- 默认 https://pypi.org/simple/
+- 
 ## Issues
 
 ### No module named _internal
