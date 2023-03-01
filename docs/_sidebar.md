@@ -26,6 +26,7 @@
     - [计时方法](/0084_Programing_CPP_CountTime)
     - [STL Standard Template Library](/0083_Programing_CPP_STL)
     - [标准库](/0082_Programing_CPP_StandardLibrary)
+    - [lambda](/0214_Programing_CPP_lambda)
   - [Shell](/0079_Programing_Shell)
     - [if  判断](/0102_Programing_Shell_if)
     - [for](/0101_Programing_Shell_for)
@@ -213,4 +214,4 @@
 - [Wiki History](/hist)
 
 ---
-<kbd>2023.03.01<sub>Junx14</sub></kbd>
+<kbd>2023.03.01<sub>Junx15</sub></kbd>
