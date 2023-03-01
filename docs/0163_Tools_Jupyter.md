@@ -2,7 +2,7 @@
 Title | Tools Jupyter
 -- | --
 Created @ | `2018-09-25T07:48:41Z`
-Last Modify @| `2022-12-22T07:36:04Z`
+Updated @| `2023-03-01T02:44:20Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/163)
 
@@ -82,3 +82,5 @@ cmd | Description
 %time | 当前**行**的代码运行一次所花费的时间
 %%time | 当前**cell**的代码运行一次所花费的时间
 %timeit | 执行一个语句100，000次(默认情况下)，然后给出运行最快3次的平均值<br> -n N 指定执行次数
+`%%writefile test.txt` | 将当前单元格内容写到文件
+
