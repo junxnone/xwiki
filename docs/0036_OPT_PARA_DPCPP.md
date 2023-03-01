@@ -2,13 +2,13 @@
 Title | OPT PARA DPCPP
 -- | --
 Created @ | `2021-10-28T08:00:47Z`
-Last Modify @| `2022-12-22T05:44:05Z`
+Updated @| `2023-03-01T08:14:47Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/36)
 
 ---
 ## Reference
-- [DPC++ Spec](https://spec.oneapi.io/versions/latest/elements/dpcpp/source/index.html#)
+- [Intel® oneAPI DPC++/C++ Compiler Developer Guide and Reference](https://www.intel.com/content/www/us/en/develop/documentation/oneapi-dpcpp-cpp-compiler-dev-guide-and-reference/top/optimization-and-programming/intel-oneapi-level-zero.html)
 - [oneAPI DPC++ Compiler documentation](https://intel.github.io/llvm-docs/GetStartedGuide.html)
 - [Intel Data Parallel C++ (and SYCL 2020) Tutorial](https://github.com/jeffhammond/dpcpp-tutorial)
 - [SYCL 1.2.1 spec](https://www.khronos.org/registry/SYCL/specs/sycl-1.2.1.pdf)
