@@ -180,6 +180,7 @@
 - [硬件](/0001_Hardware)
   - [CPU](/0002_Hardware_CPU)
     - [Intel](/0003_Hardware_CPU_Intel)
+      - [P-Core & E-Core](/0215_Hardware_CPU_Intel_PECore)
   - GPU
     - [NVIDIA](/0006_Hardware_GPU_NVIDIA)
     - [iGPU](/0005_Hardware_GPU_iGPU)
