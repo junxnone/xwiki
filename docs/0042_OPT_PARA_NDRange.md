@@ -2,7 +2,7 @@
 Title | OPT PARA NDRange
 -- | --
 Created @ | `2021-11-19T01:12:36Z`
-Updated @| `2023-03-07T08:53:20Z`
+Updated @| `2023-03-07T14:17:49Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/42)
 
@@ -21,13 +21,39 @@ Edit @| [here](https://github.com/junxnone/xwiki/issues/42)
 ![image](https://user-images.githubusercontent.com/2216970/141645331-c69a9cdb-ae77-40c5-83c4-182faaf7c234.png)
 
 
-## Work Group
-- 同一个 wrok-group 中的 work-items 同时调度进同一个处理单元
+### Work Group
+- 同一个 wrok-group 中的 work-items 调度进同一个处理单元
 - work-group memory - work-items 可以访问同 group 的 memory，不必重新载入
 - work-group barriers/fences 同步 work-items
 - work-group collectives 通信
+- sub-group functions and algorithms
 
 
+### SubGroup
+- 同一个 SubGroup 中的 work-items 同时并行处理
+- 同一个 SubGroup 中的 work-items 可以使用 `shuffle operations` 通信 
+- 可以通过 sub-group barriers 同步
+- 可以使用 sub-group memory fences 保证内存一致性
+
+
+```
+Device : 11th Gen Intel(R) Core(TM) i9-11900KB @ 3.30GHz
+Supported Sub-Group Sizes : 4 8 16 32 64 
+Max Sub-Group Size        : 64
+
+
+Device : Intel(R) UHD Graphics [0x9a60]
+Supported Sub-Group Sizes : 8 16 32 
+Max Sub-Group Size        : 32
+```
+
+
+### WrokGroup & SubGroup 处理位置
+
+![image](https://user-images.githubusercontent.com/2216970/223437549-35ed9c55-2fb0-4a67-8bb3-dca5f35ac3e3.png)
+
+
+## 123 Dim
 
 Dims | Figure
 -- | --
