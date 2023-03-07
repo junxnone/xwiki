@@ -2,7 +2,7 @@
 Title | OPT PARA SYCL
 -- | --
 Created @ | `2021-07-29T01:50:29Z`
-Last Modify @| `2022-12-22T03:52:34Z`
+Updated @| `2023-03-07T02:08:41Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/31)
 
@@ -27,6 +27,9 @@ Edit @| [here](https://github.com/junxnone/xwiki/issues/31)
   - [hipSYCL - Heidelberg University](https://github.com/illuhad/hipSYCL)
   - neoSYCL - Tohoku
 - [SYCL Projects](/SYCL_Projects)
+
+
+> The SYCL platform model is based on the OpenCL platform model. 
 
 ## SYCL 定位
 
