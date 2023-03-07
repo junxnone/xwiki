@@ -2,15 +2,15 @@
 Title | OPT PARA SYCL
 -- | --
 Created @ | `2021-07-29T01:50:29Z`
-Updated @| `2023-03-07T02:08:41Z`
+Updated @| `2023-03-07T02:09:19Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/31)
 
 ---
 ## Reference
-- [SYCL](https://www.khronos.org/sycl/)
-- [SYCL - Specification](https://www.khronos.org/registry/SYCL/specs/sycl-2020/html/sycl-2020.html#introduction)
-- [SYCL - Reference](https://sycl.readthedocs.io/en/latest/)
+- [SYCL 官网](https://www.khronos.org/sycl/)
+- [SYCL Specification](https://www.khronos.org/registry/SYCL/specs/sycl-2020/html/sycl-2020.html#introduction)
+- [SYCL Reference](https://sycl.readthedocs.io/en/latest/)
 - [sycl.tech](https://sycl.tech/learn/)
 - [A Comparative Study of SYCL, OpenCL, and OpenMP](https://www.researchgate.net/publication/312964923_A_Comparative_Study_of_SYCL_OpenCL_and_OpenMP)
 - [Investigation of the OpenCL SYCL Programming Model](https://static.epcc.ed.ac.uk/dissertations/hpc-msc/2013-2014/Investigation%20of%20the%20OpenCL%20SYCL%20Programming%20Model.pdf)
