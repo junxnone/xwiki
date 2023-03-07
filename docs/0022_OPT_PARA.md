@@ -2,7 +2,7 @@
 Title | OPT PARA
 -- | --
 Created @ | `2021-11-05T09:03:54Z`
-Last Modify @| `2022-12-22T03:47:18Z`
+Updated @| `2023-03-07T07:41:14Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/22)
 
@@ -15,6 +15,14 @@ Edit @| [here](https://github.com/junxnone/xwiki/issues/22)
 - [并行计算blogs](http://parallel.zhangjikai.com/)
 - [Optimize - Intel® oneAPI Programming Guide](https://www.intel.com/content/www/us/en/develop/documentation/oneapi-programming-guide/top/software-development-process/performance-tuning-cycle/optimize.html)
 - [Software optimization resources](https://www.agner.org/optimize/)
+
+
+## 任务并行 & 数据并行
+- 数据并行 - `Data Parallelism` - 数据可以分发到不同的计算单元，进行并行处理
+- 任务并行 - `Task Parallelism` - 不同的任务处理不同的数据并行进行
+
+
+![image](https://user-images.githubusercontent.com/2216970/223355141-bf94f20b-9acc-4afc-b4ee-bce5990a2f65.png)
 
 
 ## Brief
