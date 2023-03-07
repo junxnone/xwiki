@@ -2,7 +2,7 @@
 Title | OPT PARA NDRange
 -- | --
 Created @ | `2021-11-19T01:12:36Z`
-Updated @| `2023-02-24T03:26:48Z`
+Updated @| `2023-03-07T08:34:13Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/42)
 
@@ -11,10 +11,13 @@ Edit @| [here](https://github.com/junxnone/xwiki/issues/42)
 - [One-Dimensional NDRange](https://www.xilinx.com/html_docs/xilinx2017_4/sdaccel_doc/ece1504034297316.html)
 - [DPC++ Thread Hierarchy and Mapping](https://www.intel.com/content/www/us/en/develop/documentation/oneapi-gpu-optimization-guide/top/thread-mapping.html)
 - [Mapping of oneAPI and DPC++ to CPUs, GPUs, and FPGAs](https://www.intel.com/content/www/us/en/developer/articles/technical/comparing-cpus-gpus-and-fpgas-for-oneapi.html?wapkw=NDRANGE#gs.ivap1r)
-
+- [ND-range data-parallel kernels](https://enccs.github.io/sycl-workshop/expressing-parallelism-nd-range/)
 
 ## Brief
-
+- work-group memory - work-items 可以访问同 group 的 memory，不必重新载入
+- work-group barriers/fences 同步 work-items
+- work-group collectives 通信
+- wrok-group 中的 work-items 同时调度进同一个处理单元
 
 ![image](https://user-images.githubusercontent.com/2216970/141645331-c69a9cdb-ae77-40c5-83c4-182faaf7c234.png)
 
