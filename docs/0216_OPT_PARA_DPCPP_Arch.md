@@ -2,7 +2,7 @@
 Title | OPT PARA DPCPP Arch
 -- | --
 Created @ | `2023-03-07T03:55:03Z`
-Updated @| `2023-03-07T03:55:03Z`
+Updated @| `2023-03-07T07:26:59Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/216)
 
@@ -18,12 +18,13 @@ Edit @| [here](https://github.com/junxnone/xwiki/issues/216)
 - CPU/GPU/FPGA/Accelerator
 - kernel 运行的设备
 - 可以通过相关 APIs 获取 Name/Vendor/Version/...
-- **Device Selector** 用于选取 kernel 运行的设备
 
 ### Queue
 - 用于异构执行任务的机制
 - 每个 queue 映射到一个 Device
 - 多个 queue 可以映射到同一个 Device
+- 通过 `xxx_selector` 选取 Device
+
 
 ### Kernel
 - 用于执行的数据并行代码
@@ -35,7 +36,7 @@ Edit @| [here](https://github.com/junxnone/xwiki/issues/216)
 - 并行 Kernel
   - for-loop 基本并行 Kernel
   - ND-Range
-
+- C++ Lambda Function
 
 ### USM Unified Shared Memory
 - 需要硬件支持 `统一虚拟地址空间`
@@ -44,3 +45,12 @@ Edit @| [here](https://github.com/junxnone/xwiki/issues/216)
   - Device - Device 分配，只能 Device  访问
   - Shared - 编译器管理
 
+
+### Buffer
+- 封装的数据结构
+
+### [Accessor](https://registry.khronos.org/SYCL/specs/sycl-2020/html/sycl-2020.html#subsec:accessors)
+- 用于 Device 访问 Buffers
+- `host_accessor` 用于在 host 访问 buffer 同步数据到 host
+  -  阻塞调用，会等所有入队 kernel执行完毕
+- `local_accessor` 
