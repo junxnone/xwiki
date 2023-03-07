@@ -96,6 +96,7 @@
       - [OneAPI iGPU](/0210_OPT_LIB_OneAPI_iGPU)
       - [oneDPL](/0075_OPT_LIB_OneAPI_oneDPL)
   - Tools
+    - [Intel Advisor](/0217_OPT_Tools_Advisor)
     - [Vtune](/0019_OPT_Tools_Vtune)
       - [CommandLine](/0020_OPT_Tools_Vtune_CommandLine)
   - [TMA](/0021_OPT_TMA)
