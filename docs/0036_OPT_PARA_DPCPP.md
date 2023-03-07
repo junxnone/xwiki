@@ -2,7 +2,7 @@
 Title | OPT PARA DPCPP
 -- | --
 Created @ | `2021-10-28T08:00:47Z`
-Updated @| `2023-03-01T08:14:47Z`
+Updated @| `2023-03-07T03:14:51Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/36)
 
@@ -23,11 +23,10 @@ Edit @| [here](https://github.com/junxnone/xwiki/issues/36)
 - 数据并行编程/异构编程
 - C++ 标准 > `C++17`
 -  = `ISO C++` + `SYCL standard` + `extensions`
-- 实现了 [SYCL](/SYCL) 接口
-  - 使用 [OpenCL](/OpenCL) 后端加速 Intel CPU/iGPU/FPGAs
+- 实现了 [SYCL](/0031_OPT_PARA_SYCL) 接口
+  - 使用 [OpenCL](/0034_OPT_PARA_OpenCL) 后端加速 Intel CPU/iGPU/FPGAs
   - 使用 `CUDA+PTX` 后端加速 Nvidia GPUs
-- [Level Zero](/Level_Zero)
-- [DPCPP Debug](/DPCPP_DEBUG)
+
 
 ## Arch
 
