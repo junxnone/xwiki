@@ -77,6 +77,7 @@
       - [Offload](/0028_OPT_PARA_OpenMP_Offload)
       - [API](/0024_OPT_PARA_OpenMP_API)
     - [DPCPP](/0036_OPT_PARA_DPCPP)
+      - [架构及相关概念](/0216_OPT_PARA_DPCPP_Arch)
       - [DEBUG](/0038_OPT_PARA_DPCPP_DEBUG)
       - [LevelZero](/0037_OPT_PARA_DPCPP_LevelZero)
     - [SYCL](/0031_OPT_PARA_SYCL)
