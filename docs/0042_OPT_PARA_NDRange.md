@@ -2,7 +2,7 @@
 Title | OPT PARA NDRange
 -- | --
 Created @ | `2021-11-19T01:12:36Z`
-Updated @| `2023-03-07T08:34:13Z`
+Updated @| `2023-03-07T08:53:20Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/42)
 
@@ -14,12 +14,19 @@ Edit @| [here](https://github.com/junxnone/xwiki/issues/42)
 - [ND-range data-parallel kernels](https://enccs.github.io/sycl-workshop/expressing-parallelism-nd-range/)
 
 ## Brief
+- NDRange 相对 Basic Parallel kernels 可以更好的利用Hardware，拥有更好的性能
+  - Local Memory
+  - Mapping Executions
+
+![image](https://user-images.githubusercontent.com/2216970/141645331-c69a9cdb-ae77-40c5-83c4-182faaf7c234.png)
+
+
+## Work Group
+- 同一个 wrok-group 中的 work-items 同时调度进同一个处理单元
 - work-group memory - work-items 可以访问同 group 的 memory，不必重新载入
 - work-group barriers/fences 同步 work-items
 - work-group collectives 通信
-- wrok-group 中的 work-items 同时调度进同一个处理单元
 
-![image](https://user-images.githubusercontent.com/2216970/141645331-c69a9cdb-ae77-40c5-83c4-182faaf7c234.png)
 
 
 Dims | Figure
