@@ -2,7 +2,7 @@
 Title | OPT PARA DPCPP Arch
 -- | --
 Created @ | `2023-03-07T03:55:03Z`
-Updated @| `2023-03-07T09:22:15Z`
+Updated @| `2023-03-07T09:51:04Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/216)
 
@@ -44,9 +44,18 @@ Edit @| [here](https://github.com/junxnone/xwiki/issues/216)
 ### USM Unified Shared Memory
 - 需要硬件支持 `统一虚拟地址空间`
 - 三种分配方式
-  - Host - Host 分配, Host & Device 都可以访问
-  - Device - Device 分配，只能 Device  访问
-  - Shared - 编译器管理
+  - Host - `malloc_host()` Host 分配, Host & Device 都可以访问
+  - Device - `malloc_device()` Device 分配，只能 Device  访问
+  - Shared - `malloc_shared()` 编译器管理
+- 方便 porting C++ code
+- 当有数据依赖时需要显式的指定
+  - `q.wait()`
+  - `queue q{property::queue::in_order()}; `
+  - `depends_on(e)`
+
+
+
+![image](https://user-images.githubusercontent.com/2216970/223380143-07bfaeef-6006-4095-abec-1947f270920f.png)
 
 
 ### Buffer
