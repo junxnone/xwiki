@@ -97,7 +97,7 @@
       - [oneDPL](/0075_OPT_LIB_OneAPI_oneDPL)
   - Tools
     - [Intel Advisor](/0217_OPT_Tools_Advisor)
-    - [Vtune](/0019_OPT_Tools_Vtune)
+    - [Intel Vtune](/0019_OPT_Tools_Vtune)
       - [CommandLine](/0020_OPT_Tools_Vtune_CommandLine)
   - [TMA](/0021_OPT_TMA)
 - [Pandas](/0181_Pandas)
@@ -217,4 +217,4 @@
 - [Wiki History](/hist)
 
 ---
-<kbd>2023.03.07<sub>Junx23</sub></kbd>
+<kbd>2023.03.08<sub>Junx00</sub></kbd>
