@@ -2,7 +2,7 @@
 Title | OPT PARA DPCPP
 -- | --
 Created @ | `2021-10-28T08:00:47Z`
-Updated @| `2023-03-07T03:14:51Z`
+Updated @| `2023-03-07T03:18:36Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/36)
 
@@ -19,8 +19,8 @@ Edit @| [here](https://github.com/junxnone/xwiki/issues/36)
 - [training - intel](https://techdecoded.intel.io/quickhits/overview-of-oneapi-dpc-programming)
 
 ## Brief
-- **DPC++** - `oneAPI Data Parallel C++` - Intel
-- 数据并行编程/异构编程
+- **DPC++** - `Data Parallel C++` - 是 Intel 的 SYCL 实现
+- 用于数据并行编程 & 异构编程
 - C++ 标准 > `C++17`
 -  = `ISO C++` + `SYCL standard` + `extensions`
 - 实现了 [SYCL](/0031_OPT_PARA_SYCL) 接口
