@@ -181,6 +181,7 @@
     - [Issues](/0149_Hypervisor_Docker_Issues)
 - [硬件](/0001_Hardware)
   - [CPU](/0002_Hardware_CPU)
+    - [Branch Prediction](/0219_Hardware_CPU_BP)
     - [Intel](/0003_Hardware_CPU_Intel)
       - [P-Core & E-Core](/0215_Hardware_CPU_Intel_PECore)
   - [GPU](/0218_Hardware_GPU)
