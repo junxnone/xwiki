@@ -2,22 +2,18 @@
 Title | Hardware SIMD
 -- | --
 Created @ | `2019-12-19T09:05:21Z`
-Last Modify @| `2022-12-22T03:22:10Z`
+Updated @| `2023-03-08T13:38:46Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/7)
 
 ---
-## Reference
-- [Intel Instruction Set](https://software.intel.com/sites/landingpage/IntrinsicsGuide)
-- [AVX - baike](https://baike.baidu.com/item/AVX%E6%8C%87%E4%BB%A4%E9%9B%86/8485825?fr=aladdin)
-- [AVX - wikipedia](https://en.wikipedia.org/wiki/Advanced_Vector_Extensions)
-- [AVX2 - wikipedia](https://en.wikipedia.org/wiki/Advanced_Vector_Extensions#AVX2)
-- [AVX512 - wikipedia](https://en.wikipedia.org/wiki/AVX-512)
+# SIMD - Single Instruction Multiple Data
 
-## Brief
-- SIMD - `Single Instruction Multiple Data`
-- [SIMD 原理](/SIMD_原理) 
-- [[AVX]]
+
+![image](https://user-images.githubusercontent.com/2216970/223727295-6a146efc-704f-48fa-a84a-314a7e8297a9.png)
+
+
+
 
 ## 各种指令集
 
@@ -82,3 +78,14 @@ NUMA node1 CPU(s):     10-19,30-39
 Flags:                 fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf pni pclmulqdq dtes64 ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb invpcid_single intel_pt ssbd ibrs ibpb stibp kaiser tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx avx512f rdseed adx smap clflushopt clwb avx512cd xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts hwp hwp_act_window hwp_epp hwp_pkg_req pku flush_l1d
 ```
 > 支持 avx avx2 avx512f avx512cd 的CPU
+
+
+
+## Reference
+- [Intel Instruction Set](https://software.intel.com/sites/landingpage/IntrinsicsGuide)
+- [AVX - baike](https://baike.baidu.com/item/AVX%E6%8C%87%E4%BB%A4%E9%9B%86/8485825?fr=aladdin)
+- [AVX - wikipedia](https://en.wikipedia.org/wiki/Advanced_Vector_Extensions)
+- [AVX2 - wikipedia](https://en.wikipedia.org/wiki/Advanced_Vector_Extensions#AVX2)
+- [AVX512 - wikipedia](https://en.wikipedia.org/wiki/AVX-512)
+
+
