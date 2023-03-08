@@ -2,7 +2,7 @@
 Title | OPT PARA SYCL
 -- | --
 Created @ | `2021-07-29T01:50:29Z`
-Updated @| `2023-03-08T02:54:13Z`
+Updated @| `2023-03-08T02:54:59Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/31)
 
@@ -16,7 +16,7 @@ Edit @| [here](https://github.com/junxnone/xwiki/issues/31)
 - [sycl.tech](https://sycl.tech/learn/)
 - [A Comparative Study of SYCL, OpenCL, and OpenMP](https://www.researchgate.net/publication/312964923_A_Comparative_Study_of_SYCL_OpenCL_and_OpenMP)
 - [Investigation of the OpenCL SYCL Programming Model](https://static.epcc.ed.ac.uk/dissertations/hpc-msc/2013-2014/Investigation%20of%20the%20OpenCL%20SYCL%20Programming%20Model.pdf)
-- [SYCL Academy](https://www.youtube.com/watch?v=1RqdVEDY5vg&list=PLCssnq0MpRdM-IUAYtNSPYck6u3oz7OZQ)  [[Github/Slides/source](https://github.com/codeplaysoftware/syclacademy)]
+- [SYCL Academy Videos](https://www.youtube.com/watch?v=1RqdVEDY5vg&list=PLCssnq0MpRdM-IUAYtNSPYck6u3oz7OZQ)  [[Github/Slides/source](https://github.com/codeplaysoftware/syclacademy)]
 
 ## Brief
 - SYCL - High-Level C++ 抽象层 - 一个标准, 可以使用 OpenCL backend 运行，也可以用其他库作为后端 (CUDA/OpenMP/OpenCL+PTX/CUDA+PTX)
