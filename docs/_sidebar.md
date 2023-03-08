@@ -94,7 +94,7 @@
     - [OneAPI](/0076_OPT_LIB_OneAPI)
       - [IntelMKL](/0074_OPT_LIB_OneAPI_IntelMKL)
       - [OneAPI iGPU](/0210_OPT_LIB_OneAPI_iGPU)
-      - [oneDPL](/0075_OPT_LIB_OneAPI_oneDPL)
+      - [Intel OneAPI oneDPL](/0075_OPT_LIB_OneAPI_oneDPL)
   - Tools
     - [Intel Advisor](/0217_OPT_Tools_Advisor)
     - [Intel Vtune](/0019_OPT_Tools_Vtune)
@@ -217,4 +217,4 @@
 - [Wiki History](/hist)
 
 ---
-<kbd>2023.03.08<sub>Junx09</sub></kbd>
+<kbd>2023.03.08<sub>Junx10</sub></kbd>
