@@ -193,7 +193,7 @@
   - [Memory](/0004_Hardware_Memory)
     - [Cache](/0016_Hardware_Memory_Cache)
   - [NUMA](/0158_Hardware_NUMA)
-  - [SIMD](/0007_Hardware_SIMD)
+  - [SIMD - Single Instruction Multiple Data](/0007_Hardware_SIMD)
     - [AVX](/0009_Hardware_SIMD_AVX)
       - [CodeCompile](/0150_Hardware_SIMD_AVX_CodeCompile)
     - [原理](/0008_Hardware_SIMD_原理)
@@ -217,4 +217,4 @@
 - [Wiki History](/hist)
 
 ---
-<kbd>2023.03.08<sub>Junx21</sub></kbd>
+<kbd>2023.03.08<sub>Junx22</sub></kbd>
