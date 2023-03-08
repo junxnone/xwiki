@@ -2,13 +2,13 @@
 Title | OPT PARA OpenMP
 -- | --
 Created @ | `2021-05-20T03:29:59Z`
-Updated @| `2023-02-27T02:46:13Z`
+Updated @| `2023-03-08T03:02:01Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/23)
 
 ---
 ## Reference
-- [OpenMP API Specification](https://www.openmp.org/spec-html/5.1/openmp.html)
+- [OpenMP API Specification](https://www.openmp.org/specifications/)
 - [OpenMP Reference Guide](https://www.openmp.org/resources/refguides/)
 - [OpenMP Compilers & Tools](https://www.openmp.org/resources/openmp-compilers-tools/)
 - [OpenMP sample code](https://github.com/OpenMP/Examples/tree/main/sources) [[examples notebook -- passlab](https://passlab.github.io/Examples/intro.html)]
