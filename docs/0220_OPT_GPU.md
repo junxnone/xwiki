@@ -2,7 +2,7 @@
 Title | OPT GPU
 -- | --
 Created @ | `2023-03-09T07:13:10Z`
-Updated @| `2023-03-09T09:19:16Z`
+Updated @| `2023-03-09T09:26:58Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/220)
 
@@ -37,8 +37,8 @@ Edit @| [here](https://github.com/junxnone/xwiki/issues/220)
 
 
 - 精度换速度 
-  - 使用较低精度(`f16`)的数据类型
-  - 有些 GPU 针对 `f32` 类型数据做了优化
+  - 使用较低精度(`FP16`)的数据类型
+  - 有些 GPU 针对 `FP32` 类型数据做了优化
 - 使用 精确度低但性能高的 `Math Functions`
 - 专用指令 (mad/fma/...)
 
