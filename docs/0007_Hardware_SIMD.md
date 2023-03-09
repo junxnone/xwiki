@@ -2,7 +2,7 @@
 Title | Hardware SIMD
 -- | --
 Created @ | `2019-12-19T09:05:21Z`
-Updated @| `2023-03-09T02:06:00Z`
+Updated @| `2023-03-09T02:47:12Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/7)
 
@@ -16,6 +16,12 @@ Edit @| [here](https://github.com/junxnone/xwiki/issues/7)
 
 ![image](https://user-images.githubusercontent.com/2216970/223727295-6a146efc-704f-48fa-a84a-314a7e8297a9.png)
 
+
+## Multiple Instruction Stream
+
+- 处理单元可以有多个指令流，当执行其他操作时，可以切换来提高效率
+
+![image](https://user-images.githubusercontent.com/2216970/223902867-830e7275-4f3a-4218-b356-0b3777352664.png)
 
 
 
