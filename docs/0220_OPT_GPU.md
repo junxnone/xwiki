@@ -1,0 +1,26 @@
+---
+Title | OPT GPU
+-- | --
+Created @ | `2023-03-09T07:13:10Z`
+Updated @| `2023-03-09T07:13:10Z`
+Labels | ``
+Edit @| [here](https://github.com/junxnone/xwiki/issues/220)
+
+---
+# GPU 性能优化
+
+- 通常为 Memory Bound(因为GPU有很多 processors & SIMD Widths)
+
+
+
+## Memory 的连续访问 & 间隔访问
+- `连续访问内存` 比 `间隔访问内存` 更有效
+
+### 间隔方位内存
+
+![image](https://user-images.githubusercontent.com/2216970/223945374-904caa49-03e3-4203-bdf1-4d722ca98c57.png)
+
+### 连续访问内存
+
+![image](https://user-images.githubusercontent.com/2216970/223946428-d9f3180b-1c50-40d4-b648-0df1a9cc15e9.png)
+
