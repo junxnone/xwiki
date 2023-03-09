@@ -2,7 +2,7 @@
 Title | Hardware SIMD
 -- | --
 Created @ | `2019-12-19T09:05:21Z`
-Updated @| `2023-03-08T15:43:50Z`
+Updated @| `2023-03-09T02:06:00Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/7)
 
@@ -91,5 +91,5 @@ Flags:                 fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca 
 - [AVX - wikipedia](https://en.wikipedia.org/wiki/Advanced_Vector_Extensions)
 - [AVX2 - wikipedia](https://en.wikipedia.org/wiki/Advanced_Vector_Extensions#AVX2)
 - [AVX512 - wikipedia](https://en.wikipedia.org/wiki/AVX-512)
-
+- [HPC - SIMD](https://en.algorithmica.org/hpc/simd/)
 
