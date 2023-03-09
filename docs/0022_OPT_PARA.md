@@ -2,7 +2,7 @@
 Title | OPT PARA
 -- | --
 Created @ | `2021-11-05T09:03:54Z`
-Updated @| `2023-03-07T07:41:14Z`
+Updated @| `2023-03-09T02:21:36Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/22)
 
@@ -25,16 +25,20 @@ Edit @| [here](https://github.com/junxnone/xwiki/issues/22)
 ![image](https://user-images.githubusercontent.com/2216970/223355141-bf94f20b-9acc-4afc-b4ee-bce5990a2f65.png)
 
 
-## Brief
+## Parallel Programming Models
+- Shared Memory (without threads)
+- Threads
+- Distributed Memory / Message Passing
+- Data Parallel
+- Hybrid
+- SPMD - `Single Program Multiple Data`
+- MPMD - `Multiple Program Multiple Data`
 
-- Parallel Programming Models
-  - Shared Memory (without threads)
-  - Threads
-  - Distributed Memory / Message Passing
-  - Data Parallel
-  - Hybrid
-  - Single Program Multiple Data (SPMD)
-  - Multiple Program Multiple Data (MPMD)
+### SPMD
+- vs SIMD
+  - SIMD: 处理器体系结构，指令级，执行相同的指令集
+  - SPMD: 编程模型，程序级，可以包含不同的指令集/执行路径(分支)
+
 
 ## Optimization
 
