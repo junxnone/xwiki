@@ -88,6 +88,7 @@
       - [Install](/0035_OPT_PARA_OpenCL_Install)
     - [NDRange](/0042_OPT_PARA_NDRange)
     - [OpenMPI](/0043_OPT_PARA_OpenMPI)
+    - [Patterns](/0221_OPT_PARA_Patterns)
   - [绑定 Socker & Core](/0033_OPT_BindSocketCore)
   - [性能优化库](/0195_OPT_LIB)
     - [IPP Intel Integrated Performance Primitives](/0032_OPT_LIB_IPP)
