@@ -2,7 +2,7 @@
 Title | Hardware GPU iGPU
 -- | --
 Created @ | `2021-11-10T17:21:22Z`
-Last Modify @| `2022-12-22T03:21:28Z`
+Updated @| `2023-03-14T07:23:20Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/5)
 
@@ -10,7 +10,7 @@ Edit @| [here](https://github.com/junxnone/xwiki/issues/5)
 ## Reference
 - [Intel® Processors with Integrated Graphics](https://www.intel.com/content/www/us/en/develop/documentation/oneapi-gpu-optimization-guide/top/gen-arch.html)
 - [Intel® graphics processor table](https://dgpu-docs.intel.com/devices/hardware-table.html)
-- [Install Ubuntu intel-graphics Drivers](https://dgpu-docs.intel.com/installation-guides/ubuntu/ubuntu-focal.html)
+- [Install Ubuntu intel-graphics Drivers](https://dgpu-docs.intel.com/index.html)
 - [Shared Local Memory](https://www.intel.com/content/www/us/en/develop/documentation/oneapi-gpu-optimization-guide/top/kernels/slm.html)
 - [DPC++ Thread Hierarchy and Mapping](https://www.intel.com/content/www/us/en/develop/documentation/oneapi-gpu-optimization-guide/top/thread-mapping.html)
 - [INTEL® GPU Occupancy Calculator](https://oneapi-src.github.io/oneAPI-samples/Tools/GPU-Occupancy-Calculator/index.html)
