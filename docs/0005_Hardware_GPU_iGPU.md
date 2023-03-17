@@ -2,11 +2,13 @@
 Title | Hardware GPU iGPU
 -- | --
 Created @ | `2021-11-10T17:21:22Z`
-Updated @| `2023-03-14T07:23:20Z`
+Updated @| `2023-03-17T08:22:27Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/5)
 
 ---
+# Intel GPUs
+
 ## Reference
 - [Intel® Processors with Integrated Graphics](https://www.intel.com/content/www/us/en/develop/documentation/oneapi-gpu-optimization-guide/top/gen-arch.html)
 - [Intel® graphics processor table](https://dgpu-docs.intel.com/devices/hardware-table.html)
