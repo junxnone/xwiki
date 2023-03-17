@@ -2,7 +2,7 @@
 Title | Hardware GPU iGPU
 -- | --
 Created @ | `2021-11-10T17:21:22Z`
-Updated @| `2023-03-17T08:22:27Z`
+Updated @| `2023-03-17T08:47:32Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/5)
 
@@ -20,10 +20,10 @@ Edit @| [here](https://github.com/junxnone/xwiki/issues/5)
 
 
 ## Brief
+- Intel 显卡早期以集成显卡为主
+- 一部分独立显卡 + 服务器显卡(用于计算)
 - Slice/SubSlice/EU/ALU
 - GRF - `general-purpose registers`
-- [iGPU Tools](/iGPU_Tools)
-- [iGPU Issues](/iGPU_Issues)
 
 
 ## Arch
