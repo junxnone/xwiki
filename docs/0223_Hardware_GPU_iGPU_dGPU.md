@@ -2,13 +2,15 @@
 Title | Hardware GPU iGPU dGPU
 -- | --
 Created @ | `2023-03-17T08:27:43Z`
-Updated @| `2023-03-17T08:27:43Z`
+Updated @| `2023-03-17T08:37:47Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/223)
 
 ---
 # Data Center GPUs
 
+## Flex 140/170
+- ATS-M75/150
 
 ![image](https://user-images.githubusercontent.com/2216970/225852267-ccd46eb3-43e1-4a5b-b27c-aa46f8814b0c.png)
 
