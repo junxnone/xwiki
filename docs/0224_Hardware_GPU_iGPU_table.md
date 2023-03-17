@@ -2,12 +2,11 @@
 Title | Hardware GPU iGPU table
 -- | --
 Created @ | `2023-03-17T08:45:20Z`
-Updated @| `2023-03-17T08:45:20Z`
+Updated @| `2023-03-17T09:02:35Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/224)
 
 ---
-
 # Intel GPUs Table
 
 PCI IDs | Name | Architecture | Codename
@@ -147,4 +146,9 @@ A011 | Intel® Pineview M |   |  
 3582 | Intel® 852GM/855GM |   |  
 2562 | Intel® 845G |   |  
 3577 | Intel® 830M
+
+## Reference
+
+- [GPUs Table](https://dgpu-docs.intel.com/devices/hardware-table.html)
+- 
 
