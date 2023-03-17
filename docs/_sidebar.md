@@ -195,6 +195,7 @@
         - [intel-telemetry-tool](/0171_Hardware_GPU_iGPU_Tools_telemetry)
         - [xorg-intel-gpu-tools](/0169_Hardware_GPU_iGPU_Tools_xorgintelgpu)
       - [Data Center GPUs](/0223_Hardware_GPU_iGPU_dGPU)
+      - [Intel GPUs Table](/0224_Hardware_GPU_iGPU_table)
   - [Memory](/0004_Hardware_Memory)
     - [Cache](/0016_Hardware_Memory_Cache)
   - [NUMA](/0158_Hardware_NUMA)
