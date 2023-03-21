@@ -2,15 +2,18 @@
 Title | OPT PARA DPCPP LevelZero
 -- | --
 Created @ | `2021-12-12T03:15:18Z`
-Last Modify @| `2022-12-22T05:44:44Z`
+Updated @| `2023-03-21T14:52:52Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/37)
 
 ---
-## Reference
-- [Level Zero Specification](https://spec.oneapi.io/level-zero/latest/core/INTRO.html)
+# Level Zero
+- 一个接口规范，用于直接访问加速器(GPU/FPGA/..)
 
-## Brief
+
+
+
+## Arch
 
 - Device discovery
 - Memory allocation
@@ -26,3 +29,7 @@ Edit @| [here](https://github.com/junxnone/xwiki/issues/37)
 
 ![image](https://user-images.githubusercontent.com/2216970/145698778-5132cb8e-9823-4260-900b-381d2dbefd44.png)
 
+
+## Reference
+- [Level Zero Specification](https://spec.oneapi.io/level-zero/latest/index.html)
+- [Introduction to Level Zero API for Heterogeneous Programming](https://jjfumero.github.io/posts/2021/09/introduction-to-level-zero/)
