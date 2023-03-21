@@ -80,7 +80,6 @@
     - [DPCPP](/0036_OPT_PARA_DPCPP)
       - [架构及相关概念](/0216_OPT_PARA_DPCPP_Arch)
       - [DEBUG](/0038_OPT_PARA_DPCPP_DEBUG)
-      - [LevelZero](/0037_OPT_PARA_DPCPP_LevelZero)
     - [SYCL](/0031_OPT_PARA_SYCL)
       - [Concepts](/0041_OPT_PARA_SYCL_Concepts)
       - [Projects](/0039_OPT_PARA_SYCL_Projects)
@@ -95,6 +94,7 @@
     - [IPP Intel Integrated Performance Primitives](/0032_OPT_LIB_IPP)
     - [OneAPI](/0076_OPT_LIB_OneAPI)
       - [IntelMKL](/0074_OPT_LIB_OneAPI_IntelMKL)
+      - [Level Zero](/0037_OPT_LIB_OneAPI_LevelZero)
       - [OneAPI iGPU](/0210_OPT_LIB_OneAPI_iGPU)
       - [Intel OneAPI oneDPL](/0075_OPT_LIB_OneAPI_oneDPL)
   - Tools
