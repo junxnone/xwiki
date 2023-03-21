@@ -143,6 +143,7 @@
     - [proxy](/0113_Tools_Git_proxy)
     - [移除 stage 文件](/0119_Tools_Git_RMStageFile)
     - [No newline at end of file](/0120_Tools_Git_NoNewline)
+    - [Git Patch 生成与使用](/0226_Tools_Git_Patch)
     - [archive](/0118_Tools_Git_archive)
     - [precommit](/0117_Tools_Git_precommit)
   - [Conda](/0073_Tools_Conda)
