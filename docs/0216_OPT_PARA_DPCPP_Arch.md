@@ -2,7 +2,7 @@
 Title | OPT PARA DPCPP Arch
 -- | --
 Created @ | `2023-03-07T03:55:03Z`
-Updated @| `2023-03-07T09:51:04Z`
+Updated @| `2023-03-21T14:57:35Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/216)
 
@@ -10,6 +10,19 @@ Edit @| [here](https://github.com/junxnone/xwiki/issues/216)
 # 架构及相关概念
 
 ## 架构
+
+![image](https://user-images.githubusercontent.com/2216970/226646536-160bc07b-8260-42ea-b5db-9e31578ef33e.png)
+
+
+### Runtime
+
+![image](https://user-images.githubusercontent.com/2216970/145666271-385828ff-8393-40e3-9605-03bbe52767a1.png)
+
+![image](https://user-images.githubusercontent.com/2216970/145666277-1df7f586-32af-4152-8efa-83d0c293aebf.png)
+
+### Compiler Pipeline
+
+![image](https://user-images.githubusercontent.com/2216970/145666824-bba9f275-e0a0-4325-9056-569c0c966803.png)
 
 
 ## 相关概念
