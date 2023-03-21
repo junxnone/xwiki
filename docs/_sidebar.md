@@ -77,7 +77,7 @@
       - [Directives](/0029_OPT_PARA_OpenMP_Directives)
       - [Offload](/0028_OPT_PARA_OpenMP_Offload)
       - [API](/0024_OPT_PARA_OpenMP_API)
-    - [DPCPP](/0036_OPT_PARA_DPCPP)
+    - [DPC++](/0036_OPT_PARA_DPCPP)
       - [架构及相关概念](/0216_OPT_PARA_DPCPP_Arch)
       - [DEBUG](/0038_OPT_PARA_DPCPP_DEBUG)
     - [SYCL](/0031_OPT_PARA_SYCL)
@@ -225,4 +225,4 @@
 - [Wiki History](/hist)
 
 ---
-<kbd>2023.03.21<sub>Junx22</sub></kbd>
+<kbd>2023.03.21<sub>Junx23</sub></kbd>
