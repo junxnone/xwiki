@@ -2,7 +2,7 @@
 Title | Build Cmake commands option
 -- | --
 Created @ | `2023-03-23T03:21:06Z`
-Updated @| `2023-03-23T03:21:06Z`
+Updated @| `2023-03-23T03:25:21Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/228)
 
@@ -18,6 +18,23 @@ Edit @| [here](https://github.com/junxnone/xwiki/issues/228)
 option(<variable> "<help_text>" [value])
 ```
 - 默认值 `OFF`
+
+
+### Examples
+- 编译 gtest 时想要编译动态库
+
+```
+cmake .. -DBUILD_SHARED_LIBS=ON
+```
+
+- 对应 [CmakeLIsts.txt](https://github.com/google/googletest/blob/5fce13091d223069436ad7a5aad53f026b0f2041/googletest/CMakeLists.txt#L66)
+
+```
+  # BUILD_SHARED_LIBS is a standard CMake variable, but we declare it here to
+  # make it prominent in the GUI.
+  option(BUILD_SHARED_LIBS "Build shared libraries (DLLs)." OFF)
+```
+
 
 ## Reference
 
