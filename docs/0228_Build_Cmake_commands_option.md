@@ -2,7 +2,7 @@
 Title | Build Cmake commands option
 -- | --
 Created @ | `2023-03-23T03:21:06Z`
-Updated @| `2023-03-23T03:25:21Z`
+Updated @| `2023-03-24T14:36:27Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/228)
 
@@ -33,6 +33,18 @@ cmake .. -DBUILD_SHARED_LIBS=ON
   # BUILD_SHARED_LIBS is a standard CMake variable, but we declare it here to
   # make it prominent in the GUI.
   option(BUILD_SHARED_LIBS "Build shared libraries (DLLs)." OFF)
+```
+- 使用 `BUILD_SHARED_LIBS` 的[地方](https://github.com/google/googletest/blob/e9fb5c7bacc4a25b030569c92ff9f6925288f1c3/googletest/cmake/internal_utils.cmake#L38)
+```
+  if (BUILD_SHARED_LIBS OR type STREQUAL "SHARED")
+    set_target_properties(${name}
+      PROPERTIES
+      COMPILE_DEFINITIONS "GTEST_CREATE_SHARED_LIBRARY=1")
+    if (NOT "${CMAKE_VERSION}" VERSION_LESS "2.8.11")
+      target_compile_definitions(${name} INTERFACE
+        $<INSTALL_INTERFACE:GTEST_LINKED_AS_SHARED_LIBRARY=1>)
+    endif()
+  endif()
 ```
 
 
