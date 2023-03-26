@@ -51,6 +51,7 @@
   - [Windows Batch 批处理](/0230_Programing_batch)
     - [for](/0229_Programing_batch_for)
   - [Regex 正则表达式](/0206_Programing_regex)
+  - [Test](/0231_Programing_test)
 - [构建工具](/0190_Build)
   - [Cmake](/0053_Build_Cmake)
     - [Install](/0054_Build_Cmake_Install)
@@ -230,4 +231,4 @@
 - [Wiki History](/hist)
 
 ---
-<kbd>2023.03.26<sub>Junx21</sub></kbd>
+<kbd>2023.03.26<sub>Junx22</sub></kbd>
