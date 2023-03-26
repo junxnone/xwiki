@@ -52,6 +52,7 @@
     - [for](/0229_Programing_batch_for)
   - [Regex 正则表达式](/0206_Programing_regex)
   - [Test](/0231_Programing_test)
+    - [googletest](/0232_Programing_test_googletest)
 - [构建工具](/0190_Build)
   - [Cmake](/0053_Build_Cmake)
     - [Install](/0054_Build_Cmake_Install)
