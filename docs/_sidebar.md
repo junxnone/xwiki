@@ -48,8 +48,6 @@
     - [Tools](/0011_Programing_Library_Tools)
   - [Socket](/0109_Programing_Socket)
     - [Function](/0110_Programing_Socket_Function)
-  - [Windows Batch 批处理](/0230_Programing_batch)
-    - [for](/0229_Programing_batch_for)
   - [Regex 正则表达式](/0206_Programing_regex)
   - [Test](/0231_Programing_test)
     - [googletest](/0232_Programing_test_googletest)
@@ -230,6 +228,11 @@
   - [版本号定义](/0146_X_Version)
   - [Word Cloud  - 词云生成](/0233_X_WordCloud)
   - [iso3dfd](/0209_X_iso3dfd)
+- Windows
+  - Issues
+    - [Windows 命令行执行命令时卡住](/0234_Windows_Issues_CommandLineHang)
+  - [Windows Batch 批处理](/0230_Windows_batch)
+    - [for](/0229_Windows_batch_for)
 - [Wiki History](/hist)
 
 ---
