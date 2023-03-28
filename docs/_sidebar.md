@@ -230,6 +230,7 @@
   - [iso3dfd](/0209_X_iso3dfd)
 - Windows
   - Issues
+    - [查看 BIOS 版本号](/0235_Windows_Issues_BIOSInfo)
     - [Windows 命令行执行命令时卡住](/0234_Windows_Issues_CommandLineHang)
   - [Windows Batch 批处理](/0230_Windows_batch)
     - [for](/0229_Windows_batch_for)
