@@ -155,6 +155,7 @@
   - Github
     - [ChromeExtensions](/0124_Tools_Github_ChromeExtensions)
       - [Sourcegraph](/0125_Tools_Github_ChromeExtensions_Sourcegraph)
+    - [比较 branch/commit](/0236_Tools_Github_Compare)
     - [Pages](/0126_Tools_Github_Pages)
       - [BaiduMap](/0132_Tools_Github_Pages_BaiduMap)
         - [部署到 Gitee](/0172_Tools_Github_Pages_BaiduMap_Issues)
@@ -237,4 +238,4 @@
 - [Wiki History](/hist)
 
 ---
-<kbd>2023.03.28<sub>Junx15</sub></kbd>
+<kbd>2023.03.28<sub>Junx16</sub></kbd>
