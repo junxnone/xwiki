@@ -175,7 +175,7 @@
   - [Windows SSH 工具](/0173_Tools_WindowsSSHClient)
   - [manim](/0141_Tools_manim)
   - [mosquitto](/0142_Tools_mosquitto)
-  - [opengrok](/0143_Tools_opengrok)
+  - [opengrok 代码浏览工具](/0143_Tools_opengrok)
   - [putty](/0161_Tools_putty)
   - [yarn](/0178_Tools_yarn)
 - [容器](/0192_Hypervisor)
