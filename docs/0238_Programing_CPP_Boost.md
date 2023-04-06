@@ -2,7 +2,7 @@
 Title | Programing CPP Boost
 -- | --
 Created @ | `2023-04-04T06:27:49Z`
-Updated @| `2023-04-04T06:27:49Z`
+Updated @| `2023-04-06T13:36:05Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/238)
 
@@ -10,7 +10,7 @@ Edit @| [here](https://github.com/junxnone/xwiki/issues/238)
 # Boost
 - 1998 ~ 
 - C++ 标准库的重要来源
-- 大部分实现在头文件中，不需要预编译
+- 大部分实现在头文件中，不需要预编译 [*需要编译的部分*](https://www.boost.org/doc/libs/1_81_0/more/getting_started/windows.html#header-only-libraries)
 
 ## 包含内容
 
@@ -23,7 +23,7 @@ Edit @| [here](https://github.com/junxnone/xwiki/issues/238)
 - 并发编程
 - 高级网络通信
 - 时间处理
-- ...
+- [.........](https://www.boost.org/doc/libs/1_81_0/libs/libraries.htm#Category)
 
 ## Reference
 - [C++ Boost库是什么？](http://c.biancheng.net/view/7771.html)
