@@ -144,7 +144,7 @@
     - [动态显示图片](/0072_Tools_Jupyter_ShowImageDynamic)
     - [UseLocalPackage](/0068_Tools_Jupyter_UseLocalPackage)
   - [Git](/0111_Tools_Git)
-    - [config](/0112_Tools_Git_config)
+    - [Git Configs](/0112_Tools_Git_config)
     - [branch](/0115_Tools_Git_branch)
     - [tag](/0116_Tools_Git_tag)
     - [submodule](/0114_Tools_Git_submodule)
