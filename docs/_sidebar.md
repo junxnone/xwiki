@@ -222,6 +222,7 @@
     - [列表](/0137_Doc_Markdown_List)
     - [表格](/0138_Doc_Markdown_Table)
     - [Text Format](/0136_Doc_Markdown_Text)
+  - [Mermaid](/0242_Doc_Mermaid)
   - [YAML](/0140_Doc_YAML)
 - X
   - [BLAS](/0179_X_BLAS)
@@ -243,4 +244,4 @@
 - [Wiki History](/hist)
 
 ---
-<kbd>2023.05.08<sub>Junx22</sub></kbd>
+<kbd>2023.05.08<sub>Junx23</sub></kbd>
