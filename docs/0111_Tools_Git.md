@@ -2,24 +2,31 @@
 Title | Tools Git
 -- | --
 Created @ | `2018-12-14T07:40:51Z`
-Last Modify @| `2022-12-22T06:46:50Z`
+Updated @| `2023-05-19T15:32:51Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/111)
 
 ---
-## Reference
-- [Git内部原理介绍](https://cloud.tencent.com/developer/article/1369947)
-- [git-tips](https://github.com/jaywcjlove/git-tips)
+# Git
+- 代码版本管理工具，源于 Linux 需求
 
-## Brief
-
-- [Git config](/Git_config)
-- [Git proxy](/Git_proxy_config)
-- [Git submodule](/Git_submodule)
-- [Git branch](/Git_branch)
-- [Git Tag](/Git_tag)
-- [Git pre-commit](/Git_precommit)
-- [Git archive](/Git_archive)
+```mermaid
+gitGraph:
+    commit
+    commit
+    commit
+    commit
+    commit tag:" V x.x1"
+    branch dev
+    checkout dev
+    commit id:"-fix bug"
+    checkout main
+    commit
+    commit
+    merge dev
+    commit
+    commit tag:" V x.x2"
+```
 
 
 ## Issues
@@ -64,3 +71,8 @@ git push github_remote --all
 ```
 git tag|awk '{print "git push github_remote "$1}'|bash
 ```
+
+## Reference
+- [Git内部原理介绍](https://cloud.tencent.com/developer/article/1369947)
+- [git-tips](https://github.com/jaywcjlove/git-tips)
+
