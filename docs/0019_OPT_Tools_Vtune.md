@@ -2,7 +2,7 @@
 Title | OPT Tools Vtune
 -- | --
 Created @ | `2018-09-28T05:35:41Z`
-Updated @| `2023-03-07T15:28:25Z`
+Updated @| `2023-05-24T08:20:47Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/19)
 
@@ -10,16 +10,6 @@ Edit @| [here](https://github.com/junxnone/xwiki/issues/19)
 # Intel Vtune
 
 - 分析应用热点/瓶颈
-
-
-## Reference
-- [VTune](https://software.intel.com/en-us/vtune)
-- [Parallel Matrix Multiplication - Code Samples of Intel(R) VTune(TM) Profiler](https://github.com/oneapi-src/oneAPI-samples/tree/master/Tools/VTuneProfiler)
-- [性能测试工具VTune的功能和用法介绍](https://blog.csdn.net/WY_stutdy/article/details/79106501)
-- [VTune工具的安装与基本使用](https://zzqcn.github.io/perf/intel_vtune/intro.html)
-
-## Brief
-- 分析性能
 - **Support Devices** - CPU/GPU/FPGA
 - **What**
   - Launch Application
@@ -47,3 +37,10 @@ VTune性能分析器能通过以下的手段发现和定位程序中的性能问
 
 ![image](https://user-images.githubusercontent.com/2216970/115494180-b2e44d80-a297-11eb-9a11-c17217227f38.png)
 
+
+
+## Reference
+- [VTune](https://software.intel.com/en-us/vtune)
+- [Parallel Matrix Multiplication - Code Samples of Intel(R) VTune(TM) Profiler](https://github.com/oneapi-src/oneAPI-samples/tree/master/Tools/VTuneProfiler)
+- [性能测试工具VTune的功能和用法介绍](https://blog.csdn.net/WY_stutdy/article/details/79106501)
+- [VTune工具的安装与基本使用](https://zzqcn.github.io/perf/intel_vtune/intro.html)
