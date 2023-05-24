@@ -2,16 +2,18 @@
 Title | Hardware GPU iGPU Tools
 -- | --
 Created @ | `2021-12-13T11:35:31Z`
-Last Modify @| `2022-12-22T07:29:08Z`
+Updated @| `2023-05-24T15:09:38Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/153)
 
 ---
-## Brief
+# Intel iGPU Tools
+
 - inxi
 - lspci
 - intel_gpu_top
 - [Intel® GPU Occupancy Calculator](https://oneapi-src.github.io/oneAPI-samples/Tools/GPU-Occupancy-Calculator/index.html)
+- [Intel(R) XPU Manager and XPU System Management Interface](https://github.com/intel/xpumanager/tree/master)
 
 ### 查看 iGPU info
 
