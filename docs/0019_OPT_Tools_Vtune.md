@@ -2,7 +2,7 @@
 Title | OPT Tools Vtune
 -- | --
 Created @ | `2018-09-28T05:35:41Z`
-Updated @| `2023-05-24T08:20:47Z`
+Updated @| `2023-05-24T14:35:17Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/19)
 
@@ -17,7 +17,7 @@ Edit @| [here](https://github.com/junxnone/xwiki/issues/19)
 - **How**  
   - Hotspots
   - Microarchitecture
-- [Vtune Command Line](/Vtune_Command_Line)
+- [Vtune Command Line](/0020_OPT_Tools_Vtune_CommandLine)
 
 
 VTune可视化性能分析器（Intel VTune Performance Analyzer）是一个用于分析和优化程序性能的工具，作为Intel为开发者提供的专门针对寻找软硬件性能瓶颈的一款分析工具，它能确定程序的热点（hotspot），找到导致性能不理想的原因，从而让开发者据此对程序进行优化。
