@@ -203,7 +203,7 @@
     - [Intel GPUs](/0005_Hardware_GPU_iGPU)
       - [Intel GPUs Arch](/0225_Hardware_GPU_iGPU_Arch)
       - [Issues](/0154_Hardware_GPU_iGPU_Issues)
-      - [Tools](/0153_Hardware_GPU_iGPU_Tools)
+      - [Intel iGPU Tools](/0153_Hardware_GPU_iGPU_Tools)
         - [intel-telemetry-tool](/0171_Hardware_GPU_iGPU_Tools_telemetry)
         - [xorg-intel-gpu-tools](/0169_Hardware_GPU_iGPU_Tools_xorgintelgpu)
       - [Data Center GPUs](/0223_Hardware_GPU_iGPU_dGPU)
@@ -244,4 +244,4 @@
 - [Wiki History](/hist)
 
 ---
-<kbd>2023.05.24<sub>Junx22</sub></kbd>
+<kbd>2023.05.24<sub>Junx23</sub></kbd>
