@@ -2,7 +2,7 @@
 Title | OPT Tools Vtune
 -- | --
 Created @ | `2018-09-28T05:35:41Z`
-Updated @| `2023-05-25T13:05:47Z`
+Updated @| `2023-05-25T13:12:25Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/19)
 
@@ -75,6 +75,9 @@ Edit @| [here](https://github.com/junxnone/xwiki/issues/19)
 - [Intel VTune Profiler Performance Analysis Cookbook](https://www.intel.com/content/www/us/en/docs/vtune-profiler/cookbook)
 - [CPU Metrics Reference](https://www.intel.com/content/www/us/en/docs/vtune-profiler/user-guide/2023-0/cpu-metrics-reference.html)
 - [GPU Metrics Reference](https://www.intel.com/content/www/us/en/docs/vtune-profiler/user-guide/2023-0/gpu-metrics-reference.html)
+- [Intel® VTune™ Profiler Command Line Interface](https://www.intel.com/content/www/us/en/docs/vtune-profiler/user-guide/2023-0/command-line-interface.html)
+
+
 
 ### Samples
 - [Intel® VTune™ Profiler Tutorials](https://www.intel.com/content/www/us/en/developer/articles/training/vtune-profiler-tutorials.html)
