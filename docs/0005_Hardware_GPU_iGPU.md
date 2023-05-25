@@ -2,7 +2,7 @@
 Title | Hardware GPU iGPU
 -- | --
 Created @ | `2021-11-10T17:21:22Z`
-Updated @| `2023-05-25T16:31:48Z`
+Updated @| `2023-05-25T16:46:10Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/5)
 
@@ -30,11 +30,11 @@ Work-items | Group Size | Threads | SubSlice Utilization | SubSlice Occupancy
 64x64x128 = 524288    | (R>4) 640+ |   |   | Fail to launch
 
 
-EUs | Threads | Operations
+EUs | Max Threads | Max Operations
 -- | -- | --
 16 | 7 x16 = 112 | 112 x8 = 896
 
-> 7 : Threads/EU
+> 7 : Threads/EU  
 > 8 : 8-wide Single Instruction Multiple Data (SIMD) Arithmetic Logic Units (ALU) 
 
 
