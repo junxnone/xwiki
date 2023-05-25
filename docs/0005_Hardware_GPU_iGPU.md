@@ -2,12 +2,12 @@
 Title | Hardware GPU iGPU
 -- | --
 Created @ | `2021-11-10T17:21:22Z`
-Updated @| `2023-03-17T09:14:08Z`
+Updated @| `2023-05-25T13:57:03Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/5)
 
 ---
-# Intel GPUs
+# Intel GPUs - iGPU
 
 - Intel 显卡早期以集成显卡为主
 - 独立显卡
@@ -38,6 +38,6 @@ Work-items | Group Size | Threads | SubSlice Utilization | SubSlice Occupancy
 - [DPC++ Thread Hierarchy and Mapping](https://www.intel.com/content/www/us/en/develop/documentation/oneapi-gpu-optimization-guide/top/thread-mapping.html)
 - [INTEL® GPU Occupancy Calculator](https://oneapi-src.github.io/oneAPI-samples/Tools/GPU-Occupancy-Calculator/index.html)
 - [Intel Processor Graphics - Architecture & Programming](https://www.intel.com/content/dam/develop/external/us/en/documents/intel-graphics-architecture-isa-and-microarchitecture-698638.pdf)
-
+- [GPU Architecture Terminology for Intel® Xe Graphics](https://www.intel.com/content/www/us/en/developer/articles/technical/gpu-terminology-for-intel-xe.html)
 
 
