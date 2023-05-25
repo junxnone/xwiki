@@ -2,7 +2,7 @@
 Title | Hardware GPU iGPU Arch
 -- | --
 Created @ | `2023-03-17T09:12:51Z`
-Updated @| `2023-05-25T14:04:20Z`
+Updated @| `2023-05-25T14:14:19Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/225)
 
@@ -28,10 +28,33 @@ Edit @| [here](https://github.com/junxnone/xwiki/issues/225)
 ![image](https://github.com/junxnone/xwiki/assets/2216970/be053c1b-7f25-43fb-bad5-f2a08342341c)
 
 
+### Intel GPUs Gen
+
+
+Gen | Code Name | Name
+-- | -- | --
+Gen 9 | Sky Lake Kaby Lake Coffee Lake | Intel® UHD Graphics Intel® Iris® Graphics Intel® Iris® Plus Graphics Intel® Iris® Pro Graphics
+Gen 11 | Ice Lake | Intel® Iris® Plus Graphics
+Gen 12.1 | Rocket Lake Tiger Lake | Intel® Iris® Xe Graphics
+Gen 12.1 | DG1 | Intel® Iris® Xe Max Graphics
+Gen 12.1 | Alder Lake | Intel® Iris® Xe Graphics
+Gen 12.5 | Arctic Sound (ATS) | -
+Gen 12.7 | Alchemist or ACM (previously DG2)ATS-M | Intel® Xe-HPG Graphics
+Gen 12.7 | Ponte Vecchio (PVC) | Intel® Xe-HPC Graphics
+
+
+
 ## 架构层次
 - Tile --> Slice --> Sub-slice --> EU
 
-![image](https://github.com/junxnone/xwiki/assets/2216970/798e26e4-184e-4f93-96ad-5b8be4b9c036)
+Old Term | New Intel Term | Generic Term | New abbreviation
+-- | -- | -- | --
+Execution Unit (EU) | Xe Vector Engine | Vector Engine | XVE
+Sub-slice (SS) or Dual Sub-slice | Xe-core | N/A | XC
+Slice | For Xe-HPG: - Render Slice | Slice | SLC
+-- | For Xe-HPC: - Compute Slice | Slice | SLC
+Tile | Stack | Stack | STK
+
 
 ### Slice
 ![image](https://user-images.githubusercontent.com/2216970/141405977-200c4977-23ce-4ebe-8198-f1a81b245054.png) 
