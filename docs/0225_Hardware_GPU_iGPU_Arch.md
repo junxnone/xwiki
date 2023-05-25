@@ -2,7 +2,7 @@
 Title | Hardware GPU iGPU Arch
 -- | --
 Created @ | `2023-03-17T09:12:51Z`
-Updated @| `2023-05-25T14:14:19Z`
+Updated @| `2023-05-25T14:16:08Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/225)
 
@@ -134,4 +134,7 @@ Total | 16x6=96  |  112x6=672 | 896x6=5376  | 512 |  16x6=96
 > `There are 16 barrier registers per sub-slice, so no more than 16 work-groups can be executed simultaneously.`
 > `The amount of shared local memory available per sub-slice (64KB). If for example a work-group requires 32KB of shared local memory, only 2 of those work-groups can run concurrently, regardless of work-group size.`
 
+
+## Reference
+- [Intel® Processor Graphics Gen11 Architecture](https://www.intel.com/content/dam/develop/external/us/en/documents/the-architecture-of-intel-processor-graphics-gen11-r1new.pdf)
 
