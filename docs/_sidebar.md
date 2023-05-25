@@ -201,7 +201,7 @@
       - [P-Core & E-Core](/0215_Hardware_CPU_Intel_PECore)
   - [GPU](/0218_Hardware_GPU)
     - [NVIDIA](/0006_Hardware_GPU_NVIDIA)
-    - [Intel GPUs](/0005_Hardware_GPU_iGPU)
+    - [Intel GPUs - iGPU](/0005_Hardware_GPU_iGPU)
       - [Intel GPUs Arch](/0225_Hardware_GPU_iGPU_Arch)
       - [iGPU Drivers](/0244_Hardware_GPU_iGPU_Drivers)
       - [Issues](/0154_Hardware_GPU_iGPU_Issues)
@@ -247,4 +247,4 @@
 - [Wiki History](/hist)
 
 ---
-<kbd>2023.05.25<sub>Junx21</sub></kbd>
+<kbd>2023.05.25<sub>Junx22</sub></kbd>
