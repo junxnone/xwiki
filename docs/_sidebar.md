@@ -202,6 +202,7 @@
     - [NVIDIA](/0006_Hardware_GPU_NVIDIA)
     - [Intel GPUs](/0005_Hardware_GPU_iGPU)
       - [Intel GPUs Arch](/0225_Hardware_GPU_iGPU_Arch)
+      - [iGPU Drivers](/0244_Hardware_GPU_iGPU_Drivers)
       - [Issues](/0154_Hardware_GPU_iGPU_Issues)
       - [Intel iGPU Tools](/0153_Hardware_GPU_iGPU_Tools)
         - [intel-telemetry-tool](/0171_Hardware_GPU_iGPU_Tools_telemetry)
@@ -245,4 +246,4 @@
 - [Wiki History](/hist)
 
 ---
-<kbd>2023.05.25<sub>Junx20</sub></kbd>
+<kbd>2023.05.25<sub>Junx21</sub></kbd>
