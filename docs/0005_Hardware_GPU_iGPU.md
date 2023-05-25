@@ -2,7 +2,7 @@
 Title | Hardware GPU iGPU
 -- | --
 Created @ | `2021-11-10T17:21:22Z`
-Updated @| `2023-05-25T13:57:03Z`
+Updated @| `2023-05-25T16:31:48Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/5)
 
@@ -17,6 +17,7 @@ Edit @| [here](https://github.com/junxnone/xwiki/issues/5)
 ##  GPU 利用率 (Utilization) 和占用率 (Occupancy)
 
 - Utilization : 时间维度上的统计计算资源
+  - 按时间分片，当前 100 片时间内，如果 GPU 有 50 片在执行任务，则称当前 GPU 利用率 `50%` 
 - Occupancy: 空间维度上统计计算资源占用情况
 
 
@@ -28,6 +29,13 @@ Work-items | Group Size | Threads | SubSlice Utilization | SubSlice Occupancy
 64x64x128 = 524288    | (R=4) 128 x 4| 4 x 16 | 64/112 = 57%  | 128 x4 / 112 x8 = 57% maximum
 64x64x128 = 524288    | (R>4) 640+ |   |   | Fail to launch
 
+
+EUs | Threads | Operations
+-- | -- | --
+16 | 7 x16 = 112 | 112 x8 = 896
+
+> 7 : Threads/EU
+> 8 : 8-wide Single Instruction Multiple Data (SIMD) Arithmetic Logic Units (ALU) 
 
 
 ## Reference
