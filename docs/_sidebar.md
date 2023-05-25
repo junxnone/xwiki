@@ -110,6 +110,7 @@
     - [Intel Advisor](/0217_OPT_Tools_Advisor)
     - [Intel Vtune](/0019_OPT_Tools_Vtune)
       - [Vtune CommandLine Mode](/0020_OPT_Tools_Vtune_CommandLine)
+      - [Intel Vtune iGPU Analysis](/0245_OPT_Tools_Vtune_iGPU)
   - [GPU 性能优化](/0220_OPT_GPU)
   - [TMA](/0021_OPT_TMA)
 - [Pandas](/0181_Pandas)
