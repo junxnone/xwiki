@@ -2,7 +2,7 @@
 Title | Hardware GPU iGPU Arch
 -- | --
 Created @ | `2023-03-17T09:12:51Z`
-Updated @| `2023-03-17T09:12:51Z`
+Updated @| `2023-05-25T14:04:20Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/225)
 
@@ -19,7 +19,19 @@ Edit @| [here](https://github.com/junxnone/xwiki/issues/225)
 
 ![image](https://user-images.githubusercontent.com/2216970/141686187-0d20ab0b-2e9b-46c7-87c3-fe7094aa2b41.png)
 
+### DG1 Gen12.1 GPU
+
+![image](https://github.com/junxnone/xwiki/assets/2216970/b2160526-0961-45a8-a015-4f37607fc2cc)
+
+### Arc GPU Gen 12.7
+
+![image](https://github.com/junxnone/xwiki/assets/2216970/be053c1b-7f25-43fb-bad5-f2a08342341c)
+
+
 ## 架构层次
+- Tile --> Slice --> Sub-slice --> EU
+
+![image](https://github.com/junxnone/xwiki/assets/2216970/798e26e4-184e-4f93-96ad-5b8be4b9c036)
 
 ### Slice
 ![image](https://user-images.githubusercontent.com/2216970/141405977-200c4977-23ce-4ebe-8198-f1a81b245054.png) 
