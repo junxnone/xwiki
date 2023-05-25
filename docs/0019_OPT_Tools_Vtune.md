@@ -2,7 +2,7 @@
 Title | OPT Tools Vtune
 -- | --
 Created @ | `2018-09-28T05:35:41Z`
-Updated @| `2023-05-25T12:30:58Z`
+Updated @| `2023-05-25T12:32:36Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/19)
 
@@ -63,6 +63,7 @@ VTune可视化性能分析器（Intel VTune Performance Analyzer）是一个用�
 
 ## Reference
 - [VTune](https://software.intel.com/en-us/vtune)
+- [Get Started with Intel® VTune™ Profiler](https://www.intel.com/content/www/us/en/docs/vtune-profiler/get-started-guide)
 - [User Guide](https://www.intel.com/content/www/us/en/docs/vtune-profiler/user-guide/2023-1/overview.html)
 - [Intel VTune Profiler Performance Analysis Cookbook](https://www.intel.com/content/www/us/en/docs/vtune-profiler/cookbook)
 - [Parallel Matrix Multiplication - Code Samples of Intel(R) VTune(TM) Profiler](https://github.com/oneapi-src/oneAPI-samples/tree/master/Tools/VTuneProfiler)
