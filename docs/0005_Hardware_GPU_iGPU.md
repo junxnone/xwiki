@@ -2,7 +2,7 @@
 Title | Hardware GPU iGPU
 -- | --
 Created @ | `2021-11-10T17:21:22Z`
-Updated @| `2023-05-25T16:46:10Z`
+Updated @| `2023-05-27T04:33:41Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/5)
 
@@ -47,5 +47,5 @@ EUs | Max Threads | Max Operations
 - [INTEL® GPU Occupancy Calculator](https://oneapi-src.github.io/oneAPI-samples/Tools/GPU-Occupancy-Calculator/index.html)
 - [Intel Processor Graphics - Architecture & Programming](https://www.intel.com/content/dam/develop/external/us/en/documents/intel-graphics-architecture-isa-and-microarchitecture-698638.pdf)
 - [GPU Architecture Terminology for Intel® Xe Graphics](https://www.intel.com/content/www/us/en/developer/articles/technical/gpu-terminology-for-intel-xe.html)
-
+- [Thread Mapping and GPU Occupancy](https://www.intel.com/content/www/us/en/docs/oneapi/optimization-guide-gpu/2023-1/thread-mapping-and-gpu-occupancy.html)
 
