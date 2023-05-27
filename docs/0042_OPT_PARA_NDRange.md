@@ -2,18 +2,13 @@
 Title | OPT PARA NDRange
 -- | --
 Created @ | `2021-11-19T01:12:36Z`
-Updated @| `2023-03-07T14:17:49Z`
+Updated @| `2023-05-27T04:44:06Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/42)
 
 ---
-## Reference
-- [One-Dimensional NDRange](https://www.xilinx.com/html_docs/xilinx2017_4/sdaccel_doc/ece1504034297316.html)
-- [DPC++ Thread Hierarchy and Mapping](https://www.intel.com/content/www/us/en/develop/documentation/oneapi-gpu-optimization-guide/top/thread-mapping.html)
-- [Mapping of oneAPI and DPC++ to CPUs, GPUs, and FPGAs](https://www.intel.com/content/www/us/en/developer/articles/technical/comparing-cpus-gpus-and-fpgas-for-oneapi.html?wapkw=NDRANGE#gs.ivap1r)
-- [ND-range data-parallel kernels](https://enccs.github.io/sycl-workshop/expressing-parallelism-nd-range/)
+# NDRange
 
-## Brief
 - NDRange 相对 Basic Parallel kernels 可以更好的利用Hardware，拥有更好的性能
   - Local Memory
   - Mapping Executions
@@ -70,3 +65,9 @@ CPU | ![image](https://user-images.githubusercontent.com/2216970/221084720-63245
 iGPU | ![image](https://user-images.githubusercontent.com/2216970/142132985-86a8e414-1596-4378-9069-d8609d0f329f.png)
 FPGA | ![image](https://user-images.githubusercontent.com/2216970/146120629-aef3232d-7d90-4930-96b5-0917e11d195a.png)
 
+
+## Reference
+- [One-Dimensional NDRange](https://www.xilinx.com/html_docs/xilinx2017_4/sdaccel_doc/ece1504034297316.html)
+- [DPC++ Thread Hierarchy and Mapping](https://www.intel.com/content/www/us/en/develop/documentation/oneapi-gpu-optimization-guide/top/thread-mapping.html)
+- [Mapping of oneAPI and DPC++ to CPUs, GPUs, and FPGAs](https://www.intel.com/content/www/us/en/developer/articles/technical/comparing-cpus-gpus-and-fpgas-for-oneapi.html?wapkw=NDRANGE#gs.ivap1r)
+- [ND-range data-parallel kernels](https://enccs.github.io/sycl-workshop/expressing-parallelism-nd-range/)
