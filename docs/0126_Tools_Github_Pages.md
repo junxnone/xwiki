@@ -2,27 +2,23 @@
 Title | Tools Github Pages
 -- | --
 Created @ | `2021-09-22T09:13:08Z`
-Updated @| `2023-05-30T16:24:42Z`
+Updated @| `2023-05-30T16:34:54Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/126)
 
 ---
+# Github Pages
+
 - [Github Pages Readme Stats](./Github_Pages_Readme_Stats)
-
-## Blog
-- [Github Pages Mirror](./Github_Pages_Mirror)
-- [Github Pages jekyll](./Github_Pages_jekyll) (older)
-- [docsifyjs](/Github_Pages_docsify)
-
-## Timeline
-- [Github Pages timeline markline](./Github_Pages_timeline_markline)
-- [knightlab timeline 利用 Google sheet导入数据创建](http://timeline.knightlab.com/)
-- [markwhen](https://github.com/mark-when/markwhen)
-- **[vis-timeline](https://visjs.github.io/vis-timeline/examples/timeline/)**
-
-## Map
-- [Github Pages geojson map](./Github_Pages_geojson_map)
-- [Github Pages Baidu Map](./Github_Pages_Baidu_Map)
+- Blog
+  - [Github Pages Mirror](./Github_Pages_Mirror)
+  - [Github Pages jekyll](./Github_Pages_jekyll) (older)
+  - [docsifyjs](/Github_Pages_docsify)
+- Timeline
+  - [Github Pages timeline markline](./Github_Pages_timeline_markline)
+- Map
+  - [Github Pages geojson map](./Github_Pages_geojson_map)
+  - [Github Pages Baidu Map](./Github_Pages_Baidu_Map)
 
 
 
@@ -45,6 +41,9 @@ Edit @| [here](https://github.com/junxnone/xwiki/issues/126)
 ### Timeline Tools
 - [life](https://github.com/cheeaun/life)
 - [markline](https://github.com/hotoo/markline)
+- [knightlab timeline 利用 Google sheet导入数据创建](http://timeline.knightlab.com/)
+- [markwhen](https://github.com/mark-when/markwhen)
+- **[vis-timeline](https://visjs.github.io/vis-timeline/examples/timeline/)**
 
 ### Mindmap Tools
 - https://github.com/dundalek/markmap
@@ -61,3 +60,4 @@ Edit @| [here](https://github.com/junxnone/xwiki/issues/126)
 ### Knowledge Graph
 - [A knowledge graph for Chinese cookbook](https://github.com/ngl567/CookBook-KG)
 - [3d-force-graph](https://github.com/vasturiano/3d-force-graph)
+- [vis-network](https://github.com/visjs/vis-network)
