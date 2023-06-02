@@ -238,6 +238,7 @@
   - [版本号定义](/0146_X_Version)
   - [Word Cloud  - 词云生成](/0233_X_WordCloud)
   - [iso3dfd](/0209_X_iso3dfd)
+- [参考资源](/0247_Reference)
 - Windows
   - Issues
     - [查看 BIOS 版本号](/0235_Windows_Issues_BIOSInfo)
