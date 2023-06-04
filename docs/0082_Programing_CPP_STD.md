@@ -1,8 +1,8 @@
 ---
-Title | Programing CPP StandardLibrary
+Title | Programing CPP STD
 -- | --
 Created @ | `2021-07-27T02:49:13Z`
-Updated @| `2023-06-04T04:04:11Z`
+Updated @| `2023-06-04T04:09:19Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/82)
 
