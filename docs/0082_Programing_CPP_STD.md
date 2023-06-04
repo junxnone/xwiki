@@ -2,17 +2,14 @@
 Title | Programing CPP STD
 -- | --
 Created @ | `2021-07-27T02:49:13Z`
-Updated @| `2023-06-04T04:09:19Z`
+Updated @| `2023-06-04T04:10:02Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/82)
 
 ---
-# 标准库
+# 标准库 
 
-
-
-## Brief
-
+- `C++ Standard Library`
 - 几种实现
   - GNU - [libstdc++](https://github.com/gcc-mirror/gcc/tree/master/libstdc%2B%2B-v3)
   - Microsoft - [STL](https://github.com/microsoft/STL)
