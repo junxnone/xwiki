@@ -2,15 +2,14 @@
 Title | Programing CPP StandardLibrary
 -- | --
 Created @ | `2021-07-27T02:49:13Z`
-Last Modify @| `2022-12-22T06:27:48Z`
+Updated @| `2023-06-04T04:04:11Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/82)
 
 ---
 # 标准库
 
-## Reference
-- [C++ Standard Library - wikipedia](https://en.wikipedia.org/wiki/C%2B%2B_Standard_Library)
+
 
 ## Brief
 
@@ -33,3 +32,7 @@ Edit @| [here](https://github.com/junxnone/xwiki/issues/82)
 
 ## UseCase
 
+
+## Reference
+- [C++ Standard Library - wikipedia](https://en.wikipedia.org/wiki/C%2B%2B_Standard_Library)
+- [What is libstdc++? - GNU GCC](https://gcc.gnu.org/onlinedocs/libstdc++/faq.html#faq.what)
