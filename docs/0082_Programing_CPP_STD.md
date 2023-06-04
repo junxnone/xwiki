@@ -2,7 +2,7 @@
 Title | Programing CPP STD
 -- | --
 Created @ | `2021-07-27T02:49:13Z`
-Updated @| `2023-06-04T04:10:02Z`
+Updated @| `2023-06-04T04:18:35Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/82)
 
@@ -12,7 +12,7 @@ Edit @| [here](https://github.com/junxnone/xwiki/issues/82)
 - `C++ Standard Library`
 - 几种实现
   - GNU - [libstdc++](https://github.com/gcc-mirror/gcc/tree/master/libstdc%2B%2B-v3)
-  - Microsoft - [STL](https://github.com/microsoft/STL)
+  - Microsoft - [STL](https://github.com/microsoft/STL) [STL Overview](https://learn.microsoft.com/en-us/cpp/standard-library/cpp-standard-library-overview)
   - Apache - [stdcxx](https://github.com/apache/stdcxx/tree/trunk) ?? 不再开发？
   - LLVM - [libcxx](https://github.com/llvm/llvm-project/tree/main/libcxx)
 
