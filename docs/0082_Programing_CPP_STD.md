@@ -2,7 +2,7 @@
 Title | Programing CPP STD
 -- | --
 Created @ | `2021-07-27T02:49:13Z`
-Updated @| `2023-06-04T04:24:31Z`
+Updated @| `2023-06-04T04:27:59Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/82)
 
@@ -35,6 +35,5 @@ Edit @| [here](https://github.com/junxnone/xwiki/issues/82)
 
 ## Reference
 - [C++ Standard Library - wikipedia](https://en.wikipedia.org/wiki/C%2B%2B_Standard_Library)
-- [What is libstdc++? - GNU GCC](https://gcc.gnu.org/onlinedocs/libstdc++/faq.html#faq.what)
 
 
