@@ -2,7 +2,7 @@
 Title | Programing CPP
 -- | --
 Created @ | `2021-07-27T02:33:13Z`
-Updated @| `2023-06-04T05:06:04Z`
+Updated @| `2023-06-04T09:31:19Z`
 Labels | `reindex`
 Edit @| [here](https://github.com/junxnone/xwiki/issues/77)
 
@@ -33,3 +33,5 @@ Edit @| [here](https://github.com/junxnone/xwiki/issues/77)
 - [isocpp std status](https://isocpp.org/std/status)
 - [C++ Books](https://github.com/EbookFoundation/free-programming-books/blob/main/books/free-programming-books-zh.md#c-1)
 - [C++ compilers](https://en.wikipedia.org/wiki/List_of_compilers#C++_compilers)
+- [awesome-cpp](https://github.com/fffaraz/awesome-cpp)
+- [Awesome C++](https://github.com/Correia-jpv/fucking-awesome-cpp)
