@@ -2,7 +2,7 @@
 Title | Programing CPP STD
 -- | --
 Created @ | `2021-07-27T02:49:13Z`
-Updated @| `2023-06-04T04:18:35Z`
+Updated @| `2023-06-04T04:21:12Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/82)
 
@@ -33,3 +33,5 @@ Edit @| [here](https://github.com/junxnone/xwiki/issues/82)
 ## Reference
 - [C++ Standard Library - wikipedia](https://en.wikipedia.org/wiki/C%2B%2B_Standard_Library)
 - [What is libstdc++? - GNU GCC](https://gcc.gnu.org/onlinedocs/libstdc++/faq.html#faq.what)
+- [C runtime (CRT) and C++ standard library (STL) .lib files](https://learn.microsoft.com/en-us/cpp/c-runtime-library/crt-library-features)
+
