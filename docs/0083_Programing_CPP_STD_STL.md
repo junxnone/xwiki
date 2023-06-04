@@ -2,12 +2,13 @@
 Title | Programing CPP STD STL
 -- | --
 Created @ | `2021-07-27T02:50:05Z`
-Updated @| `2023-06-04T04:10:14Z`
+Updated @| `2023-06-04T04:11:16Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/83)
 
 ---
-# STL Standard Template Library
+# 标准模板库
+- STL -  `Standard Template Library`
 - 最初由惠普实验室开发，于 1998 年被定为国际标准，成为 C++ 标准库的重要组成部分
 - **内置**到 `C++ Compiler` 中(头文件方式提供)
 - 包含一些容器/算法/...
