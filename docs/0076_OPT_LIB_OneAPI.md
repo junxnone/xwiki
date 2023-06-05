@@ -2,7 +2,7 @@
 Title | OPT LIB OneAPI
 -- | --
 Created @ | `2021-06-23T06:24:28Z`
-Updated @| `2023-03-01T03:32:33Z`
+Updated @| `2023-06-05T03:04:04Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/76)
 
@@ -37,7 +37,7 @@ Edit @| [here](https://github.com/junxnone/xwiki/issues/76)
 ### CUDA 迁移工具
 
 - **DPCT**: `DPC++ Compatibility Tool`  迁移 `CUDA* code` 到 `SCYL Code`
-
+- -->[SYCLomatic](https://oneapi-src.github.io/SYCLomatic/index.html) [[Code](https://github.com/oneapi-src/SYCLomatic)]
 
 
 ## Reference
