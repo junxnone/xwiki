@@ -2,38 +2,45 @@
 Title | Tools Git proxy
 -- | --
 Created @ | `2018-12-10T06:05:14Z`
-Last Modify @| `2022-12-22T06:47:40Z`
+Updated @| `2023-06-13T02:18:25Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/113)
 
 ---
-## Reference
-- [一文让你了解如何为 Git 设置代理](https://ericclose.github.io/git-proxy-config.html)
+# Git Proxy Set
 
-## Brief
-- Tools: socat/connect-proxy
-- 1 Install `connect-proxy`
-- 2 Setup `ssh config`
-- 3 Setup `git config`
+- http/https proxy
+- git proxy
 
-### 1 SSH proxy setting with `connect-proxy`
-
-- Install `connect-proxy/socat`
+## http/https proxy
 
 ```
-sudo apt-get install connect-proxy socat
+git config --global http.proxy  proxy_ip:port
+git config --global https.proxy proxy_ip:port
 ```
-### 2 Setup ssh config
 
-- setup `~/.ssh/config`, add the following section
+### unset http/https proxy
+
+```
+git config --global --unset http.proxy
+git config --global --unset https.proxy
+```
+
+
+## ssh proxy
+
+### connect-proxy
+
+```
+sudo apt install -y connect-proxy
+```
 
 ```
 host github.com
-    ProxyCommand connect -a none -S proxy_ip:proxy_port(1080) %h %p
+    ProxyCommand connect -a none -S your_proxy_ip:port %h %p
 ```
 
-
-### 3 Setup Git Config gitProxy 
+### socat
 
 - Create `/usr/bin/git-proxy`
 ```
@@ -44,6 +51,7 @@ else
     exec /usr/bin/socat stdio SOCKS:[your_ip_or_url]:$1:$2
 fi
 ```
+
 ```
 sudo chmod +x /usr/bin/git-proxy
 ```
@@ -54,5 +62,7 @@ sudo chmod +x /usr/bin/git-proxy
 git config --global core.gitProxy git-proxy
 ```
 
+## Reference
+- [一文让你了解如何为 Git 设置代理](https://ericclose.github.io/git-proxy-config.html)
 
 
