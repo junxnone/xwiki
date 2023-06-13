@@ -2,7 +2,7 @@
 Title | Pandas UseCase IO
 -- | --
 Created @ | `2019-08-15T11:23:03Z`
-Updated @| `2022-12-28T05:33:58Z`
+Updated @| `2023-06-13T02:20:05Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/188)
 
@@ -39,6 +39,12 @@ df.to_markdown()
 ```
 pd.read_csv('foo.csv')
 df.to_csv('foo.csv')
+```
+
+- 保存为无 `index` 的 `csv`
+
+```
+df.to_csv('csv_name.csv', index=None)
 ```
 
 ### h5
