@@ -2,12 +2,11 @@
 Title | Pandas UseCase row
 -- | --
 Created @ | `2022-12-22T09:28:35Z`
-Last Modify @| `2022-12-22T09:28:35Z`
+Updated @| `2023-06-15T16:35:32Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/199)
 
 ---
-
 # 行操作
 
 
@@ -37,5 +36,12 @@ df.loc[len(df), 'name'] = 'xxx'
 
 ```
 df.drop([0,1],inplace=True) 删除 行
+```
+
+## 遍历行
+
+```
+for index, row in df.iterrows():
+  print(row)
 ```
 
