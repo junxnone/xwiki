@@ -156,8 +156,9 @@
     - [branch](/0115_Tools_Git_branch)
     - [tag](/0116_Tools_Git_tag)
     - [submodule](/0114_Tools_Git_submodule)
-    - [Git Proxy Set](/0113_Tools_Git_proxy)
+    - [Proxy Setup](/0113_Tools_Git_proxy)
     - [移除 stage 文件](/0119_Tools_Git_RMStageFile)
+    - [git bash](/0256_Tools_Git_Bash)
     - [No newline at end of file](/0120_Tools_Git_NoNewline)
     - [Git Patch 生成与使用](/0226_Tools_Git_Patch)
     - [archive](/0118_Tools_Git_archive)
@@ -257,4 +258,4 @@
 - [Wiki History](/hist)
 
 ---
-<kbd><sub>@1607450616</sub></kbd>
+<kbd><sub>@1618450616</sub></kbd>
