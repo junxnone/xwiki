@@ -1,7 +1,7 @@
 ---
 Title | README
 -- | --
-Last Modify @ | `2022-12-22T08:41:02Z`
+Updated @ | `2023-06-16T07:08:23Z`
 Edit @ | [here](https://github.com/junxnone/xwiki/issues/194)
 
 ---
@@ -10,6 +10,7 @@ Edit @ | [here](https://github.com/junxnone/xwiki/issues/194)
 
 This is a [X] Wiki. 
 
+[kg](https://junxnone.github.io/xwiki/kg ':include :type=iframe width=100% height=800px')
 
 [Index](_sidebar.md ':include')
 
