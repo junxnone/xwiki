@@ -2,12 +2,12 @@
 Title | Tools Git proxy
 -- | --
 Created @ | `2018-12-10T06:05:14Z`
-Updated @| `2023-06-13T02:18:25Z`
+Updated @| `2023-06-16T08:10:33Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/113)
 
 ---
-# Git Proxy Set
+# Proxy Setup
 
 - http/https proxy
 - git proxy
