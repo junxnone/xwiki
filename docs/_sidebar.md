@@ -140,7 +140,7 @@
   - Issues
     - [SettingWithCopyWarning](/0185_Pandas_Issues_SettingWithCopyWarning)
     - [存储为 csv 再读入后, 单元格值 `list` 类型会变成 `str` 类型](/0213_Pandas_Issues_csvliststr)
-- Tools
+- [Tools](/0257_Tools)
   - [Jupyter](/0163_Tools_Jupyter)
     - [Arch](/0069_Tools_Jupyter_Arch)
     - [CPP](/0067_Tools_Jupyter_CPP)
@@ -258,4 +258,4 @@
 - [Wiki History](/hist)
 
 ---
-<kbd><sub>@1618450616</sub></kbd>
+<kbd><sub>@1628020616</sub></kbd>
