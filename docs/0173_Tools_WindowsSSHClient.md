@@ -2,22 +2,16 @@
 Title | Tools WindowsSSHClient
 -- | --
 Created @ | `2020-12-03T01:41:48Z`
-Last Modify @| `2022-12-22T08:02:14Z`
+Updated @| `2023-06-16T08:26:35Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/173)
 
 ---
 # Windows SSH 工具
+- putty
+- git bash(`没有工具时，如果有安装 git bash，也可以简单的使用其自带的ssh`)
 
-## Reference
-- [2018程序员最佳ssh免费登陆工具](https://www.jianshu.com/p/b29b894aa60f)
-- [SSH客户端比较 - wikipedia](https://zh.wikipedia.org/wiki/SSH%E5%AE%A2%E6%88%B7%E7%AB%AF%E6%AF%94%E8%BE%83)
-
-## Brief
-- [putty](./putty)
-
-
-## VS
+## Diff
 
 
 Names | 开源 | 免费 | sftp | X11|
@@ -32,3 +26,9 @@ Names | 开源 | 免费 | sftp | X11|
 [SSH Secure Shell Client](https://www.ssh.com/ssh/) | ❌ 
 [Termius](https://termius.com/) |❌  | Basic |  ✅ | ✅ 
 [electerm](https://github.com/electerm/electerm)|  ✅ | ✅  | ✅ | ✅ 
+
+
+## Reference
+- [2018程序员最佳ssh免费登陆工具](https://www.jianshu.com/p/b29b894aa60f)
+- [SSH客户端比较 - wikipedia](https://zh.wikipedia.org/wiki/SSH%E5%AE%A2%E6%88%B7%E7%AB%AF%E6%AF%94%E8%BE%83)
+
