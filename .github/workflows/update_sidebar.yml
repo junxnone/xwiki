@@ -5,6 +5,7 @@ on:
   issues:
     types: [pinned]
   workflow_call:
+  workflow_dispatch:
 
 jobs:
   run:
