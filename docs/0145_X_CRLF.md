@@ -2,12 +2,12 @@
 Title | X CRLF
 -- | --
 Created @ | `2020-04-23T09:44:34Z`
-Updated @| `2023-04-10T03:20:11Z`
+Updated @| `2023-06-17T15:20:46Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/145)
 
 ---
-# 文件换行 Windows/Linux CRLF/LF
+# 文件换行 Windows Linux CRLF LF
 - CR - Carriage-Return - 回车 - `ASCII 13` - `\r`
 - LF -  Line-Feed - 换行 -  `ASCII 10` - `\n`
 
