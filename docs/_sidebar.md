@@ -122,7 +122,7 @@
 - [Pandas](/0181_Pandas)
   - [Series](/0184_Pandas_Series)
   - [DataFrame](/0182_Pandas_DataFrame)
-  - UseCase
+  - [Pandas UseCase](/0260_Pandas_UseCase)
     - [Format Output/读写文件](/0188_Pandas_UseCase_IO)
     - [列操作](/0198_Pandas_UseCase_columns)
     - [行操作](/0199_Pandas_UseCase_row)
@@ -259,4 +259,4 @@
 - [Wiki History](/hist)
 
 ---
-<kbd><sub>@2310500617</sub></kbd>
+<kbd><sub>@2314570617</sub></kbd>
