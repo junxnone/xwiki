@@ -2,19 +2,14 @@
 Title | Hypervisor Docker Compose
 -- | --
 Created @ | `2018-09-06T16:19:34Z`
-Last Modify @| `2022-12-22T05:54:07Z`
+Updated @| `2023-06-17T10:54:39Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/47)
 
 ---
-## Reference
-- [install-compose](https://docs.docker.com/compose/install/#install-compose)
-- [Docker Compose Document](https://docs.docker.com/compose/)
-- [Compose file version 3 reference](https://docs.docker.com/compose/compose-file/#compose-and-docker-compatibility-matrix)
-- [compose Github repo](https://github.com/docker/compose/)
-- [Compose file  reference](https://docs.docker.com/compose/compose-file/)
 
-## Brief
+
+# Docker Compose
 
 - [Install](#Install)
 - [UseCase](#usecase)
@@ -162,3 +157,9 @@ $ docker-compose up
 then, the service is avaliable at : http://0.0.0.0:5000/
 
 
+## Reference
+- [install-compose](https://docs.docker.com/compose/install/#install-compose)
+- [Docker Compose Document](https://docs.docker.com/compose/)
+- [Compose file version 3 reference](https://docs.docker.com/compose/compose-file/#compose-and-docker-compatibility-matrix)
+- [compose Github repo](https://github.com/docker/compose/)
+- [Compose file  reference](https://docs.docker.com/compose/compose-file/)
