@@ -178,7 +178,7 @@
       - [docsify](/0130_Tools_Github_Pages_docsify)
       - [jekyll](/0129_Tools_Github_Pages_jekyll)
     - [Token](/0123_Tools_Github_Token)
-    - [actions](/0122_Tools_Github_actions)
+    - [Github Actions](/0122_Tools_Github_actions)
     - [backup](/0121_Tools_Github_backup)
   - [Compiler Explorer](/0253_Tools_CompilerExplorer)
   - [Gitlab](/0133_Tools_Gitlab)
@@ -259,4 +259,4 @@
 - [Wiki History](/hist)
 
 ---
-<kbd><sub>@2246150617</sub></kbd>
+<kbd><sub>@2303330617</sub></kbd>
