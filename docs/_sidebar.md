@@ -237,6 +237,7 @@
   - [YAML](/0140_Doc_YAML)
   - [reStructuredText](/0246_Doc_reStructuredText)
 - [未分类](/0263_X)
+  - [API Vs ABI](/0252_X_APIvsABI)
   - [BLAS](/0179_X_BLAS)
   - [Base64](/0208_X_Base64)
   - [文件换行 Windows Linux CRLF LF](/0145_X_CRLF)
@@ -254,9 +255,7 @@
     - [Windows 命令行执行命令时卡住](/0234_Windows_Issues_CommandLineHang)
   - [Windows Batch 批处理](/0230_Windows_batch)
     - [for](/0229_Windows_batch_for)
-- x
-  - [API Vs ABI](/0252_x_APIvsABI)
 - [Wiki History](/hist)
 
 ---
-<kbd><sub>@2323450617</sub></kbd>
+<kbd><sub>@2324190617</sub></kbd>
