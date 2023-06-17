@@ -1,8 +1,8 @@
 ---
-Title | Build Cmake commands option
+Title | Build Cmake CMD option
 -- | --
 Created @ | `2023-03-23T03:21:06Z`
-Updated @| `2023-03-24T14:36:27Z`
+Updated @| `2023-06-17T14:00:11Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/228)
 
