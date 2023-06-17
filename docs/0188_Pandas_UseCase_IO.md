@@ -2,12 +2,12 @@
 Title | Pandas UseCase IO
 -- | --
 Created @ | `2019-08-15T11:23:03Z`
-Updated @| `2023-06-13T02:20:05Z`
+Updated @| `2023-06-17T15:18:37Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/188)
 
 ---
-# Format Output/读写文件
+# Format Output 读写文件
 
 
 - Numpy
