@@ -1,8 +1,8 @@
 ---
-Title | Windows Issues BIOSInfo
+Title | Windows BIOSInfo
 -- | --
 Created @ | `2023-03-28T03:40:35Z`
-Updated @| `2023-03-28T03:40:35Z`
+Updated @| `2023-06-17T15:22:09Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/235)
 
