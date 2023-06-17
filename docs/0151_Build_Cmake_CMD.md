@@ -2,20 +2,14 @@
 Title | Build Cmake CMD
 -- | --
 Created @ | `2022-01-06T08:16:00Z`
-Last Modify @| `2022-12-22T07:27:44Z`
+Updated @| `2023-06-17T14:29:51Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/151)
 
 ---
 # 命令行
 
-## Reference
-- [cmake commands - manual](https://cmake.org/cmake/help/v3.22/manual/cmake-commands.7.html)
-- [string](https://cmake.org/cmake/help/latest/command/string.html)
-- [file](https://cmake.org/cmake/help/v3.22/command/file.html)
 
-
-## Brief
 - Scripting Commands
 - Project Commands
 - Ctest Commands
@@ -98,3 +92,9 @@ Archiving
 
 
 ## Ctest Commands
+
+## Reference
+- [cmake commands - manual](https://cmake.org/cmake/help/v3.22/manual/cmake-commands.7.html)
+- [string](https://cmake.org/cmake/help/latest/command/string.html)
+- [file](https://cmake.org/cmake/help/v3.22/command/file.html)
+
