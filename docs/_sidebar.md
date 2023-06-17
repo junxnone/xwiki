@@ -137,7 +137,7 @@
     - [简单查看数据](/0197_Pandas_UseCase_ShowSummaryInfo)
     - [list2csv](/0183_Pandas_UseCase_list2csv)
   - [可视化](/0189_Pandas_Visualization)
-  - Issues
+  - [Pandas Issues](/0262_Pandas_Issues)
     - [SettingWithCopyWarning](/0185_Pandas_Issues_SettingWithCopyWarning)
     - [存储为 csv 再读入后, 单元格值 `list` 类型会变成 `str` 类型](/0213_Pandas_Issues_csvliststr)
 - [Tools](/0257_Tools)
@@ -259,4 +259,4 @@
 - [Wiki History](/hist)
 
 ---
-<kbd><sub>@2316540617</sub></kbd>
+<kbd><sub>@2317480617</sub></kbd>
