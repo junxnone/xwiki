@@ -1,8 +1,8 @@
 ---
-Title | Doc  reStructuredText
+Title | Doc reStructuredText
 -- | --
 Created @ | `2023-06-02T01:22:30Z`
-Updated @| `2023-06-02T01:22:30Z`
+Updated @| `2023-06-17T10:26:50Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/246)
 
