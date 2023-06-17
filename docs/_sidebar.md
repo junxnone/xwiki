@@ -164,7 +164,7 @@
     - [archive](/0118_Tools_Git_archive)
     - [precommit](/0117_Tools_Git_precommit)
   - [Conda](/0073_Tools_Conda)
-  - Github
+  - [Github](/0259_Tools_Github)
     - [ChromeExtensions](/0124_Tools_Github_ChromeExtensions)
       - [Sourcegraph](/0125_Tools_Github_ChromeExtensions_Sourcegraph)
     - [比较 branch/commit](/0236_Tools_Github_Compare)
@@ -259,4 +259,4 @@
 - [Wiki History](/hist)
 
 ---
-<kbd><sub>@2303330617</sub></kbd>
+<kbd><sub>@2310500617</sub></kbd>
