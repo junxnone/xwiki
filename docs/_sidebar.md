@@ -250,7 +250,7 @@
 - [参考资源](/0247_Reference)
 - [Windows](/0264_Windows)
   - [查看 BIOS 版本号](/0235_Windows_BIOSInfo)
-  - Issues
+  - [Windows Issues](/0265_Windows_Issues)
     - [Windows 命令行执行命令时卡住](/0234_Windows_Issues_CommandLineHang)
   - [Windows Batch 批处理](/0230_Windows_batch)
     - [for](/0229_Windows_batch_for)
@@ -259,4 +259,4 @@
 - [Wiki History](/hist)
 
 ---
-<kbd><sub>@2323210617</sub></kbd>
+<kbd><sub>@2323450617</sub></kbd>
