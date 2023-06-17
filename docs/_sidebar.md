@@ -112,7 +112,7 @@
       - [Level Zero](/0037_OPT_LIB_OneAPI_LevelZero)
       - [OneAPI iGPU](/0210_OPT_LIB_OneAPI_iGPU)
       - [Intel OneAPI oneDPL](/0075_OPT_LIB_OneAPI_oneDPL)
-  - Tools
+  - [性能优化工具](/0261_OPT_Tools)
     - [Intel Advisor](/0217_OPT_Tools_Advisor)
     - [Intel Vtune](/0019_OPT_Tools_Vtune)
       - [Vtune CommandLine Mode](/0020_OPT_Tools_Vtune_CommandLine)
@@ -259,4 +259,4 @@
 - [Wiki History](/hist)
 
 ---
-<kbd><sub>@2314570617</sub></kbd>
+<kbd><sub>@2316540617</sub></kbd>
