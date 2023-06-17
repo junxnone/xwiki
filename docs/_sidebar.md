@@ -66,7 +66,7 @@
   - [Cmake](/0053_Build_Cmake)
     - [Install](/0054_Build_Cmake_Install)
     - [命令行](/0151_Build_Cmake_CMD)
-      - [option](/0228_Build_Cmake_CMD_option)
+      - [使用 option 添加编译选项](/0228_Build_Cmake_CMD_option)
     - [UseCase](/0060_Build_Cmake_UseCase)
     - [变量](/0056_Build_Cmake_VAR)
     - [Debug](/0057_Build_Cmake_Debug)
@@ -259,4 +259,4 @@
 - [Wiki History](/hist)
 
 ---
-<kbd><sub>@2232530617</sub></kbd>
+<kbd><sub>@2246150617</sub></kbd>
