@@ -66,6 +66,7 @@
   - [Cmake](/0053_Build_Cmake)
     - [Install](/0054_Build_Cmake_Install)
     - [命令行](/0151_Build_Cmake_CMD)
+      - [option](/0228_Build_Cmake_CMD_option)
     - [UseCase](/0060_Build_Cmake_UseCase)
     - [变量](/0056_Build_Cmake_VAR)
     - [Debug](/0057_Build_Cmake_Debug)
@@ -74,8 +75,6 @@
     - [Generators](/0156_Build_Cmake_Generators)
     - [Platforms](/0058_Build_Cmake_Platforms)
     - [cpack](/0062_Build_Cmake_cpack)
-    - commands
-      - [option](/0228_Build_Cmake_commands_option)
     - [语法](/0055_Build_Cmake_语法)
   - [Make](/0063_Build_Make)
   - [pk-config](/0064_Build_pkgconfig)
@@ -260,4 +259,4 @@
 - [Wiki History](/hist)
 
 ---
-<kbd><sub>@2200440617</sub></kbd>
+<kbd><sub>@2230270617</sub></kbd>
