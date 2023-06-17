@@ -2,12 +2,12 @@
 Title | Build Cmake CMD option
 -- | --
 Created @ | `2023-03-23T03:21:06Z`
-Updated @| `2023-06-17T14:00:11Z`
+Updated @| `2023-06-17T14:45:39Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/228)
 
 ---
-# option
+# 使用 option 添加编译选项
 
 - 提供一个 `Boolean` 类型的选项
 - 可以在 命令行中 `cmake ..` 时使用
