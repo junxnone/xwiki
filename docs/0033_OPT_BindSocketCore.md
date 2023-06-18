@@ -2,12 +2,12 @@
 Title | OPT BindSocketCore
 -- | --
 Created @ | `2021-08-12T05:42:22Z`
-Last Modify @| `2022-12-22T03:55:51Z`
+Updated @| `2023-06-18T18:00:57Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/33)
 
 ---
-# 绑定 Socker & Core
+# 绑定 Socket & Core
 
 ## Reference
 - [CPU Affinity Mask Calculator](https://bitsum.com/tools/cpu-affinity-calculator/)
