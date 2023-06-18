@@ -171,6 +171,7 @@
     - [Github Pages](/0126_Tools_Github_Pages)
       - [BaiduMap](/0132_Tools_Github_Pages_BaiduMap)
         - [部署到 Gitee](/0172_Tools_Github_Pages_BaiduMap_Issues)
+      - [Debug Github Pages](/0266_Tools_Github_Pages_Debug)
       - [Geojson Map](/0177_Tools_Github_Pages_GeojsonMap)
       - [Markline Timeline](/0131_Tools_Github_Pages_Markline)
       - [Mirror](/0128_Tools_Github_Pages_Mirror)
@@ -258,4 +259,4 @@
 - [Wiki History](/hist)
 
 ---
-<kbd><sub>@2324190617</sub></kbd>
+<kbd><sub>@1125470618</sub></kbd>
