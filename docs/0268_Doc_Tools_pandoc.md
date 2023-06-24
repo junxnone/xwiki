@@ -2,7 +2,7 @@
 Title | Doc Tools pandoc
 -- | --
 Created @ | `2023-06-24T04:50:42Z`
-Updated @| `2023-06-24T04:53:35Z`
+Updated @| `2023-06-24T05:18:13Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/268)
 
@@ -13,6 +13,13 @@ Edit @| [here](https://github.com/junxnone/xwiki/issues/268)
 
 
 
+## 提取媒体文件
+
+- `input.md` --> `output.md`  
+- `images` -> `media/`
+```
+pandoc --wrap=preserve -f markdown input.md --extract-media=media -t markdown -o output.md
+```
 
 
 ## Reference
