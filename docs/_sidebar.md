@@ -240,6 +240,7 @@
     - [Pandoc](/0268_Doc_Tools_pandoc)
       - [Pandoc: `提取媒体文件`](/0270_Doc_Tools_pandoc_extractmedia)
       - [Pandoc:  `Markdown => Pdf`](/0269_Doc_Tools_pandoc_md2pdf)
+      - [Pandoc: 生成目录TOC](/0273_Doc_Tools_pandoc_mdtoc)
       - [Pandoc: `合并 markdown`](/0272_Doc_Tools_pandoc_mergemd)
   - [YAML](/0140_Doc_YAML)
   - [reStructuredText](/0246_Doc_reStructuredText)
@@ -265,4 +266,4 @@
 - [Wiki History](/hist)
 
 ---
-<kbd><sub>@1745070624</sub></kbd>
+<kbd><sub>@1838070624</sub></kbd>
