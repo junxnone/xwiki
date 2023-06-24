@@ -2,7 +2,7 @@
 Title | Doc Tools pandoc md2pdf
 -- | --
 Created @ | `2023-06-24T06:06:44Z`
-Updated @| `2023-06-24T06:06:44Z`
+Updated @| `2023-06-24T09:44:30Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/269)
 
@@ -65,5 +65,5 @@ $ fc-list :lang=zh
 - 从以上支持的中文字体 list 中选择 字体 (例如 `Noto Serif CJK SC`)
 
 ```
-pandoc input.md -o output.pdf  -V mainfont="Noto Serif CJK SC"
+pandoc input.md -o output.pdf  --pdf-engine=xelatex -V mainfont="Noto Serif CJK SC"
 ```
