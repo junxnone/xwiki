@@ -1,7 +1,7 @@
 ---
 Title | README
 -- | --
-Updated @ | `2023-07-01T17:23:12Z`
+Updated @ | `2023-07-01T17:24:38Z`
 Edit @ | [here](https://github.com/junxnone/xwiki/issues/194)
 
 ---
@@ -11,7 +11,7 @@ Edit @ | [here](https://github.com/junxnone/xwiki/issues/194)
 This is a [X] Wiki. 
 
 
-- [Mindmap - Markmap](https://junxnone.github.io/xwiki/markmap.html?md=https://junxnone.github.io/xwiki/_sidebar.md)
+- [Mindmap - Markmap](https://junxnone.github.io/jstools/mdmarkmap?md=https://junxnone.github.io/xwiki/_sidebar.md)
 - [3D Knowledge Graph](https://junxnone.github.io/jstools/3dkg/?json=https://junxnone.github.io/xwiki/kg.json)
 
 ---
