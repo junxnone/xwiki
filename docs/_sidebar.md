@@ -154,7 +154,7 @@
     - [UseLocalPackage](/0068_Tools_Jupyter_UseLocalPackage)
   - [Git](/0111_Tools_Git)
     - [Git Configs](/0112_Tools_Git_config)
-    - [branch](/0115_Tools_Git_branch)
+    - [Git Branch](/0115_Tools_Git_branch)
     - [tag](/0116_Tools_Git_tag)
     - [submodule](/0114_Tools_Git_submodule)
     - [Proxy Setup](/0113_Tools_Git_proxy)
@@ -270,4 +270,4 @@
 - [Wiki History](/hist)
 
 ---
-<kbd><sub>@2257310705</sub></kbd>
+<kbd><sub>@2258420705</sub></kbd>
