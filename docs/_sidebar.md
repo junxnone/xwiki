@@ -164,6 +164,7 @@
     - [Git Patch 生成与使用](/0226_Tools_Git_Patch)
     - [Git Rebase](/0274_Tools_Git_Rebase)
     - [archive](/0118_Tools_Git_archive)
+    - [Git diff](/0277_Tools_Git_diff)
     - [precommit](/0117_Tools_Git_precommit)
   - [Conda](/0073_Tools_Conda)
   - [Github](/0259_Tools_Github)
@@ -269,4 +270,4 @@
 - [Wiki History](/hist)
 
 ---
-<kbd><sub>@1609270705</sub></kbd>
+<kbd><sub>@2257310705</sub></kbd>
