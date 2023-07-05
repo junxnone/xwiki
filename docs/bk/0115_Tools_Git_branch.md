@@ -1,23 +1,19 @@
 -----
 
-| Title         | Tools Git branch                                     |
-| ------------- | ---------------------------------------------------- |
-| Created @     | `2019-03-25T11:02:40Z`                               |
-| Last Modify @ | `2022-12-22T06:48:19Z`                               |
-| Labels        | \`\`                                                 |
-| Edit @        | [here](https://github.com/junxnone/xwiki/issues/115) |
+| Title     | Tools Git branch                                     |
+| --------- | ---------------------------------------------------- |
+| Created @ | `2019-03-25T11:02:40Z`                               |
+| Updated @ | `2023-07-05T14:57:44Z`                               |
+| Labels    | \`\`                                                 |
+| Edit @    | [here](https://github.com/junxnone/xwiki/issues/115) |
 
 -----
 
-## Reference
-
-  - [成熟的 Git 分支模型](https://my.oschina.net/liebrother/blog/2990683)
-
-## Brief
+# Git Branch
 
 **分支介绍**
 
-  - master ：这个分支的代码是发布到生产的代码
+  - master/main ：这个分支的代码是发布到生产的代码
   - develop ：这个分支的代码是预发布到生产的代码
   - release ：这个分支的代码是新版本发布到生产的代码
   - feature ：这个分支的代码是新需求开发的代码
@@ -39,3 +35,7 @@
 | Remote Branch 已删除<br>但 Local 仍能看到 | `git remote prune origin`                                                                                          |
 | show all branch details           | `git show-branch`                                                                                                  |
 | 命令行显示分支路线                         | `git log --graph --all --oneline`                                                                                  |
+
+## Reference
+
+  - [成熟的 Git 分支模型](https://my.oschina.net/liebrother/blog/2990683)
