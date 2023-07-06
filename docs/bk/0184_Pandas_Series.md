@@ -1,20 +1,15 @@
 -----
 
-| Title         | Pandas Series                                        |
-| ------------- | ---------------------------------------------------- |
-| Created @     | `2019-08-14T05:12:21Z`                               |
-| Last Modify @ | `2022-12-22T08:16:53Z`                               |
-| Labels        | \`\`                                                 |
-| Edit @        | [here](https://github.com/junxnone/xwiki/issues/184) |
+| Title     | Pandas Series                                        |
+| --------- | ---------------------------------------------------- |
+| Created @ | `2019-08-14T05:12:21Z`                               |
+| Updated @ | `2023-07-06T15:12:20Z`                               |
+| Labels    | \`\`                                                 |
+| Edit @    | [here](https://github.com/junxnone/xwiki/issues/184) |
 
 -----
 
-## Reference
-
-  - [API
-    Docs](https://pandas.pydata.org/pandas-docs/stable/reference/series.html)
-
-## Brief
+# Series
 
   - Series是带有标签的一维数组，可以保存任何数据类型（整数，字符串，浮点数，Python对象等）
 
@@ -118,3 +113,8 @@
     s.get('f')
     s.get('f', np.nan)
     nan
+
+## Reference
+
+  - [API
+    Docs](https://pandas.pydata.org/pandas-docs/stable/reference/series.html)
