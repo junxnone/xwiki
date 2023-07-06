@@ -2,22 +2,17 @@
 Title | Programing Python CodeAnalysis
 -- | --
 Created @ | `2020-03-16T00:12:19Z`
-Last Modify @| `2022-12-22T06:33:47Z`
+Updated @| `2023-07-06T09:25:30Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/90)
 
 ---
 # 代码分析工具
 
-## Reference
-- [Github - PyCQA](https://github.com/PyCQA/pylint)
-- [Github - Google](https://github.com/google/yapf)
-
-## Brief
 - Code Analysis Tools - 代码分析工具
-- [bandit](/Python_bandit)
-- [pylint](/Python_pylint)
-- [yapf](/Python_yapf)
+- bandit
+- pylint
+- yapf
 
 Name | History | Type | Description
 -- | -- | -- | --
@@ -28,3 +23,7 @@ yapf |  | formatter | Google
 
 > analysis - static code analysis
 
+
+## Reference
+- [Github - PyCQA](https://github.com/PyCQA/pylint)
+- [Github - Google](https://github.com/google/yapf)
