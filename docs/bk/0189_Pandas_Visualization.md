@@ -1,24 +1,15 @@
 -----
 
-| Title         | Pandas Visualization                                 |
-| ------------- | ---------------------------------------------------- |
-| Created @     | `2020-04-07T07:07:53Z`                               |
-| Last Modify @ | `2022-12-22T08:19:27Z`                               |
-| Labels        | \`\`                                                 |
-| Edit @        | [here](https://github.com/junxnone/xwiki/issues/189) |
+| Title     | Pandas Visualization                                 |
+| --------- | ---------------------------------------------------- |
+| Created @ | `2020-04-07T07:07:53Z`                               |
+| Updated @ | `2023-07-06T15:15:46Z`                               |
+| Labels    | \`\`                                                 |
+| Edit @    | [here](https://github.com/junxnone/xwiki/issues/189) |
 
 -----
 
 # 可视化
-
-## Reference
-
-  - [pandas
-    Visualization](https://pandas.pydata.org/pandas-docs/stable/user_guide/visualization.html)
-  - [pandas Visualization-
-    apachecn](http://pandas.apachecn.org/visualization.html)
-
-## Brief
 
 | ![image](media/f1cdda40ce1d7bd7db048e66afea278d1ccc6c08.png) | ![image](media/093aa5642e42748d5e83c48f567a31dcf484e205.png) | ![image](media/f68bce24ab7fc42029cfbe6db3bbcec40e14a5fc.png) |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -27,3 +18,10 @@
 | ![image](media/a6357631a0404427d9578a80e0913b22a3340a34.png) | ![image](media/38159d884a10ea866e88cd6e1b7cb659faa076c1.png) | ![image](media/8fb77c6db6cb2bcf5f5afcbb43cb82a97cde13e7.png) |
 | ![image](media/0b805307e9bad63d3410b64e870abe09eb64d412.png) | ![image](media/e88250a3a488bca5cdd225ed2beb3f528ebc5358.png) | ![image](media/d25d1094c8ce44f6d1f8f97ec8661e630d50b8fe.png) |
 | ![image](media/7039bdbda46e17758c67e1330b7e3814a521742f.png) |                                                              |                                                              |
+
+## Reference
+
+  - [pandas
+    Visualization](https://pandas.pydata.org/pandas-docs/stable/user_guide/visualization.html)
+  - [pandas Visualization-
+    apachecn](http://pandas.apachecn.org/visualization.html)
