@@ -2,15 +2,13 @@
 Title | Pandas Issues SettingWithCopyWarning
 -- | --
 Created @ | `2019-08-14T10:33:31Z`
-Last Modify @| `2022-12-22T08:17:25Z`
+Updated @| `2023-07-06T15:17:40Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/185)
 
 ---
 # SettingWithCopyWarning 
 
-## Reference
-- [Pandas 中 SettingwithCopyWarning 的原理和解决方案](https://www.jianshu.com/p/72274ccb647a)
 
 ## Error Log
 ```
@@ -26,4 +24,7 @@ SettingWithCopyWarning: A value is trying to be set on a copy of a slice from a 
 
 ## Details
 Pandas 中的某些操作会返回数据的视图（View），某些操作会返回数据的副本（Copy）
+
+## Reference
+- [Pandas 中 SettingwithCopyWarning 的原理和解决方案](https://www.jianshu.com/p/72274ccb647a)
 
