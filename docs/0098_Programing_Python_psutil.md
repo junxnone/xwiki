@@ -2,7 +2,7 @@
 Title | Programing Python psutil
 -- | --
 Created @ | `2021-03-10T05:45:34Z`
-Updated @| `2023-07-08T14:54:41Z`
+Updated @| `2023-07-08T15:09:55Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/98)
 
@@ -58,4 +58,4 @@ CPU time | `psutil.cpu_times()`
 
 ## Reference
 - [Docs](https://psutil.readthedocs.io/en/latest/)
-
+- [Code](https://github.com/giampaolo/psutil)
