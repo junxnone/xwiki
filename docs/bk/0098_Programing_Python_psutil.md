@@ -3,7 +3,7 @@
 | Title     | Programing Python psutil                            |
 | --------- | --------------------------------------------------- |
 | Created @ | `2021-03-10T05:45:34Z`                              |
-| Updated @ | `2023-07-08T14:21:58Z`                              |
+| Updated @ | `2023-07-08T14:54:41Z`                              |
 | Labels    | \`\`                                                |
 | Edit @    | [here](https://github.com/junxnone/xwiki/issues/98) |
 
@@ -34,6 +34,8 @@
 
 ## UseCase
 
+### 统计信息
+
 | UC                 | Func                                          |
 | ------------------ | --------------------------------------------- |
 | 获取 CPU 数量(逻辑核/超线程) | `psutil.cpu_count()`                          |
@@ -49,6 +51,10 @@
 | 获取网络接口状态           | `psutil.net_if_stats()`                       |
 | 网络连接信息             | `psutil.net_connections()`                    |
 | 进程信息               | `psutil.pids()`                               |
+
+### Processes
+
+  - 绑定进程到 CPU
 
 ## Reference
 
