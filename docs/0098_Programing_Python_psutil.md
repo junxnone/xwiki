@@ -2,15 +2,13 @@
 Title | Programing Python psutil
 -- | --
 Created @ | `2021-03-10T05:45:34Z`
-Last Modify @| `2022-12-22T06:39:51Z`
+Updated @| `2023-07-08T14:21:58Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/98)
 
 ---
-## Reference
-- [Docs](https://psutil.readthedocs.io/en/latest/)
 
-## Brief
+# psutil
 -  获取系统信息
 - Support OS
   - Linux
@@ -19,6 +17,21 @@ Edit @| [here](https://github.com/junxnone/xwiki/issues/98)
   - FreeBSD, OpenBSD, NetBSD
   - Sun Solaris
   - AIX
+- Functions
+  - System related functions
+    - CPU
+    - Memory
+    - Disks
+    - Network
+    - Sensors
+    - Other System Info
+  - Processes
+  - Windows Services
+  - Constants
+  - Recipes
+
+
+
 
 ## UseCase
 
@@ -37,4 +50,8 @@ CPU time | `psutil.cpu_times()`
 获取网络接口状态 | `psutil.net_if_stats()`
 网络连接信息 | `psutil.net_connections()`
 进程信息 | `psutil.pids()`
+
+
+## Reference
+- [Docs](https://psutil.readthedocs.io/en/latest/)
 
