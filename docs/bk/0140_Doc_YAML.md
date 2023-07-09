@@ -1,27 +1,15 @@
 -----
 
-| Title         | Doc YAML                                             |
-| ------------- | ---------------------------------------------------- |
-| Created @     | `2019-08-07T02:06:17Z`                               |
-| Last Modify @ | `2022-12-22T07:19:22Z`                               |
-| Labels        | \`\`                                                 |
-| Edit @        | [here](https://github.com/junxnone/xwiki/issues/140) |
+| Title     | Doc YAML                                             |
+| --------- | ---------------------------------------------------- |
+| Created @ | `2019-08-07T02:06:17Z`                               |
+| Updated @ | `2023-07-09T04:35:23Z`                               |
+| Labels    | \`\`                                                 |
+| Edit @    | [here](https://github.com/junxnone/xwiki/issues/140) |
 
 -----
 
-## Reference
-
-  - [YAML Spec](https://yaml.org/spec/)
-  - **pyyaml** \[[code](https://github.com/yaml/pyyaml)\]
-    \[[docs](https://pyyaml.org/wiki/PyYAMLDocumentation)\]
-      - [python：yaml模块](https://www.jianshu.com/p/eaa1bf01b3a6)
-  - **ruamel.yaml**
-    \[[code](https://sourceforge.net/p/ruamel-yaml/code/ci/default/tree/)\]
-    \[[docs](https://yaml.readthedocs.io/en/latest/)\]
-      - [ruamel.yaml - Differences with
-        PyYAML](https://yaml.readthedocs.io/en/latest/pyyaml.html)
-
-## Brief
+# YAML
 
   - YAML - `Yet Another Markup Language` - 类似 `xml/json`
   - **用途**
@@ -66,3 +54,15 @@
   - 2004.01.29 `spec 1.0`
   - 2004.12.30 `spec 1.1`
   - 2010.20.01 `spec 1.2`
+
+## Reference
+
+  - [YAML Spec](https://yaml.org/spec/)
+  - **pyyaml** \[[code](https://github.com/yaml/pyyaml)\]
+    \[[docs](https://pyyaml.org/wiki/PyYAMLDocumentation)\]
+      - [python：yaml模块](https://www.jianshu.com/p/eaa1bf01b3a6)
+  - **ruamel.yaml**
+    \[[code](https://sourceforge.net/p/ruamel-yaml/code/ci/default/tree/)\]
+    \[[docs](https://yaml.readthedocs.io/en/latest/)\]
+      - [ruamel.yaml - Differences with
+        PyYAML](https://yaml.readthedocs.io/en/latest/pyyaml.html)
