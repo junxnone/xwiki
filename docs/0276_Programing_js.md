@@ -2,7 +2,7 @@
 Title | Programing js
 -- | --
 Created @ | `2023-07-04T03:27:49Z`
-Updated @| `2023-07-09T08:22:33Z`
+Updated @| `2023-07-09T14:11:38Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/276)
 
@@ -17,8 +17,8 @@ Edit @| [here](https://github.com/junxnone/xwiki/issues/276)
   - Boolean(`true`/`false`)
   - Number
   - String
-  - Null(设置为 `null`, 清空变量)
-  - Undefined(对象不含值)
+  - Null 用于对象(设置为 `null`, 清空变量)
+  - Undefined 用于变量 (对象不含值)
   - Symbol
 - 引用数据类型(对象类型)
   - Array
@@ -35,8 +35,20 @@ Edit @| [here](https://github.com/junxnone/xwiki/issues/276)
 - 大小写敏感
 - 动态数据类型
 - var
-- 局部变量
+  - 不具备块级作用域的特性，一下块中声明的仍为全局变量
+    -  { } 中
+    - 循环中
+  - 函数中的声明为局部变量
+- let 局部变量
+  - 使用 let 声明的全局变量不属于 window 对象
+  - 不可以使用后声明
+  - 块级作用域
 - 全局变量
+- const 只读变量
+  - 声明时必须初始化
+  - 初始化后值不可修改
+  - 块级作用域
+  - 定义的对象或数组，内容是可变的，不可对对象进行赋值
 - 变量作用域(生存期)
 
 
@@ -78,4 +90,26 @@ Edit @| [here](https://github.com/junxnone/xwiki/issues/276)
   - onkeydown
   - onload
   - ......
+
+## 错误
+- try - 测试代码块
+- throw - 创建自定义错误
+- catch - 处理错误
+- finally - 在 try 和 catch 语句之后, 无论是否有触发异常，该语句都会执行
+
+
+## Debug
+- 浏览器 <kbd>F12</kbd>
+- `VS Code` + `Live Server`
+
+
+## 异步同步
+- 同步 - 按顺序执行
+- 异步 - 不保证顺序执行
+  - 通过回调函数来处理异步任务结果
+- Promise(...).then(...).then(...)
+  - then()
+  - catch()
+  - finally()
+![image](https://github.com/junxnone/xwiki/assets/2216970/ef99888b-38b0-486a-8784-7a99e0a8c846)
 
