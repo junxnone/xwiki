@@ -2,7 +2,7 @@
 Title | Programing js
 -- | --
 Created @ | `2023-07-04T03:27:49Z`
-Updated @| `2023-07-09T08:00:03Z`
+Updated @| `2023-07-09T08:22:33Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/276)
 
@@ -35,6 +35,10 @@ Edit @| [here](https://github.com/junxnone/xwiki/issues/276)
 - 大小写敏感
 - 动态数据类型
 - var
+- 局部变量
+- 全局变量
+- 变量作用域(生存期)
+
 
 ## 运算符
 - `+-*/=`
@@ -53,4 +57,25 @@ Edit @| [here](https://github.com/junxnone/xwiki/issues/276)
 - switch
 - try...catch
 - while
+
+## 事件 event
+- 鼠标事件
+- 键盘事件
+- 对象事件
+- 表单事件
+- 剪贴板事件
+- 打印事件
+- 拖动事件
+- 多媒体事件
+- 动画事件
+- 过渡事件
+- 其他事件
+- 常用事件
+  - onclick
+  - onchange
+  - onmouseover
+  - onmouseout
+  - onkeydown
+  - onload
+  - ......
 
