@@ -3,7 +3,7 @@
 | Title     | Tools Git branch                                     |
 | --------- | ---------------------------------------------------- |
 | Created @ | `2019-03-25T11:02:40Z`                               |
-| Updated @ | `2023-07-05T14:57:44Z`                               |
+| Updated @ | `2023-07-11T03:38:07Z`                               |
 | Labels    | \`\`                                                 |
 | Edit @    | [here](https://github.com/junxnone/xwiki/issues/115) |
 
@@ -35,6 +35,7 @@
 | Remote Branch 已删除<br>但 Local 仍能看到 | `git remote prune origin`                                                                                          |
 | show all branch details           | `git show-branch`                                                                                                  |
 | 命令行显示分支路线                         | `git log --graph --all --oneline`                                                                                  |
+| push 当前 A 分支到远程 B 分支              | `git push origin branch_A:branch_B`                                                                                |
 
 ## Reference
 
