@@ -213,7 +213,6 @@
     - [Intel](/0003_Hardware_CPU_Intel)
       - [P-Core & E-Core](/0215_Hardware_CPU_Intel_PECore)
   - [GPU](/0218_Hardware_GPU)
-    - [GPU Metrics](/0280_Hardware_GPU_FLOPS)
     - [GPU Metrics](/0280_Hardware_GPU_Metrics)
     - [NVIDIA GPU](/0006_Hardware_GPU_NVIDIA)
     - [Intel GPUs - iGPU](/0005_Hardware_GPU_iGPU)
@@ -274,4 +273,4 @@
 - [Wiki History](/hist)
 
 ---
-<kbd><sub>@1106240714</sub></kbd>
+<kbd><sub>@1133340714</sub></kbd>
