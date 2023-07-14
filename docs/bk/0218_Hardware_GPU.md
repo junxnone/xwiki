@@ -3,7 +3,7 @@
 | Title     | Hardware GPU                                         |
 | --------- | ---------------------------------------------------- |
 | Created @ | `2023-03-08T13:37:09Z`                               |
-| Updated @ | `2023-03-08T13:37:09Z`                               |
+| Updated @ | `2023-07-14T01:59:18Z`                               |
 | Labels    | \`\`                                                 |
 | Edit @    | [here](https://github.com/junxnone/xwiki/issues/218) |
 
@@ -16,3 +16,7 @@
   - Caches and Memory
 
 ![image](media/46650ea10929900a3507f22ee4466915011a8f37.png)
+
+## TODO
+
+  - [ ] [GPU History](https://github.com/junxnone/tl/issues/5)
