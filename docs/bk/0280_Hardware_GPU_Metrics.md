@@ -3,13 +3,15 @@
 | Title     | Hardware GPU Metrics                                 |
 | --------- | ---------------------------------------------------- |
 | Created @ | `2023-07-13T16:13:55Z`                               |
-| Updated @ | `2023-07-14T03:05:30Z`                               |
+| Updated @ | `2023-07-14T03:32:33Z`                               |
 | Labels    | \`\`                                                 |
 | Edit @    | [here](https://github.com/junxnone/xwiki/issues/280) |
 
 -----
 
 # GPU Metrics
+
+  - 理论峰值 = CPU 芯片数量 \* CPU Boost 主频 \* 核心数量 \* 单个时钟周期内能处理的相关计算次数
 
 ## FLOPS
 
