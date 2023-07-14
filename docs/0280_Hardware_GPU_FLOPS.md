@@ -2,7 +2,7 @@
 Title | Hardware GPU FLOPS
 -- | --
 Created @ | `2023-07-13T16:13:55Z`
-Updated @| `2023-07-14T01:34:01Z`
+Updated @| `2023-07-14T01:59:05Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/280)
 
@@ -16,8 +16,7 @@ Edit @| [here](https://github.com/junxnone/xwiki/issues/280)
 - EFLOPS - `exaFLOPS` - $10^{18}$
 
 
-## TODO
-- [ ] [GPU History](https://github.com/junxnone/tl/issues/5)
+
 
 ## Reference
 - [聊聊 GPU 峰值计算能力](https://zhuanlan.zhihu.com/p/231302709)
