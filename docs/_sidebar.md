@@ -228,6 +228,7 @@
     - [Cache](/0016_Hardware_Memory_Cache)
   - [NUMA](/0158_Hardware_NUMA)
   - [PMU](/0243_Hardware_PMU)
+  - [Precision](/0281_Hardware_Precision)
   - [SIMD - Single Instruction Multiple Data](/0007_Hardware_SIMD)
     - [AVX](/0009_Hardware_SIMD_AVX)
       - [CodeCompile](/0150_Hardware_SIMD_AVX_CodeCompile)
@@ -273,4 +274,4 @@
 - [Wiki History](/hist)
 
 ---
-<kbd><sub>@1608540714</sub></kbd>
+<kbd><sub>@1636180714</sub></kbd>
