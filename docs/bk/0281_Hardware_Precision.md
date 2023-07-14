@@ -3,7 +3,7 @@
 | Title     | Hardware Precision                                   |
 | --------- | ---------------------------------------------------- |
 | Created @ | `2023-07-14T08:35:15Z`                               |
-| Updated @ | `2023-07-14T08:35:15Z`                               |
+| Updated @ | `2023-07-14T08:45:17Z`                               |
 | Labels    | \`\`                                                 |
 | Edit @    | [here](https://github.com/junxnone/xwiki/issues/281) |
 
@@ -16,6 +16,7 @@
   - BF16
   - FP64
   - FP80
+  - TF32
 
 ## FP32
 
@@ -24,6 +25,15 @@
   - `torch.float32`/`torch.float`
 
 ![image](media/50d3a5266328a6bacb9691715a944b587dbffc3c.png)
+
+## TF32
+
+  - `tensor float 32`
+  - CUDA 用于提升 FLOPS
+
+![image](media/a784a6848a38ce61170564dbf8cc4103278e0d87.png)
+
+![image](media/d4805c6ed12b2ac9cc9ab8c13640b30e9c40b521.png)
 
 ## FP16
 
