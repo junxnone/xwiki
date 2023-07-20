@@ -117,6 +117,7 @@
     - [Intel Advisor](/0217_OPT_Tools_Advisor)
     - [Intel Vtune](/0019_OPT_Tools_Vtune)
       - [Vtune CommandLine Mode](/0020_OPT_Tools_Vtune_CommandLine)
+      - [Vtune Debug API](/0283_OPT_Tools_Vtune_DebugAPI)
       - [Intel Vtune iGPU Analysis](/0245_OPT_Tools_Vtune_iGPU)
   - [GPU 性能优化](/0220_OPT_GPU)
   - [TMA](/0021_OPT_TMA)
@@ -275,4 +276,4 @@
 - [Wiki History](/hist)
 
 ---
-<kbd><sub>@1607530719</sub></kbd>
+<kbd><sub>@1428220720</sub></kbd>
