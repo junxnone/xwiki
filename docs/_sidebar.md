@@ -113,6 +113,7 @@
       - [Level Zero](/0037_OPT_LIB_OneAPI_LevelZero)
       - [OneAPI iGPU](/0210_OPT_LIB_OneAPI_iGPU)
       - [Intel OneAPI oneDPL](/0075_OPT_LIB_OneAPI_oneDPL)
+    - [Highway](/0284_OPT_LIB_highway)
   - [性能优化工具](/0261_OPT_Tools)
     - [Intel Advisor](/0217_OPT_Tools_Advisor)
     - [Intel Vtune](/0019_OPT_Tools_Vtune)
@@ -276,4 +277,4 @@
 - [Wiki History](/hist)
 
 ---
-<kbd><sub>@2228480724</sub></kbd>
+<kbd><sub>@2235400724</sub></kbd>
