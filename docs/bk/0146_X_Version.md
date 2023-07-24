@@ -1,27 +1,22 @@
 -----
 
-| Title         | X Version                                            |
-| ------------- | ---------------------------------------------------- |
-| Created @     | `2020-08-04T08:23:25Z`                               |
-| Last Modify @ | `2022-12-22T07:23:41Z`                               |
-| Labels        | \`\`                                                 |
-| Edit @        | [here](https://github.com/junxnone/xwiki/issues/146) |
+| Title     | X Version                                            |
+| --------- | ---------------------------------------------------- |
+| Created @ | `2020-08-04T08:23:25Z`                               |
+| Updated @ | `2023-07-24T14:20:48Z`                               |
+| Labels    | \`\`                                                 |
+| Edit @    | [here](https://github.com/junxnone/xwiki/issues/146) |
 
 -----
 
 # 版本号定义
-
-## Reference
-
-  - [Alpha、Beta、RC、Release版本的区别](https://blog.csdn.net/lilongsy/article/details/83094977)
-
-## Brief
 
   - Version - 版本号
       - Alpha
       - Beta
       - RC
       - Release
+  - `MAJOR.MINOR.PATCH`
 
 | Name                          | 开发阶段 | Description                                                                                                          |
 | ----------------------------- | ---- | -------------------------------------------------------------------------------------------------------------------- |
@@ -63,3 +58,8 @@
 | OEM                      | Original Equipment Manufacturer - 原始设备制造商；是给计算机厂商随着计算机贩卖的，也就是随机版；只能随机器出货，不能零售。只能全新安装，不能从旧有操作系统升级。包装不像零售版精美，通常只有一面CD和说明书(授权书)。 |
 | RVL                      | 号称是正式版，其实RVL根本不是版本的名称。它是中文版/英文版文档破解出来的。                                                                                       |
 | EVAL                     | 而流通在网络上的EVAL版，与“评估版”类似，功能上和零售版没有区别。                                                                                           |
+
+## Reference
+
+  - [Alpha、Beta、RC、Release版本的区别](https://blog.csdn.net/lilongsy/article/details/83094977)
+  - [semver](https://semver.org/)
