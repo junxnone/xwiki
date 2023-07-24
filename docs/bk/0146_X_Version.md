@@ -3,7 +3,7 @@
 | Title     | X Version                                            |
 | --------- | ---------------------------------------------------- |
 | Created @ | `2020-08-04T08:23:25Z`                               |
-| Updated @ | `2023-07-24T14:20:48Z`                               |
+| Updated @ | `2023-07-24T14:27:38Z`                               |
 | Labels    | \`\`                                                 |
 | Edit @    | [here](https://github.com/junxnone/xwiki/issues/146) |
 
@@ -59,7 +59,16 @@
 | RVL                      | 号称是正式版，其实RVL根本不是版本的名称。它是中文版/英文版文档破解出来的。                                                                                       |
 | EVAL                     | 而流通在网络上的EVAL版，与“评估版”类似，功能上和零售版没有区别。                                                                                           |
 
+## Semantic Versioning
+
+  - MAJOR.MINOR.PATCH
+      - MAJOR 主版本号：当你做了不兼容的 API 修改
+      - MINOR 次版本号：当你做了向下兼容的功能性新增
+      - PATCH 修订号：当你做了向下兼容的问题修正
+  - 主版本号为零（0.y.z）的软件处于开发初始阶段
+  - 先行版本号可以（MAY）被标注在修订版之后，先加上一个连接号再加上一连串以句点分隔的标识符来修饰。
+
 ## Reference
 
   - [Alpha、Beta、RC、Release版本的区别](https://blog.csdn.net/lilongsy/article/details/83094977)
-  - [semver](https://semver.org/)
+  - [Semantic Versioning](https://semver.org/)
