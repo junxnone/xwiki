@@ -105,6 +105,7 @@
     - [NDRange](/0042_OPT_PARA_NDRange)
     - [OpenMPI](/0043_OPT_PARA_OpenMPI)
     - [Parallel Patterns](/0221_OPT_PARA_Patterns)
+    - [SIMD](/0286_OPT_PARA_SIMD)
   - [绑定 Socket & Core](/0033_OPT_BindSocketCore)
   - [性能优化库](/0195_OPT_LIB)
     - [IPP Intel Integrated Performance Primitives](/0032_OPT_LIB_IPP)
@@ -278,4 +279,4 @@
 - [Wiki History](/hist)
 
 ---
-<kbd><sub>@2317490725</sub></kbd>
+<kbd><sub>@1508500726</sub></kbd>
