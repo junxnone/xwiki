@@ -3,7 +3,7 @@
 | Title     | OPT PARA SIMD                                        |
 | --------- | ---------------------------------------------------- |
 | Created @ | `2023-07-26T07:07:32Z`                               |
-| Updated @ | `2023-07-26T07:12:14Z`                               |
+| Updated @ | `2023-07-27T01:46:08Z`                               |
 | Labels    | \`\`                                                 |
 | Edit @    | [here](https://github.com/junxnone/xwiki/issues/286) |
 
@@ -30,5 +30,5 @@
 
 ## Reference
 
-  - \[Evaluation of CPP SIMD LIB\](/reference/Evaluation of CPP SIMD
-    LIB.pdf)
+  - [Evaluation of CPP SIMD
+    LIB](https://github.com/junxnone/xwiki/blob/main/docs/reference/Evaluation%20of%20CPP%20SIMD%20LIB.pdf)
