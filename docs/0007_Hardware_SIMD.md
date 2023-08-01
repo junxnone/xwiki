@@ -2,7 +2,7 @@
 Title | Hardware SIMD
 -- | --
 Created @ | `2019-12-19T09:05:21Z`
-Updated @| `2023-03-09T02:47:12Z`
+Updated @| `2023-08-01T09:45:17Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/7)
 
@@ -29,15 +29,20 @@ Edit @| [here](https://github.com/junxnone/xwiki/issues/7)
 
 - MMX - `Multi-Media Extension`
 - SSE - `Streaming SIMD Extensions`
-- SSE2
-- SSE3
-- SSE4
+- SSE2 - `Streaming SIMD Extensions 2`
+- SSE3 - `Streaming SIMD Extensions 3`
+- SSSE3 - `Supplemental Streaming SIMD Extensions`
+- MOVBE
+- SSE41 - `Streaming SIMD Extensions 4.1`
+- SSE42 - `Streaming SIMD Extensions 4.2`
 - AVX - `Advanced Vector Extensions`
-- AVX2
+- AVX2 - `Advanced Vector Extensions 2`
   - AVX2 指令集将大多数整数命令操作扩展到 256 位，并引入了熔合乘法累积（FMA）运算
-- AVX512
+- AVX512 - `Advanced Vector Extensions 512`
   - AVX-512 则使用新的 EVEX 前缀编码将 AVX 指令进一步扩展到 512 位
-
+  - AVX-512F - `Vector Extensions 512 (Intel® AVX-512) foundation instructions`
+  - AVX-512CD - `AVX-512 conflict detection instructions`
+  - AVX-512ER - `AVX-512 exponential and reciprocal instructions`
 
 ---
 ![image](https://user-images.githubusercontent.com/2216970/127825959-17d9ada7-b5aa-48f9-9d9c-ba2f3a71c798.png)
