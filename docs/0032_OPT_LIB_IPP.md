@@ -2,22 +2,15 @@
 Title | OPT LIB IPP
 -- | --
 Created @ | `2021-04-21T02:42:26Z`
-Last Modify @| `2022-12-22T03:54:05Z`
+Updated @| `2023-08-01T14:09:50Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/32)
 
 ---
 # IPP Intel Integrated Performance Primitives
 
-## Reference
-- [Intel® Integrated Performance Primitives Developer Reference](https://software.intel.com/content/www/us/en/develop/documentation/ipp-dev-reference/top.html)
-- [Signal and Data Processing Doc](https://software.intel.com/content/dam/develop/external/us/en/documents/ipps.pdf)
-- [Image Processing Doc](https://software.intel.com/content/dam/develop/external/us/en/documents/ippi.pdf)
-
-
-## Brief
 - **IPP** - `Integrated Performance Primitives`
-  - **Signal and Data Processing**
+  - **Signal and Data Processing**: 信号和数据处理(加密/...)
   - **Image Processing** : 传统 CV Image 处理 算法
 
 
@@ -61,4 +54,11 @@ Edit @| [here](https://github.com/junxnone/xwiki/issues/32)
 
 
 # UseCase
+
+
+## Reference
+- [Intel® Integrated Performance Primitives Developer Reference](https://software.intel.com/content/www/us/en/develop/documentation/ipp-dev-reference/top.html)
+- [Signal and Data Processing Doc](https://software.intel.com/content/dam/develop/external/us/en/documents/ipps.pdf)
+- [Image Processing Doc](https://software.intel.com/content/dam/develop/external/us/en/documents/ippi.pdf)
+
 
