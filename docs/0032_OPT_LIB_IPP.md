@@ -2,7 +2,7 @@
 Title | OPT LIB IPP
 -- | --
 Created @ | `2021-04-21T02:42:26Z`
-Updated @| `2023-08-15T16:21:38Z`
+Updated @| `2023-08-15T16:49:38Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/32)
 
@@ -61,4 +61,4 @@ Edit @| [here](https://github.com/junxnone/xwiki/issues/32)
 - [Signal and Data Processing Doc](https://software.intel.com/content/dam/develop/external/us/en/documents/ipps.pdf)
 - [Image Processing Doc](https://software.intel.com/content/dam/develop/external/us/en/documents/ippi.pdf)
 - [Developer Guide](https://www.intel.com/content/www/us/en/docs/ipp/developer-guide-oneapi/2021-9/overview.html)
-
+- [IPP Dispatcher](https://www.intel.com/content/www/us/en/developer/articles/technical/understanding-cpu-optimized-code-used-in-intel-ipp.html)
