@@ -2,7 +2,7 @@
 Title | OPT LIB IPP
 -- | --
 Created @ | `2021-04-21T02:42:26Z`
-Updated @| `2023-08-01T14:09:50Z`
+Updated @| `2023-08-15T16:21:38Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/32)
 
@@ -60,5 +60,5 @@ Edit @| [here](https://github.com/junxnone/xwiki/issues/32)
 - [Intel® Integrated Performance Primitives Developer Reference](https://software.intel.com/content/www/us/en/develop/documentation/ipp-dev-reference/top.html)
 - [Signal and Data Processing Doc](https://software.intel.com/content/dam/develop/external/us/en/documents/ipps.pdf)
 - [Image Processing Doc](https://software.intel.com/content/dam/develop/external/us/en/documents/ippi.pdf)
-
+- [Developer Guide](https://www.intel.com/content/www/us/en/docs/ipp/developer-guide-oneapi/2021-9/overview.html)
 
