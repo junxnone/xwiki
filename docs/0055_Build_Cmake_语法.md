@@ -2,22 +2,13 @@
 Title | Build Cmake 语法
 -- | --
 Created @ | `2021-10-28T04:25:32Z`
-Last Modify @| `2022-12-22T09:04:08Z`
+Updated @| `2023-08-18T14:29:34Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/55)
 
 ---
 # 语法
 
-## Reference
-
-- [cmake 预定义变量](https://cmake.org/cmake/help/latest/manual/cmake-variables.7.html)
-- [cmake 预定义语法/函数/宏](https://cmake.org/cmake/help/latest/manual/cmake-commands.7.html)
-- [CMake链接外部库的几种方式](https://blog.csdn.net/liangshui999/article/details/106425753)
-
-
-
-## Brief
 - 变量
 - 字符操作
 - 文件操作
@@ -87,4 +78,13 @@ Func | Description
 `project(demo)` | 设置项目名称
 `add_executable(demo demo.cpp)` | 生成可执行文件
 `add_library(common STATIC/SHARED  util.cpp)` | 生成静态库/动态库(默认是静态库)<br> `BUILD_SHARED_LIBS` 变量可以设置 default 为 `SHARED`
+
+
+
+## Reference
+
+- [cmake 预定义变量](https://cmake.org/cmake/help/latest/manual/cmake-variables.7.html)
+- [cmake 预定义语法/函数/宏](https://cmake.org/cmake/help/latest/manual/cmake-commands.7.html)
+- [CMake链接外部库的几种方式](https://blog.csdn.net/liangshui999/article/details/106425753)
+
 
