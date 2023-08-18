@@ -2,7 +2,7 @@
 Title | Build Cmake if
 -- | --
 Created @ | `2023-08-18T14:44:37Z`
-Updated @| `2023-08-18T14:44:37Z`
+Updated @| `2023-08-18T14:53:30Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/288)
 
@@ -37,8 +37,28 @@ endif()
   - **DEFINED**: 变量被定义
   - **IN_LIST**: 给定值存在 list 变量中
 - File Operations(文件操作)
-- EXISTS: 文件或目录存在
-- IS_NEWER_THAN: 比较文件时间戳
-- IS_DIRECTORY ：判断是否是目录
-- IS_SYMLINK ：是否是软连接
-- IS_ABSOLUTE ： 是否是绝对路径
+  - EXISTS: 文件或目录存在
+  - IS_NEWER_THAN: 比较文件时间戳
+  - IS_DIRECTORY ：判断是否是目录
+  - IS_SYMLINK ：是否是软连接
+  - IS_ABSOLUTE ： 是否是绝对路径
+- 比较
+  - MATCHES
+  - LESS
+  - GREATER
+  - EQUAL
+  - LESS_EQUAL
+  - GREATER_EQUAL
+  - STRLESSSTRGREATER
+  - STREQUAL
+  - STRLESS_EQUAL
+  - STRGREATER_EQUAL
+- 版本比较
+  - VERSION_LESS
+  - VERSION_GREATER
+  - VERSION_EQUAL
+  - VERSION_LESS_EQUAL
+  - VERSION_GREATER_EQUAL
+- 路径比较
+  - PATH_EQUAL
+
