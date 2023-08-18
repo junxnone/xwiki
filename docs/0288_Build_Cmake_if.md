@@ -2,7 +2,7 @@
 Title | Build Cmake if
 -- | --
 Created @ | `2023-08-18T14:44:37Z`
-Updated @| `2023-08-18T14:53:30Z`
+Updated @| `2023-08-18T14:54:09Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/288)
 
@@ -62,3 +62,6 @@ endif()
 - 路径比较
   - PATH_EQUAL
 
+
+## Reference
+- [Cmake command if](https://cmake.org/cmake/help/latest/command/if.html#command:if)
