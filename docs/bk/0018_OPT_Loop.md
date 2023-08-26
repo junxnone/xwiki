@@ -3,7 +3,7 @@
 | Title     | OPT Loop                                            |
 | --------- | --------------------------------------------------- |
 | Created @ | `2021-12-14T07:42:33Z`                              |
-| Updated @ | `2023-08-26T07:17:47Z`                              |
+| Updated @ | `2023-08-26T07:24:07Z`                              |
 | Labels    | \`\`                                                |
 | Edit @    | [here](https://github.com/junxnone/xwiki/issues/18) |
 
@@ -25,6 +25,11 @@
   - 代码复制，用以减少循环分支指令执行的次数
   - 更多的指令级并行
   - 更多寄存器重用，提高访存效率
+  - 展开方式
+      - 编译器自动循环展开(LLVM - `-funroll-loops`)
+      - pragma 定义展开(`#pragma clang loop unroll(enable)`)
+      - 手动展开
+  - 需要考虑数据依赖
 
 <!-- end list -->
 
