@@ -2,15 +2,13 @@
 Title | OPT Loop
 -- | --
 Created @ | `2021-12-14T07:42:33Z`
-Last Modify @| `2022-12-22T03:42:35Z`
+Updated @| `2023-08-26T06:51:02Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/18)
 
 ---
 # Loop
 
-## Reference
-- [HLS Loop Optimizations](https://learning.intel.com/developer/learn/course/external/view/elearning/242/hls-loop-optimizations-part-3-of-7)
 
 ## Brief
 - Loop Pipelining
@@ -27,6 +25,7 @@ No Loop![image](https://user-images.githubusercontent.com/2216970/146112942-ece8
 
 
 ## Loop Unrolling
+- 循环展开
 
 ```
 accum = 0;
@@ -47,3 +46,7 @@ Basic Loop | Unrolled Loop | Pipelined Loop
 -- | -- | --
 ![image](https://user-images.githubusercontent.com/2216970/146117988-a24d301e-9f05-4508-8bde-815f66e1c9cf.png) | ![image](https://user-images.githubusercontent.com/2216970/146118021-038c8534-461f-4348-b819-6d85d247fea4.png) | ![image](https://user-images.githubusercontent.com/2216970/146118218-3dbe2a19-b990-4ffe-b658-45bc38e112eb.png)
 
+
+## Reference
+- [HLS Loop Optimizations](https://learning.intel.com/developer/learn/course/external/view/elearning/242/hls-loop-optimizations-part-3-of-7)
+- [循环优化 - 先进编译实验室](https://space.bilibili.com/1540261574/channel/collectiondetail?sid=693322)

@@ -1,20 +1,15 @@
 -----
 
-| Title         | OPT Loop                                            |
-| ------------- | --------------------------------------------------- |
-| Created @     | `2021-12-14T07:42:33Z`                              |
-| Last Modify @ | `2022-12-22T03:42:35Z`                              |
-| Labels        | \`\`                                                |
-| Edit @        | [here](https://github.com/junxnone/xwiki/issues/18) |
+| Title     | OPT Loop                                            |
+| --------- | --------------------------------------------------- |
+| Created @ | `2021-12-14T07:42:33Z`                              |
+| Updated @ | `2023-08-26T06:51:02Z`                              |
+| Labels    | \`\`                                                |
+| Edit @    | [here](https://github.com/junxnone/xwiki/issues/18) |
 
 -----
 
 # Loop
-
-## Reference
-
-  - [HLS Loop
-    Optimizations](https://learning.intel.com/developer/learn/course/external/view/elearning/242/hls-loop-optimizations-part-3-of-7)
 
 ## Brief
 
@@ -27,6 +22,10 @@
 | ------------------------------------------------------------------- | ------------------------------------------------------------ |
 
 ## Loop Unrolling
+
+  - 循环展开
+
+<!-- end list -->
 
     accum = 0;
     #pragma unroll N
@@ -44,3 +43,10 @@
 | Basic Loop                                                   | Unrolled Loop                                                | Pipelined Loop                                               |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | ![image](media/7693eb40490469501a9324ca6585c01d2f94ede6.png) | ![image](media/3e3748cecb650978d5f0525adf40d9049c27b74b.png) | ![image](media/a243279ed12372f5cf9183ed43b9e9535c69e628.png) |
+
+## Reference
+
+  - [HLS Loop
+    Optimizations](https://learning.intel.com/developer/learn/course/external/view/elearning/242/hls-loop-optimizations-part-3-of-7)
+  - [循环优化 -
+    先进编译实验室](https://space.bilibili.com/1540261574/channel/collectiondetail?sid=693322)
