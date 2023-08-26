@@ -2,17 +2,14 @@
 Title | OPT Loop
 -- | --
 Created @ | `2021-12-14T07:42:33Z`
-Updated @| `2023-08-26T06:51:02Z`
+Updated @| `2023-08-26T06:52:08Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/18)
 
 ---
 # Loop
-
-
-## Brief
 - Loop Pipelining
-- Loop Unrolling
+- Loop Unrolling - 循环展开
 
 
 ## Loop Pipelining
@@ -25,7 +22,7 @@ No Loop![image](https://user-images.githubusercontent.com/2216970/146112942-ece8
 
 
 ## Loop Unrolling
-- 循环展开
+- 减少循环分支指令执行的次数
 
 ```
 accum = 0;
