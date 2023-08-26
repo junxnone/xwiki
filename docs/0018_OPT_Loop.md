@@ -2,7 +2,7 @@
 Title | OPT Loop
 -- | --
 Created @ | `2021-12-14T07:42:33Z`
-Updated @| `2023-08-26T06:58:46Z`
+Updated @| `2023-08-26T07:17:47Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/18)
 
@@ -25,7 +25,7 @@ No Loop![image](https://user-images.githubusercontent.com/2216970/146112942-ece8
 ## Loop Unrolling
 - 代码复制，用以减少循环分支指令执行的次数
 - 更多的指令级并行
-- 更多寄存器重用
+- 更多寄存器重用，提高访存效率
 
 
 ```
