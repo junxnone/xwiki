@@ -2,7 +2,7 @@
 Title | OPT Loop
 -- | --
 Created @ | `2021-12-14T07:42:33Z`
-Updated @| `2023-08-26T06:56:08Z`
+Updated @| `2023-08-26T06:57:36Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/18)
 
@@ -23,7 +23,7 @@ No Loop![image](https://user-images.githubusercontent.com/2216970/146112942-ece8
 
 
 ## Loop Unrolling
-- 减少循环分支指令执行的次数
+- 代码复制，用以减少循环分支指令执行的次数
 
 ```
 accum = 0;
