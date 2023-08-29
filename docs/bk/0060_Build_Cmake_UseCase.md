@@ -1,20 +1,15 @@
 -----
 
-| Title         | Build Cmake UseCase                                 |
-| ------------- | --------------------------------------------------- |
-| Created @     | `2021-07-15T06:05:14Z`                              |
-| Last Modify @ | `2022-12-22T06:09:02Z`                              |
-| Labels        | \`\`                                                |
-| Edit @        | [here](https://github.com/junxnone/xwiki/issues/60) |
+| Title     | Build Cmake UseCase                                 |
+| --------- | --------------------------------------------------- |
+| Created @ | `2021-07-15T06:05:14Z`                              |
+| Updated @ | `2023-08-29T13:25:09Z`                              |
+| Labels    | \`\`                                                |
+| Edit @    | [here](https://github.com/junxnone/xwiki/issues/60) |
 
 -----
 
-## Reference
-
-  - [wiki](https://gitlab.kitware.com/cmake/community/-/wikis/home)
-  - [Tutorial](https://cmake.org/cmake/help/latest/guide/tutorial/index.html)
-
-## Brief
+# CMake UseCase
 
   - command-line mode
   - Generate Makefiles
@@ -48,3 +43,8 @@
 | Description | CMDLine args `cmake [xxx]`                   |
 | ----------- | -------------------------------------------- |
 | 指定安装位置      | `-D CMAKE_INSTALL_PREFIX=/your/install/path` |
+
+## Reference
+
+  - [wiki](https://gitlab.kitware.com/cmake/community/-/wikis/home)
+  - [Tutorial](https://cmake.org/cmake/help/latest/guide/tutorial/index.html)
