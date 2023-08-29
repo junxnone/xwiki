@@ -3,7 +3,7 @@
 | Title     | Build Cmake CMD option                               |
 | --------- | ---------------------------------------------------- |
 | Created @ | `2023-03-23T03:21:06Z`                               |
-| Updated @ | `2023-06-17T14:45:39Z`                               |
+| Updated @ | `2023-08-29T13:37:24Z`                               |
 | Labels    | \`\`                                                 |
 | Edit @    | [here](https://github.com/junxnone/xwiki/issues/228) |
 
@@ -56,6 +56,38 @@
   endif()
 ```
 
+## Tips
+
+### List the build options
+
+  - 可以用来备份对比编译选项
+
+| CMD         | Description                          |
+| ----------- | ------------------------------------ |
+| `cmake -L`  | print all options                    |
+| `cmake -LH` | print all options with help message  |
+| `cmake -LA` | print all options including advanced |
+
+    $cmake -L
+    BUILD_CUDA_STUBS:BOOL=OFF
+    CMAKE_BUILD_TYPE:STRING=Release
+    CMAKE_INSTALL_PREFIX:PATH=/usr/local
+    ...
+
+    $cmake -LH
+    // Build CUDA modules stubs when no CUDA SDK
+    BUILD_CUDA_STUBS:BOOL=OFF
+    
+    // Choose the type of build
+    CMAKE_BUILD_TYPE:STRING=Release
+    
+    // Installation Directory
+    CMAKE_INSTALL_PREFIX:PATH=/usr/local
+    
+    ...
+
 ## Reference
 
   - [Documentation-\>cmake-commands(7)-\>option](https://cmake.org/cmake/help/latest/command/option.html)
+  - [List non-advanced cached
+    variables](https://cmake.org/cmake/help/latest/manual/cmake.1.html#cmdoption-cmake-L-A-H)
