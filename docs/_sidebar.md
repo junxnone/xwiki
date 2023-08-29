@@ -65,7 +65,7 @@
   - [Test](/0231_Programing_test)
     - [googletest](/0232_Programing_test_googletest)
 - [构建工具](/0190_Build)
-  - [Cmake](/0053_Build_Cmake)
+  - [CMake](/0053_Build_Cmake)
     - [Install](/0054_Build_Cmake_Install)
     - [命令行](/0151_Build_Cmake_CMD)
       - [使用 option 添加编译选项](/0228_Build_Cmake_CMD_option)
@@ -282,4 +282,4 @@
 - [Wiki History](/hist)
 
 ---
-<kbd><sub>@1608250829</sub></kbd>
+<kbd><sub>@2124350829</sub></kbd>
