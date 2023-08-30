@@ -2,7 +2,7 @@
 Title | Build pkgconfig
 -- | --
 Created @ | `2021-10-13T03:36:37Z`
-Updated @| `2023-08-30T14:46:23Z`
+Updated @| `2023-08-30T14:51:01Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/64)
 
@@ -13,6 +13,7 @@ Edit @| [here](https://github.com/junxnone/xwiki/issues/64)
 - 查询信息来源
   - /usr/lib/ 下的 `*.pc`
   - `$PKG_CONFIG_PATH` 路径下的 `*.pc`
+
 
 
 ```
@@ -79,6 +80,11 @@ $ pkg-config opencv4 --cflags --libs
 -lopencv_video -lopencv_xobjdetect -lopencv_objdetect -lopencv_calib3d -lopencv_imgcodecs -lopencv_features2d 
 -lopencv_flann -lopencv_xphoto -lopencv_photo -lopencv_imgproc -lopencv_core
 ```
+
+### 编译程序时可以用来生成正确的编译选项
+
+
+<script src="https://junxnone.github.io/emgithub/embed-v2.js?target=https%3A%2F%2Fgithub.com%2Fopencv%2Fopencv%2Fblob%2Fa308dfca9856574d37abe7628b965e29861fb105%2Fsamples%2Fcpp%2Fexample_cmake%2FMakefile%23L3-L4&style=default&type=code&showBorder=on&showLineNumbers=on&showFileMeta=on&showFullPath=on&showCopy=on"></script>
 
 ## `*.pc` 文件信息
 
