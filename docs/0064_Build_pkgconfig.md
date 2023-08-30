@@ -2,21 +2,13 @@
 Title | Build pkgconfig
 -- | --
 Created @ | `2021-10-13T03:36:37Z`
-Last Modify @| `2022-12-22T06:11:45Z`
+Updated @| `2023-08-30T14:46:23Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/64)
 
 ---
 # pk-config
 
-
-## Reference
-- [Guide to pkg-config](https://people.freedesktop.org/~dbn/pkg-config-guide.html)
-- [code](https://gitlab.freedesktop.org/pkg-config/pkg-config)
-- [pkg-config 详解](https://blog.csdn.net/newchenxf/article/details/51750239)
-
-
-## Brief
 - pkg-config - `用于获取库相关信息(头文件/库)`
 - 查询信息来源
   - /usr/lib/ 下的 `*.pc`
@@ -120,4 +112,10 @@ Cflags: -I${includedir_old} -I${includedir_new}
 **Cflags** | 头文件路径
 **Libs** | 库
 **Libs.private** | 私有库
+
+
+## Reference
+- [Guide to pkg-config](https://people.freedesktop.org/~dbn/pkg-config-guide.html)
+- [code](https://gitlab.freedesktop.org/pkg-config/pkg-config)
+- [pkg-config 详解](https://blog.csdn.net/newchenxf/article/details/51750239)
 
