@@ -108,6 +108,7 @@
     - [OpenMPI](/0043_OPT_PARA_OpenMPI)
     - [Parallel Patterns](/0221_OPT_PARA_Patterns)
     - [SIMD](/0286_OPT_PARA_SIMD)
+    - [并行计算理论](/0290_OPT_PARA_Theory)
   - [绑定 Socket & Core](/0033_OPT_BindSocketCore)
   - [性能优化库](/0195_OPT_LIB)
     - [IPP Intel Integrated Performance Primitives](/0032_OPT_LIB_IPP)
@@ -282,4 +283,4 @@
 - [Wiki History](/hist)
 
 ---
-<kbd><sub>@1821080901</sub></kbd>
+<kbd><sub>@1826280901</sub></kbd>
