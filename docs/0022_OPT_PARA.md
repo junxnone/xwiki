@@ -2,20 +2,12 @@
 Title | OPT PARA
 -- | --
 Created @ | `2021-11-05T09:03:54Z`
-Updated @| `2023-03-09T02:21:36Z`
+Updated @| `2023-09-01T10:20:07Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/22)
 
 ---
 # 并行计算
-
-## Reference
-
-- [Introduction to Parallel Computing Tutorial](https://hpc.llnl.gov/training/tutorials/introduction-parallel-computing-tutorial)
-- [并行计算blogs](http://parallel.zhangjikai.com/)
-- [Optimize - Intel® oneAPI Programming Guide](https://www.intel.com/content/www/us/en/develop/documentation/oneapi-programming-guide/top/software-development-process/performance-tuning-cycle/optimize.html)
-- [Software optimization resources](https://www.agner.org/optimize/)
-
 
 ## 任务并行 & 数据并行
 - 数据并行 - `Data Parallelism` - 数据可以分发到不同的计算单元，进行并行处理
@@ -64,3 +56,13 @@ Edit @| [here](https://github.com/junxnone/xwiki/issues/22)
 
 ## Tips
 - [Program Bind Socket Core](/Program_Bind_Socket_Core)
+
+
+## Reference
+
+- [Introduction to Parallel Computing Tutorial](https://hpc.llnl.gov/training/tutorials/introduction-parallel-computing-tutorial)
+- [并行计算blogs](http://parallel.zhangjikai.com/)
+- [Optimize - Intel® oneAPI Programming Guide](https://www.intel.com/content/www/us/en/develop/documentation/oneapi-programming-guide/top/software-development-process/performance-tuning-cycle/optimize.html)
+- [Software optimization resources](https://www.agner.org/optimize/)
+
+
