@@ -3,7 +3,7 @@
 | Title     | OPT Tools Linux                                      |
 | --------- | ---------------------------------------------------- |
 | Created @ | `2023-09-01T14:28:56Z`                               |
-| Updated @ | `2023-09-01T14:28:56Z`                               |
+| Updated @ | `2023-09-02T15:37:58Z`                               |
 | Labels    | \`\`                                                 |
 | Edit @    | [here](https://github.com/junxnone/xwiki/issues/291) |
 
@@ -22,7 +22,7 @@
       - strace 跟踪系统调用和信号
   - 监视工具 统计性能运行数据
       - netstat 网络监控工具
-      - sar
+      - sar 系统活动情况报告工具
       - iotop 硬盘监控工具
       - mpstat 实时系统监控工具
   - 刨析工具
