@@ -3,7 +3,7 @@
 | Title     | Programing Compiler LLVM                             |
 | --------- | ---------------------------------------------------- |
 | Created @ | `2023-03-21T15:45:51Z`                               |
-| Updated @ | `2023-09-03T07:34:56Z`                               |
+| Updated @ | `2023-09-03T07:43:45Z`                               |
 | Labels    | \`\`                                                 |
 | Edit @    | [here](https://github.com/junxnone/xwiki/issues/227) |
 
@@ -81,6 +81,10 @@
   - 动态链接
 
 ![image](media/32c023d46cd705f28496095354e11444a50083b5.png)
+
+#### 链接时优化
+
+  - 多个文件之间的调用优化
 
 ## Reference
 

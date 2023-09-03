@@ -2,7 +2,7 @@
 Title | Programing Compiler LLVM
 -- | --
 Created @ | `2023-03-21T15:45:51Z`
-Updated @| `2023-09-03T07:34:56Z`
+Updated @| `2023-09-03T07:43:45Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/227)
 
@@ -72,6 +72,10 @@ Edit @| [here](https://github.com/junxnone/xwiki/issues/227)
 - 动态链接
 
 ![image](https://github.com/junxnone/xwiki/assets/2216970/5967821e-e24f-4199-809f-0fb0c99dc012)
+
+#### 链接时优化
+- 多个文件之间的调用优化
+
 
 
 ## Reference
