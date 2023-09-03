@@ -2,7 +2,7 @@
 Title | Programing Compiler LLVM
 -- | --
 Created @ | `2023-03-21T15:45:51Z`
-Updated @| `2023-09-03T04:50:19Z`
+Updated @| `2023-09-03T07:34:56Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/227)
 
@@ -63,7 +63,15 @@ Edit @| [here](https://github.com/junxnone/xwiki/issues/227)
 
 
 ### 后端
+- 生成目标代码
+- 硬件系统架构相关
+- 目标文件格式
 
+### 汇编和链接
+- 静态链接
+- 动态链接
+
+![image](https://github.com/junxnone/xwiki/assets/2216970/5967821e-e24f-4199-809f-0fb0c99dc012)
 
 
 ## Reference
