@@ -241,7 +241,7 @@
   - [SIMD - Single Instruction Multiple Data](/0007_Hardware_SIMD)
     - [AVX](/0009_Hardware_SIMD_AVX)
       - [CodeCompile](/0150_Hardware_SIMD_AVX_CodeCompile)
-    - [原理](/0008_Hardware_SIMD_原理)
+    - [SIMD 原理](/0008_Hardware_SIMD_原理)
 - [文档文本](/0191_Doc)
   - [FlameGraph](/0285_Doc_FlameGraph)
   - [Markdown](/0135_Doc_Markdown)
@@ -285,4 +285,4 @@
 - [Wiki History](/hist)
 
 ---
-<kbd><sub>@1607161007</sub></kbd>
+<kbd><sub>@1004591008</sub></kbd>
