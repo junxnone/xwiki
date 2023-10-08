@@ -1,21 +1,15 @@
 -----
 
-| Title         | Hardware SIMD 原理                                   |
-| ------------- | -------------------------------------------------- |
-| Created @     | `2021-08-02T02:42:03Z`                             |
-| Last Modify @ | `2022-12-22T03:22:55Z`                             |
-| Labels        | \`\`                                               |
-| Edit @        | [here](https://github.com/junxnone/xwiki/issues/8) |
+| Title     | Hardware SIMD 原理                                   |
+| --------- | -------------------------------------------------- |
+| Created @ | `2021-08-02T02:42:03Z`                             |
+| Updated @ | `2023-10-08T02:04:01Z`                             |
+| Labels    | \`\`                                               |
+| Edit @    | [here](https://github.com/junxnone/xwiki/issues/8) |
 
 -----
 
-## Reference
-
-  - [SIMD简介](https://zhuanlan.zhihu.com/p/55327037)
-  - [Basics of SIMD
-    Programming](http://ftp.cvut.cz/kernel/people/geoff/cell/ps3-linux-docs/CellProgrammingTutorial/BasicsOfSIMDProgramming.html)
-
-## Brief
+# SIMD 原理
 
   - SIMD - `Single Instruction Multiple Data` - 单**指令流**多**数据流**
   - ALU - `arithmetic and logic unit` - 算术逻辑单元
@@ -30,4 +24,16 @@
 
 <img width=300 src="https://user-images.githubusercontent.com/2216970/127798065-e41ca06b-46db-4833-ba38-a2f7723ed21a.png">
 
-## UseCase
+## Pipeline
+
+![128](media/d5824668ebec4f8f3d5fbbe35ba4ddcf4d2a8feb.gif)
+
+![avx2](media/4d488109117cbff4f1c9546ef288db79ad6ce28c.gif)
+
+![avx512](media/9dad4613bfb0412ca947629ce6dc9e49898b4d47.gif)
+
+## Reference
+
+  - [SIMD简介](https://zhuanlan.zhihu.com/p/55327037)
+  - [Basics of SIMD
+    Programming](http://ftp.cvut.cz/kernel/people/geoff/cell/ps3-linux-docs/CellProgrammingTutorial/BasicsOfSIMDProgramming.html)
