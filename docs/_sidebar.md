@@ -279,10 +279,11 @@
   - [Windows 查看调用的Lib](/0279_Windows_CallLib)
   - [Windows Issues](/0265_Windows_Issues)
     - [Windows 命令行执行命令时卡住](/0234_Windows_Issues_CommandLineHang)
+    - [命令行不能进入 D 盘](/0293_Windows_Issues_cmdCannotIntoD)
   - [Win11 关闭右键菜单折叠](/0282_Windows_W11collapse)
   - [Windows Batch 批处理](/0230_Windows_batch)
     - [for](/0229_Windows_batch_for)
 - [Wiki History](/hist)
 
 ---
-<kbd><sub>@1608301011</sub></kbd>
+<kbd><sub>@1015511012</sub></kbd>
