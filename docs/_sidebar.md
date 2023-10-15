@@ -16,6 +16,8 @@
       - [pylint](/0092_Programing_Python_CodeAnalysis_pylint)
       - [yapf](/0093_Programing_Python_CodeAnalysis_yapf)
     - [Decorator 装饰器](/0088_Programing_Python_Decorator)
+    - Web
+      - [Streamlit](/0294_Programing_Python_Web_Streamlit)
     - [assert](/0094_Programing_Python_assert)
     - [calendar 日历](/0211_Programing_Python_calendar)
     - [datetime](/0212_Programing_Python_datetime)
@@ -286,4 +288,4 @@
 - [Wiki History](/hist)
 
 ---
-<kbd><sub>@1607181015</sub></kbd>
+<kbd><sub>@0037001016</sub></kbd>
