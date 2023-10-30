@@ -220,6 +220,7 @@
 - [硬件](/0001_Hardware)
   - [CPU](/0002_Hardware_CPU)
     - [Branch Prediction](/0219_Hardware_CPU_BP)
+    - [Hyper-Threading 超线程](/0295_Hardware_CPU_HT)
     - [CPU History](/0289_Hardware_CPU_History)
     - [Intel](/0003_Hardware_CPU_Intel)
       - [P-Core & E-Core](/0215_Hardware_CPU_Intel_PECore)
@@ -288,4 +289,4 @@
 - [Wiki History](/hist)
 
 ---
-<kbd><sub>@1621261030</sub></kbd>
+<kbd><sub>@1637371030</sub></kbd>
