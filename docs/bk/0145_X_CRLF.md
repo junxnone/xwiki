@@ -3,7 +3,7 @@
 | Title     | X CRLF                                               |
 | --------- | ---------------------------------------------------- |
 | Created @ | `2020-04-23T09:44:34Z`                               |
-| Updated @ | `2023-11-02T03:42:14Z`                               |
+| Updated @ | `2023-11-02T03:43:13Z`                               |
 | Labels    | \`\`                                                 |
 | Edit @    | [here](https://github.com/junxnone/xwiki/issues/145) |
 
@@ -21,11 +21,9 @@
 | \< Mac OS 9 | CR   |
 | \> Mac OS X | LF   |
 
-## Tools
+## 检查文件格式工具
 
-### 检查文件格式
-
-#### file
+### file
 
   - 检查是不是 `CRLF` format
 
@@ -64,9 +62,9 @@
 
 > `^M` 结尾 的为 `CRLF` `$` 默认不显示，设置 `:set list` 后显示
 
-### 转换格式
+## 转换文件格式工具
 
-#### dos2unix
+### dos2unix
 
   - `CRLF --> LF`
 
@@ -74,12 +72,12 @@
 
     dos2unix  your_file
 
-#### tofrodos
+### tofrodos
 
     fromdos your_file
     todos your_file
 
-#### vim
+### vim
 
     vim your_file
 
