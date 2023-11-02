@@ -3,7 +3,7 @@
 | Title     | X CRLF                                               |
 | --------- | ---------------------------------------------------- |
 | Created @ | `2020-04-23T09:44:34Z`                               |
-| Updated @ | `2023-06-17T15:20:46Z`                               |
+| Updated @ | `2023-11-02T03:42:14Z`                               |
 | Labels    | \`\`                                                 |
 | Edit @    | [here](https://github.com/junxnone/xwiki/issues/145) |
 
@@ -34,11 +34,35 @@
     file your_file
     your_file: Bourne-Again shell script, ASCII text executable, with CRLF line terminators
 
+### cat
+
+  - `$` 为 Linux
+  - `^M$` 为 windows
+
+<!-- end list -->
+
+    cat -A [your_file]
+
+    111$
+    222$
+    333$
+    444$
+    555$
+    666$
+    777$
+    111^M$
+    222^M$
+    333^M$
+    444^M$
+    555^M$
+    666^M$
+    777^M$
+
 ### vim
 
     vim -b your_file
 
-> `^M` 结尾 的为 `CRLF`
+> `^M` 结尾 的为 `CRLF` `$` 默认不显示，设置 `:set list` 后显示
 
 ### 转换格式
 
