@@ -16,6 +16,7 @@
       - [pylint](/0092_Programing_Python_CodeAnalysis_pylint)
       - [yapf](/0093_Programing_Python_CodeAnalysis_yapf)
     - [Config Tools](/0296_Programing_Python_ConfigTools)
+      - [hydra](/0298_Programing_Python_ConfigTools_hydra)
     - [Decorator 装饰器](/0088_Programing_Python_Decorator)
     - [文件操作](/0297_Programing_Python_File)
     - Web
@@ -291,4 +292,4 @@
 - [Wiki History](/hist)
 
 ---
-<kbd><sub>@1109151103</sub></kbd>
+<kbd><sub>@1620521103</sub></kbd>
