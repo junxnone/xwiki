@@ -1,27 +1,15 @@
 -----
 
-| Title         | Tools Conda                                         |
-| ------------- | --------------------------------------------------- |
-| Created @     | `2020-01-10T08:28:17Z`                              |
-| Last Modify @ | `2022-12-22T06:20:06Z`                              |
-| Labels        | \`\`                                                |
-| Edit @        | [here](https://github.com/junxnone/xwiki/issues/73) |
+| Title     | Tools Conda                                         |
+| --------- | --------------------------------------------------- |
+| Created @ | `2020-01-10T08:28:17Z`                              |
+| Updated @ | `2023-11-05T07:08:50Z`                              |
+| Labels    | \`\`                                                |
+| Edit @    | [here](https://github.com/junxnone/xwiki/issues/73) |
 
 -----
 
-## Reference
-
-  - [conda
-    docs](https://docs.conda.io/projects/conda/en/latest/index.html#)
-  - [miniconda docs](https://docs.conda.io/en/latest/miniconda.html)
-  - [Anaconda Documentation](https://docs.anaconda.com/)
-  - [Github repo](https://github.com/conda)
-  - [anaconda
-    conda切换成国内源](https://blog.csdn.net/qq_24056913/article/details/88068362)
-  - [conda
-    常用命令](https://docs.conda.io/projects/conda/en/latest/commands.html#conda-general-commands)
-
-## Brief
+# Conda
 
   - conda 包和环境管理系统
 
@@ -100,3 +88,15 @@
 
     conda install cudatoolkit
     conda install cudnn
+
+## Reference
+
+  - [conda
+    docs](https://docs.conda.io/projects/conda/en/latest/index.html#)
+  - [miniconda docs](https://docs.conda.io/en/latest/miniconda.html)
+  - [Anaconda Documentation](https://docs.anaconda.com/)
+  - [Github repo](https://github.com/conda)
+  - [anaconda
+    conda切换成国内源](https://blog.csdn.net/qq_24056913/article/details/88068362)
+  - [conda
+    常用命令](https://docs.conda.io/projects/conda/en/latest/commands.html#conda-general-commands)
