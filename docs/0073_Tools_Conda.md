@@ -2,12 +2,11 @@
 Title | Tools Conda
 -- | --
 Created @ | `2020-01-10T08:28:17Z`
-Updated @| `2023-11-05T07:08:50Z`
+Updated @| `2023-11-05T07:09:27Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/73)
 
 ---
-
 # Conda
 
 - conda 包和环境管理系统
@@ -24,7 +23,7 @@ anaconda  | conda + 基础 + 常用的 packages
 UseCasse | Command
 -- | --
 Install | [Download the Install Package](https://docs.conda.io/en/latest/miniconda.html#linux-installers)<br>`bash Anaconda-latest-Linux-x86_64.sh` <br>`bash Miniconda3-latest-Linux-x86_64.sh`
-不进入base | `conda config --set auto_activate_base false`
+新开终端默认不进入base设置 | `conda config --set auto_activate_base false`
 查看 conda 信息 | `conda info`
 **虚拟环境 管理** | 
 Create  | `conda create -n your_envs`

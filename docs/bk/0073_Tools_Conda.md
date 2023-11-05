@@ -3,7 +3,7 @@
 | Title     | Tools Conda                                         |
 | --------- | --------------------------------------------------- |
 | Created @ | `2020-01-10T08:28:17Z`                              |
-| Updated @ | `2023-11-05T07:08:50Z`                              |
+| Updated @ | `2023-11-05T07:09:27Z`                              |
 | Labels    | \`\`                                                |
 | Edit @    | [here](https://github.com/junxnone/xwiki/issues/73) |
 
@@ -20,27 +20,27 @@
 
 ## Use Case
 
-| UseCasse       | Command                                                                                                                                                                                |
-| -------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Install        | [Download the Install Package](https://docs.conda.io/en/latest/miniconda.html#linux-installers)<br>`bash Anaconda-latest-Linux-x86_64.sh` <br>`bash Miniconda3-latest-Linux-x86_64.sh` |
-| 不进入base        | `conda config --set auto_activate_base false`                                                                                                                                          |
-| 查看 conda 信息    | `conda info`                                                                                                                                                                           |
-| **虚拟环境 管理**    |                                                                                                                                                                                        |
-| Create         | `conda create -n your_envs`                                                                                                                                                            |
-| Into           | `conda activate your_envs`<br>`source activate your_envs`                                                                                                                              |
-| Exit           | `conda deactivate`                                                                                                                                                                     |
-| List All       | `conda env list`<br>`conda info --envs`                                                                                                                                                |
-| Remove         | `conda remove -n your_envs --all`                                                                                                                                                      |
-| Copy           | `conda create -n new_envs --clone old_envs`                                                                                                                                            |
-| Export         | `conda env export> env.yml`                                                                                                                                                            |
-| Import         | `conda env create -f env.yml`                                                                                                                                                          |
-| **Package 管理** |                                                                                                                                                                                        |
-| Search         | `conda search tensorflow-gpu`                                                                                                                                                          |
-| Install        | `conda install tensorflow-gpu`<br>`conda install tensorflow-gpu=x.x.x`<br>`conda install --yes --file requirements.txt` <br>安装不在 conda 仓库中的 package `pip3 install your_package`        |
-| List All       | `conda list`                                                                                                                                                                           |
-| Remove         | `conda remove your_envs your_packages`                                                                                                                                                 |
-| Export         | `conda list -e > requirements.txt`                                                                                                                                                     |
-| 环境管理           |                                                                                                                                                                                        |
+| UseCasse        | Command                                                                                                                                                                                |
+| --------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Install         | [Download the Install Package](https://docs.conda.io/en/latest/miniconda.html#linux-installers)<br>`bash Anaconda-latest-Linux-x86_64.sh` <br>`bash Miniconda3-latest-Linux-x86_64.sh` |
+| 新开终端默认不进入base设置 | `conda config --set auto_activate_base false`                                                                                                                                          |
+| 查看 conda 信息     | `conda info`                                                                                                                                                                           |
+| **虚拟环境 管理**     |                                                                                                                                                                                        |
+| Create          | `conda create -n your_envs`                                                                                                                                                            |
+| Into            | `conda activate your_envs`<br>`source activate your_envs`                                                                                                                              |
+| Exit            | `conda deactivate`                                                                                                                                                                     |
+| List All        | `conda env list`<br>`conda info --envs`                                                                                                                                                |
+| Remove          | `conda remove -n your_envs --all`                                                                                                                                                      |
+| Copy            | `conda create -n new_envs --clone old_envs`                                                                                                                                            |
+| Export          | `conda env export> env.yml`                                                                                                                                                            |
+| Import          | `conda env create -f env.yml`                                                                                                                                                          |
+| **Package 管理**  |                                                                                                                                                                                        |
+| Search          | `conda search tensorflow-gpu`                                                                                                                                                          |
+| Install         | `conda install tensorflow-gpu`<br>`conda install tensorflow-gpu=x.x.x`<br>`conda install --yes --file requirements.txt` <br>安装不在 conda 仓库中的 package `pip3 install your_package`        |
+| List All        | `conda list`                                                                                                                                                                           |
+| Remove          | `conda remove your_envs your_packages`                                                                                                                                                 |
+| Export          | `conda list -e > requirements.txt`                                                                                                                                                     |
+| 环境管理            |                                                                                                                                                                                        |
 
 ## Others Config
 
