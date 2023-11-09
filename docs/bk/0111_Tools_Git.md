@@ -3,7 +3,7 @@
 | Title     | Tools Git                                            |
 | --------- | ---------------------------------------------------- |
 | Created @ | `2018-12-14T07:40:51Z`                               |
-| Updated @ | `2023-05-19T15:33:07Z`                               |
+| Updated @ | `2023-11-09T14:46:23Z`                               |
 | Labels    | \`\`                                                 |
 | Edit @    | [here](https://github.com/junxnone/xwiki/issues/111) |
 
@@ -12,6 +12,7 @@
 # Git
 
   - 代码版本管理工具，源于 Linux 需求
+  - [ssh key for github](/0123_Tools_Github_Token)
 
 ## 简单的开发流程
 
