@@ -2,12 +2,12 @@
 Title | Tools Github Token
 -- | --
 Created @ | `2018-12-12T09:21:02Z`
-Last Modify @| `2022-12-22T06:53:51Z`
+Updated @| `2023-11-09T14:44:57Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/123)
 
 ---
-## Brief
+# Github Access with ssh key
 - Generate the github token for ssh access
 
 ## Steps
