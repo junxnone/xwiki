@@ -3,7 +3,7 @@
 | Title     | Tools Github Token                                   |
 | --------- | ---------------------------------------------------- |
 | Created @ | `2018-12-12T09:21:02Z`                               |
-| Updated @ | `2023-11-09T14:44:57Z`                               |
+| Updated @ | `2023-11-09T14:45:38Z`                               |
 | Labels    | \`\`                                                 |
 | Edit @    | [here](https://github.com/junxnone/xwiki/issues/123) |
 
@@ -30,3 +30,8 @@
 `  ssh-rsa
 xxxxxxxxxxxxxxxxxxxxxABAQC4OI93xICB3nyCM57MGXu1t/ZVBrvqsaZCrEokOOHzWHbd3UdEmALRkrm9U0srP8VBVdYcv6RSE0tYSntuN+tT6BJmzOMRMPbDnXJyHniDsFtzQcbrZd6RPKXXsk4Bhnjxtx2dNBdJkOXoWIGH2sK0Nbt5Z2jqF8DPF8AWIkuK66YOtazkPCLzddTl8EWMinLH/Zr55Pw940MTPIswDu3sYzQJBFZ2z+85t3jwFH/O2ZmrZmqtEKHu0IDeakUDZxxxxxxxxxxxxxxxxxxxxxxxx
 name@hostname `
+
+## Reference
+
+  - [Generating a new SSH key and adding it to the
+    ssh-agent](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
