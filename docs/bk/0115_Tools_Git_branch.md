@@ -3,7 +3,7 @@
 | Title     | Tools Git branch                                     |
 | --------- | ---------------------------------------------------- |
 | Created @ | `2019-03-25T11:02:40Z`                               |
-| Updated @ | `2023-07-11T03:38:07Z`                               |
+| Updated @ | `2023-11-16T03:18:02Z`                               |
 | Labels    | \`\`                                                 |
 | Edit @    | [here](https://github.com/junxnone/xwiki/issues/115) |
 
@@ -20,6 +20,29 @@
   - hotfix(bugfix) ：这个分支的代码是紧急修复生产 bug 的代码
 
 ![image](media/0dafc24022c434a9fe3333076c14deb85f8a4e71.png)
+
+``` mermaid
+gitGraph
+    commit
+    commit
+    branch develop
+    checkout develop
+    commit id: "new feature"
+    commit id: "new features"
+    checkout main
+    merge develop
+    commit
+    commit
+    branch bugfix
+    checkout bugfix
+    commit id: "fix bug"
+    checkout main
+    merge bugfix
+    commit tag: "release v0.1" type: HIGHLIGHT
+    commit
+    commit
+    commit
+```
 
 ## UseCase
 
