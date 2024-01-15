@@ -106,6 +106,7 @@
       - [DEBUG](/0038_OPT_PARA_DPCPP_DEBUG)
     - [SYCL](/0031_OPT_PARA_SYCL)
       - [Concepts](/0041_OPT_PARA_SYCL_Concepts)
+      - [ESIMD](/0300_OPT_PARA_SYCL_ESIMD)
       - [Projects](/0039_OPT_PARA_SYCL_Projects)
       - [SPIR](/0040_OPT_PARA_SYCL_SPIR)
     - [OpenCL](/0034_OPT_PARA_OpenCL)
@@ -293,4 +294,4 @@
 - [Wiki History](/hist)
 
 ---
-<kbd><sub>@2223500115</sub></kbd>
+<kbd><sub>@2256170115</sub></kbd>
