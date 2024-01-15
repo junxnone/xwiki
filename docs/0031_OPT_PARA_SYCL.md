@@ -2,23 +2,13 @@
 Title | OPT PARA SYCL
 -- | --
 Created @ | `2021-07-29T01:50:29Z`
-Updated @| `2023-03-08T02:54:59Z`
+Updated @| `2024-01-15T14:14:42Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/31)
 
 ---
 # SYCL 
 
-## Reference
-- [SYCL 官网](https://www.khronos.org/sycl/)
-- [SYCL Specification](https://www.khronos.org/registry/SYCL/specs/sycl-2020/html/sycl-2020.html#introduction)
-- [SYCL Reference](https://sycl.readthedocs.io/en/latest/)
-- [sycl.tech](https://sycl.tech/learn/)
-- [A Comparative Study of SYCL, OpenCL, and OpenMP](https://www.researchgate.net/publication/312964923_A_Comparative_Study_of_SYCL_OpenCL_and_OpenMP)
-- [Investigation of the OpenCL SYCL Programming Model](https://static.epcc.ed.ac.uk/dissertations/hpc-msc/2013-2014/Investigation%20of%20the%20OpenCL%20SYCL%20Programming%20Model.pdf)
-- [SYCL Academy Videos](https://www.youtube.com/watch?v=1RqdVEDY5vg&list=PLCssnq0MpRdM-IUAYtNSPYck6u3oz7OZQ)  [[Github/Slides/source](https://github.com/codeplaysoftware/syclacademy)]
-
-## Brief
 - SYCL - High-Level C++ 抽象层 - 一个标准, 可以使用 OpenCL backend 运行，也可以用其他库作为后端 (CUDA/OpenMP/OpenCL+PTX/CUDA+PTX)
 - [SYCL Concepts](/SYCL_Concepts)
 - [SPIR](/SPIR)
@@ -32,6 +22,7 @@ Edit @| [here](https://github.com/junxnone/xwiki/issues/31)
 
 
 > The SYCL platform model is based on the OpenCL platform model. 
+> `SYCL`最初代表 `System-wide Compute Language` , 后来开发者声明(`@2020`)不再代表首字母缩写，不包含对 OpenCL的引用 
 
 ## SYCL 定位
 
@@ -67,5 +58,16 @@ OpenCL | - Low-Level<br> - Host + Device Code
 
 
 ![image](https://user-images.githubusercontent.com/2216970/145743651-05a778c8-193f-4672-8ba1-7aefbf5719ef.png)
+
+
+
+## Reference
+- [SYCL 官网](https://www.khronos.org/sycl/)
+- [SYCL Specification](https://www.khronos.org/registry/SYCL/specs/sycl-2020/html/sycl-2020.html#introduction)
+- [SYCL Reference](https://sycl.readthedocs.io/en/latest/)
+- [sycl.tech](https://sycl.tech/learn/)
+- [A Comparative Study of SYCL, OpenCL, and OpenMP](https://www.researchgate.net/publication/312964923_A_Comparative_Study_of_SYCL_OpenCL_and_OpenMP)
+- [Investigation of the OpenCL SYCL Programming Model](https://static.epcc.ed.ac.uk/dissertations/hpc-msc/2013-2014/Investigation%20of%20the%20OpenCL%20SYCL%20Programming%20Model.pdf)
+- [SYCL Academy Videos](https://www.youtube.com/watch?v=1RqdVEDY5vg&list=PLCssnq0MpRdM-IUAYtNSPYck6u3oz7OZQ)  [[Github/Slides/source](https://github.com/codeplaysoftware/syclacademy)]
 
 
