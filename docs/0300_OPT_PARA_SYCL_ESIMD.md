@@ -2,7 +2,7 @@
 Title | OPT PARA SYCL ESIMD
 -- | --
 Created @ | `2024-01-15T14:47:08Z`
-Updated @| `2024-01-16T02:01:38Z`
+Updated @| `2024-01-16T03:27:20Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/300)
 
@@ -28,6 +28,12 @@ Edit @| [here](https://github.com/junxnone/xwiki/issues/300)
 ---
 
 - 哪些可以直接 `Run on Host Device` ?
+
+
+- 常用函数？
+  - replicate_xxxx<>()
+  - bit_cast_view<>()
+  - merge() 
 
 
 ## Reference
