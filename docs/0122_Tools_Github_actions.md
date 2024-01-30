@@ -2,17 +2,27 @@
 Title | Tools Github actions
 -- | --
 Created @ | `2019-11-16T06:07:58Z`
-Updated @| `2024-01-30T14:58:59Z`
+Updated @| `2024-01-30T15:04:50Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/122)
 
 ---
 # Github Actions
 - CI/CD
-- 持续集成由很多操作组成，比如抓取代码、运行测试、登录远程服务器，发布到第三方服务等等。GitHub 把这些操作就称为 actions。
+- 持续集成由很多操作组成，比如抓取代码、运行测试、登录远程服务器，发布到第三方服务等等。GitHub 把这些操作就称为 workflow
+- `workflow `可以做成 `library` 的形式放在 `github marketplace` 供大家调用
 
 
 ![image](https://github.com/junxnone/xwiki/assets/2216970/8d4e5613-9692-4d7b-99bb-d7ce16c42e13)
+
+## Components
+
+- **Events** 触发事件
+- **Workflow** 事件触发后的处理
+- **Job** 可以独立完成的处理，每个 Job 在不同的 Runner 上运行
+- **Step** Job 中的分步
+- **Runner** 虚拟机
+
 
 ## ReUse Workflow
 
