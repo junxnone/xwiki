@@ -2,7 +2,7 @@
 Title | Tools Github actions
 -- | --
 Created @ | `2019-11-16T06:07:58Z`
-Updated @| `2023-06-17T15:02:57Z`
+Updated @| `2024-01-30T14:58:59Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/122)
 
@@ -10,6 +10,9 @@ Edit @| [here](https://github.com/junxnone/xwiki/issues/122)
 # Github Actions
 - CI/CD
 - 持续集成由很多操作组成，比如抓取代码、运行测试、登录远程服务器，发布到第三方服务等等。GitHub 把这些操作就称为 actions。
+
+
+![image](https://github.com/junxnone/xwiki/assets/2216970/8d4e5613-9692-4d7b-99bb-d7ce16c42e13)
 
 ## ReUse Workflow
 
