@@ -2,7 +2,7 @@
 Title | Tools Git proxy
 -- | --
 Created @ | `2018-12-10T06:05:14Z`
-Updated @| `2023-06-16T08:10:33Z`
+Updated @| `2024-02-04T08:52:46Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/113)
 
@@ -34,6 +34,8 @@ git config --global --unset https.proxy
 ```
 sudo apt install -y connect-proxy
 ```
+
+- `~/.ssh/config`
 
 ```
 host github.com
