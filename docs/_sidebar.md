@@ -72,7 +72,7 @@
     - [googletest](/0232_Programing_test_googletest)
 - [构建工具](/0190_Build)
   - [CMake](/0053_Build_Cmake)
-    - [Install](/0054_Build_Cmake_Install)
+    - [Install CMake](/0054_Build_Cmake_Install)
     - [命令行](/0151_Build_Cmake_CMD)
       - [使用 option 添加编译选项](/0228_Build_Cmake_CMD_option)
     - [CMake UseCase](/0060_Build_Cmake_UseCase)
@@ -294,4 +294,4 @@
 - [Wiki History](/hist)
 
 ---
-<kbd><sub>@0951150228</sub></kbd>
+<kbd><sub>@1608220228</sub></kbd>
