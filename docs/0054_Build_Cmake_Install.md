@@ -2,15 +2,17 @@
 Title | Build Cmake Install
 -- | --
 Created @ | `2021-07-15T06:06:27Z`
-Last Modify @| `2022-12-22T06:00:24Z`
+Updated @| `2024-02-28T01:50:08Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/54)
 
 ---
-## Reference
-- [Downloads](https://cmake.org/files/)
- 
-## Install on Linux
+# Install CMake
+##  Linux
+- apt install
+- Download the prebuild files
+- install from source code
+
 ### Ubuntu 16.04 Install newer cmake 3.21.1
 
 ```
@@ -41,6 +43,19 @@ sudo make install
 ```
 
 
-## Install on Windows
+## Windows
 
 - download the [msi](https://cmake.org/download/) and install the package
+
+### Set Proxy
+- 适用 cmake 下载时需要配置 proxy 的情况
+```
+set HTTP_PROXY=<your-proxy-here>
+set HTTPS_PROXY=<your-proxy-here>
+cmake-gui
+```
+
+
+## Reference
+- [Downloads](https://cmake.org/files/)
+
