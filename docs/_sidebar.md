@@ -175,7 +175,7 @@
     - [移除 stage 文件](/0119_Tools_Git_RMStageFile)
     - [git bash](/0256_Tools_Git_Bash)
     - [No newline at end of file](/0120_Tools_Git_NoNewline)
-    - [Git Patch 生成与使用](/0226_Tools_Git_Patch)
+    - [Git Patch](/0226_Tools_Git_Patch)
     - [Git Rebase](/0274_Tools_Git_Rebase)
     - [archive](/0118_Tools_Git_archive)
     - [Git diff](/0277_Tools_Git_diff)
@@ -294,4 +294,4 @@
 - [Wiki History](/hist)
 
 ---
-<kbd><sub>@1054250327</sub></kbd>
+<kbd><sub>@1608240327</sub></kbd>
