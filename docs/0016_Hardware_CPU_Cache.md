@@ -2,27 +2,35 @@
 Title | Hardware CPU Cache
 -- | --
 Created @ | `2022-04-25T03:29:21Z`
-Updated @| `2024-04-01T05:58:03Z`
+Updated @| `2024-04-01T06:14:51Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/16)
 
 ---
-# Cache
+# Cache Memory
 - Cache - 高速缓冲存储器
-  - 更快的读写数据
+  - 更快的读写数据, 可以缓冲 DRAM 读写速度较慢和 CPU 计算较快的速度差距
   - **时间局部性:** 一个数据如果当前被使用到，那么接下去一段时间它很可能被再次用到
   - **空间局部性:** 一个数据如果当前被使用到，那么接下去一段时间它周围的数据很可能也会被用到
-- `L1 Cache`/`L2 Cache`/`L3 Cache`
 - Data Block: 主存和Cache 会被分割成一定大小块, 相互映射读写
   - 直接映射/`Direct Mapped`
   - 组相联/`Set Associative`
   - 全相联/`Fully Associative`
 - Cache Line: 主存中的 Data Block 映射到 Cache 中
+- 除了 CPU 和 DRAM 之间的 Cache 外，还有其他一些 Cache[Table Lookup Buffer/Reorder Buffer/Memory Ordering Buffer]
+
+
 
 ## Cache Arch
+- 多级 Cache:
+  - 每个 Core 都会有自己的 `L1 Cache` & `L2 Cache`
+  - 不同的 Core 共享 `L3 Cache`
+
 
 ![image](https://user-images.githubusercontent.com/2216970/165016896-a476cb9a-2cc7-4d4e-b1bc-289951c5e79f.png)
 ![image](https://user-images.githubusercontent.com/2216970/165035159-bbf5b607-aa0d-40ad-b15b-35a3c31ed91e.png)
+
+
 
 ### Intel Tiger Lake Cache
 - DCU: L1 Data Cache
@@ -58,6 +66,10 @@ Edit @| [here](https://github.com/junxnone/xwiki/issues/16)
 
 ![image](https://user-images.githubusercontent.com/2216970/165450175-d30308d8-4f13-48bb-bb68-eb3551d2182a.png)
 
+## Cache Hit/Miss
+
+- CPU 读写数据时，如果数据在 Cache 中 称为 `Cache Hit`, 否则称为 `Cache Miss`
+- 命中率高会增加程序性能，减少 CPU 等待空闲时间，减少 DRAM 读取，降低功耗
 
 ## Reference
 - [计算机体系结构(Spring 2021)](http://staff.ustc.edu.cn/~xhzhou/CA-Spring2021/CA.html)  [[chapter04-01.pdf](https://github.com/junxnone/linuxwiki/files/8551388/chapter04-01.pdf)]
