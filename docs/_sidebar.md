@@ -224,6 +224,7 @@
 - [硬件](/0001_Hardware)
   - [CPU](/0002_Hardware_CPU)
     - [Branch Prediction](/0219_Hardware_CPU_BP)
+    - [Cache](/0016_Hardware_CPU_Cache)
     - [Hyper-Threading 超线程](/0295_Hardware_CPU_HT)
     - [CPU History](/0289_Hardware_CPU_History)
     - [Intel](/0003_Hardware_CPU_Intel)
@@ -241,7 +242,6 @@
       - [Data Center GPUs](/0223_Hardware_GPU_iGPU_dGPU)
       - [Intel GPUs Table](/0224_Hardware_GPU_iGPU_table)
   - [Memory](/0004_Hardware_Memory)
-    - [Cache](/0016_Hardware_Memory_Cache)
   - [NUMA](/0158_Hardware_NUMA)
   - [PMU](/0243_Hardware_PMU)
   - [Precision](/0281_Hardware_Precision)
@@ -294,4 +294,4 @@
 - [Wiki History](/hist)
 
 ---
-<kbd><sub>@1357420401</sub></kbd>
+<kbd><sub>@1358560401</sub></kbd>
