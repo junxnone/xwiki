@@ -3,7 +3,7 @@
 | Title     | Hardware CPU Cache                                  |
 | --------- | --------------------------------------------------- |
 | Created @ | `2022-04-25T03:29:21Z`                              |
-| Updated @ | `2024-04-01T06:14:51Z`                              |
+| Updated @ | `2024-04-01T06:17:54Z`                              |
 | Labels    | \`\`                                                |
 | Edit @    | [here](https://github.com/junxnone/xwiki/issues/16) |
 
@@ -80,3 +80,4 @@
     \[[chapter04-01.pdf](https://github.com/junxnone/linuxwiki/files/8551388/chapter04-01.pdf)\]
   - [计算机体系结构-Cache高速缓存](https://zhuanlan.zhihu.com/p/482651908)
   - [Cache地址映射与计算方式](https://www.cnblogs.com/AD-milk/p/13225494.html)
+  - [一文搞懂cpu cache工作原理](https://zhuanlan.zhihu.com/p/593016449)
