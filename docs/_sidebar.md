@@ -224,7 +224,7 @@
 - [硬件](/0001_Hardware)
   - [CPU](/0002_Hardware_CPU)
     - [Branch Prediction](/0219_Hardware_CPU_BP)
-    - [Cache](/0016_Hardware_CPU_Cache)
+    - [Cache Memory](/0016_Hardware_CPU_Cache)
     - [Hyper-Threading 超线程](/0295_Hardware_CPU_HT)
     - [CPU History](/0289_Hardware_CPU_History)
     - [Intel](/0003_Hardware_CPU_Intel)
@@ -294,4 +294,4 @@
 - [Wiki History](/hist)
 
 ---
-<kbd><sub>@1416130401</sub></kbd>
+<kbd><sub>@1419010401</sub></kbd>
