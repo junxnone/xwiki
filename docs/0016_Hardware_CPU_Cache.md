@@ -2,18 +2,12 @@
 Title | Hardware CPU Cache
 -- | --
 Created @ | `2022-04-25T03:29:21Z`
-Updated @| `2024-04-01T05:56:42Z`
+Updated @| `2024-04-01T05:58:03Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/16)
 
 ---
-## Reference
-- [计算机体系结构(Spring 2021)](http://staff.ustc.edu.cn/~xhzhou/CA-Spring2021/CA.html)  [[chapter04-01.pdf](https://github.com/junxnone/linuxwiki/files/8551388/chapter04-01.pdf)]
-- [计算机体系结构-Cache高速缓存](https://zhuanlan.zhihu.com/p/482651908)
-- [Cache地址映射与计算方式](https://www.cnblogs.com/AD-milk/p/13225494.html)
-
-
-## Brief
+# Cache
 - Cache - 高速缓冲存储器
   - 更快的读写数据
   - **时间局部性:** 一个数据如果当前被使用到，那么接下去一段时间它很可能被再次用到
@@ -63,4 +57,11 @@ Edit @| [here](https://github.com/junxnone/xwiki/issues/16)
   - Invalid: 无效缓存
 
 ![image](https://user-images.githubusercontent.com/2216970/165450175-d30308d8-4f13-48bb-bb68-eb3551d2182a.png)
+
+
+## Reference
+- [计算机体系结构(Spring 2021)](http://staff.ustc.edu.cn/~xhzhou/CA-Spring2021/CA.html)  [[chapter04-01.pdf](https://github.com/junxnone/linuxwiki/files/8551388/chapter04-01.pdf)]
+- [计算机体系结构-Cache高速缓存](https://zhuanlan.zhihu.com/p/482651908)
+- [Cache地址映射与计算方式](https://www.cnblogs.com/AD-milk/p/13225494.html)
+
 

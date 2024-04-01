@@ -3,20 +3,13 @@
 | Title     | Hardware CPU Cache                                  |
 | --------- | --------------------------------------------------- |
 | Created @ | `2022-04-25T03:29:21Z`                              |
-| Updated @ | `2024-04-01T05:56:42Z`                              |
+| Updated @ | `2024-04-01T05:58:03Z`                              |
 | Labels    | \`\`                                                |
 | Edit @    | [here](https://github.com/junxnone/xwiki/issues/16) |
 
 -----
 
-## Reference
-
-  - [计算机体系结构(Spring 2021)](http://staff.ustc.edu.cn/~xhzhou/CA-Spring2021/CA.html)
-    \[[chapter04-01.pdf](https://github.com/junxnone/linuxwiki/files/8551388/chapter04-01.pdf)\]
-  - [计算机体系结构-Cache高速缓存](https://zhuanlan.zhihu.com/p/482651908)
-  - [Cache地址映射与计算方式](https://www.cnblogs.com/AD-milk/p/13225494.html)
-
-## Brief
+# Cache
 
   - Cache - 高速缓冲存储器
       - 更快的读写数据
@@ -70,3 +63,10 @@
       - Invalid: 无效缓存
 
 ![image](media/4f6591de3d025b875daa1edebf9275ad67e5d73b.png)
+
+## Reference
+
+  - [计算机体系结构(Spring 2021)](http://staff.ustc.edu.cn/~xhzhou/CA-Spring2021/CA.html)
+    \[[chapter04-01.pdf](https://github.com/junxnone/linuxwiki/files/8551388/chapter04-01.pdf)\]
+  - [计算机体系结构-Cache高速缓存](https://zhuanlan.zhihu.com/p/482651908)
+  - [Cache地址映射与计算方式](https://www.cnblogs.com/AD-milk/p/13225494.html)
