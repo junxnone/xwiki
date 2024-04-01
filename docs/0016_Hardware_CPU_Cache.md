@@ -1,8 +1,8 @@
 ---
-Title | Hardware Memory Cache
+Title | Hardware CPU Cache
 -- | --
 Created @ | `2022-04-25T03:29:21Z`
-Last Modify @| `2022-12-22T03:40:52Z`
+Updated @| `2024-04-01T05:56:42Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/16)
 
