@@ -3,7 +3,7 @@
 | Title     | Hardware CPU Intel                                 |
 | --------- | -------------------------------------------------- |
 | Created @ | `2019-12-27T07:56:56Z`                             |
-| Updated @ | `2024-04-06T07:20:11Z`                             |
+| Updated @ | `2024-04-06T08:27:59Z`                             |
 | Labels    | \`\`                                               |
 | Edit @    | [here](https://github.com/junxnone/xwiki/issues/3) |
 
@@ -16,16 +16,23 @@
     Intel Core i5-12600KF
 
   - **Intel**: 品牌
-  - **Core**: 系列 Core/Pentium/Celeron/Xeon/Atom
+  - **Core**: 系列 Ultra/Core/Pentium/Celeron/Xeon/Atom
   - **i5**: 定位 i3/i5/i7/i9
   - **12**: 代
   - **600**: SKU 一般数字越大频率越高
-  - **后缀字母**
-      - **K**: 可以超频
-      - **F**: 不带集成显卡
-      - **T** : 低功耗
-      - **X/XE**: 至尊旗舰
-      - **KS**:官方超频
+
+### 处理器后缀
+
+  - **X/XE**: 高性能，未锁频
+  - **K**: 高性能，未锁频
+  - **S**: 特别版
+  - **F**: 不带集成显卡
+  - **T** : 低功耗
+  - **H**: 最高性能
+  - **P**: 高能效
+  - **Y**: 功耗极低
+  - **E**: 嵌入式
+  - **L**: LGA 封装
 
 ## History
 
@@ -80,3 +87,5 @@
     microarchitectures](https://en.wikipedia.org/wiki/List_of_Intel_CPU_microarchitectures)
   - [适用于游戏电脑的英特尔®
     处理器如何命名](https://www.intel.cn/content/www/cn/zh/gaming/resources/gaming-processor-names.html)
+  - [关于我们的最新处理器和命名规则更新的简要指南](https://www.intel.cn/content/www/cn/zh/processors/processor-numbers.html)
+  - [CPU型号解读](https://zhuanlan.zhihu.com/p/498113584)
