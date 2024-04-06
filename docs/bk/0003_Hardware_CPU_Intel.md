@@ -1,20 +1,32 @@
 -----
 
-| Title         | Hardware CPU Intel                                 |
-| ------------- | -------------------------------------------------- |
-| Created @     | `2019-12-27T07:56:56Z`                             |
-| Last Modify @ | `2022-12-22T03:20:47Z`                             |
-| Labels        | \`\`                                               |
-| Edit @        | [here](https://github.com/junxnone/xwiki/issues/3) |
+| Title     | Hardware CPU Intel                                 |
+| --------- | -------------------------------------------------- |
+| Created @ | `2019-12-27T07:56:56Z`                             |
+| Updated @ | `2024-04-06T07:18:43Z`                             |
+| Labels    | \`\`                                               |
+| Edit @    | [here](https://github.com/junxnone/xwiki/issues/3) |
 
 -----
 
-## Reference
+# Intel CPU
 
-  - [List of Intel CPU
-    microarchitectures](https://en.wikipedia.org/wiki/List_of_Intel_CPU_microarchitectures)
+## Intel CPU 命名
 
-## Brief
+    Intel Core i5-12600KF
+
+  - **Intel**: 品牌
+  - **Core**: 系列 Core/Pentium/Celeron/Xeon/Atom
+  - **i5**: 定位 i3/i5/i7/i9
+  - **12**: 代
+  - **600**: SKU 一般数字越大频率越高
+  - **后缀字母**
+      - **K**: 可以超频
+      - **F**: 不带集成显卡
+      - **T**
+      - **X/XE**
+
+## History
 
 | Year   | Micro-architecture                                   | Pipeline stages                         | MaxClock\[MHz\] | Techprocess\[nm\] |
 | ------ | ---------------------------------------------------- | --------------------------------------- | --------------- | ----------------- |
@@ -60,3 +72,8 @@
 | (2020) | Willow Cove (Tiger Lake)                             |                                         |                 | 10                |
 | (2021) | Alder Lake                                           |                                         |                 | 10                |
 | (2022) | Meteor Lake                                          |                                         |                 | 7                 |
+
+## Reference
+
+  - [List of Intel CPU
+    microarchitectures](https://en.wikipedia.org/wiki/List_of_Intel_CPU_microarchitectures)
