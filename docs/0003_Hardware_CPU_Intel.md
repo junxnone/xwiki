@@ -2,7 +2,7 @@
 Title | Hardware CPU Intel
 -- | --
 Created @ | `2019-12-27T07:56:56Z`
-Updated @| `2024-04-06T07:19:44Z`
+Updated @| `2024-04-06T07:20:11Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/3)
 
@@ -78,4 +78,4 @@ Year | Micro-architecture | Pipeline stages | MaxClock[MHz] | Techprocess[nm]
 
 ## Reference
 - [List of Intel CPU microarchitectures](https://en.wikipedia.org/wiki/List_of_Intel_CPU_microarchitectures)
-
+- [适用于游戏电脑的英特尔® 处理器如何命名](https://www.intel.cn/content/www/cn/zh/gaming/resources/gaming-processor-names.html)
