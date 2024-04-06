@@ -2,7 +2,7 @@
 Title | Hardware CPU Intel
 -- | --
 Created @ | `2019-12-27T07:56:56Z`
-Updated @| `2024-04-06T08:27:59Z`
+Updated @| `2024-04-06T08:29:58Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/3)
 
@@ -19,7 +19,7 @@ Intel Core i5-12600KF
 - **Core**: 系列 Ultra/Core/Pentium/Celeron/Xeon/Atom
 - **i5**: 定位  i3/i5/i7/i9
 - **12**: 代
-- **600**: SKU 一般数字越大频率越高
+- **600**: SKU 一般数字越大频率越高 (Cache/Cores...更优)
 
 ### 处理器后缀
 - **X/XE**: 高性能，未锁频
