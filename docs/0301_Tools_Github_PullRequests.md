@@ -2,12 +2,11 @@
 Title | Tools Github PullRequests
 -- | --
 Created @ | `2024-04-06T04:24:37Z`
-Updated @| `2024-04-06T04:24:37Z`
+Updated @| `2024-04-06T04:25:45Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/301)
 
 ---
-
 ``` mermaid
 flowchart TD
     A[1 Fork the repo] -->B[2 Clone the repo to Local]
@@ -17,8 +16,8 @@ flowchart TD
     E --> E1[push to the new barnch of fork]
     E1 --> F[6 Pull Request from web]
     F --> F1[CI Test & Review]
-    F1 --> F2[Merge]
-    F1 --> N[Fix Bug]
+    F1 -->|looks good| F2[Merge]
+    F1 -->|failed| N[Fix Bug]
     N --> E
 ```
 
