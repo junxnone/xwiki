@@ -3,13 +3,21 @@
 | Title     | Hardware CPU Intel                                 |
 | --------- | -------------------------------------------------- |
 | Created @ | `2019-12-27T07:56:56Z`                             |
-| Updated @ | `2024-04-06T08:29:58Z`                             |
+| Updated @ | `2024-04-06T08:39:25Z`                             |
 | Labels    | \`\`                                               |
 | Edit @    | [here](https://github.com/junxnone/xwiki/issues/3) |
 
 -----
 
 # Intel CPU
+
+  - Intel® Core™ Ultra processors
+  - Intel® Core™ Processors 英特尔® 酷睿™ 处理器
+  - Intel® Processor 英特尔® 处理器
+  - Intel® Xeon® Processors 英特尔® 至强® 处理器
+  - Intel Atom® Processor 英特尔凌动® 处理器
+  - Intel® Pentium® Processor 英特尔® 奔腾® 处理器
+  - Intel® Celeron® Processor 英特尔® 赛扬® 处理器
 
 ## Intel CPU 命名
 
