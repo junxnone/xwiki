@@ -243,7 +243,7 @@
       - [Data Center GPUs](/0223_Hardware_GPU_iGPU_dGPU)
       - [Intel GPUs Table](/0224_Hardware_GPU_iGPU_table)
   - [Memory](/0004_Hardware_Memory)
-  - [NUMA](/0158_Hardware_NUMA)
+  - [NUMA 架构](/0158_Hardware_NUMA)
   - [PMU](/0243_Hardware_PMU)
   - [Precision](/0281_Hardware_Precision)
   - [SIMD - Single Instruction Multiple Data](/0007_Hardware_SIMD)
@@ -295,4 +295,4 @@
 - [Wiki History](/hist)
 
 ---
-<kbd><sub>@0826270411</sub></kbd>
+<kbd><sub>@0839500411</sub></kbd>
