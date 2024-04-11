@@ -228,6 +228,7 @@
     - [Cache Memory](/0016_Hardware_CPU_Cache)
     - [Hyper-Threading 超线程](/0295_Hardware_CPU_HT)
     - [CPU History](/0289_Hardware_CPU_History)
+    - [Hybrid](/0302_Hardware_CPU_Hybrid)
     - [Intel CPU](/0003_Hardware_CPU_Intel)
       - [P-Core & E-Core](/0215_Hardware_CPU_Intel_PECore)
   - [GPU](/0218_Hardware_GPU)
@@ -295,4 +296,4 @@
 - [Wiki History](/hist)
 
 ---
-<kbd><sub>@0839500411</sub></kbd>
+<kbd><sub>@1608410411</sub></kbd>
