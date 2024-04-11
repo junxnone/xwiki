@@ -1,25 +1,15 @@
 -----
 
-| Title         | Hardware NUMA                                        |
-| ------------- | ---------------------------------------------------- |
-| Created @     | `2021-08-09T06:26:17Z`                               |
-| Last Modify @ | `2022-12-22T07:31:38Z`                               |
-| Labels        | \`\`                                                 |
-| Edit @        | [here](https://github.com/junxnone/xwiki/issues/158) |
+| Title     | Hardware NUMA                                        |
+| --------- | ---------------------------------------------------- |
+| Created @ | `2021-08-09T06:26:17Z`                               |
+| Updated @ | `2024-04-11T00:25:11Z`                               |
+| Labels    | \`\`                                                 |
+| Edit @    | [here](https://github.com/junxnone/xwiki/issues/158) |
 
 -----
 
-## Reference
-
-  - [NUMA架构的CPU](http://cenalulu.github.io/linux/numa/)
-  - [为什么 NUMA
-    会影响程序的延迟](https://draveness.me/whys-the-design-numa-performance/)
-  - [NUMA Support -
-    MS](https://docs.microsoft.com/en-us/windows/win32/procthread/numa-support)
-  - [NUMA DEEP DIVE PART 4: LOCAL MEMORY
-    OPTIMIZATION](https://frankdenneman.nl/2016/07/13/numa-deep-dive-4-local-memory-optimization/)
-
-## Brief
+# NUMA 架构
 
   - NUMA - `Non Uniform Memory Access/非统一内存访问`
       - SMP - `symmetric multiprocessor` - 对称处理器
@@ -79,3 +69,13 @@
       1:  21  10
 
 >   - node distances - 访问延迟 `Remote Access` 是 `Local Access` 的 2.1 倍
+
+## Reference
+
+  - [NUMA架构的CPU](http://cenalulu.github.io/linux/numa/)
+  - [为什么 NUMA
+    会影响程序的延迟](https://draveness.me/whys-the-design-numa-performance/)
+  - [NUMA Support -
+    MS](https://docs.microsoft.com/en-us/windows/win32/procthread/numa-support)
+  - [NUMA DEEP DIVE PART 4: LOCAL MEMORY
+    OPTIMIZATION](https://frankdenneman.nl/2016/07/13/numa-deep-dive-4-local-memory-optimization/)
