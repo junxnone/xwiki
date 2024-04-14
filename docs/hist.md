@@ -55,7 +55,7 @@
 - 2023-06-02        [Programing CPP Policy](/0249_Programing_CPP_Policy)
 - 2023-06-02        [Programing CPP Template](/0248_Programing_CPP_Template)
 - 2023-06-02        [Reference](/0247_Reference)
-- 2023-05-25        [Hardware PMU](/0243_Hardware_PMU)
+- 2023-05-25        [Hardware PMUs](/0243_Hardware_PMUs)
 - 2023-05-25        [OPT Tools Vtune iGPU](/0245_OPT_Tools_Vtune_iGPU)
 - 2023-05-25        [Hardware GPU iGPU Drivers](/0244_Hardware_GPU_iGPU_Drivers)
 - 2023-05-08        [Doc Mermaid](/0242_Doc_Mermaid)

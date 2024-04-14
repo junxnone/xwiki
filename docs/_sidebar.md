@@ -245,7 +245,7 @@
       - [Intel GPUs Table](/0224_Hardware_GPU_iGPU_table)
   - [Memory](/0004_Hardware_Memory)
   - [NUMA 架构](/0158_Hardware_NUMA)
-  - [PMU](/0243_Hardware_PMU)
+  - [PMUs](/0243_Hardware_PMUs)
   - [Precision](/0281_Hardware_Precision)
   - [SIMD - Single Instruction Multiple Data](/0007_Hardware_SIMD)
     - [AVX](/0009_Hardware_SIMD_AVX)
@@ -296,4 +296,4 @@
 - [Wiki History](/hist)
 
 ---
-<kbd><sub>@1208030414</sub></kbd>
+<kbd><sub>@1209070414</sub></kbd>
