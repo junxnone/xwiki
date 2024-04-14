@@ -1,8 +1,8 @@
 ---
-Title | Hardware PMU
+Title | Hardware PMUs
 -- | --
 Created @ | `2023-05-25T08:21:52Z`
-Updated @| `2023-05-25T08:28:49Z`
+Updated @| `2024-04-14T04:07:09Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/243)
 
