@@ -2,13 +2,13 @@
 Title | Hardware SIMD
 -- | --
 Created @ | `2019-12-19T09:05:21Z`
-Updated @| `2023-08-01T09:45:17Z`
+Updated @| `2024-04-20T03:44:31Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/7)
 
 ---
-# SIMD - Single Instruction Multiple Data
-
+# SIMD 
+- SIMD - `Single Instruction Multiple Data`
 - ALUs 共享 `fetch/decode` 逻辑单元
 - **SIMD width** 等于 ALUs 的数量(下图为 Four-wide SIMD Processor)
 - GPU/CPU/... 很多处理器都有实现，GPU SIMD widths 更大
