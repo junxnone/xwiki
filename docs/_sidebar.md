@@ -247,7 +247,7 @@
   - [NUMA 架构](/0158_Hardware_NUMA)
   - [PMUs](/0243_Hardware_PMUs)
   - [Precision](/0281_Hardware_Precision)
-  - [SIMD - Single Instruction Multiple Data](/0007_Hardware_SIMD)
+  - [SIMD](/0007_Hardware_SIMD)
     - [AVX](/0009_Hardware_SIMD_AVX)
       - [CodeCompile](/0150_Hardware_SIMD_AVX_CodeCompile)
     - [SIMD 原理](/0008_Hardware_SIMD_原理)
@@ -296,4 +296,4 @@
 - [Wiki History](/hist)
 
 ---
-<kbd><sub>@1145290420</sub></kbd>
+<kbd><sub>@1149260420</sub></kbd>
