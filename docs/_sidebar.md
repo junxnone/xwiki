@@ -87,7 +87,6 @@
     - [语法](/0055_Build_Cmake_语法)
   - [Make](/0063_Build_Make)
   - [pk-config](/0064_Build_pkgconfig)
-- [性能优化](/0014_OPT)
 - [Pandas](/0181_Pandas)
   - [Series](/0184_Pandas_Series)
   - [DataFrame](/0182_Pandas_DataFrame)
@@ -250,4 +249,4 @@
 - [Wiki History](/hist)
 
 ---
-<kbd><sub>@1407540421</sub></kbd>
+<kbd><sub>@1415390421</sub></kbd>
