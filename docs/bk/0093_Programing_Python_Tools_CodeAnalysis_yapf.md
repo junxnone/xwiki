@@ -3,17 +3,13 @@
 | Title     | Programing Python Tools CodeAnalysis yapf           |
 | --------- | --------------------------------------------------- |
 | Created @ | `2019-11-14T05:59:05Z`                              |
-| Updated @ | `2024-04-23T02:12:48Z`                              |
+| Updated @ | `2024-04-23T02:13:26Z`                              |
 | Labels    | \`\`                                                |
 | Edit @    | [here](https://github.com/junxnone/xwiki/issues/93) |
 
 -----
 
-## Reference
-
-  - [Github - Google](https://github.com/google/yapf)
-
-## Brief
+# yapf 代码格式化工具
 
   - **Google 开发的一款python code 格式化工具**
 
@@ -36,3 +32,7 @@
 <!-- end list -->
 
     yapf -i --style google your_code.py
+
+## Reference
+
+  - [Github - Google](https://github.com/google/yapf)
