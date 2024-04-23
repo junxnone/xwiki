@@ -16,6 +16,7 @@
     - [工具](/0090_Programing_Python_Tools)
       - [Streamlit](/0294_Programing_Python_Tools_Streamlit)
       - [bandit 代码安全分析](/0091_Programing_Python_Tools_bandit)
+      - [calendar 日历](/0211_Programing_Python_Tools_calendar)
       - [datetime](/0212_Programing_Python_Tools_datetime)
       - [hydra](/0298_Programing_Python_Tools_hydra)
       - [omegaconf](/0296_Programing_Python_Tools_omegaconf)
@@ -24,9 +25,8 @@
       - [pylint 代码分析工具](/0092_Programing_Python_Tools_pylint)
       - [yapf 代码格式化工具](/0093_Programing_Python_Tools_yapf)
     - [assert](/0094_Programing_Python_assert)
-    - [calendar 日历](/0211_Programing_Python_calendar)
     - [json](/0292_Programing_Python_json)
-    - [tqdm](/0099_Programing_Python_tqdm)
+    - [tqdm 进度条工具](/0099_Programing_Python_tqdm)
   - [C++](/0077_Programing_CPP)
     - [Vector](/0080_Programing_CPP_Vector)
     - [switch](/0081_Programing_CPP_switch)
@@ -249,4 +249,4 @@
 - [Wiki History](/hist)
 
 ---
-<kbd><sub>@1036410423</sub></kbd>
+<kbd><sub>@1037410423</sub></kbd>
