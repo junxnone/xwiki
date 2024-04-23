@@ -1,15 +1,16 @@
 ---
-Title | Programing Python Tools CodeAnalysis
+Title | Programing Python Tools
 -- | --
 Created @ | `2020-03-16T00:12:19Z`
-Updated @| `2024-04-23T02:00:24Z`
+Updated @| `2024-04-23T02:15:51Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/90)
 
 ---
-# 代码分析工具
+# 工具
 
-- Code Analysis Tools - 代码分析工具
+
+## 代码分析工具
 - bandit
 - pylint
 - yapf
@@ -23,7 +24,5 @@ yapf |  | formatter | Google
 
 > analysis - static code analysis
 
-
-## Reference
-- [Github - PyCQA](https://github.com/PyCQA/pylint)
-- [Github - Google](https://github.com/google/yapf)
+## 代码Debug 工具
+- [PySnooper](https://github.com/cool-RR/PySnooper) : 以装饰器的形式打印函数运行过程中运行了哪些代码行，运行的时间及运行时变量的值。
