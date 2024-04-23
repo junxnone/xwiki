@@ -2,7 +2,7 @@
 Title | Programing Python Tools
 -- | --
 Created @ | `2020-03-16T00:12:19Z`
-Updated @| `2024-04-23T02:24:16Z`
+Updated @| `2024-04-23T02:32:21Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/90)
 
@@ -32,3 +32,8 @@ yapf |  | formatter | Google
 - Argparse python 内置的简单的命令行输入
 - hydra
 - omegaconf
+
+## Web Tools
+
+- **Streamlit**: 基于 Python 的 Web 应用程序框架, 可以在短时间内开发机器学习 (ML) 可视化仪表板
+- **Gradio**: 快速开发 Web App
