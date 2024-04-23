@@ -20,7 +20,7 @@
     - Tools
       - [代码分析工具](/0090_Programing_Python_Tools_CodeAnalysis)
         - [bandit 代码安全分析](/0091_Programing_Python_Tools_CodeAnalysis_bandit)
-        - [pylint](/0092_Programing_Python_Tools_CodeAnalysis_pylint)
+        - [pylint 代码分析工具](/0092_Programing_Python_Tools_CodeAnalysis_pylint)
       - [Python Debug Tools](/0303_Programing_Python_Tools_Debug)
     - Web
       - [Streamlit](/0294_Programing_Python_Web_Streamlit)
@@ -252,4 +252,4 @@
 - [Wiki History](/hist)
 
 ---
-<kbd><sub>@1012570423</sub></kbd>
+<kbd><sub>@1013280423</sub></kbd>
