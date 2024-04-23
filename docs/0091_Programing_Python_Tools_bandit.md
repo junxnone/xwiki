@@ -1,8 +1,8 @@
 ---
-Title | Programing Python Tools CodeAnalysis bandit
+Title | Programing Python Tools bandit
 -- | --
 Created @ | `2019-11-13T08:10:36Z`
-Updated @| `2024-04-23T02:11:48Z`
+Updated @| `2024-04-23T02:13:44Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/91)
 
