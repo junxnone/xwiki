@@ -2,7 +2,7 @@
 Title | Programing Python Tools
 -- | --
 Created @ | `2020-03-16T00:12:19Z`
-Updated @| `2024-04-23T02:15:51Z`
+Updated @| `2024-04-23T02:24:16Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/90)
 
@@ -26,3 +26,9 @@ yapf |  | formatter | Google
 
 ## 代码Debug 工具
 - [PySnooper](https://github.com/cool-RR/PySnooper) : 以装饰器的形式打印函数运行过程中运行了哪些代码行，运行的时间及运行时变量的值。
+
+
+## Config Tools
+- Argparse python 内置的简单的命令行输入
+- hydra
+- omegaconf
