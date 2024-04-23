@@ -2,17 +2,12 @@
 Title | Programing Python Tools CodeAnalysis bandit
 -- | --
 Created @ | `2019-11-13T08:10:36Z`
-Updated @| `2024-04-23T02:11:14Z`
+Updated @| `2024-04-23T02:11:48Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/91)
 
 ---
-
-## Reference 
-- [Github - PyCQA](https://github.com/PyCQA/bandit )
-- [Docs](https://bandit.readthedocs.io/en/latest/)
-
-## Brief
+# bandit 代码安全分析
 
 - **python 代码安全分析工具**
 - Bandit使用标准库中的ast模块，将Python源码解析成Python语法节点构成的树。
@@ -55,3 +50,9 @@ bandit -r /path/to/your/code -f json -o baseline.json
 ```
 bandit -r /path/to/your/code -b baseline.json
 ```
+
+## Reference 
+- [Github - PyCQA](https://github.com/PyCQA/bandit )
+- [Docs](https://bandit.readthedocs.io/en/latest/)
+
+
