@@ -16,8 +16,8 @@
     - [Decorator 装饰器](/0088_Programing_Python_Decorator)
     - [文件操作](/0297_Programing_Python_File)
     - [工具](/0090_Programing_Python_Tools)
-      - [Python Debug Tools](/0303_Programing_Python_Tools_Debug)
       - [bandit 代码安全分析](/0091_Programing_Python_Tools_bandit)
+      - [pdb](/0303_Programing_Python_Tools_pdb)
       - [pylint 代码分析工具](/0092_Programing_Python_Tools_pylint)
       - [yapf 代码格式化工具](/0093_Programing_Python_Tools_yapf)
     - Web
@@ -250,4 +250,4 @@
 - [Wiki History](/hist)
 
 ---
-<kbd><sub>@1016390423</sub></kbd>
+<kbd><sub>@1021370423</sub></kbd>
