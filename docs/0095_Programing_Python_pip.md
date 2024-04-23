@@ -2,16 +2,12 @@
 Title | Programing Python pip
 -- | --
 Created @ | `2018-11-25T09:47:54Z`
-Updated @| `2023-02-28T14:52:20Z`
+Updated @| `2024-04-23T02:26:41Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/95)
 
 ---
-## Reference
-- [pip configuration](https://pip.pypa.io/en/latest/user_guide/#configuration )
-- [Python 生成requirement 使用requirements.txt](https://blog.51cto.com/meyangyang/2094937)
-
-## Brief
+# pip
 - Python Package 管理工具
 
 
@@ -100,3 +96,10 @@ python -m pip install --upgrade pip
 export TMPDIR=your_tmp_dir
 ```
 > `your_tmp_dir` 最好使用绝对路径, `matplotlib` 使用相对路径时出错
+
+
+## Reference
+- [pip configuration](https://pip.pypa.io/en/latest/user_guide/#configuration )
+- [Python 生成requirement 使用requirements.txt](https://blog.51cto.com/meyangyang/2094937)
+
+
