@@ -11,12 +11,12 @@
     - [logging](/0097_Programing_Python_logging)
     - [Argparse](/0258_Programing_Python_Argparse)
     - [编译可执行文件](/0089_Programing_Python_BuildExe)
-    - [Config Tools](/0296_Programing_Python_ConfigTools)
     - [Decorator 装饰器](/0088_Programing_Python_Decorator)
     - [文件操作](/0297_Programing_Python_File)
     - [工具](/0090_Programing_Python_Tools)
       - [bandit 代码安全分析](/0091_Programing_Python_Tools_bandit)
       - [hydra](/0298_Programing_Python_Tools_hydra)
+      - [Config Tools](/0296_Programing_Python_Tools_omegaconf)
       - [pdb](/0303_Programing_Python_Tools_pdb)
       - [pylint 代码分析工具](/0092_Programing_Python_Tools_pylint)
       - [yapf 代码格式化工具](/0093_Programing_Python_Tools_yapf)
@@ -250,4 +250,4 @@
 - [Wiki History](/hist)
 
 ---
-<kbd><sub>@1022130423</sub></kbd>
+<kbd><sub>@1024030423</sub></kbd>
