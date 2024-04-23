@@ -16,7 +16,7 @@
     - [工具](/0090_Programing_Python_Tools)
       - [bandit 代码安全分析](/0091_Programing_Python_Tools_bandit)
       - [hydra](/0298_Programing_Python_Tools_hydra)
-      - [Config Tools](/0296_Programing_Python_Tools_omegaconf)
+      - [omegaconf](/0296_Programing_Python_Tools_omegaconf)
       - [pdb](/0303_Programing_Python_Tools_pdb)
       - [pylint 代码分析工具](/0092_Programing_Python_Tools_pylint)
       - [yapf 代码格式化工具](/0093_Programing_Python_Tools_yapf)
@@ -250,4 +250,4 @@
 - [Wiki History](/hist)
 
 ---
-<kbd><sub>@1025320423</sub></kbd>
+<kbd><sub>@1027280423</sub></kbd>
