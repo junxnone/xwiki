@@ -1,8 +1,8 @@
 ---
-Title | Programing Python ConfigTools
+Title | Programing Python Tools omegaconf
 -- | --
 Created @ | `2023-10-31T02:59:30Z`
-Updated @| `2023-11-03T02:56:20Z`
+Updated @| `2024-04-23T02:23:16Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/296)
 
