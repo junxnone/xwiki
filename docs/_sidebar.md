@@ -12,7 +12,6 @@
     - [Argparse](/0258_Programing_Python_Argparse)
     - [编译可执行文件](/0089_Programing_Python_BuildExe)
     - CodeAnalysis
-      - [pylint](/0092_Programing_Python_CodeAnalysis_pylint)
       - [yapf](/0093_Programing_Python_CodeAnalysis_yapf)
     - [Config Tools](/0296_Programing_Python_ConfigTools)
       - [hydra](/0298_Programing_Python_ConfigTools_hydra)
@@ -20,7 +19,8 @@
     - [文件操作](/0297_Programing_Python_File)
     - Tools
       - [代码分析工具](/0090_Programing_Python_Tools_CodeAnalysis)
-        - [bandit](/0091_Programing_Python_Tools_CodeAnalysis_bandit)
+        - [bandit 代码安全分析](/0091_Programing_Python_Tools_CodeAnalysis_bandit)
+        - [pylint](/0092_Programing_Python_Tools_CodeAnalysis_pylint)
       - [Python Debug Tools](/0303_Programing_Python_Tools_Debug)
     - Web
       - [Streamlit](/0294_Programing_Python_Web_Streamlit)
@@ -252,4 +252,4 @@
 - [Wiki History](/hist)
 
 ---
-<kbd><sub>@1012160423</sub></kbd>
+<kbd><sub>@1012570423</sub></kbd>
