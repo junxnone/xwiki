@@ -1,8 +1,8 @@
 ---
-Title | Programing Python Tools CodeAnalysis yapf
+Title | Programing Python Tools yapf
 -- | --
 Created @ | `2019-11-14T05:59:05Z`
-Updated @| `2024-04-23T02:13:26Z`
+Updated @| `2024-04-23T02:14:01Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/93)
 
