@@ -1,8 +1,8 @@
 ---
-Title | Programing Python Tools CodeAnalysis pylint
+Title | Programing Python Tools pylint
 -- | --
 Created @ | `2019-11-13T08:10:45Z`
-Updated @| `2024-04-23T02:12:37Z`
+Updated @| `2024-04-23T02:13:51Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/92)
 
