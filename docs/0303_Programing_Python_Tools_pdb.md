@@ -1,8 +1,8 @@
 ---
-Title | Programing Python Tools Debug
+Title | Programing Python Tools pdb
 -- | --
 Created @ | `2024-04-23T02:03:59Z`
-Updated @| `2024-04-23T02:03:59Z`
+Updated @| `2024-04-23T02:16:06Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/303)
 
