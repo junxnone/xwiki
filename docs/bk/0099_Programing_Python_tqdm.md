@@ -1,23 +1,16 @@
 -----
 
-| Title         | Programing Python tqdm                              |
-| ------------- | --------------------------------------------------- |
-| Created @     | `2019-07-19T06:22:40Z`                              |
-| Last Modify @ | `2022-12-22T06:40:11Z`                              |
-| Labels        | \`\`                                                |
-| Edit @        | [here](https://github.com/junxnone/xwiki/issues/99) |
+| Title     | Programing Python tqdm                              |
+| --------- | --------------------------------------------------- |
+| Created @ | `2019-07-19T06:22:40Z`                              |
+| Updated @ | `2024-04-23T02:36:46Z`                              |
+| Labels    | \`\`                                                |
+| Edit @    | [here](https://github.com/junxnone/xwiki/issues/99) |
 
 -----
 
-## Reference
+# tqdm 进度条工具
 
-  - [Github - tqdm](https://github.com/tqdm/tqdm)
-  - [tqdm==\>python可扩展进度条](https://blog.csdn.net/xiaodongxiexie/article/details/70495618)
-  - [Docs](https://tqdm.github.io/)
-
-## Brief
-
-  - 进度条工具
   - Modules
       - tqdm.trange
       - tqdm.tqdm
@@ -48,3 +41,9 @@
     
     for _ in tqdm(p.imap(fun, data_list), total=len(data_list)):
       pass
+
+## Reference
+
+  - [Github - tqdm](https://github.com/tqdm/tqdm)
+  - [tqdm==\>python可扩展进度条](https://blog.csdn.net/xiaodongxiexie/article/details/70495618)
+  - [Docs](https://tqdm.github.io/)
