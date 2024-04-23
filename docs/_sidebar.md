@@ -21,6 +21,7 @@
     - [文件操作](/0297_Programing_Python_File)
     - Tools
       - [代码分析工具](/0090_Programing_Python_Tools_CodeAnalysis)
+      - [Python Debug Tools](/0303_Programing_Python_Tools_Debug)
     - Web
       - [Streamlit](/0294_Programing_Python_Web_Streamlit)
     - [assert](/0094_Programing_Python_assert)
@@ -251,4 +252,4 @@
 - [Wiki History](/hist)
 
 ---
-<kbd><sub>@1001130423</sub></kbd>
+<kbd><sub>@1004590423</sub></kbd>
