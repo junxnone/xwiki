@@ -17,10 +17,10 @@
     - [文件操作](/0297_Programing_Python_File)
     - Tools
       - [代码分析工具](/0090_Programing_Python_Tools_CodeAnalysis)
-        - [bandit 代码安全分析](/0091_Programing_Python_Tools_CodeAnalysis_bandit)
-        - [pylint 代码分析工具](/0092_Programing_Python_Tools_CodeAnalysis_pylint)
         - [yapf 代码格式化工具](/0093_Programing_Python_Tools_CodeAnalysis_yapf)
       - [Python Debug Tools](/0303_Programing_Python_Tools_Debug)
+      - [bandit 代码安全分析](/0091_Programing_Python_Tools_bandit)
+      - [pylint 代码分析工具](/0092_Programing_Python_Tools_pylint)
     - Web
       - [Streamlit](/0294_Programing_Python_Web_Streamlit)
     - [assert](/0094_Programing_Python_assert)
@@ -251,4 +251,4 @@
 - [Wiki History](/hist)
 
 ---
-<kbd><sub>@1014140423</sub></kbd>
+<kbd><sub>@1014480423</sub></kbd>
