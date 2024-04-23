@@ -2,7 +2,7 @@
 Title | Programing Python Tools
 -- | --
 Created @ | `2020-03-16T00:12:19Z`
-Updated @| `2024-04-23T02:32:21Z`
+Updated @| `2024-04-23T02:35:04Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/90)
 
@@ -37,3 +37,14 @@ yapf |  | formatter | Google
 
 - **Streamlit**: 基于 Python 的 Web 应用程序框架, 可以在短时间内开发机器学习 (ML) 可视化仪表板
 - **Gradio**: 快速开发 Web App
+
+
+## 日期时间工具
+
+- **datetime**
+- **calendar**
+- **time**
+
+## 系统信息工具
+
+- **psutil**: 获取系统硬件信息
