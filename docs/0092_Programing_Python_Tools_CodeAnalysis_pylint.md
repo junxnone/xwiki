@@ -2,20 +2,12 @@
 Title | Programing Python Tools CodeAnalysis pylint
 -- | --
 Created @ | `2019-11-13T08:10:45Z`
-Updated @| `2024-04-23T02:11:58Z`
+Updated @| `2024-04-23T02:12:37Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/92)
 
 ---
-
-
-## Reference
-
-- [Github - PyCQA](https://github.com/PyCQA/pylint)
-- [Docs](http://pylint.pycqa.org/en/latest/user_guide/run.html)
-- [如何使用 Pylint 来规范 Python 代码风格](https://www.ibm.com/developerworks/cn/linux/l-cn-pylint/index.html)
-
-## Brief
+# pylint 代码分析工具
 
 **Pylint 是一个 Python 代码分析工具，它分析 Python 代码中的错误，查找不符合代码风格标准和有潜在问题的代码。**
 
@@ -223,3 +215,11 @@ Messages
 Your code has been rated at -5.58/10 (previous run: -5.58/10, +0.00)
 ```
 </details>
+
+
+## Reference
+
+- [Github - PyCQA](https://github.com/PyCQA/pylint)
+- [Docs](http://pylint.pycqa.org/en/latest/user_guide/run.html)
+- [如何使用 Pylint 来规范 Python 代码风格](https://www.ibm.com/developerworks/cn/linux/l-cn-pylint/index.html)
+
