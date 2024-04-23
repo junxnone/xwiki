@@ -2,11 +2,13 @@
 Title | Programing Python Tools pdb
 -- | --
 Created @ | `2024-04-23T02:03:59Z`
-Updated @| `2024-04-23T02:16:06Z`
+Updated @| `2024-04-23T02:20:43Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/303)
 
 ---
-# Python Debug Tools
+# pdb
 
-- [PySnooper](https://github.com/cool-RR/PySnooper) : 以装饰器的形式打印函数运行过程中运行了哪些代码行，运行的时间及运行时变量的值。
+
+## Reference
+- [doc](https://docs.python.org/3/library/pdb.html)
