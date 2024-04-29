@@ -3,7 +3,7 @@
 | Title     | Hardware GPU iGPU Tools                              |
 | --------- | ---------------------------------------------------- |
 | Created @ | `2021-12-13T11:35:31Z`                               |
-| Updated @ | `2023-05-24T15:09:38Z`                               |
+| Updated @ | `2024-04-29T09:55:31Z`                               |
 | Labels    | \`\`                                                 |
 | Edit @    | [here](https://github.com/junxnone/xwiki/issues/153) |
 
@@ -37,3 +37,7 @@
 
     sudo apt install intel-gpu-tools
     sudo intel_gpu_top
+
+## Reference
+
+  - [intel-gpu-tools](https://cgit.freedesktop.org/xorg/app/intel-gpu-tools/)
