@@ -2,7 +2,7 @@
 Title | Programing Python Tools
 -- | --
 Created @ | `2020-03-16T00:12:19Z`
-Updated @| `2024-04-23T02:37:12Z`
+Updated @| `2024-05-09T08:53:32Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/90)
 
@@ -26,6 +26,18 @@ yapf |  | formatter | Google
 
 ## 代码Debug 工具
 - [PySnooper](https://github.com/cool-RR/PySnooper) : 以装饰器的形式打印函数运行过程中运行了哪些代码行，运行的时间及运行时变量的值。
+- 支持监控指定函数变量
+- 支持只 debug 某段 code
+- 支持输出log到文件
+- 
+
+
+```
+import pysnooper
+
+@pysnooper.snoop('logs_test.txt',color=False)
+
+```
 
 
 ## Config Tools
