@@ -2,7 +2,7 @@
 Title | Programing Python Tools PySnooper
 -- | --
 Created @ | `2024-05-14T06:43:45Z`
-Updated @| `2024-05-14T07:12:06Z`
+Updated @| `2024-05-14T07:16:43Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/304)
 
@@ -128,6 +128,7 @@ sum_to_x(10000)
 ```
     @pysnooper.snoop(max_variable_length=200)
 ```
+> `max_variable_length=None` 不限制输出
 
 
 
