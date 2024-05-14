@@ -14,6 +14,7 @@
     - [Decorator 装饰器](/0088_Programing_Python_Decorator)
     - [文件操作](/0297_Programing_Python_File)
     - [工具](/0090_Programing_Python_Tools)
+      - [PySnooper](/0304_Programing_Python_Tools_PySnooper)
       - [Streamlit](/0294_Programing_Python_Tools_Streamlit)
       - [bandit 代码安全分析](/0091_Programing_Python_Tools_bandit)
       - [calendar 日历](/0211_Programing_Python_Tools_calendar)
@@ -249,4 +250,4 @@
 - [Wiki History](/hist)
 
 ---
-<kbd><sub>@1610050513</sub></kbd>
+<kbd><sub>@1444350514</sub></kbd>
