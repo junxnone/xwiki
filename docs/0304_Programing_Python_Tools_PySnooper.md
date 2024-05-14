@@ -2,7 +2,7 @@
 Title | Programing Python Tools PySnooper
 -- | --
 Created @ | `2024-05-14T06:43:45Z`
-Updated @| `2024-05-14T06:54:09Z`
+Updated @| `2024-05-14T07:12:06Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/304)
 
@@ -13,7 +13,7 @@ Edit @| [here](https://github.com/junxnone/xwiki/issues/304)
 
 
 ```
-Source path:... /home/4T1/jun/works/AnomalyCLIP/AnomalyCLIP/tap.py
+Source path:... /path/to/your/scripts/tap.py
 Starting var:.. gt_sp = [0, 0, 0, 0, 1, 1, 1, 1, 1, 1]
 Starting var:.. pr_sp = [0.9919, 0.9923, 0.9942, 0.992, 0.9916, 0.9913, 0.9926, 0.9951, 0.9894, 0.9905]
 14:52:56.296655 call        14 def test(gt_sp, pr_sp):
