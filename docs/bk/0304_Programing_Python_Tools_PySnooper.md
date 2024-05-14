@@ -3,7 +3,7 @@
 | Title     | Programing Python Tools PySnooper                    |
 | --------- | ---------------------------------------------------- |
 | Created @ | `2024-05-14T06:43:45Z`                               |
-| Updated @ | `2024-05-14T06:43:45Z`                               |
+| Updated @ | `2024-05-14T06:54:09Z`                               |
 | Labels    | \`\`                                                 |
 | Edit @    | [here](https://github.com/junxnone/xwiki/issues/304) |
 
@@ -15,18 +15,31 @@
 
 <!-- end list -->
 
-    16:49:26.097070 line       109         with torch.no_grad():
-    16:49:26.106352 line       110             image_features, patch_features = model.encode_image(image, features_list, DPAM_layer = 20)
-    New var:....... image_features = tensor([[ 7.4489e-02,  9.8921e-02, -2.6420e-01, ...-01,  3.4232e-01,  1.4390e-01]], device='cuda:0')
-    New var:....... patch_features = [tensor([[[-0.6382, -0.5245, -0.5684,  ..., -0.3...080,  0.6653, -0.2632]]],       device='cuda:0')]
-    16:49:26.356453 line       111             image_features = image_features / image_features.norm(dim=-1, keepdim=True)
-    Modified var:.. image_features = tensor([[ 8.9026e-03,  1.1823e-02, -3.1576e-02, ...-02,  4.0912e-02,  1.7199e-02]], device='cuda:0')
-    16:49:26.390644 line       113             text_probs = image_features @ text_features.permute(0, 2, 1)
-    New var:....... text_probs = tensor([[[-0.1082,  0.2346]]], device='cuda:0')
-    16:49:26.423401 line       114             text_probs = (text_probs/0.07).softmax(-1)
-    Modified var:.. text_probs = tensor([[[0.0074, 0.9926]]], device='cuda:0')
-    16:49:26.456468 line       115             text_probs = text_probs[:, 0, 1]
-    Modified var:.. text_probs = tensor([0.9926], device='cuda:0')
+    Source path:... /home/4T1/jun/works/AnomalyCLIP/AnomalyCLIP/tap.py
+    Starting var:.. gt_sp = [0, 0, 0, 0, 1, 1, 1, 1, 1, 1]
+    Starting var:.. pr_sp = [0.9919, 0.9923, 0.9942, 0.992, 0.9916, 0.9913, 0.9926, 0.9951, 0.9894, 0.9905]
+    14:52:56.296655 call        14 def test(gt_sp, pr_sp):
+    14:52:56.296869 line        15     thres = 0.9979
+    New var:....... thres = 0.9979
+    14:52:56.296932 line        17     pr_l = [ 1 if num > thres else 0 for num in pr_sp]
+    New var:....... pr_l = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+    14:52:56.297000 line        18     print(pr_l)
+    [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+    14:52:56.297071 line        20     aas = accuracy_score(gt_sp, pr_l)
+    New var:....... aas = 0.4
+    14:52:56.298280 line        22     print(f'accuracy_score：{aas}')
+    accuracy_score：0.4
+    14:52:56.298393 line        25     ap = average_precision_score(gt_sp, pr_sp)
+    New var:....... ap = 0.6251322751322752
+    14:52:56.299719 line        26     print(f'ap: {ap}')
+    ap: 0.6251322751322752
+    14:52:56.299832 line        28     precision, recall, thresholds = precision_recall_curve(gt_sp, pr_sp)
+    New var:....... precision = array([0.6       , 0.55555556, 0.5       , 0.428...66667, 0.5       , 1.        ,       1.        ])
+    New var:....... recall = array([1.        , 0.83333333, 0.66666667, 0.5  ...33333, 0.16666667, 0.16666667,       0.        ])
+    New var:....... thresholds = array([0.9894, 0.9905, 0.9913, 0.9916, 0.9919, 0.992 , 0.9923, 0.9926,       0.9942, 0.9951])
+    14:52:56.300593 return      28     precision, recall, thresholds = precision_recall_curve(gt_sp, pr_sp)
+    Return value:.. None
+    Elapsed time: 00:00:00.004629
 
 ## Use Case
 
