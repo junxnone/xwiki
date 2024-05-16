@@ -3,7 +3,7 @@
 | Title     | Programing Python Tools                             |
 | --------- | --------------------------------------------------- |
 | Created @ | `2020-03-16T00:12:19Z`                              |
-| Updated @ | `2024-05-14T06:57:41Z`                              |
+| Updated @ | `2024-05-16T11:20:32Z`                              |
 | Labels    | \`\`                                                |
 | Edit @    | [here](https://github.com/junxnone/xwiki/issues/90) |
 
@@ -34,6 +34,8 @@
       - 支持监控指定函数变量
       - 支持只 debug 某段 code
       - 支持输出log到文件
+  - [Python Tutor](https://pythontutor.com/visualize.html#mode=edit):
+    代码虚拟图形分析，也可以分析 Java/JS/C/C++
 
 ## Config Tools
 
