@@ -2,7 +2,7 @@
 Title | Programing Python Tools
 -- | --
 Created @ | `2020-03-16T00:12:19Z`
-Updated @| `2024-05-16T11:43:09Z`
+Updated @| `2024-05-16T11:47:14Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/90)
 
@@ -32,6 +32,8 @@ yapf |  | formatter | Google
   - 支持输出log到文件
 - [Python Tutor](https://pythontutor.com/visualize.html#mode=edit): 代码虚拟图形分析，也可以分析 Java/JS/C/C++
 - [futurecoder](https://futurecoder.io/course/#ide)： 集成 `snoop`/`Python Tutor`...
+- [heartrate](https://github.com/alexmojaki/heartrate) 浏览器实时显示代码的执行次数
+
 
 ## Config Tools
 - Argparse python 内置的简单的命令行输入
