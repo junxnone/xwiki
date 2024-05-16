@@ -3,7 +3,7 @@
 | Title     | Programing Python Tools                             |
 | --------- | --------------------------------------------------- |
 | Created @ | `2020-03-16T00:12:19Z`                              |
-| Updated @ | `2024-05-16T11:47:14Z`                              |
+| Updated @ | `2024-05-16T12:00:09Z`                              |
 | Labels    | \`\`                                                |
 | Edit @    | [here](https://github.com/junxnone/xwiki/issues/90) |
 
@@ -39,6 +39,8 @@
   - [futurecoder](https://futurecoder.io/course/#ide)： 集成
     `snoop`/`Python Tutor`...
   - [heartrate](https://github.com/alexmojaki/heartrate) 浏览器实时显示代码的执行次数
+  - [birdseye](https://github.com/alexmojaki/birdseye/tree/master):
+    浏览器查看执行过的 code stack data
 
 ## Config Tools
 
