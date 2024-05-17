@@ -213,7 +213,7 @@
 - 2019-05-23&nbsp;&nbsp; [re 正则表达式模块](/0207_Programing_Python_re)&nbsp;&nbsp; :bookmark:Programing :bookmark:Python :bookmark:re
 - 2019-05-22&nbsp;&nbsp; [读取文件](/0104_Programing_Shell_ReadFile)&nbsp;&nbsp; :bookmark:Programing :bookmark:Shell :bookmark:ReadFile
 - 2019-05-21&nbsp;&nbsp; [UseCase](/0108_Programing_Shell_UseCase)&nbsp;&nbsp; :bookmark:Programing :bookmark:Shell :bookmark:UseCase
-- 2019-05-14&nbsp;&nbsp; [Slice](/0086_Programing_Python_Slice)&nbsp;&nbsp; :bookmark:Programing :bookmark:Python :bookmark:Slice
+- 2019-05-14&nbsp;&nbsp; [Python slice 切片 操作](/0086_Programing_Python_Slice)&nbsp;&nbsp; :bookmark:Programing :bookmark:Python :bookmark:Slice
 - 2019-05-11&nbsp;&nbsp; [JupyterHub](/0066_Tools_Jupyter_JupyterHub)&nbsp;&nbsp; :bookmark:Tools :bookmark:Jupyter :bookmark:JupyterHub
 - 2019-04-20&nbsp;&nbsp; [opengrok 代码浏览工具](/0143_Tools_opengrok)&nbsp;&nbsp; :bookmark:Tools :bookmark:opengrok
 - 2019-03-25&nbsp;&nbsp; [Git Branch](/0115_Tools_Git_branch)&nbsp;&nbsp; :bookmark:Tools :bookmark:Git :bookmark:branch

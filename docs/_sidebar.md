@@ -5,7 +5,7 @@
     - [virtualenvwrapper](/0175_Programing_Python_virtualenvwrapper)
     - [time](/0096_Programing_Python_time)
     - [列表](/0085_Programing_Python_List)
-    - [Slice](/0086_Programing_Python_Slice)
+    - [Python slice 切片 操作](/0086_Programing_Python_Slice)
     - [格式化字符串](/0087_Programing_Python_FormatString)
     - [re 正则表达式模块](/0207_Programing_Python_re)
     - [logging](/0097_Programing_Python_logging)
@@ -250,4 +250,4 @@
 - [Wiki History](/hist)
 
 ---
-<kbd><sub>@2315580517</sub></kbd>
+<kbd><sub>@2339020517</sub></kbd>
