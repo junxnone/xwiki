@@ -2,27 +2,53 @@
 Title | Programing Python virtualenv
 -- | --
 Created @ | `2018-11-25T09:53:47Z`
-Last Modify @| `2022-12-22T08:08:12Z`
+Updated @| `2024-05-17T15:14:58Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/176)
 
 ---
-## Brief
+# virtualenv
+
 - 用于创建独立的 python 虚拟环境, 隔离 host python 环境
 - 一般使用 [[virtualenvwrapper]] 管理虚拟环境
 
 ## Install
 
-Install from | cmd
--- | --
-Raspberry pi 3B & Ubuntu | `sudo apt install -y virtualenv`
-pip | `pip3 install virtualenv`
+### pip
+
+```
+pip3 install virtualenv
+```
+
+### apt
+
+```
+sudo apt install -y virtualenv
+```
+
+> Raspberry pi 3B 
 
 ## UseCase
 
-Usecase | cmd
--- | --
-Create New virtualenv | `virtualenv yourenv` <br>`source yourenv/bin/activate`
-Create New python3 env | `virtualenv -p python3 env`
-Exit virtualenv | `deactivate`
+### 创建虚拟环境
+
+`virtualenv yourenv` 
+
+#### 创建特定python 版本的虚拟环境
+
+```
+virtualenv -p python3 env
+```
+
+### 使用虚拟环境
+
+```
+source yourenv/bin/activate
+```
+
+### 退出虚拟环境
+
+```
+deactivate
+```
 
