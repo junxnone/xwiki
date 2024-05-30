@@ -2,15 +2,13 @@
 Title | Programing Shell for
 -- | --
 Created @ | `2022-06-16T02:45:07Z`
-Last Modify @| `2022-12-22T06:41:38Z`
+Updated @| `2024-05-30T02:10:59Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/101)
 
 ---
-## Reference
-- [Shell中for循环的几个常用写法](https://blog.csdn.net/babyfish13/article/details/52981110)
+# shell for
 
-## Brief
 - 数字循环
 - 字符循环
 - 路径查找
@@ -23,7 +21,7 @@ Edit @| [here](https://github.com/junxnone/xwiki/issues/101)
 ```
 for((i=1;i<=10;i++));
 do 
-echo $(expr $i \* 3 + 1);
+    echo $(expr $i \* 3 + 1);
 done
 ```
 
@@ -32,7 +30,7 @@ done
 ```
 for i in {1..10}
 do
-echo $(expr $i \* 3 + 1);
+    echo $(expr $i \* 3 + 1);
 done
 ```
 
@@ -41,7 +39,7 @@ done
 ```
 for i in $(seq 1 10)
 do 
-echo $(expr $i \* 3 + 1);
+    echo $(expr $i \* 3 + 1);
 done
 ```
 
@@ -52,7 +50,7 @@ done
 ```
 for i in `ls`;
 do 
-echo $i is file name\! ;
+    echo $i is file name\! ;
 done
 ```
 
@@ -61,7 +59,7 @@ done
 ```
 for i in $* ;
 do
-echo $i is input chart\! ;
+    echo $i is input chart\! ;
 done
 ```
 
@@ -70,7 +68,7 @@ done
 ```
 for i in f1 f2 f3 ;
 do
-echo $i is appoint ;
+    echo $i is appoint ;
 done
 ```
 
@@ -80,9 +78,23 @@ done
 list="rootfs usr data data2"
 for i in $list;
 do
-echo $i is appoint ;
+    echo $i is appoint ;
 done
 ```
+
+### 遍历数组
+
+```
+# 定义一个数组变量
+fruits=("Apple" "Banana" "Orange" "Grapes")
+
+# 使用for循环遍历数组元素
+for fruit in "${fruits[@]}"; 
+do
+    echo "Fruit: $fruit"
+done
+```
+
 
 ## 路径查找
 
@@ -91,7 +103,7 @@ done
 ```
 for file in /proc/*;
 do
-echo $file is file path \! ;
+    echo $file is file path \! ;
 done
 ```
 
@@ -100,6 +112,11 @@ done
 ```
 for file in $(ls *.sh)
 do
-echo $file is file path \! ;
+    echo $file is file path \! ;
 done
 ```
+
+## Reference
+- [Shell中for循环的几个常用写法](https://blog.csdn.net/babyfish13/article/details/52981110)
+
+
