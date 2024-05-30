@@ -3,7 +3,7 @@
 | Title     | Programing Shell for                                 |
 | --------- | ---------------------------------------------------- |
 | Created @ | `2022-06-16T02:45:07Z`                               |
-| Updated @ | `2024-05-30T02:10:59Z`                               |
+| Updated @ | `2024-05-30T02:18:51Z`                               |
 | Labels    | \`\`                                                 |
 | Edit @    | [here](https://github.com/junxnone/xwiki/issues/101) |
 
@@ -24,28 +24,21 @@
         echo $(expr $i \* 3 + 1);
     done
 
-### `..` 生成值
+### `..` 生成遍历区间值
 
     for i in {1..10}
     do
         echo $(expr $i \* 3 + 1);
     done
 
-### seq 生成值
+### seq 生成遍历区间值
 
     for i in $(seq 1 10)
     do 
         echo $(expr $i \* 3 + 1);
     done
 
-## 字符循环
-
-### 遍历字符串
-
-    for i in `ls`;
-    do 
-        echo $i is file name\! ;
-    done
+## 变量循环
 
 ### 输入参数遍历
 
@@ -54,7 +47,7 @@
         echo $i is input chart\! ;
     done
 
-## 遍历多个变量
+### 遍历多个变量
 
     for i in f1 f2 f3 ;
     do
@@ -80,20 +73,23 @@
         echo "Fruit: $fruit"
     done
 
-## 路径查找
-
-### 遍历路径
+## 遍历路径匹配
 
     for file in /proc/*;
     do
         echo $file is file path \! ;
     done
 
-### 遍历 `ls` 结果
+## 遍历命令执行结果
 
     for file in $(ls *.sh)
     do
         echo $file is file path \! ;
+    done
+
+    for i in `ls`;
+    do 
+        echo $i is file name\! ;
     done
 
 ## Reference
