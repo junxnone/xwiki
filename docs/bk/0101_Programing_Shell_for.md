@@ -3,17 +3,18 @@
 | Title     | Programing Shell for                                 |
 | --------- | ---------------------------------------------------- |
 | Created @ | `2022-06-16T02:45:07Z`                               |
-| Updated @ | `2024-05-30T02:18:51Z`                               |
+| Updated @ | `2024-05-30T02:20:17Z`                               |
 | Labels    | \`\`                                                 |
 | Edit @    | [here](https://github.com/junxnone/xwiki/issues/101) |
 
 -----
 
-# shell for
+# Shell for
 
-  - 数字循环
-  - 字符循环
-  - 路径查找
+  - **用途**
+      - 数字遍历
+      - 词组/字符串遍历
+      - 路径/文件遍历
 
 ## 数字循环
 
