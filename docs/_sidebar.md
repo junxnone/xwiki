@@ -46,7 +46,7 @@
     - [运算符重载](/0222_Programing_CPP_opoverloading)
   - [Shell](/0079_Programing_Shell)
     - [if  判断](/0102_Programing_Shell_if)
-    - [shell for](/0101_Programing_Shell_for)
+    - [Shell for](/0101_Programing_Shell_for)
     - [case](/0103_Programing_Shell_case)
     - [函数](/0100_Programing_Shell_Function)
     - [参数](/0106_Programing_Shell_ARG)
@@ -250,4 +250,4 @@
 - [Wiki History](/hist)
 
 ---
-<kbd><sub>@1019480530</sub></kbd>
+<kbd><sub>@1021070530</sub></kbd>
