@@ -1,19 +1,15 @@
 -----
 
-| Title         | Programing Shell case                                |
-| ------------- | ---------------------------------------------------- |
-| Created @     | `2020-05-04T08:09:42Z`                               |
-| Last Modify @ | `2022-12-22T06:42:43Z`                               |
-| Labels        | \`\`                                                 |
-| Edit @        | [here](https://github.com/junxnone/xwiki/issues/103) |
+| Title     | Programing Shell case                                |
+| --------- | ---------------------------------------------------- |
+| Created @ | `2020-05-04T08:09:42Z`                               |
+| Updated @ | `2024-06-11T11:40:06Z`                               |
+| Labels    | \`\`                                                 |
+| Edit @    | [here](https://github.com/junxnone/xwiki/issues/103) |
 
 -----
 
-## Reference
-
-  - [shell脚本中的case条件语句介绍和使用案例](https://www.cnblogs.com/guoke-boy/p/12605789.html)
-
-## UseCase
+# Shell case
 
     #!/bin/bash
     case $1 in
@@ -27,9 +23,7 @@
             echo 'haha'
     esac
 
-  - read input
-
-<!-- end list -->
+## read input
 
     #!/bin/bash
     
@@ -71,3 +65,7 @@
     
     please select a fruit：1
     eat banana
+
+## Reference
+
+  - [shell脚本中的case条件语句介绍和使用案例](https://www.cnblogs.com/guoke-boy/p/12605789.html)
