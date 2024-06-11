@@ -2,20 +2,12 @@
 Title | Programing Shell
 -- | --
 Created @ | `2018-11-29T11:55:17Z`
-Updated @| `2023-05-07T15:20:20Z`
+Updated @| `2024-06-11T11:35:27Z`
 Labels | `reindex`
 Edit @| [here](https://github.com/junxnone/xwiki/issues/79)
 
 ---
-## Reference
-- [Linux下Shell的for循环语句](https://www.cnblogs.com/EasonJim/p/8315939.html)
-- [Shell 教程](http://www.runoob.com/linux/linux-shell.html)
-- [Shell脚本书写规范](https://www.cnblogs.com/thatsit/p/shell-jiao-ben-shu-xie-gui-fan.html)
-- [12个最好的免费开源Linux Shell](https://www.cnblogs.com/rainy0426/articles/12805710.html)
-- [命令行的艺术](https://github.com/jlevy/the-art-of-command-line/blob/master/README-zh.md)
-
-
-## Brief
+# Shell 
 
 - 变量
 - [函数](/Shell_Function)
@@ -65,4 +57,13 @@ Elvish |
 Tips | cmd
 -- | --
  `echo` 不换行输出 `echo -n "xxx"`
+
+
+## Reference
+- [Linux下Shell的for循环语句](https://www.cnblogs.com/EasonJim/p/8315939.html)
+- [Shell 教程](http://www.runoob.com/linux/linux-shell.html)
+- [Shell脚本书写规范](https://www.cnblogs.com/thatsit/p/shell-jiao-ben-shu-xie-gui-fan.html)
+- [12个最好的免费开源Linux Shell](https://www.cnblogs.com/rainy0426/articles/12805710.html)
+- [命令行的艺术](https://github.com/jlevy/the-art-of-command-line/blob/master/README-zh.md)
+
 
