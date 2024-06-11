@@ -54,6 +54,7 @@
     - [读取文件](/0104_Programing_Shell_ReadFile)
     - [Shell Comment](/0105_Programing_Shell_comment)
     - [UseCase](/0108_Programing_Shell_UseCase)
+    - [Shell Tips](/0305_Programing_Shell_Tips)
   - [编译器](/0012_Programing_Compiler)
     - [GCC](/0159_Programing_Compiler_GCC)
       - [Ubuntu Install](/0166_Programing_Compiler_GCC_UbuntuInstall)
@@ -250,4 +251,4 @@
 - [Wiki History](/hist)
 
 ---
-<kbd><sub>@1934020611</sub></kbd>
+<kbd><sub>@1935490611</sub></kbd>
