@@ -1,17 +1,15 @@
 -----
 
-| Title         | Programing Shell if                                  |
-| ------------- | ---------------------------------------------------- |
-| Created @     | `2019-07-25T08:00:08Z`                               |
-| Last Modify @ | `2022-12-22T06:42:19Z`                               |
-| Labels        | \`\`                                                 |
-| Edit @        | [here](https://github.com/junxnone/xwiki/issues/102) |
+| Title     | Programing Shell if                                  |
+| --------- | ---------------------------------------------------- |
+| Created @ | `2019-07-25T08:00:08Z`                               |
+| Updated @ | `2024-06-11T11:40:27Z`                               |
+| Labels    | \`\`                                                 |
+| Edit @    | [here](https://github.com/junxnone/xwiki/issues/102) |
 
 -----
 
 # if 判断
-
-## Brief
 
   - 判断变量是否相等
   - 判断是否是数字 `N`
