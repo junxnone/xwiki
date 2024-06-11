@@ -1,22 +1,15 @@
 -----
 
-| Title         | Programing Shell ErrorCheck                          |
-| ------------- | ---------------------------------------------------- |
-| Created @     | `2019-05-28T05:56:22Z`                               |
-| Last Modify @ | `2022-12-22T06:44:47Z`                               |
-| Labels        | \`\`                                                 |
-| Edit @        | [here](https://github.com/junxnone/xwiki/issues/107) |
+| Title     | Programing Shell ErrorCheck                          |
+| --------- | ---------------------------------------------------- |
+| Created @ | `2019-05-28T05:56:22Z`                               |
+| Updated @ | `2024-06-11T11:37:02Z`                               |
+| Labels    | \`\`                                                 |
+| Edit @    | [here](https://github.com/junxnone/xwiki/issues/107) |
 
 -----
 
 # 错误检查
-
-## Reference
-
-  - [shell
-    管道和tee使用时获取前面命令返回值](https://www.cnblogs.com/double12gzh/p/10287226.html)
-
-## Brief
 
   - shell中使用符号 `$?` 来显示上一条命令执行的返回值
       - 返回值为 `0` 则代表执行成功
@@ -56,3 +49,8 @@
 <!-- end list -->
 
     your_cmd 2>1&|tee your_log.txt
+
+## Reference
+
+  - [shell
+    管道和tee使用时获取前面命令返回值](https://www.cnblogs.com/double12gzh/p/10287226.html)
