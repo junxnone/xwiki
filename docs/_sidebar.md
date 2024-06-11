@@ -47,7 +47,7 @@
   - [Shell](/0079_Programing_Shell)
     - [if  判断](/0102_Programing_Shell_if)
     - [Shell for](/0101_Programing_Shell_for)
-    - [case](/0103_Programing_Shell_case)
+    - [Shell case](/0103_Programing_Shell_case)
     - [函数](/0100_Programing_Shell_Function)
     - [参数](/0106_Programing_Shell_ARG)
     - [错误检查](/0107_Programing_Shell_ErrorCheck)
@@ -251,4 +251,4 @@
 - [Wiki History](/hist)
 
 ---
-<kbd><sub>@1939200611</sub></kbd>
+<kbd><sub>@1941060611</sub></kbd>
