@@ -1,20 +1,15 @@
 -----
 
-| Title         | Programing Shell UseCase                             |
-| ------------- | ---------------------------------------------------- |
-| Created @     | `2019-05-21T22:46:11Z`                               |
-| Last Modify @ | `2022-12-22T06:45:10Z`                               |
-| Labels        | \`\`                                                 |
-| Edit @        | [here](https://github.com/junxnone/xwiki/issues/108) |
+| Title     | Programing Shell UseCase                             |
+| --------- | ---------------------------------------------------- |
+| Created @ | `2019-05-21T22:46:11Z`                               |
+| Updated @ | `2024-06-11T11:36:16Z`                               |
+| Labels    | \`\`                                                 |
+| Edit @    | [here](https://github.com/junxnone/xwiki/issues/108) |
 
 -----
 
-## Reference
-
-  - [linux shell
-    时间运算以及时间差计算方法](https://mp.weixin.qq.com/s/7QnycDf_D7jZJUGrdhrZ5w)
-
-## Examples
+# Shell UseCase
 
 ### 逐行读取文件获取video 文件名，并统计视频帧数
 
@@ -91,3 +86,8 @@ done < $1
     if [ $freeMem -lt 16 ]; then
         echo "Low Mem: $freeMem GB"
     fi
+
+## Reference
+
+  - [linux shell
+    时间运算以及时间差计算方法](https://mp.weixin.qq.com/s/7QnycDf_D7jZJUGrdhrZ5w)
