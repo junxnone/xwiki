@@ -3,18 +3,13 @@
 | Title     | Programing Shell Function                            |
 | --------- | ---------------------------------------------------- |
 | Created @ | `2019-07-15T07:06:57Z`                               |
-| Updated @ | `2023-09-08T08:10:26Z`                               |
+| Updated @ | `2024-06-11T11:38:43Z`                               |
 | Labels    | \`\`                                                 |
 | Edit @    | [here](https://github.com/junxnone/xwiki/issues/100) |
 
 -----
 
 # 函数
-
-## Reference
-
-  - [linux shell function -
-    runnoob](https://www.runoob.com/linux/linux-shell-func.html)
 
 ## Basic
 
@@ -52,3 +47,8 @@
         done < tmpf.txt
     }
     parse_dir '20190805/defect1/*' dataset/defect1/
+
+## Reference
+
+  - [linux shell function -
+    runnoob](https://www.runoob.com/linux/linux-shell-func.html)
