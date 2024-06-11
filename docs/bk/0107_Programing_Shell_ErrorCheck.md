@@ -3,7 +3,7 @@
 | Title     | Programing Shell ErrorCheck                          |
 | --------- | ---------------------------------------------------- |
 | Created @ | `2019-05-28T05:56:22Z`                               |
-| Updated @ | `2024-06-11T11:37:02Z`                               |
+| Updated @ | `2024-06-11T11:38:23Z`                               |
 | Labels    | \`\`                                                 |
 | Edit @    | [here](https://github.com/junxnone/xwiki/issues/107) |
 
@@ -49,6 +49,8 @@
 <!-- end list -->
 
     your_cmd 2>1&|tee your_log.txt
+
+> 将标准错误（stderr）重定向到标准输出（stdout）
 
 ## Reference
 

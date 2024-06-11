@@ -2,7 +2,7 @@
 Title | Programing Shell ErrorCheck
 -- | --
 Created @ | `2019-05-28T05:56:22Z`
-Updated @| `2024-06-11T11:37:02Z`
+Updated @| `2024-06-11T11:38:23Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/107)
 
@@ -47,6 +47,8 @@ $ echo ${PIPESTATUS[0]}${PIPESTATUS[1]}
 ```
 your_cmd 2>1&|tee your_log.txt
 ```
+
+> 将标准错误（stderr）重定向到标准输出（stdout）
 
 ## Reference
 - [shell 管道和tee使用时获取前面命令返回值](https://www.cnblogs.com/double12gzh/p/10287226.html)
