@@ -3,7 +3,7 @@
 | Title     | X Version                                            |
 | --------- | ---------------------------------------------------- |
 | Created @ | `2020-08-04T08:23:25Z`                               |
-| Updated @ | `2023-07-24T14:27:38Z`                               |
+| Updated @ | `2024-06-13T02:04:17Z`                               |
 | Labels    | \`\`                                                 |
 | Edit @    | [here](https://github.com/junxnone/xwiki/issues/146) |
 
@@ -11,12 +11,91 @@
 
 # 版本号定义
 
-  - Version - 版本号
+  - Semantic Versioning - `Major.Minor.Patch`
+  - 版本类型 - `先行版本号？`
       - Alpha
       - Beta
       - RC
       - Release
-  - `MAJOR.MINOR.PATCH`
+
+## Semantic Versioning
+
+  - `Major.Minor.Patch`
+      - **Major - 主版本号**：当你做了不兼容的 API 修改
+      - **Minor - 次版本号**：当你做了向下兼容的功能性新增
+      - **Patch - 修订号**：当你做了向下兼容的问题修正
+  - 主版本号为零（0.y.z）的软件处于开发初始阶段
+  - 先行版本号可以（MAY）被标注在修订版之后，先加上一个连接号再加上一连串以句点分隔的标识符来修饰。
+      - 通常以"alpha"、"beta"或"rc"等标识符表示
+
+<!-- end list -->
+
+``` 
+<valid semver> ::= <version core>
+                 | <version core> "-" <pre-release>
+                 | <version core> "+" <build>
+                 | <version core> "-" <pre-release> "+" <build>
+
+<version core> ::= <major> "." <minor> "." <patch>
+
+<major> ::= <numeric identifier>
+
+<minor> ::= <numeric identifier>
+
+<patch> ::= <numeric identifier>
+
+<pre-release> ::= <dot-separated pre-release identifiers>
+
+<dot-separated pre-release identifiers> ::= <pre-release identifier>
+                                          | <pre-release identifier> "." <dot-separated pre-release identifiers>
+
+<build> ::= <dot-separated build identifiers>
+
+<dot-separated build identifiers> ::= <build identifier>
+                                    | <build identifier> "." <dot-separated build identifiers>
+
+<pre-release identifier> ::= <alphanumeric identifier>
+                           | <numeric identifier>
+
+<build identifier> ::= <alphanumeric identifier>
+                     | <digits>
+
+<alphanumeric identifier> ::= <non-digit>
+                            | <non-digit> <identifier characters>
+                            | <identifier characters> <non-digit>
+                            | <identifier characters> <non-digit> <identifier characters>
+
+<numeric identifier> ::= "0"
+                       | <positive digit>
+                       | <positive digit> <digits>
+
+<identifier characters> ::= <identifier character>
+                          | <identifier character> <identifier characters>
+
+<identifier character> ::= <digit>
+                         | <non-digit>
+
+<non-digit> ::= <letter>
+              | "-"
+
+<digits> ::= <digit>
+           | <digit> <digits>
+
+<digit> ::= "0"
+          | <positive digit>
+
+<positive digit> ::= "1" | "2" | "3" | "4" | "5" | "6" | "7" | "8" | "9"
+
+<letter> ::= "A" | "B" | "C" | "D" | "E" | "F" | "G" | "H" | "I" | "J"
+           | "K" | "L" | "M" | "N" | "O" | "P" | "Q" | "R" | "S" | "T"
+           | "U" | "V" | "W" | "X" | "Y" | "Z" | "a" | "b" | "c" | "d"
+           | "e" | "f" | "g" | "h" | "i" | "j" | "k" | "l" | "m" | "n"
+           | "o" | "p" | "q" | "r" | "s" | "t" | "u" | "v" | "w" | "x"
+           | "y" | "z"
+
+```
+
+## 常见版本命名
 
 | Name                          | 开发阶段 | Description                                                                                                          |
 | ----------------------------- | ---- | -------------------------------------------------------------------------------------------------------------------- |
@@ -58,15 +137,6 @@
 | OEM                      | Original Equipment Manufacturer - 原始设备制造商；是给计算机厂商随着计算机贩卖的，也就是随机版；只能随机器出货，不能零售。只能全新安装，不能从旧有操作系统升级。包装不像零售版精美，通常只有一面CD和说明书(授权书)。 |
 | RVL                      | 号称是正式版，其实RVL根本不是版本的名称。它是中文版/英文版文档破解出来的。                                                                                       |
 | EVAL                     | 而流通在网络上的EVAL版，与“评估版”类似，功能上和零售版没有区别。                                                                                           |
-
-## Semantic Versioning
-
-  - MAJOR.MINOR.PATCH
-      - MAJOR 主版本号：当你做了不兼容的 API 修改
-      - MINOR 次版本号：当你做了向下兼容的功能性新增
-      - PATCH 修订号：当你做了向下兼容的问题修正
-  - 主版本号为零（0.y.z）的软件处于开发初始阶段
-  - 先行版本号可以（MAY）被标注在修订版之后，先加上一个连接号再加上一连串以句点分隔的标识符来修饰。
 
 ## Reference
 
