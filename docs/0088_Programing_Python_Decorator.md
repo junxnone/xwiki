@@ -2,20 +2,14 @@
 Title | Programing Python Decorator
 -- | --
 Created @ | `2021-04-08T08:24:42Z`
-Last Modify @| `2022-12-22T06:32:19Z`
+Updated @| `2024-06-13T08:57:04Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/88)
 
 ---
 # Decorator 装饰器
 
-## Reference
-- [python装饰器(Decorator)-从基本原理到实践操作](https://blog.csdn.net/weixin_45690272/article/details/103206614)
-- [python decorator心得体会](https://blog.csdn.net/lpstudy/article/details/43637717)
-- [Python 装饰器执行顺序迷思](https://segmentfault.com/a/1190000007837364)
 
-
-## Brief
 -  - Decorator - 装饰器
 - **用途**
   - 测试函数执行时间
@@ -81,3 +75,11 @@ def exec_func():
    
 
 ```
+
+
+## Reference
+- [python装饰器(Decorator)-从基本原理到实践操作](https://blog.csdn.net/weixin_45690272/article/details/103206614)
+- [python decorator心得体会](https://blog.csdn.net/lpstudy/article/details/43637717)
+- [Python 装饰器执行顺序迷思](https://segmentfault.com/a/1190000007837364)
+
+
