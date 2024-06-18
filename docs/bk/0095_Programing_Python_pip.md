@@ -3,7 +3,7 @@
 | Title     | Programing Python pip                               |
 | --------- | --------------------------------------------------- |
 | Created @ | `2018-11-25T09:47:54Z`                              |
-| Updated @ | `2024-04-23T02:26:41Z`                              |
+| Updated @ | `2024-06-18T08:18:51Z`                              |
 | Labels    | \`\`                                                |
 | Edit @    | [here](https://github.com/junxnone/xwiki/issues/95) |
 
@@ -24,6 +24,7 @@
 | Install from requirement.txt | `pip3 install -r requirements.txt`                                                                            |
 | Install with mirror          | `pip3 install your_package -i https://pypi.tuna.tsinghua.edu.cn/simple`                                       |
 | Export requirements.txt      | `pip freeze > requirements.txt`                                                                               |
+| 查看 package 信息                | `pip show -f package_name`                                                                                    |
 
 ## Config
 
@@ -54,7 +55,27 @@ or
   - 华为 <https://repo.huaweicloud.com/repository/pypi/simple>
   - 网易 <http://mirrors.163.com/pypi/simple/>
   - 默认 <https://pypi.org/simple/>
-  - 
+
+## Tips
+
+### Editable project location
+
+  - 通过 `pip install -e .` 安装的项目是以可编辑模式安装的，源代码编辑后将直接反映在环境中
+  - 通过 `pip show -f package_name` 查看源码位置
+
+<!-- end list -->
+
+``` 
+Location: xxx/miniforge3/envs/anomalib/lib/python3.11/site-packages
+Editable project location: xxx/anomalib
+Requires: docstring-parser, jsonargparse, omegaconf, rich, rich-argparse
+Required-by:
+Files:
+  ../../../bin/anomalib
+  ...
+
+```
+
 ## Issues
 
 ### No module named \_internal
