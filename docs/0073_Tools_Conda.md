@@ -2,7 +2,7 @@
 Title | Tools Conda
 -- | --
 Created @ | `2020-01-10T08:28:17Z`
-Updated @| `2023-11-05T07:13:09Z`
+Updated @| `2024-06-21T02:40:25Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/73)
 
@@ -14,8 +14,11 @@ Edit @| [here](https://github.com/junxnone/xwiki/issues/73)
 
 版本 | 包含内容
 -- | --
+[**miniforge**](https://conda-forge.org/miniforge/) | 是由社区主导，用 GitHub 托管，完全免费 
+Mambaforge | 已经不再维护
 miniconda | includes only conda, Python, the packages they depend on, and a small number of other useful packages, including pip, zlib and a few others. 
 anaconda  | conda + 基础 + 常用的 packages
+
 
 ## Use Case 
 
