@@ -230,6 +230,7 @@
   - [BLAS](/0179_X_BLAS)
   - [Base64](/0208_X_Base64)
   - [文件换行 Windows Linux CRLF LF](/0145_X_CRLF)
+  - [JIT vs AOT](/0308_X_JITvsAOT)
   - [LAPACK](/0180_X_LAPACK)
   - [Open Source License](/0147_X_OpenSourceLicense)
   - [PECOFF](/0152_X_PECOFF)
@@ -253,4 +254,4 @@
 - [Wiki History](/hist)
 
 ---
-<kbd><sub>@1609330622</sub></kbd>
+<kbd><sub>@1747020622</sub></kbd>
