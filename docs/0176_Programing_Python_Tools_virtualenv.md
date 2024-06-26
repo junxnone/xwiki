@@ -1,8 +1,8 @@
 ---
-Title | Programing Python virtualenv
+Title | Programing Python Tools virtualenv
 -- | --
 Created @ | `2018-11-25T09:53:47Z`
-Updated @| `2024-05-17T15:14:58Z`
+Updated @| `2024-06-26T06:05:27Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/176)
 
