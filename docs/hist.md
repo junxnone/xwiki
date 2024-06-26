@@ -38,19 +38,19 @@
 - 2023-06-19&nbsp;&nbsp; [Github fork other fork](/0267_Tools_Github_forkfork)&nbsp;&nbsp; :bookmark:Tools :bookmark:Github :bookmark:forkfork
 - 2023-06-18&nbsp;&nbsp; [Debug Github Pages](/0266_Tools_Github_Pages_Debug)&nbsp;&nbsp; :bookmark:Tools :bookmark:Github :bookmark:Pages :bookmark:Debug
 - 2023-06-17&nbsp;&nbsp; [Pandas Issues](/0262_Pandas_Issues)&nbsp;&nbsp; :bookmark:Pandas :bookmark:Issues
+- 2023-06-17&nbsp;&nbsp; [Windows Issues](/0265_Windows_Issues)&nbsp;&nbsp; :bookmark:Windows :bookmark:Issues
 - 2023-06-17&nbsp;&nbsp; [Pandas UseCase](/0260_Pandas_UseCase)&nbsp;&nbsp; :bookmark:Pandas :bookmark:UseCase
 - 2023-06-17&nbsp;&nbsp; [Github](/0259_Tools_Github)&nbsp;&nbsp; :bookmark:Tools :bookmark:Github
 - 2023-06-17&nbsp;&nbsp; [Windows](/0264_Windows)&nbsp;&nbsp; :bookmark:Windows
-- 2023-06-17&nbsp;&nbsp; [Windows Issues](/0265_Windows_Issues)&nbsp;&nbsp; :bookmark:Windows :bookmark:Issues
 - 2023-06-17&nbsp;&nbsp; [未分类](/0263_X)&nbsp;&nbsp; :bookmark:X
 - 2023-06-16&nbsp;&nbsp; [git bash](/0256_Tools_Git_Bash)&nbsp;&nbsp; :bookmark:Tools :bookmark:Git :bookmark:Bash
 - 2023-06-16&nbsp;&nbsp; [Tools](/0257_Tools)&nbsp;&nbsp; :bookmark:Tools
 - 2023-06-13&nbsp;&nbsp; [数据库 Database](/0254_Programing_database)&nbsp;&nbsp; :bookmark:Programing :bookmark:database
 - 2023-06-13&nbsp;&nbsp; [InfluxDB](/0255_Programing_database_InfluxDB)&nbsp;&nbsp; :bookmark:Programing :bookmark:database :bookmark:InfluxDB
 - 2023-06-05&nbsp;&nbsp; [Compiler Explorer](/0253_Tools_CompilerExplorer)&nbsp;&nbsp; :bookmark:Tools :bookmark:CompilerExplorer
-- 2023-06-04&nbsp;&nbsp; [API Vs ABI](/0252_X_APIvsABI)&nbsp;&nbsp; :bookmark:X :bookmark:APIvsABI
-- 2023-06-04&nbsp;&nbsp; [MSVC STL](/0250_Programing_CPP_STD_MSVC)&nbsp;&nbsp; :bookmark:Programing :bookmark:CPP :bookmark:STD :bookmark:MSVC
 - 2023-06-04&nbsp;&nbsp; [GNU STD](/0251_Programing_CPP_STD_GNU)&nbsp;&nbsp; :bookmark:Programing :bookmark:CPP :bookmark:STD :bookmark:GNU
+- 2023-06-04&nbsp;&nbsp; [MSVC STL](/0250_Programing_CPP_STD_MSVC)&nbsp;&nbsp; :bookmark:Programing :bookmark:CPP :bookmark:STD :bookmark:MSVC
+- 2023-06-04&nbsp;&nbsp; [API Vs ABI](/0252_X_APIvsABI)&nbsp;&nbsp; :bookmark:X :bookmark:APIvsABI
 - 2023-06-02&nbsp;&nbsp; [reStructuredText](/0246_Doc_reStructuredText)&nbsp;&nbsp; :bookmark:Doc :bookmark:reStructuredText
 - 2023-06-02&nbsp;&nbsp; [Policy 策略设计模式](/0249_Programing_CPP_Policy)&nbsp;&nbsp; :bookmark:Programing :bookmark:CPP :bookmark:Policy
 - 2023-06-02&nbsp;&nbsp; [C++ 模板](/0248_Programing_CPP_Template)&nbsp;&nbsp; :bookmark:Programing :bookmark:CPP :bookmark:Template
@@ -72,8 +72,8 @@
 - 2023-03-21&nbsp;&nbsp; [Git Patch](/0226_Tools_Git_Patch)&nbsp;&nbsp; :bookmark:Tools :bookmark:Git :bookmark:Patch
 - 2023-03-21&nbsp;&nbsp; [LLVM](/0227_Programing_Compiler_LLVM)&nbsp;&nbsp; :bookmark:Programing :bookmark:Compiler :bookmark:LLVM
 - 2023-03-17&nbsp;&nbsp; [Intel GPUs Arch](/0225_Hardware_GPU_iGPU_Arch)&nbsp;&nbsp; :bookmark:Hardware :bookmark:GPU :bookmark:iGPU :bookmark:Arch
-- 2023-03-17&nbsp;&nbsp; [Data Center GPUs](/0223_Hardware_GPU_iGPU_dGPU)&nbsp;&nbsp; :bookmark:Hardware :bookmark:GPU :bookmark:iGPU :bookmark:dGPU
 - 2023-03-17&nbsp;&nbsp; [Intel GPUs Table](/0224_Hardware_GPU_iGPU_table)&nbsp;&nbsp; :bookmark:Hardware :bookmark:GPU :bookmark:iGPU :bookmark:table
+- 2023-03-17&nbsp;&nbsp; [Data Center GPUs](/0223_Hardware_GPU_iGPU_dGPU)&nbsp;&nbsp; :bookmark:Hardware :bookmark:GPU :bookmark:iGPU :bookmark:dGPU
 - 2023-03-14&nbsp;&nbsp; [运算符重载](/0222_Programing_CPP_opoverloading)&nbsp;&nbsp; :bookmark:Programing :bookmark:CPP :bookmark:opoverloading
 - 2023-03-08&nbsp;&nbsp; [Branch Prediction](/0219_Hardware_CPU_BP)&nbsp;&nbsp; :bookmark:Hardware :bookmark:CPU :bookmark:BP
 - 2023-03-08&nbsp;&nbsp; [GPU](/0218_Hardware_GPU)&nbsp;&nbsp; :bookmark:Hardware :bookmark:GPU
@@ -86,17 +86,17 @@
 - 2022-12-22&nbsp;&nbsp; [合并](/0205_Pandas_UseCase_Merge)&nbsp;&nbsp; :bookmark:Pandas :bookmark:UseCase :bookmark:Merge
 - 2022-12-22&nbsp;&nbsp; [编程](/0193_Programing)&nbsp;&nbsp; :bookmark:Programing
 - 2022-12-22&nbsp;&nbsp; [容器](/0192_Hypervisor)&nbsp;&nbsp; :bookmark:Hypervisor
-- 2022-12-22&nbsp;&nbsp; [行操作](/0199_Pandas_UseCase_row)&nbsp;&nbsp; :bookmark:Pandas :bookmark:UseCase :bookmark:row
 - 2022-12-22&nbsp;&nbsp; [条件操作](/0201_Pandas_UseCase_condition)&nbsp;&nbsp; :bookmark:Pandas :bookmark:UseCase :bookmark:condition
-- 2022-12-22&nbsp;&nbsp; [单元格操作](/0200_Pandas_UseCase_xy)&nbsp;&nbsp; :bookmark:Pandas :bookmark:UseCase :bookmark:xy
+- 2022-12-22&nbsp;&nbsp; [简单查看数据](/0197_Pandas_UseCase_ShowSummaryInfo)&nbsp;&nbsp; :bookmark:Pandas :bookmark:UseCase :bookmark:ShowSummaryInfo
 - 2022-12-22&nbsp;&nbsp; [构建工具](/0190_Build)&nbsp;&nbsp; :bookmark:Build
+- 2022-12-22&nbsp;&nbsp; [行操作](/0199_Pandas_UseCase_row)&nbsp;&nbsp; :bookmark:Pandas :bookmark:UseCase :bookmark:row
 - 2022-12-22&nbsp;&nbsp; [抽样](/0203_Pandas_UseCase_sampling)&nbsp;&nbsp; :bookmark:Pandas :bookmark:UseCase :bookmark:sampling
 - 2022-12-22&nbsp;&nbsp; [文档文本](/0191_Doc)&nbsp;&nbsp; :bookmark:Doc
-- 2022-12-22&nbsp;&nbsp; [简单查看数据](/0197_Pandas_UseCase_ShowSummaryInfo)&nbsp;&nbsp; :bookmark:Pandas :bookmark:UseCase :bookmark:ShowSummaryInfo
+- 2022-12-22&nbsp;&nbsp; [单元格操作](/0200_Pandas_UseCase_xy)&nbsp;&nbsp; :bookmark:Pandas :bookmark:UseCase :bookmark:xy
 - 2022-12-22&nbsp;&nbsp; [字符串处理](/0204_Pandas_UseCase_string)&nbsp;&nbsp; :bookmark:Pandas :bookmark:UseCase :bookmark:string
 - 2022-12-15&nbsp;&nbsp; [manim](/0141_Tools_manim)&nbsp;&nbsp; :bookmark:Tools :bookmark:manim
-- 2022-08-25&nbsp;&nbsp; [Host UI](/0051_Hypervisor_Docker_UI)&nbsp;&nbsp; :bookmark:Hypervisor :bookmark:Docker :bookmark:UI
 - 2022-08-25&nbsp;&nbsp; [Issues](/0149_Hypervisor_Docker_Issues)&nbsp;&nbsp; :bookmark:Hypervisor :bookmark:Docker :bookmark:Issues
+- 2022-08-25&nbsp;&nbsp; [Host UI](/0051_Hypervisor_Docker_UI)&nbsp;&nbsp; :bookmark:Hypervisor :bookmark:Docker :bookmark:UI
 - 2022-07-11&nbsp;&nbsp; [Base64](/0208_X_Base64)&nbsp;&nbsp; :bookmark:X :bookmark:Base64
 - 2022-06-16&nbsp;&nbsp; [Shell for](/0101_Programing_Shell_for)&nbsp;&nbsp; :bookmark:Programing :bookmark:Shell :bookmark:for
 - 2022-05-27&nbsp;&nbsp; [switch](/0081_Programing_CPP_switch)&nbsp;&nbsp; :bookmark:Programing :bookmark:CPP :bookmark:switch
@@ -132,8 +132,8 @@
 - 2021-10-13&nbsp;&nbsp; [pk-config](/0064_Build_pkgconfig)&nbsp;&nbsp; :bookmark:Build :bookmark:pkgconfig
 - 2021-09-22&nbsp;&nbsp; [表格](/0138_Doc_Markdown_Table)&nbsp;&nbsp; :bookmark:Doc :bookmark:Markdown :bookmark:Table
 - 2021-09-22&nbsp;&nbsp; [图像](/0139_Doc_Markdown_Image)&nbsp;&nbsp; :bookmark:Doc :bookmark:Markdown :bookmark:Image
-- 2021-09-22&nbsp;&nbsp; [Text Format](/0136_Doc_Markdown_Text)&nbsp;&nbsp; :bookmark:Doc :bookmark:Markdown :bookmark:Text
 - 2021-09-22&nbsp;&nbsp; [列表](/0137_Doc_Markdown_List)&nbsp;&nbsp; :bookmark:Doc :bookmark:Markdown :bookmark:List
+- 2021-09-22&nbsp;&nbsp; [Text Format](/0136_Doc_Markdown_Text)&nbsp;&nbsp; :bookmark:Doc :bookmark:Markdown :bookmark:Text
 - 2021-09-22&nbsp;&nbsp; [Github Pages](/0126_Tools_Github_Pages)&nbsp;&nbsp; :bookmark:Tools :bookmark:Github :bookmark:Pages
 - 2021-08-24&nbsp;&nbsp; [Windows 命令行执行命令时卡住](/0234_Windows_Issues_CommandLineHang)&nbsp;&nbsp; :bookmark:Windows :bookmark:Issues :bookmark:CommandLineHang
 - 2021-08-24&nbsp;&nbsp; [for](/0229_Windows_batch_for)&nbsp;&nbsp; :bookmark:Windows :bookmark:batch :bookmark:for
@@ -159,8 +159,8 @@
 - 2021-02-07&nbsp;&nbsp; [Markline Timeline](/0131_Tools_Github_Pages_Markline)&nbsp;&nbsp; :bookmark:Tools :bookmark:Github :bookmark:Pages :bookmark:Markline
 - 2021-02-06&nbsp;&nbsp; [Geojson Map](/0177_Tools_Github_Pages_GeojsonMap)&nbsp;&nbsp; :bookmark:Tools :bookmark:Github :bookmark:Pages :bookmark:GeojsonMap
 - 2021-01-13&nbsp;&nbsp; [JupyterLab](/0065_Tools_Jupyter_JupyterLab)&nbsp;&nbsp; :bookmark:Tools :bookmark:Jupyter :bookmark:JupyterLab
-- 2021-01-12&nbsp;&nbsp; [Socket](/0109_Programing_Socket)&nbsp;&nbsp; :bookmark:Programing :bookmark:Socket
 - 2021-01-12&nbsp;&nbsp; [Function](/0110_Programing_Socket_Function)&nbsp;&nbsp; :bookmark:Programing :bookmark:Socket :bookmark:Function
+- 2021-01-12&nbsp;&nbsp; [Socket](/0109_Programing_Socket)&nbsp;&nbsp; :bookmark:Programing :bookmark:Socket
 - 2020-12-03&nbsp;&nbsp; [Windows SSH 工具](/0173_Tools_WindowsSSHClient)&nbsp;&nbsp; :bookmark:Tools :bookmark:WindowsSSHClient
 - 2020-11-03&nbsp;&nbsp; [Volume](/0049_Hypervisor_Docker_Volume)&nbsp;&nbsp; :bookmark:Hypervisor :bookmark:Docker :bookmark:Volume
 - 2020-11-01&nbsp;&nbsp; [动态显示图片](/0072_Tools_Jupyter_ShowImageDynamic)&nbsp;&nbsp; :bookmark:Tools :bookmark:Jupyter :bookmark:ShowImageDynamic
@@ -173,8 +173,8 @@
 - 2020-06-03&nbsp;&nbsp; [Ubuntu Install](/0166_Programing_Compiler_GCC_UbuntuInstall)&nbsp;&nbsp; :bookmark:Programing :bookmark:Compiler :bookmark:GCC :bookmark:UbuntuInstall
 - 2020-05-26&nbsp;&nbsp; [logging](/0097_Programing_Python_logging)&nbsp;&nbsp; :bookmark:Programing :bookmark:Python :bookmark:logging
 - 2020-05-14&nbsp;&nbsp; [Regex 正则表达式](/0206_Programing_regex)&nbsp;&nbsp; :bookmark:Programing :bookmark:regex
-- 2020-05-04&nbsp;&nbsp; [Shell Comment](/0105_Programing_Shell_comment)&nbsp;&nbsp; :bookmark:Programing :bookmark:Shell :bookmark:comment
 - 2020-05-04&nbsp;&nbsp; [Shell case](/0103_Programing_Shell_case)&nbsp;&nbsp; :bookmark:Programing :bookmark:Shell :bookmark:case
+- 2020-05-04&nbsp;&nbsp; [Shell Comment](/0105_Programing_Shell_comment)&nbsp;&nbsp; :bookmark:Programing :bookmark:Shell :bookmark:comment
 - 2020-04-23&nbsp;&nbsp; [文件换行 Windows Linux CRLF LF](/0145_X_CRLF)&nbsp;&nbsp; :bookmark:X :bookmark:CRLF
 - 2020-04-07&nbsp;&nbsp; [可视化](/0189_Pandas_Visualization)&nbsp;&nbsp; :bookmark:Pandas :bookmark:Visualization
 - 2020-03-19&nbsp;&nbsp; [移动数据到新位置](/0052_Hypervisor_Docker_MoveData)&nbsp;&nbsp; :bookmark:Hypervisor :bookmark:Docker :bookmark:MoveData
@@ -198,11 +198,11 @@
 - 2019-09-17&nbsp;&nbsp; [编译可执行文件](/0089_Programing_Python_BuildExe)&nbsp;&nbsp; :bookmark:Programing :bookmark:Python :bookmark:BuildExe
 - 2019-09-08&nbsp;&nbsp; [Docker Image](/0070_Tools_Jupyter_DockerImage)&nbsp;&nbsp; :bookmark:Tools :bookmark:Jupyter :bookmark:DockerImage
 - 2019-09-06&nbsp;&nbsp; [Gitlab](/0133_Tools_Gitlab)&nbsp;&nbsp; :bookmark:Tools :bookmark:Gitlab
-- 2019-08-15&nbsp;&nbsp; [排序](/0186_Pandas_UseCase_sort)&nbsp;&nbsp; :bookmark:Pandas :bookmark:UseCase :bookmark:sort
 - 2019-08-15&nbsp;&nbsp; [Format Output 读写文件](/0188_Pandas_UseCase_IO)&nbsp;&nbsp; :bookmark:Pandas :bookmark:UseCase :bookmark:IO
 - 2019-08-15&nbsp;&nbsp; [特殊值](/0187_Pandas_UseCase_SpecialValue)&nbsp;&nbsp; :bookmark:Pandas :bookmark:UseCase :bookmark:SpecialValue
-- 2019-08-14&nbsp;&nbsp; [SettingWithCopyWarning](/0185_Pandas_Issues_SettingWithCopyWarning)&nbsp;&nbsp; :bookmark:Pandas :bookmark:Issues :bookmark:SettingWithCopyWarning
+- 2019-08-15&nbsp;&nbsp; [排序](/0186_Pandas_UseCase_sort)&nbsp;&nbsp; :bookmark:Pandas :bookmark:UseCase :bookmark:sort
 - 2019-08-14&nbsp;&nbsp; [Series](/0184_Pandas_Series)&nbsp;&nbsp; :bookmark:Pandas :bookmark:Series
+- 2019-08-14&nbsp;&nbsp; [SettingWithCopyWarning](/0185_Pandas_Issues_SettingWithCopyWarning)&nbsp;&nbsp; :bookmark:Pandas :bookmark:Issues :bookmark:SettingWithCopyWarning
 - 2019-08-12&nbsp;&nbsp; [list2csv](/0183_Pandas_UseCase_list2csv)&nbsp;&nbsp; :bookmark:Pandas :bookmark:UseCase :bookmark:list2csv
 - 2019-08-07&nbsp;&nbsp; [YAML](/0140_Doc_YAML)&nbsp;&nbsp; :bookmark:Doc :bookmark:YAML
 - 2019-08-03&nbsp;&nbsp; [backup](/0121_Tools_Github_backup)&nbsp;&nbsp; :bookmark:Tools :bookmark:Github :bookmark:backup
@@ -226,19 +226,19 @@
 - 2019-03-04&nbsp;&nbsp; [Pandas](/0181_Pandas)&nbsp;&nbsp; :bookmark:Pandas
 - 2019-03-02&nbsp;&nbsp; [jekyll](/0129_Tools_Github_Pages_jekyll)&nbsp;&nbsp; :bookmark:Tools :bookmark:Github :bookmark:Pages :bookmark:jekyll
 - 2019-03-02&nbsp;&nbsp; [yarn](/0178_Tools_yarn)&nbsp;&nbsp; :bookmark:Tools :bookmark:yarn
-- 2019-02-19&nbsp;&nbsp; [virtualenvwrapper](/0175_Programing_Python_virtualenvwrapper)&nbsp;&nbsp; :bookmark:Programing :bookmark:Python :bookmark:virtualenvwrapper
+- 2019-02-19&nbsp;&nbsp; [virtualenvwrapper](/0175_Programing_Python_Tools_virtualenvwrapper)&nbsp;&nbsp; :bookmark:Programing :bookmark:Python :bookmark:Tools :bookmark:virtualenvwrapper
 - 2019-02-18&nbsp;&nbsp; [移除 stage 文件](/0119_Tools_Git_RMStageFile)&nbsp;&nbsp; :bookmark:Tools :bookmark:Git :bookmark:RMStageFile
 - 2019-02-03&nbsp;&nbsp; [Sourcegraph](/0125_Tools_Github_ChromeExtensions_Sourcegraph)&nbsp;&nbsp; :bookmark:Tools :bookmark:Github :bookmark:ChromeExtensions :bookmark:Sourcegraph
 - 2019-02-03&nbsp;&nbsp; [ChromeExtensions](/0124_Tools_Github_ChromeExtensions)&nbsp;&nbsp; :bookmark:Tools :bookmark:Github :bookmark:ChromeExtensions
-- 2018-12-14&nbsp;&nbsp; [Git Configs](/0112_Tools_Git_config)&nbsp;&nbsp; :bookmark:Tools :bookmark:Git :bookmark:config
 - 2018-12-14&nbsp;&nbsp; [Git](/0111_Tools_Git)&nbsp;&nbsp; :bookmark:Tools :bookmark:Git
+- 2018-12-14&nbsp;&nbsp; [Git Configs](/0112_Tools_Git_config)&nbsp;&nbsp; :bookmark:Tools :bookmark:Git :bookmark:config
 - 2018-12-12&nbsp;&nbsp; [Github Access with ssh key](/0123_Tools_Github_SSHKey)&nbsp;&nbsp; :bookmark:Tools :bookmark:Github :bookmark:SSHKey
 - 2018-12-10&nbsp;&nbsp; [submodule](/0114_Tools_Git_submodule)&nbsp;&nbsp; :bookmark:Tools :bookmark:Git :bookmark:submodule
 - 2018-12-10&nbsp;&nbsp; [Proxy Setup](/0113_Tools_Git_proxy)&nbsp;&nbsp; :bookmark:Tools :bookmark:Git :bookmark:proxy
 - 2018-11-29&nbsp;&nbsp; [Shell](/0079_Programing_Shell)&nbsp;&nbsp; :bookmark:Programing :bookmark:Shell
-- 2018-11-25&nbsp;&nbsp; [pip](/0095_Programing_Python_pip)&nbsp;&nbsp; :bookmark:Programing :bookmark:Python :bookmark:pip
+- 2018-11-25&nbsp;&nbsp; [virtualenv](/0176_Programing_Python_Tools_virtualenv)&nbsp;&nbsp; :bookmark:Programing :bookmark:Python :bookmark:Tools :bookmark:virtualenv
 - 2018-11-25&nbsp;&nbsp; [putty](/0161_Tools_putty)&nbsp;&nbsp; :bookmark:Tools :bookmark:putty
-- 2018-11-25&nbsp;&nbsp; [virtualenv](/0176_Programing_Python_virtualenv)&nbsp;&nbsp; :bookmark:Programing :bookmark:Python :bookmark:virtualenv
+- 2018-11-25&nbsp;&nbsp; [pip](/0095_Programing_Python_pip)&nbsp;&nbsp; :bookmark:Programing :bookmark:Python :bookmark:pip
 - 2018-11-24&nbsp;&nbsp; [mosquitto](/0142_Tools_mosquitto)&nbsp;&nbsp; :bookmark:Tools :bookmark:mosquitto
 - 2018-11-22&nbsp;&nbsp; [Markdown](/0135_Doc_Markdown)&nbsp;&nbsp; :bookmark:Doc :bookmark:Markdown
 - 2018-10-29&nbsp;&nbsp; [Network](/0045_Hypervisor_Docker_Network)&nbsp;&nbsp; :bookmark:Hypervisor :bookmark:Docker :bookmark:Network
@@ -251,6 +251,6 @@
 - 2018-09-06&nbsp;&nbsp; [Docker Compose](/0047_Hypervisor_Docker_Compose)&nbsp;&nbsp; :bookmark:Hypervisor :bookmark:Docker :bookmark:Compose
 - 2018-09-06&nbsp;&nbsp; [Docker](/0044_Hypervisor_Docker)&nbsp;&nbsp; :bookmark:Hypervisor :bookmark:Docker
 - 2018-09-03&nbsp;&nbsp; [time](/0096_Programing_Python_time)&nbsp;&nbsp; :bookmark:Programing :bookmark:Python :bookmark:time
-- 2018-09-02&nbsp;&nbsp; [CMake](/0053_Build_Cmake)&nbsp;&nbsp; :bookmark:Build :bookmark:Cmake
 - 2018-09-02&nbsp;&nbsp; [Argparse](/0258_Programing_Python_Argparse)&nbsp;&nbsp; :bookmark:Programing :bookmark:Python :bookmark:Argparse
+- 2018-09-02&nbsp;&nbsp; [CMake](/0053_Build_Cmake)&nbsp;&nbsp; :bookmark:Build :bookmark:Cmake
 - 2018-07-27&nbsp;&nbsp; [Open Source License](/0147_X_OpenSourceLicense)&nbsp;&nbsp; :bookmark:X :bookmark:OpenSourceLicense

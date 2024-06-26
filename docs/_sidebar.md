@@ -1,8 +1,6 @@
 - [编程](/0193_Programing)
   - [Python](/0078_Programing_Python)
     - [pip](/0095_Programing_Python_pip)
-    - [virtualenv](/0176_Programing_Python_virtualenv)
-    - [virtualenvwrapper](/0175_Programing_Python_virtualenvwrapper)
     - [time](/0096_Programing_Python_time)
     - [列表](/0085_Programing_Python_List)
     - [Python slice 切片 操作](/0086_Programing_Python_Slice)
@@ -26,6 +24,8 @@
       - [psutil](/0098_Programing_Python_Tools_psutil)
       - [pylint 代码分析工具](/0092_Programing_Python_Tools_pylint)
       - [tqdm 进度条工具](/0099_Programing_Python_Tools_tqdm)
+      - [virtualenv](/0176_Programing_Python_Tools_virtualenv)
+      - [virtualenvwrapper](/0175_Programing_Python_Tools_virtualenvwrapper)
       - [yapf 代码格式化工具](/0093_Programing_Python_Tools_yapf)
     - [assert](/0094_Programing_Python_assert)
     - [json](/0292_Programing_Python_json)
@@ -255,4 +255,4 @@
 - [Wiki History](/hist)
 
 ---
-<kbd><sub>@1610540625</sub></kbd>
+<kbd><sub>@1406310626</sub></kbd>
