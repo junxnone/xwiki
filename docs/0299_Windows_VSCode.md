@@ -2,7 +2,7 @@
 Title | Windows VSCode
 -- | --
 Created @ | `2023-12-11T03:41:54Z`
-Updated @| `2024-06-26T07:54:53Z`
+Updated @| `2024-06-26T07:57:04Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/299)
 
@@ -26,7 +26,8 @@ ssh-keygen.exe -t rsa
 
 ### 手动下载
 
-- <kbd>About</kbd> 获取 `Commit ID`
+####  获取 `Commit ID`
+- 在 VSCode 的 <kbd>About</kbd> 获取
 
 ```
 Version: 1.90.2 (user setup)
@@ -40,7 +41,7 @@ V8: 12.2.281.27-electron.0
 OS: Windows_NT x64 10.0.22631
 ```
 
-- 手动下载 `vscode server`
+#### 手动下载 `vscode server`
 
 ```
 wget https://update.code.visualstudio.com/commit:COMMIT_ID/server-linux-x64/stable
@@ -48,7 +49,10 @@ wget https://update.code.visualstudio.com/commit:COMMIT_ID/server-linux-x64/stab
 > [!NOTE]
 > 替换 COMMIT_ID
 
-- 解压到相应文件夹 (目前 `~/.vscode-server/cli/servers`)
+#### 解压到相应文件夹 
+- 各个版本有可能改变 目前是 `~/.vscode-server/cli/servers`  `vscode@1.90.2`
+
+
 
 ```
 tree Stable-5437499feb04f7a586f677b155b039bc2b3669eb/ -d -L 2
