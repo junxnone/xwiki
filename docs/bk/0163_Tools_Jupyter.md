@@ -3,40 +3,18 @@
 | Title     | Tools Jupyter                                        |
 | --------- | ---------------------------------------------------- |
 | Created @ | `2018-09-25T07:48:41Z`                               |
-| Updated @ | `2023-03-01T02:44:20Z`                               |
+| Updated @ | `2024-06-27T00:55:35Z`                               |
 | Labels    | \`\`                                                 |
 | Edit @    | [here](https://github.com/junxnone/xwiki/issues/163) |
 
 -----
 
-## Reference
-
-  - [jupyter](https://jupyter.org/)
-  - [Jupyter 同时支持python2,
-    python3](https://www.cnblogs.com/mashuai-191/p/9045736.html)
-  - [Jupyter Notebook
-    的快捷键](https://www.cnblogs.com/zhizhan/p/5660031.html)
-  - [Jupyter Magic - Timing(%%time %time
-    %timeit)](https://blog.csdn.net/shuibuzhaodeshiren/article/details/86650688)
-  - [awesome-jupyter - tools,
-    packages](https://github.com/markusschanta/awesome-jupyter)
-  - [Jupyter notebook
-    extensions](https://github.com/ipython-contrib/jupyter_contrib_nbextensions/blob/master/README.md)
-  - [My notebook example on
-    Github](https://github.com/junxnone/jupyter_notebook.git)
-
-## Brief
+# Jupyter
 
   - jupyter - web 端 开发工具
   - 支持语言
       - python
-      - [C++](/jupyter_cpp)
-  - [Jupyter use local package](./Jupyter_use_local_package)
-  - [Jupyter show image dynamic](./Jupyter_show_image_dynamic)
-  - [Jupyter Issues](./Jupyter_Issues)
-  - [Jupyter Extensions](./Jupyter_Extensions)
-  - [Jupyter docker image](./Jupyter_docker_image)
-  - [Jupyter Arch](./Jupyter_Arch)
+      - C++ - jupyter\_cpp
   - [Jupyrwe
     Kernels](https://github.com/jupyter/jupyter/wiki/Jupyter-kernels)
   - \[Jupyter Magic Commands\]
@@ -51,14 +29,15 @@
 
 ## UseCase
 
-| UseCase                       | Command                                                                                                                           |
-| ----------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
-| 本机使用                          | `jupyter notebook`                                                                                                                |
-| 本机打开文件                        | `jupyter notebook notebook.ipynb`                                                                                                 |
-| 在其他主机访问                       | `jupyter notebook --ip=xxx.xxx.xx.xx(local IP)`                                                                                   |
-| 后台运行                          | `nohup jupyter notebook --ip=xxx.xxx.xx.xx &`                                                                                     |
-| Work with virtualenv/anaconda | `workon yourvirtualenv`<br>`pip install ipykernel`<br>`ipython kernel install --user --name=yourvirtualenv`<br>`jupyter notebook` |
-| remove from ipykernel         | `jupyter kernelspec remove your_kernel_name`                                                                                      |
+| UseCase               | Command                                                                                                                           |
+| --------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| 本机使用                  | `jupyter notebook`                                                                                                                |
+| 本机打开文件                | `jupyter notebook notebook.ipynb`                                                                                                 |
+| 在其他主机访问               | `jupyter notebook --ip=xxx.xxx.xx.xx(local IP)`                                                                                   |
+| 后台运行                  | `nohup jupyter notebook --ip=xxx.xxx.xx.xx &`                                                                                     |
+| Work with virtualenv  | `workon yourvirtualenv`<br>`pip install ipykernel`<br>`ipython kernel install --user --name=yourvirtualenv`<br>`jupyter notebook` |
+| works with conda      | `conda install nb_conda_kernels`                                                                                                  |
+| remove from ipykernel | `jupyter kernelspec remove your_kernel_name`                                                                                      |
 
 ## Jupyter notebook extensions
 
@@ -90,3 +69,19 @@
 | %%time                 | 当前**cell**的代码运行一次所花费的时间                              |
 | %timeit                | 执行一个语句100，000次(默认情况下)，然后给出运行最快3次的平均值<br> -n N 指定执行次数 |
 | `%%writefile test.txt` | 将当前单元格内容写到文件                                         |
+
+## Reference
+
+  - [jupyter](https://jupyter.org/)
+  - [Jupyter 同时支持python2,
+    python3](https://www.cnblogs.com/mashuai-191/p/9045736.html)
+  - [Jupyter Notebook
+    的快捷键](https://www.cnblogs.com/zhizhan/p/5660031.html)
+  - [Jupyter Magic - Timing(%%time %time
+    %timeit)](https://blog.csdn.net/shuibuzhaodeshiren/article/details/86650688)
+  - [awesome-jupyter - tools,
+    packages](https://github.com/markusschanta/awesome-jupyter)
+  - [Jupyter notebook
+    extensions](https://github.com/ipython-contrib/jupyter_contrib_nbextensions/blob/master/README.md)
+  - [My notebook example on
+    Github](https://github.com/junxnone/jupyter_notebook.git)
