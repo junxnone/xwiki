@@ -3,7 +3,7 @@
 | Title     | Tools Github Token                                   |
 | --------- | ---------------------------------------------------- |
 | Created @ | `2024-06-20T06:12:07Z`                               |
-| Updated @ | `2024-07-02T06:39:12Z`                               |
+| Updated @ | `2024-07-02T07:09:12Z`                               |
 | Labels    | \`\`                                                 |
 | Edit @    | [here](https://github.com/junxnone/xwiki/issues/307) |
 
@@ -27,10 +27,6 @@
 
 git_repo_token=ghp_ZoDxxxx
 git_username="your_user_name"
-git config --global user.name  $git_username
-touch ~/.git-credentials
-echo "https://$git_username:$git_repo_token@github.com" > ~/.git-credentials
-git config --global credential.helper store
 git config --global user.name  $git_username
 touch ~/.git-credentials
 echo "https://$git_username:$git_repo_token@github.com" > ~/.git-credentials
