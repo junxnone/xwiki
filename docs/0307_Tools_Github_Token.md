@@ -2,7 +2,7 @@
 Title | Tools Github Token
 -- | --
 Created @ | `2024-06-20T06:12:07Z`
-Updated @| `2024-06-20T06:12:07Z`
+Updated @| `2024-07-02T06:39:12Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/307)
 
@@ -15,7 +15,7 @@ Edit @| [here](https://github.com/junxnone/xwiki/issues/307)
 
 ![image](https://github.com/junxnone/xwiki/assets/2216970/9714168a-c374-4d2c-8cd2-b180701fd4d7)
 
-> [!note]
+> [!note]  
 > 保存好 token 备用
 
 

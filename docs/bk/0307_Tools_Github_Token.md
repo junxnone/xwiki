@@ -3,7 +3,7 @@
 | Title     | Tools Github Token                                   |
 | --------- | ---------------------------------------------------- |
 | Created @ | `2024-06-20T06:12:07Z`                               |
-| Updated @ | `2024-06-20T06:12:07Z`                               |
+| Updated @ | `2024-07-02T06:39:12Z`                               |
 | Labels    | \`\`                                                 |
 | Edit @    | [here](https://github.com/junxnone/xwiki/issues/307) |
 
@@ -18,7 +18,8 @@
 
 ![image](media/047e48b75f25477c3a8a169df608885946759d26.png)
 
-> \[\!note\] 保存好 token 备用
+> \[\!note\]  
+> 保存好 token 备用
 
 ## Host 端设置
 
