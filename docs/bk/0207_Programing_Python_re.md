@@ -1,24 +1,15 @@
 -----
 
-| Title         | Programing Python re                                 |
-| ------------- | ---------------------------------------------------- |
-| Created @     | `2019-05-23T15:35:05Z`                               |
-| Last Modify @ | `2022-12-26T13:38:03Z`                               |
-| Labels        | \`\`                                                 |
-| Edit @        | [here](https://github.com/junxnone/xwiki/issues/207) |
+| Title     | Programing Python re                                 |
+| --------- | ---------------------------------------------------- |
+| Created @ | `2019-05-23T15:35:05Z`                               |
+| Updated @ | `2024-07-15T07:16:59Z`                               |
+| Labels    | \`\`                                                 |
+| Edit @    | [here](https://github.com/junxnone/xwiki/issues/207) |
 
 -----
 
 # re 正则表达式模块
-
-## Reference
-
-  - [官方文档](https://docs.python.org/3/library/re.html)
-  - [Python3
-    正则表达式](https://www.runoob.com/python3/python3-reg-expressions.html)
-  - [Python正则表达式指南](https://www.cnblogs.com/huxi/archive/2010/07/04/1771073.html)
-
-## Brief
 
   - re.match
   - re.search
@@ -36,3 +27,10 @@
     import re
     pattern = re.compile('[0-9]+')
     match = pattern.findall(str)
+
+## Reference
+
+  - [官方文档](https://docs.python.org/3/library/re.html)
+  - [Python3
+    正则表达式](https://www.runoob.com/python3/python3-reg-expressions.html)
+  - [Python正则表达式指南](https://www.cnblogs.com/huxi/archive/2010/07/04/1771073.html)
