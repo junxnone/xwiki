@@ -3,7 +3,7 @@
 | Title     | Hardware GPU iGPU Tools                              |
 | --------- | ---------------------------------------------------- |
 | Created @ | `2021-12-13T11:35:31Z`                               |
-| Updated @ | `2024-04-29T09:55:31Z`                               |
+| Updated @ | `2024-09-02T10:11:07Z`                               |
 | Labels    | \`\`                                                 |
 | Edit @    | [here](https://github.com/junxnone/xwiki/issues/153) |
 
@@ -37,6 +37,11 @@
 
     sudo apt install intel-gpu-tools
     sudo intel_gpu_top
+
+#### 不用 sudo 执行 intel\_gpu\_top
+
+    setcap cap_perfmon=+ep /usr/bin/intel_gpu_top
+    sudo sh -c 'echo 2 >/proc/sys/kernel/perf_event_paranoid'
 
 ## Reference
 
