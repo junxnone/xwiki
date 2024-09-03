@@ -3,51 +3,46 @@
 | Title     | Hardware GPU iGPU Tools intelgputools                |
 | --------- | ---------------------------------------------------- |
 | Created @ | `2018-09-28T06:21:47Z`                               |
-| Updated @ | `2024-09-03T02:04:41Z`                               |
+| Updated @ | `2024-09-03T02:09:46Z`                               |
 | Labels    | \`\`                                                 |
 | Edit @    | [here](https://github.com/junxnone/xwiki/issues/169) |
 
 -----
 
-# xorg-intel-gpu-tools
+# intel-gpu-tools
 
-## Reference
-
-  - [xorg-intel-gpu-tools](https://github.com/freedesktop/xorg-intel-gpu-tools)
-
-## Brief
+  - 显示 Intel iGPU/dGPU 相关信息
 
 ## Install
 
-### Install on ubuntu 16.04
-
-  - **Dependence Install**
-
-<!-- end list -->
-
-    sudo apt install -y libprocps-dev libkmod-dev libunwind-dev libdw-dev libudev-dev liboping-dev libjson-c-dev
-
-  - **Build from source**
-
-<!-- end list -->
-
-    git clone https://github.com/freedesktop/xorg-intel-gpu-tools.git
-    cd xorg-intel-gpu-tools
-    ./autogen.sh
-    make
-    sudo make install
+    sudo apt install intel-gpu-tools
 
 ## UseCase
 
     sudo intel_gpu_top
 
-    intel-gpu-top -  300/ 300 MHz;   60% RC6;   0.15 Watts;       65 irqs/s
-    
-          IMC reads:     2177 MiB/s
-         IMC writes:     2238 MiB/s
-    
-              ENGINE      BUSY                                                                                                                                                                  MI_SEMA MI_WAIT
-         Render/3D/0     1.66% |██▌                                                                                                                                                           |      0%      0%
-           Blitter/0     0.00% |                                                                                                                                                              |      0%      0%
-             Video/0     0.00% |                                                                                                                                                              |      0%      0%
-      VideoEnhance/0     0.00% |                                                                                                                                                              |      0%      0%
+``` 
+intel-gpu-top: Intel Alderlake_s (Gen12) @ /dev/dri/card0 -    0/   0 MHz; 100% RC6;  0.00/33.32 W;        0 irqs/s
+
+         ENGINES     BUSY                                      MI_SEMA MI_WAIT
+       Render/3D    0.00% |                                      |      0%      0%
+         Blitter    0.00% |                                      |      0%      0%
+           Video    0.00% |                                      |      0%      0%
+    VideoEnhance    0.00% |                                      |      0%      0%
+
+
+```
+
+### 查看特定 GPU
+
+    intel_gpu_top -d drm:/dev/dri/card0
+    intel_gpu_top -d drm:/dev/dri/card1
+
+### 不用 sudo 执行 intel\_gpu\_top
+
+    setcap cap_perfmon=+ep /usr/bin/intel_gpu_top
+    sudo sh -c 'echo 2 >/proc/sys/kernel/perf_event_paranoid'
+
+## Reference
+
+  - [intel-gpu-tools](https://cgit.freedesktop.org/xorg/app/intel-gpu-tools/)
