@@ -1,8 +1,8 @@
 ---
-Title | Hardware GPU iGPU Tools xorgintelgpu
+Title | Hardware GPU iGPU Tools intelgputools
 -- | --
 Created @ | `2018-09-28T06:21:47Z`
-Last Modify @| `2022-12-22T07:45:13Z`
+Updated @| `2024-09-03T02:04:41Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/169)
 
