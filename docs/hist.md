@@ -244,7 +244,7 @@
 - 2018-10-29&nbsp;&nbsp; [Network](/0045_Hypervisor_Docker_Network)&nbsp;&nbsp; :bookmark:Hypervisor :bookmark:Docker :bookmark:Network
 - 2018-10-22&nbsp;&nbsp; [Issues](/0162_Tools_Jupyter_Issues)&nbsp;&nbsp; :bookmark:Tools :bookmark:Jupyter :bookmark:Issues
 - 2018-10-11&nbsp;&nbsp; [常用命令](/0046_Hypervisor_Docker_UseCase)&nbsp;&nbsp; :bookmark:Hypervisor :bookmark:Docker :bookmark:UseCase
-- 2018-09-28&nbsp;&nbsp; [xorg-intel-gpu-tools](/0169_Hardware_GPU_iGPU_Tools_intelgputools)&nbsp;&nbsp; :bookmark:Hardware :bookmark:GPU :bookmark:iGPU :bookmark:Tools :bookmark:intelgputools
+- 2018-09-28&nbsp;&nbsp; [intel-gpu-tools](/0169_Hardware_GPU_iGPU_Tools_intelgputools)&nbsp;&nbsp; :bookmark:Hardware :bookmark:GPU :bookmark:iGPU :bookmark:Tools :bookmark:intelgputools
 - 2018-09-27&nbsp;&nbsp; [intel-telemetry-tool](/0171_Hardware_GPU_iGPU_Tools_telemetry)&nbsp;&nbsp; :bookmark:Hardware :bookmark:GPU :bookmark:iGPU :bookmark:Tools :bookmark:telemetry
 - 2018-09-25&nbsp;&nbsp; [Jupyter](/0163_Tools_Jupyter)&nbsp;&nbsp; :bookmark:Tools :bookmark:Jupyter
 - 2018-09-11&nbsp;&nbsp; [json](/0292_Programing_Python_json)&nbsp;&nbsp; :bookmark:Programing :bookmark:Python :bookmark:json
