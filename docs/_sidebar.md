@@ -197,8 +197,8 @@
       - [iGPU Drivers](/0244_Hardware_GPU_iGPU_Drivers)
       - [Issues](/0154_Hardware_GPU_iGPU_Issues)
       - [Intel iGPU Tools](/0153_Hardware_GPU_iGPU_Tools)
+        - [xorg-intel-gpu-tools](/0169_Hardware_GPU_iGPU_Tools_intelgputools)
         - [intel-telemetry-tool](/0171_Hardware_GPU_iGPU_Tools_telemetry)
-        - [xorg-intel-gpu-tools](/0169_Hardware_GPU_iGPU_Tools_xorgintelgpu)
       - [Data Center GPUs](/0223_Hardware_GPU_iGPU_dGPU)
       - [Intel GPUs Table](/0224_Hardware_GPU_iGPU_table)
   - [Memory](/0004_Hardware_Memory)
@@ -255,4 +255,4 @@
 - [Wiki History](/hist)
 
 ---
-<kbd><sub>@1811560902</sub></kbd>
+<kbd><sub>@1005420903</sub></kbd>
