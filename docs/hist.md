@@ -172,7 +172,7 @@
 - 2020-06-18&nbsp;&nbsp; [参数](/0106_Programing_Shell_ARG)&nbsp;&nbsp; :bookmark:Programing :bookmark:Shell :bookmark:ARG
 - 2020-06-05&nbsp;&nbsp; [Make](/0063_Build_Make)&nbsp;&nbsp; :bookmark:Build :bookmark:Make
 - 2020-06-03&nbsp;&nbsp; [Ubuntu Install](/0166_Programing_Compiler_GCC_UbuntuInstall)&nbsp;&nbsp; :bookmark:Programing :bookmark:Compiler :bookmark:GCC :bookmark:UbuntuInstall
-- 2020-05-26&nbsp;&nbsp; [logging](/0097_Programing_Python_logging)&nbsp;&nbsp; :bookmark:Programing :bookmark:Python :bookmark:logging
+- 2020-05-26&nbsp;&nbsp; [Logging](/0097_Programing_Python_logging)&nbsp;&nbsp; :bookmark:Programing :bookmark:Python :bookmark:logging
 - 2020-05-14&nbsp;&nbsp; [Regex 正则表达式](/0206_Programing_regex)&nbsp;&nbsp; :bookmark:Programing :bookmark:regex
 - 2020-05-04&nbsp;&nbsp; [Shell case](/0103_Programing_Shell_case)&nbsp;&nbsp; :bookmark:Programing :bookmark:Shell :bookmark:case
 - 2020-05-04&nbsp;&nbsp; [Shell Comment](/0105_Programing_Shell_comment)&nbsp;&nbsp; :bookmark:Programing :bookmark:Shell :bookmark:comment
