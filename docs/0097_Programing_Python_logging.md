@@ -2,18 +2,18 @@
 Title | Programing Python logging
 -- | --
 Created @ | `2020-05-26T07:52:14Z`
-Last Modify @| `2022-12-22T06:39:35Z`
+Updated @| `2024-10-16T05:30:27Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/97)
 
 ---
+# Logging
 
-
-## Reference
-- [Python之路(第十七篇)logging模块](https://www.cnblogs.com/Nicholas0707/p/9021672.html)
-
-## Brief
-- 自带 log 打印管理工具
+- python 自带的 log 管理工具
+  - 打印
+  - 输出到文件
+  - 输出格式控制
+  - Log Level 控制
 
 
 ### Log Level 定义
@@ -63,3 +63,10 @@ log.info('test logging')
 ```
 INFO 2020-09-09 02:51:06,311 test.py L15: test logging
 ```
+
+
+
+## Reference
+- [Python之路(第十七篇)logging模块](https://www.cnblogs.com/Nicholas0707/p/9021672.html)
+
+
