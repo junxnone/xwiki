@@ -12,6 +12,7 @@
     - [Decorator 装饰器](/0088_Programing_Python_Decorator)
       - [`@property` decorator](/0306_Programing_Python_Decorator_property)
     - [文件操作](/0297_Programing_Python_File)
+    - [系统信息获取](/0310_Programing_Python_OSInfo)
     - [工具](/0090_Programing_Python_Tools)
       - [PySnooper](/0304_Programing_Python_Tools_PySnooper)
       - [Streamlit](/0294_Programing_Python_Tools_Streamlit)
@@ -255,4 +256,4 @@
 - [Wiki History](/hist)
 
 ---
-<kbd><sub>@1611411015</sub></kbd>
+<kbd><sub>@1329281016</sub></kbd>
