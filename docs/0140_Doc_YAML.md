@@ -2,12 +2,11 @@
 Title | Doc YAML
 -- | --
 Created @ | `2019-08-07T02:06:17Z`
-Updated @| `2023-07-09T04:35:23Z`
+Updated @| `2024-10-23T08:16:10Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/140)
 
 ---
-
 # YAML
 - YAML - `Yet Another Markup Language` - 类似 `xml/json`
 - **用途**
@@ -50,7 +49,10 @@ yaml.load is as powerful as pickle.load and so may call any Python function.
 Check the yaml.safe_load function though.
 ```
 
-
+## Tools
+- [pyYAML](https://github.com/yaml/pyyaml)
+- [yacs](https://github.com/rbgirshick/yacs/tree/master)
+- [hydra](https://github.com/facebookresearch/hydra)
 
 ## History
 
