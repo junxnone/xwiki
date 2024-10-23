@@ -2,44 +2,40 @@
 Title | Doc YAML
 -- | --
 Created @ | `2019-08-07T02:06:17Z`
-Updated @| `2024-10-23T08:16:10Z`
+Updated @| `2024-10-23T09:02:38Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/140)
 
 ---
 # YAML
 - YAML - `Yet Another Markup Language` - 类似 `xml/json`
-- **用途**
-  - yaml 作为配置文件 （kubernetes/docker/...)
-- **python parser package**
-  - pyyaml - `官方 package`
-  - ruamel.yaml
-- **File**  - `your_file.yml`
+- **用途**: yaml 作为配置文件 （kubernetes/docker/...)
+- **python 常用工具** pyyaml/ruamel/yaml/yacs/hydra
 
 
 ## YAML 语言规则
-
-- 使用缩进表示层级关系
-  - 使用空格键缩进
-  - 缩进的空格数，相同层级对齐即可
-- 注释标识为 `#`
 - 大小写敏感
-- 支持数据类型 - `对象/数组/纯量`
-- **对象**
-  -  `key: value` - `:` 后面加空格
-- **数组**
-  - 以 `-` 开头的行表示构成一个数组
-  - 多维数组表示 - `key: [value1, value2, ...]`
-- **纯量** `-` 后面直接跟 `int/float/string/boolen/...`
+-  `key: value` - `:` 后面加空格
 
----
+### 层级关系
+- 使用空格缩进，相同层级对齐即可
 
-- yaml键值对：即python中字典
-- yaml键值对嵌套：即python中字典嵌套字典
-- yaml数组
-- yaml键值对中嵌套数组
--  yaml"数组"中嵌套"键值对"
-- yaml文件中基本数据类型
+### 数据类型
+#### 字典
+
+#### 数组 
+- 以 `-` 开头的行表示构成一个数组
+- 多维数组表示 - `key: [value1, value2, ...]`
+
+#### 纯量
+- `int/float/string/boolen/...`
+
+
+### 注释
+- 注释标识为 `#`
+
+
+
 
 ### `yaml.load` vs `yaml.safe_load`
 
@@ -66,4 +62,4 @@ Check the yaml.safe_load function though.
   - [python：yaml模块](https://www.jianshu.com/p/eaa1bf01b3a6)
 - **ruamel.yaml** [[code](https://sourceforge.net/p/ruamel-yaml/code/ci/default/tree/)] [[docs](https://yaml.readthedocs.io/en/latest/)]
   - [ruamel.yaml - Differences with PyYAML](https://yaml.readthedocs.io/en/latest/pyyaml.html)
-
+- [material and tools](https://yaml.org/)
