@@ -3,7 +3,7 @@
 | Title     | Programing Python Tools PySnooper                    |
 | --------- | ---------------------------------------------------- |
 | Created @ | `2024-05-14T06:43:45Z`                               |
-| Updated @ | `2024-05-14T07:16:43Z`                               |
+| Updated @ | `2024-11-19T06:23:01Z`                               |
 | Labels    | \`\`                                                 |
 | Edit @    | [here](https://github.com/junxnone/xwiki/issues/304) |
 
@@ -14,6 +14,11 @@
   - Debug Python Code: 使用 `装饰器` 实现的调试器，可以打印出每行执行的结果,
 
 <!-- end list -->
+
+    pip install pysnooper
+
+    import pysnooper
+    @pysnooper.snoop('debug_xxx.log', color=False)
 
     Source path:... /path/to/your/scripts/tap.py
     Starting var:.. gt_sp = [0, 0, 0, 0, 1, 1, 1, 1, 1, 1]
