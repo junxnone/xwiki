@@ -2,24 +2,12 @@
 Title | X iso3dfd
 -- | --
 Created @ | `2021-11-08T08:44:04Z`
-Last Modify @| `2022-12-27T05:52:04Z`
+Updated @| `2024-12-31T01:51:57Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/209)
 
 ---
-## Reference
-- [ISO3DFD Code Walkthrough](https://www.intel.com/content/www/us/en/developer/articles/technical/iso3dfd-code-walkthrough.html)
-- [[OpenMP Code](https://github.com/oneapi-src/oneAPI-samples/tree/master/DirectProgramming/C%2B%2B/StructuredGrids/iso3dfd_omp_offload)] [[DPCPP Code](https://github.com/oneapi-src/oneAPI-samples/tree/master/DirectProgramming/DPC%2B%2B/StructuredGrids/iso3dfd_dpcpp)]
-- [波动方程](https://baike.baidu.com/item/%E6%B3%A2%E5%8A%A8%E6%96%B9%E7%A8%8B/1613956)
--  1996 [Distributed three-dimensional finite-difference modeling of wave propagation in acoustic media](https://aip.scitation.org/doi/pdf/10.1063/1.168610)
-- [Yet Another Stencil Kernel: A framework for hpc stencil code-generation and tuning.pdf](https://github.com/junxnone/tech-io/files/7509445/yask.pdf)
-- [YASK-tutorial.pdf](https://github.com/junxnone/tech-io/files/7509475/YASK-tutorial.pdf)
-- [Memory-Level Roofline Analysis in Intel® Advisor](https://www.intel.com/content/www/us/en/developer/articles/technical/memory-level-roofline-model-with-advisor.html)
-- [Cache Blocking Techniques](https://www.intel.com/content/www/us/en/developer/articles/technical/cache-blocking-techniques.html)
-- [Optimize Memory Access Patterns using Loop Interchange and Cache Blocking Techniques](https://www.intel.com/content/www/us/en/develop/documentation/advisor-cookbook/top/optimize-memory-access-patterns.html)
-
-
-## Brief
+# iso3dfd
 - 偏微分方程(Partial Differential Equation - PDE) 问题: 声波在 `各向同性介质` 中的传播
 - OpenMP 优化
 - 有限差分(Finite-difference) 用于近似 偏微分方程
@@ -117,4 +105,17 @@ Edit @| [here](https://github.com/junxnone/xwiki/issues/209)
 - windows 编译使用 SLM: 添加 `-DUSE_SHARED` 到 `项目属性->DPC++->Command Line->其他选项`
 
 ![image](https://user-images.githubusercontent.com/2216970/147624212-e4b20ea0-ccbc-429d-afaa-03eab75878f3.png)
+
+
+## Reference
+- [ISO3DFD Code Walkthrough](https://www.intel.com/content/www/us/en/developer/articles/technical/iso3dfd-code-walkthrough.html)
+- [[OpenMP Code](https://github.com/oneapi-src/oneAPI-samples/tree/master/DirectProgramming/C%2B%2B/StructuredGrids/iso3dfd_omp_offload)] [[DPCPP Code](https://github.com/oneapi-src/oneAPI-samples/tree/master/DirectProgramming/DPC%2B%2B/StructuredGrids/iso3dfd_dpcpp)]
+- [波动方程](https://baike.baidu.com/item/%E6%B3%A2%E5%8A%A8%E6%96%B9%E7%A8%8B/1613956)
+-  1996 [Distributed three-dimensional finite-difference modeling of wave propagation in acoustic media](https://aip.scitation.org/doi/pdf/10.1063/1.168610)
+- [Yet Another Stencil Kernel: A framework for hpc stencil code-generation and tuning.pdf](https://github.com/junxnone/tech-io/files/7509445/yask.pdf)
+- [YASK-tutorial.pdf](https://github.com/junxnone/tech-io/files/7509475/YASK-tutorial.pdf)
+- [Memory-Level Roofline Analysis in Intel® Advisor](https://www.intel.com/content/www/us/en/developer/articles/technical/memory-level-roofline-model-with-advisor.html)
+- [Cache Blocking Techniques](https://www.intel.com/content/www/us/en/developer/articles/technical/cache-blocking-techniques.html)
+- [Optimize Memory Access Patterns using Loop Interchange and Cache Blocking Techniques](https://www.intel.com/content/www/us/en/develop/documentation/advisor-cookbook/top/optimize-memory-access-patterns.html)
+
 
