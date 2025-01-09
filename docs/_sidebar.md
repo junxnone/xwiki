@@ -211,6 +211,7 @@
     - [AVX](/0009_Hardware_SIMD_AVX)
       - [CodeCompile](/0150_Hardware_SIMD_AVX_CodeCompile)
     - [SIMD 原理](/0008_Hardware_SIMD_原理)
+  - [存储](/0312_Hardware_Storage)
 - [文档文本](/0191_Doc)
   - [FlameGraph](/0285_Doc_FlameGraph)
   - [Markdown](/0135_Doc_Markdown)
@@ -257,4 +258,4 @@
 - [Wiki History](/hist)
 
 ---
-<kbd><sub>@1611440108</sub></kbd>
+<kbd><sub>@1415440109</sub></kbd>
