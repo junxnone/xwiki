@@ -1,15 +1,15 @@
 -----
 
-| Title         | Tools Git submodule                                  |
-| ------------- | ---------------------------------------------------- |
-| Created @     | `2018-12-10T05:55:39Z`                               |
-| Last Modify @ | `2022-12-22T06:48:02Z`                               |
-| Labels        | \`\`                                                 |
-| Edit @        | [here](https://github.com/junxnone/xwiki/issues/114) |
+| Title     | Tools Git submodule                                  |
+| --------- | ---------------------------------------------------- |
+| Created @ | `2018-12-10T05:55:39Z`                               |
+| Updated @ | `2025-03-13T01:38:38Z`                               |
+| Labels    | \`\`                                                 |
+| Edit @    | [here](https://github.com/junxnone/xwiki/issues/114) |
 
 -----
 
-## Brief
+# Git Submodule
 
   - git 包含嵌套的概念, 仓库中可以包含另一个仓库
 
