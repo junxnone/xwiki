@@ -236,7 +236,7 @@
 - 2018-12-14&nbsp;&nbsp; [Git Configs](/0112_Tools_Git_config)&nbsp;&nbsp; :bookmark:Tools :bookmark:Git :bookmark:config
 - 2018-12-14&nbsp;&nbsp; [Git](/0111_Tools_Git)&nbsp;&nbsp; :bookmark:Tools :bookmark:Git
 - 2018-12-12&nbsp;&nbsp; [Github Access with ssh key](/0123_Tools_Github_SSHKey)&nbsp;&nbsp; :bookmark:Tools :bookmark:Github :bookmark:SSHKey
-- 2018-12-10&nbsp;&nbsp; [submodule](/0114_Tools_Git_submodule)&nbsp;&nbsp; :bookmark:Tools :bookmark:Git :bookmark:submodule
+- 2018-12-10&nbsp;&nbsp; [Git Submodule](/0114_Tools_Git_submodule)&nbsp;&nbsp; :bookmark:Tools :bookmark:Git :bookmark:submodule
 - 2018-12-10&nbsp;&nbsp; [Proxy Setup](/0113_Tools_Git_proxy)&nbsp;&nbsp; :bookmark:Tools :bookmark:Git :bookmark:proxy
 - 2018-11-29&nbsp;&nbsp; [Shell](/0079_Programing_Shell)&nbsp;&nbsp; :bookmark:Programing :bookmark:Shell
 - 2018-11-25&nbsp;&nbsp; [putty](/0161_Tools_putty)&nbsp;&nbsp; :bookmark:Tools :bookmark:putty

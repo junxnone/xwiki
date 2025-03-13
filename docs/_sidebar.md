@@ -128,7 +128,7 @@
     - [Git Configs](/0112_Tools_Git_config)
     - [Git Branch](/0115_Tools_Git_branch)
     - [tag](/0116_Tools_Git_tag)
-    - [submodule](/0114_Tools_Git_submodule)
+    - [Git Submodule](/0114_Tools_Git_submodule)
     - [Proxy Setup](/0113_Tools_Git_proxy)
     - [移除 stage 文件](/0119_Tools_Git_RMStageFile)
     - [git bash](/0256_Tools_Git_Bash)
@@ -258,4 +258,4 @@
 - [Wiki History](/hist)
 
 ---
-<kbd><sub>@1612180312</sub></kbd>
+<kbd><sub>@0939210313</sub></kbd>
