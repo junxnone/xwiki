@@ -3,7 +3,7 @@
 | Title     | Tools Git Patch                                      |
 | --------- | ---------------------------------------------------- |
 | Created @ | `2023-03-21T07:40:57Z`                               |
-| Updated @ | `2024-03-27T02:53:33Z`                               |
+| Updated @ | `2025-03-15T09:49:22Z`                               |
 | Labels    | \`\`                                                 |
 | Edit @    | [here](https://github.com/junxnone/xwiki/issues/226) |
 
@@ -52,6 +52,11 @@ git format-patch -N
 ### am
 
     git am   your_patch_name.patch
+
+## 更改前一个 patch
+
+    # 更改内容 并使用 git add 添加
+    git commit --amend
 
 ## Patch 描述
 
