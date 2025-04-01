@@ -3,7 +3,7 @@
 | Title     | Programing Python Tools                             |
 | --------- | --------------------------------------------------- |
 | Created @ | `2020-03-16T00:12:19Z`                              |
-| Updated @ | `2024-05-16T12:00:09Z`                              |
+| Updated @ | `2025-04-01T06:41:56Z`                              |
 | Labels    | \`\`                                                |
 | Edit @    | [here](https://github.com/junxnone/xwiki/issues/90) |
 
@@ -62,6 +62,7 @@
 ## 系统信息工具
 
   - **psutil**: 获取系统硬件信息
+  - **py-cpuinfo**: CPU 相关信息(类似于 `lscpu`), 获取内容为 `dict`
 
 ## 进度条工具
 
