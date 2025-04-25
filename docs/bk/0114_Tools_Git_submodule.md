@@ -3,7 +3,7 @@
 | Title     | Tools Git submodule                                  |
 | --------- | ---------------------------------------------------- |
 | Created @ | `2018-12-10T05:55:39Z`                               |
-| Updated @ | `2025-03-13T01:38:38Z`                               |
+| Updated @ | `2025-04-25T03:37:22Z`                               |
 | Labels    | \`\`                                                 |
 | Edit @    | [here](https://github.com/junxnone/xwiki/issues/114) |
 
@@ -32,3 +32,25 @@
 
 > 在运行 git submodule update --init --recursive 时，.submodule 中的 submodule
 > 会更新到.git/config 中，所以运行此命令之前可以只更新.submodule 文件
+
+## 移除子模块
+
+### 停止跟踪子模块
+
+  - 从 Git 的跟踪中移除，但不删除本地文件
+
+<!-- end list -->
+
+    git submodule deinit -f <子模块路径>
+
+### 从项目中移除子模块的记录
+
+  - 从.gitmodules文件和项目的暂存区中移除子模块的相关信息
+
+<!-- end list -->
+
+    git rm -f <子模块路径>
+
+### 提交更改
+
+    git commit -m "Remove submodule"
