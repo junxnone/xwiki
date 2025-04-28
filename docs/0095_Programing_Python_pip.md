@@ -2,7 +2,7 @@
 Title | Programing Python pip
 -- | --
 Created @ | `2018-11-25T09:47:54Z`
-Updated @| `2024-06-18T08:18:51Z`
+Updated @| `2025-04-28T07:12:26Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/95)
 
@@ -116,6 +116,22 @@ python -m pip install --upgrade pip
 export TMPDIR=your_tmp_dir
 ```
 > `your_tmp_dir` 最好使用绝对路径, `matplotlib` 使用相对路径时出错
+
+### SSL 问题
+- 系统时间是否不准确？
+- Workaround: 直接信任某些网站
+
+```
+pip install --trusted-host pypi.org --trusted-host files.pythonhosted.org <package_name>
+```
+- 设置为全局信任
+
+```
+#pip.ini
+[global]
+trusted-host = pypi.org files.pythonhosted.org download.pytorch.org
+```
+
 
 
 ## Reference
