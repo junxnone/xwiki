@@ -2,7 +2,7 @@
 Title | Programing Python pip
 -- | --
 Created @ | `2018-11-25T09:47:54Z`
-Updated @| `2025-04-28T07:12:26Z`
+Updated @| `2025-05-07T02:42:33Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/95)
 
@@ -23,8 +23,9 @@ Install from requirement.txt | `pip3 install -r requirements.txt`
 Install with mirror | `pip3 install your_package -i https://pypi.tuna.tsinghua.edu.cn/simple`
 Export requirements.txt | `pip freeze > requirements.txt`
 查看 package 信息 | `pip show -f package_name`
+列出 package 可用版本 | `pip index versions package_name`
 
-
+> `pip install package_name==` 已经不可用
 
 ## Config
 ### Setup default Mirrors
