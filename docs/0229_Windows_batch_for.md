@@ -2,13 +2,12 @@
 Title | Windows batch for
 -- | --
 Created @ | `2021-08-24T02:38:24Z`
-Updated @| `2023-03-27T14:41:49Z`
+Updated @| `2025-05-21T08:06:29Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/229)
 
 ---
-## Reference
-- [bat for循环_解放双手！ bat 批处理自动化运行程序](https://blog.csdn.net/weixin_39738380/article/details/110105571)
+# batch for 循环
 
 ## UseCase
 
@@ -22,3 +21,7 @@ for /l %%a in (1,1,10) do (
 
 )
 ```
+
+## Reference
+- [bat for循环_解放双手！ bat 批处理自动化运行程序](https://blog.csdn.net/weixin_39738380/article/details/110105571)
+
