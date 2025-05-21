@@ -138,7 +138,7 @@
 - 2021-09-22&nbsp;&nbsp; [Text Format](/0136_Doc_Markdown_Text)&nbsp;&nbsp; :bookmark:Doc :bookmark:Markdown :bookmark:Text
 - 2021-09-22&nbsp;&nbsp; [表格](/0138_Doc_Markdown_Table)&nbsp;&nbsp; :bookmark:Doc :bookmark:Markdown :bookmark:Table
 - 2021-08-24&nbsp;&nbsp; [Windows 命令行执行命令时卡住](/0234_Windows_Issues_CommandLineHang)&nbsp;&nbsp; :bookmark:Windows :bookmark:Issues :bookmark:CommandLineHang
-- 2021-08-24&nbsp;&nbsp; [for](/0229_Windows_batch_for)&nbsp;&nbsp; :bookmark:Windows :bookmark:batch :bookmark:for
+- 2021-08-24&nbsp;&nbsp; [batch for 循环](/0229_Windows_batch_for)&nbsp;&nbsp; :bookmark:Windows :bookmark:batch :bookmark:for
 - 2021-08-09&nbsp;&nbsp; [NUMA 架构](/0158_Hardware_NUMA)&nbsp;&nbsp; :bookmark:Hardware :bookmark:NUMA
 - 2021-08-05&nbsp;&nbsp; [Vector](/0080_Programing_CPP_Vector)&nbsp;&nbsp; :bookmark:Programing :bookmark:CPP :bookmark:Vector
 - 2021-08-03&nbsp;&nbsp; [LAPACK](/0180_X_LAPACK)&nbsp;&nbsp; :bookmark:X :bookmark:LAPACK

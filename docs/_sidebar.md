@@ -254,8 +254,8 @@
   - [Visual Studio Code](/0299_Windows_VSCode)
   - [Win11 关闭右键菜单折叠](/0282_Windows_W11collapse)
   - [Windows Batch 批处理](/0230_Windows_batch)
-    - [for](/0229_Windows_batch_for)
+    - [batch for 循环](/0229_Windows_batch_for)
 - [Wiki History](/hist)
 
 ---
-<kbd><sub>@1614160520</sub></kbd>
+<kbd><sub>@1607190521</sub></kbd>
