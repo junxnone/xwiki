@@ -2,16 +2,14 @@
 Title | Programing Python time
 -- | --
 Created @ | `2018-09-03T23:32:30Z`
-Last Modify @| `2022-12-22T06:39:08Z`
+Updated @| `2025-05-22T05:49:42Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/96)
 
 ---
-## Reference
-- [time — Time access and conversions](https://docs.python.org/3/library/time.html)
+#  time 
+- python build-in 时间处理 模块
 
-## Brief
-- 自带 时间处理 模块
 
 ## UseCase
 
@@ -38,4 +36,8 @@ print("End :" + time.ctime())
 Start:Tue Sep  4 07:43:05 2018
 End :Tue Sep  4 07:43:10 2018
 ```
+
+
+## Reference
+- [time — Time access and conversions](https://docs.python.org/3/library/time.html)
 
