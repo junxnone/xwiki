@@ -3,7 +3,7 @@
 | Title     | Programing Python                                   |
 | --------- | --------------------------------------------------- |
 | Created @ | `2021-11-27T05:02:46Z`                              |
-| Updated @ | `2025-04-16T02:17:32Z`                              |
+| Updated @ | `2025-05-27T01:58:02Z`                              |
 | Labels    | `reindex`                                           |
 | Edit @    | [here](https://github.com/junxnone/xwiki/issues/78) |
 
@@ -21,6 +21,9 @@
   - 代码 Debug 工具
   - [notebooks](https://junxnone.github.io/samples/#/?id=python)
   - Packages 管理: [pip](/0095_Programing_Python_pip)
+  - 虚拟环境
+      - [virtualenv](/0176_Programing_Python_Tools_virtualenv)
+      - [conda](/0073_Tools_Conda)
 
 ## 工具包
 
