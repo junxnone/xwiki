@@ -194,7 +194,7 @@
   - [GPU](/0218_Hardware_GPU)
     - [GPU Metrics](/0280_Hardware_GPU_Metrics)
     - [NVIDIA GPU](/0006_Hardware_GPU_NVIDIA)
-    - [Intel GPUs - iGPU](/0005_Hardware_GPU_iGPU)
+    - [Intel GPUs - iGPU/dGPU](/0005_Hardware_GPU_iGPU)
       - [Intel GPUs Arch](/0225_Hardware_GPU_iGPU_Arch)
       - [iGPU Drivers](/0244_Hardware_GPU_iGPU_Drivers)
       - [Issues](/0154_Hardware_GPU_iGPU_Issues)
@@ -258,4 +258,4 @@
 - [Wiki History](/hist)
 
 ---
-<kbd><sub>@1613350528</sub></kbd>
+<kbd><sub>@1031310529</sub></kbd>

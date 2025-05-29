@@ -125,7 +125,7 @@
 - 2021-11-18&nbsp;&nbsp; [NVIDIA GPU](/0006_Hardware_GPU_NVIDIA)&nbsp;&nbsp; :bookmark:Hardware :bookmark:GPU :bookmark:NVIDIA
 - 2021-11-11&nbsp;&nbsp; [Memory](/0004_Hardware_Memory)&nbsp;&nbsp; :bookmark:Hardware :bookmark:Memory
 - 2021-11-10&nbsp;&nbsp; [硬件](/0001_Hardware)&nbsp;&nbsp; :bookmark:Hardware
-- 2021-11-10&nbsp;&nbsp; [Intel GPUs - iGPU](/0005_Hardware_GPU_iGPU)&nbsp;&nbsp; :bookmark:Hardware :bookmark:GPU :bookmark:iGPU
+- 2021-11-10&nbsp;&nbsp; [Intel GPUs - iGPU/dGPU](/0005_Hardware_GPU_iGPU)&nbsp;&nbsp; :bookmark:Hardware :bookmark:GPU :bookmark:iGPU
 - 2021-11-08&nbsp;&nbsp; [iso3dfd](/0209_X_iso3dfd)&nbsp;&nbsp; :bookmark:X :bookmark:iso3dfd
 - 2021-11-04&nbsp;&nbsp; [docsify](/0130_Tools_Github_Pages_docsify)&nbsp;&nbsp; :bookmark:Tools :bookmark:Github :bookmark:Pages :bookmark:docsify
 - 2021-10-28&nbsp;&nbsp; [语法](/0055_Build_Cmake_语法)&nbsp;&nbsp; :bookmark:Build :bookmark:Cmake :bookmark:语法
