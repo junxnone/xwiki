@@ -192,9 +192,10 @@
     - [Intel CPU](/0003_Hardware_CPU_Intel)
       - [P-Core & E-Core](/0215_Hardware_CPU_Intel_PECore)
   - [GPU](/0218_Hardware_GPU)
+    - [Intel GPUs - iGPU/dGPU](/0005_Hardware_GPU_Intel)
     - [GPU Metrics](/0280_Hardware_GPU_Metrics)
     - [NVIDIA GPU](/0006_Hardware_GPU_NVIDIA)
-    - [Intel GPUs - iGPU/dGPU](/0005_Hardware_GPU_iGPU)
+    - iGPU
       - [Intel GPUs Arch](/0225_Hardware_GPU_iGPU_Arch)
       - [iGPU Drivers](/0244_Hardware_GPU_iGPU_Drivers)
       - [Issues](/0154_Hardware_GPU_iGPU_Issues)
@@ -259,4 +260,4 @@
 - [Wiki History](/hist)
 
 ---
-<kbd><sub>@1036510529</sub></kbd>
+<kbd><sub>@1038370529</sub></kbd>
