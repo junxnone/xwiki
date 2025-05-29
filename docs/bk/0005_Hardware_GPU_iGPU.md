@@ -3,13 +3,13 @@
 | Title     | Hardware GPU iGPU                                  |
 | --------- | -------------------------------------------------- |
 | Created @ | `2021-11-10T17:21:22Z`                             |
-| Updated @ | `2023-05-27T04:33:41Z`                             |
+| Updated @ | `2025-05-29T02:30:42Z`                             |
 | Labels    | \`\`                                               |
 | Edit @    | [here](https://github.com/junxnone/xwiki/issues/5) |
 
 -----
 
-# Intel GPUs - iGPU
+# Intel GPUs - iGPU/dGPU
 
   - Intel 显卡早期以集成显卡为主
   - 独立显卡
