@@ -1,8 +1,8 @@
 ---
-Title | Hardware GPU iGPU
+Title | Hardware GPU Intel
 -- | --
 Created @ | `2021-11-10T17:21:22Z`
-Updated @| `2025-05-29T02:35:59Z`
+Updated @| `2025-05-29T02:37:47Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/5)
 
