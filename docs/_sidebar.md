@@ -198,6 +198,7 @@
       - [Intel GPUs Arch](/0225_Hardware_GPU_iGPU_Arch)
       - [iGPU Drivers](/0244_Hardware_GPU_iGPU_Drivers)
       - [Issues](/0154_Hardware_GPU_iGPU_Issues)
+      - [Resizable BAR](/0313_Hardware_GPU_iGPU_ResizableBAR)
       - [Intel iGPU Tools](/0153_Hardware_GPU_iGPU_Tools)
         - [intel-gpu-tools](/0169_Hardware_GPU_iGPU_Tools_intelgputools)
         - [intel-telemetry-tool](/0171_Hardware_GPU_iGPU_Tools_telemetry)
@@ -258,4 +259,4 @@
 - [Wiki History](/hist)
 
 ---
-<kbd><sub>@1031310529</sub></kbd>
+<kbd><sub>@1034140529</sub></kbd>
