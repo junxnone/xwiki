@@ -2,7 +2,7 @@
 Title | Hardware GPU iGPU Tools
 -- | --
 Created @ | `2021-12-13T11:35:31Z`
-Updated @| `2024-09-02T10:11:07Z`
+Updated @| `2025-05-30T07:43:45Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/153)
 
@@ -14,8 +14,13 @@ Edit @| [here](https://github.com/junxnone/xwiki/issues/153)
 - intel_gpu_top
 - [Intel® GPU Occupancy Calculator](https://oneapi-src.github.io/oneAPI-samples/Tools/GPU-Occupancy-Calculator/index.html)
 - [Intel(R) XPU Manager and XPU System Management Interface](https://github.com/intel/xpumanager/tree/master)
+- gputop
+- nvtop
 
-### 查看 iGPU info
+> i915 driver 向 xe driver 过渡过程中，一些GPU 功能支持会受影响
+
+
+## 查看 iGPU 硬件信息
 
 ```
 inxi -G
@@ -36,7 +41,9 @@ $ lspci |grep VGA
 > 9a49 mean `Intel® Iris® Xe Graphics`, others you can found [here](https://dgpu-docs.intel.com/devices/hardware-table.html)
 
 
-### 查看 iGPU 使用率
+## 查看 iGPU 状态
+
+### intel_gpu_top
 
 ```
 sudo apt install intel-gpu-tools
@@ -49,6 +56,15 @@ sudo intel_gpu_top
 setcap cap_perfmon=+ep /usr/bin/intel_gpu_top
 sudo sh -c 'echo 2 >/proc/sys/kernel/perf_event_paranoid'
 ```
+
+### gputop
+
+![Image](https://github.com/user-attachments/assets/5e4a491b-de6b-4904-8dc8-974a29131906)
+
+### nvtop
+- [code](https://github.com/Syllo/nvtop)
+
+![Image](https://github.com/user-attachments/assets/a8b820ca-5b6a-4d3e-915a-84527b63471a)
 
 
 
