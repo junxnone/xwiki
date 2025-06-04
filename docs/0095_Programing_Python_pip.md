@@ -2,7 +2,7 @@
 Title | Programing Python pip
 -- | --
 Created @ | `2018-11-25T09:47:54Z`
-Updated @| `2025-05-07T02:42:33Z`
+Updated @| `2025-06-04T08:37:18Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/95)
 
@@ -24,6 +24,8 @@ Install with mirror | `pip3 install your_package -i https://pypi.tuna.tsinghua.e
 Export requirements.txt | `pip freeze > requirements.txt`
 查看 package 信息 | `pip show -f package_name`
 列出 package 可用版本 | `pip index versions package_name`
+清除 cache `运行久了几十G cache` | `pip cache purge`
+
 
 > `pip install package_name==` 已经不可用
 
