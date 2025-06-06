@@ -3,7 +3,7 @@
 | Title     | Tools Conda                                         |
 | --------- | --------------------------------------------------- |
 | Created @ | `2020-01-10T08:28:17Z`                              |
-| Updated @ | `2024-06-21T02:40:25Z`                              |
+| Updated @ | `2025-06-06T02:31:04Z`                              |
 | Labels    | \`\`                                                |
 | Edit @    | [here](https://github.com/junxnone/xwiki/issues/73) |
 
@@ -46,9 +46,7 @@
 
 ## Others Config
 
-  - 源/channel 更换
-
-<!-- end list -->
+### 源/channel 更换
 
     conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
     conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge 
@@ -70,15 +68,18 @@
       - defaults
     show_channel_urls: true
 
-  - **Setup Proxy**
-
-<!-- end list -->
+### Setup Proxy
 
     vi ~/.condarc
 
     proxy_servers:
       http: http://your_proxy:xxx
       https: http://your_proxy:xxx
+
+or
+
+    conda config --set proxy_servers.http http://your_proxy_ip:your_proxy_port
+    conda config --set proxy_servers.https https://your_proxy_ip:your_proxy_port
 
 ## Tips
 
