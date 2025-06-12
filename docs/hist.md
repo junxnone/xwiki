@@ -10,7 +10,7 @@
 - 2024-06-13&nbsp;&nbsp; [`@property` decorator](/0306_Programing_Python_Decorator_property)&nbsp;&nbsp; :bookmark:Programing :bookmark:Python :bookmark:Decorator :bookmark:property
 - 2024-06-11&nbsp;&nbsp; [Shell Tips](/0305_Programing_Shell_Tips)&nbsp;&nbsp; :bookmark:Programing :bookmark:Shell :bookmark:Tips
 - 2024-05-14&nbsp;&nbsp; [PySnooper](/0304_Programing_Python_Tools_PySnooper)&nbsp;&nbsp; :bookmark:Programing :bookmark:Python :bookmark:Tools :bookmark:PySnooper
-- 2024-04-23&nbsp;&nbsp; [pdb](/0303_Programing_Python_Tools_pdb)&nbsp;&nbsp; :bookmark:Programing :bookmark:Python :bookmark:Tools :bookmark:pdb
+- 2024-04-23&nbsp;&nbsp; [pdb/ipdb](/0303_Programing_Python_Tools_pdb)&nbsp;&nbsp; :bookmark:Programing :bookmark:Python :bookmark:Tools :bookmark:pdb
 - 2024-04-11&nbsp;&nbsp; [Hybrid](/0302_Hardware_CPU_Hybrid)&nbsp;&nbsp; :bookmark:Hardware :bookmark:CPU :bookmark:Hybrid
 - 2024-04-06&nbsp;&nbsp; [Github Pull Requests](/0301_Tools_Github_PullRequests)&nbsp;&nbsp; :bookmark:Tools :bookmark:Github :bookmark:PullRequests
 - 2023-12-11&nbsp;&nbsp; [Visual Studio Code](/0299_Windows_VSCode)&nbsp;&nbsp; :bookmark:Windows :bookmark:VSCode

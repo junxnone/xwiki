@@ -21,7 +21,7 @@
       - [datetime](/0212_Programing_Python_Tools_datetime)
       - [hydra](/0298_Programing_Python_Tools_hydra)
       - [omegaconf](/0296_Programing_Python_Tools_omegaconf)
-      - [pdb](/0303_Programing_Python_Tools_pdb)
+      - [pdb/ipdb](/0303_Programing_Python_Tools_pdb)
       - [psutil](/0098_Programing_Python_Tools_psutil)
       - [pylint 代码分析工具](/0092_Programing_Python_Tools_pylint)
       - [tqdm 进度条工具](/0099_Programing_Python_Tools_tqdm)
@@ -261,4 +261,4 @@
 - [Wiki History](/hist)
 
 ---
-<kbd><sub>@1613580612</sub></kbd>
+<kbd><sub>@1621440612</sub></kbd>
