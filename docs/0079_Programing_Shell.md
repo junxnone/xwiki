@@ -2,7 +2,7 @@
 Title | Programing Shell
 -- | --
 Created @ | `2018-11-29T11:55:17Z`
-Updated @| `2024-06-11T11:35:27Z`
+Updated @| `2025-07-08T08:39:16Z`
 Labels | `reindex`
 Edit @| [here](https://github.com/junxnone/xwiki/issues/79)
 
@@ -10,18 +10,18 @@ Edit @| [here](https://github.com/junxnone/xwiki/issues/79)
 # Shell 
 
 - 变量
-- [函数](/Shell_Function)
+- [函数](/0100_Programing_Shell_Function)
 - 循环
   - while
-  - [for](/Shell_for)
+  - [for](/0101_Programing_Shell_for)
 - 控制
-  - [if](/Shell_if)
-  - [case](/Shell_case)
-- [文件读写](/Shell_read_file)
-- [注释](/Shell_comment)
-- [添加参数](/Shell_arguments)
-- [Shell 执行结果检查](/Shell_exec_error_check)
-- [Examples](/Shell_Examples)
+  - [if](/0102_Programing_Shell_if)
+  - [case](/0103_Programing_Shell_case)
+- [文件读写](/0104_Programing_Shell_ReadFile)
+- [注释](/0105_Programing_Shell_comment)
+- [添加参数](/0106_Programing_Shell_ARG)
+- [Shell 执行结果检查](/0107_Programing_Shell_ErrorCheck)
+- [Examples](/0108_Programing_Shell_UseCase)
 
 ## 各种各样的 Shell 
 
