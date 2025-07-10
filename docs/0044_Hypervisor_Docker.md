@@ -2,33 +2,25 @@
 Title | Hypervisor Docker
 -- | --
 Created @ | `2018-09-06T16:18:38Z`
-Last Modify @| `2022-12-22T05:52:04Z`
+Updated @| `2025-07-10T02:25:16Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/44)
 
 ---
-## Reference
 
-- [install-docker-ce - ubuntu](https://docs.docker.com/install/linux/docker-ce/ubuntu/#install-docker-ce)
-- [Install docker-compose](https://docs.docker.com/compose/install/#install-compose)
-- [Configure Docker to use a proxy server](https://docs.docker.com/network/proxy/)
-- [The Docker daemon proxy](https://docs.docker.com/config/daemon/systemd/#runtime-directory-and-storage-driver)
-- [Docker 镜像分析工具 diving](https://www.oschina.net/p/diving)
-- [docker改国内官方镜像](https://www.cnblogs.com/coolwinds/p/7465475.html)
-- [Dokcer使用总结（Dockerfile、Compose、Swarm）](https://www.cnblogs.com/wyt007/p/11154156.html)
+# Docker
 
-## Brief
 - [Install docker](#install-docker)
 - [Docker Usecase/Setup proxy/mirror](#usecase)
-- [Docker Network](/Docker_Network)
+- [Docker Network](/0045_Hypervisor_Docker_Network)
 - [Docker GUI](/Docker_GUI)
-- [Docker compose](/Docker_compose)
-- [Docker Dockerfile](/Docker_Dockerfile)
-- [Docker Volume](/Docker_Volume)
-- [Docker Tools](/Docker_Tools)
-- [Docker UI](/Docker_UI)
-- [**Issues**](/Docker_Issues)
-  - [Docker move data to new storage location](/Docker_move_data_to_new_storage_location)
+- [Docker compose](/0047_Hypervisor_Docker_Compose)
+- [Docker Dockerfile](/0048_Hypervisor_Docker_Dockerfile)
+- [Docker Volume](/0049_Hypervisor_Docker_Volume)
+- [Docker Tools](/0050_Hypervisor_Docker_Tools)
+- [Docker UI](/0051_Hypervisor_Docker_UI)
+- [**Issues**](/0149_Hypervisor_Docker_Issues)
+  - [Docker move data to new storage location](/0052_Hypervisor_Docker_MoveData)
 
 
 ## Install Docker
@@ -163,4 +155,13 @@ toomanyrequests: You have reached your pull rate limit. You may increase the lim
 > e.g.
 > docker update --restart always xxxx
 
+## Reference
+
+- [install-docker-ce - ubuntu](https://docs.docker.com/install/linux/docker-ce/ubuntu/#install-docker-ce)
+- [Install docker-compose](https://docs.docker.com/compose/install/#install-compose)
+- [Configure Docker to use a proxy server](https://docs.docker.com/network/proxy/)
+- [The Docker daemon proxy](https://docs.docker.com/config/daemon/systemd/#runtime-directory-and-storage-driver)
+- [Docker 镜像分析工具 diving](https://www.oschina.net/p/diving)
+- [docker改国内官方镜像](https://www.cnblogs.com/coolwinds/p/7465475.html)
+- [Dokcer使用总结（Dockerfile、Compose、Swarm）](https://www.cnblogs.com/wyt007/p/11154156.html)
 
