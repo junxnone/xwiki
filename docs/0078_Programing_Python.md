@@ -2,7 +2,7 @@
 Title | Programing Python
 -- | --
 Created @ | `2021-11-27T05:02:46Z`
-Updated @| `2025-05-27T01:58:02Z`
+Updated @| `2025-07-31T02:50:38Z`
 Labels | `reindex`
 Edit @| [here](https://github.com/junxnone/xwiki/issues/78)
 
@@ -17,7 +17,9 @@ Edit @| [here](https://github.com/junxnone/xwiki/issues/78)
 - 代码分析工具
 - 代码 Debug 工具
 - [notebooks](https://junxnone.github.io/samples/#/?id=python)
-- Packages 管理: [pip](/0095_Programing_Python_pip)
+- Packages 管理: 
+  - [pip](/0095_Programing_Python_pip)
+  - [uv](/0315_Programing_Python_Tools_uv)
 - 虚拟环境 
   - [virtualenv](/0176_Programing_Python_Tools_virtualenv)
   - [conda](/0073_Tools_Conda)
