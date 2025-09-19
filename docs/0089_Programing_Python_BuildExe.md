@@ -2,21 +2,14 @@
 Title | Programing Python BuildExe
 -- | --
 Created @ | `2019-09-17T03:30:34Z`
-Last Modify @| `2022-12-22T06:32:54Z`
+Updated @| `2025-09-19T03:12:50Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/89)
 
 ---
 # 编译可执行文件
 
-## Reference
-- [如何将Python脚本打包成可执行文件？](https://ningyu1.github.io/site/post/59-py2exe-pyinstaller/)
-- [pyinstaller 官网](http://www.pyinstaller.org/)
-- [Python PyInstaller安装和使用教程](http://c.biancheng.net/view/2690.html)
-- [打包错误；pyinstaller；No module named 'sklearn.utils._cython_blas'](https://juejin.im/post/6844904113642143758)
-- [Nuitka命令选项参数帮助](http://mrdoc.zmister.com/project-53/doc-265/)
 
-## Brief
 - 把 Python 应用编译成可执行文件或库
 - Tools `cython/pyinstaller/distutils/Nuitka`
   - cython 生成 so 库
@@ -94,9 +87,19 @@ optional arguments:
                         The output directory for generated mask
 ```
 
-可能的报错
+- **可能的报错**
+
 Issues | Solution
 -- | --
 No module named 'distutils' | [distutils](https://blog.csdn.net/MacwinWin/article/details/88242432)  and [ pyinstaller distutils issues](https://github.com/pyinstaller/pyinstaller/issues/4064)
 No module named 'sklearn.utils._cython_blas' | `--hidden-import="sklearn.utils._cython_blas" `
 不能读取 相对路径下的 `config` 文件 | [os.path.realpath(__file__)](https://blog.csdn.net/weixin_33670786/article/details/92267914)
+
+## Reference
+- [如何将Python脚本打包成可执行文件？](https://ningyu1.github.io/site/post/59-py2exe-pyinstaller/)
+- [pyinstaller 官网](http://www.pyinstaller.org/)
+- [Python PyInstaller安装和使用教程](http://c.biancheng.net/view/2690.html)
+- [打包错误；pyinstaller；No module named 'sklearn.utils._cython_blas'](https://juejin.im/post/6844904113642143758)
+- [Nuitka命令选项参数帮助](http://mrdoc.zmister.com/project-53/doc-265/)
+- [Packaging PyQt5 applications for Windows with PyInstaller & InstallForge](https://www.pythonguis.com/tutorials/packaging-pyqt5-pyside2-applications-windows-pyinstaller/)
+
