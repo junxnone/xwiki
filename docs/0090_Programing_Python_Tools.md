@@ -2,7 +2,7 @@
 Title | Programing Python Tools
 -- | --
 Created @ | `2020-03-16T00:12:19Z`
-Updated @| `2025-04-01T06:41:56Z`
+Updated @| `2025-10-16T06:06:06Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/90)
 
@@ -60,3 +60,12 @@ yapf |  | formatter | Google
 ## 进度条工具
 
 - **tqdm**
+
+## 打包工具
+
+### 打包成 whl 
+
+
+### 打包成可执行文件
+- pyinstaller
+- nuitka
