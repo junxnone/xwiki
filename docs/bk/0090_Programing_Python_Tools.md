@@ -3,7 +3,7 @@
 | Title     | Programing Python Tools                             |
 | --------- | --------------------------------------------------- |
 | Created @ | `2020-03-16T00:12:19Z`                              |
-| Updated @ | `2025-10-16T06:06:06Z`                              |
+| Updated @ | `2025-10-16T06:17:17Z`                              |
 | Labels    | \`\`                                                |
 | Edit @    | [here](https://github.com/junxnone/xwiki/issues/90) |
 
@@ -71,6 +71,9 @@
 ## 打包工具
 
 ### 打包成 whl
+
+  - setuptools
+  - wheel
 
 ### 打包成可执行文件
 
