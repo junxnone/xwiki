@@ -127,10 +127,10 @@
     - [UseLocalPackage](/0068_Tools_Jupyter_UseLocalPackage)
   - [Git](/0111_Tools_Git)
     - [Git Configs](/0112_Tools_Git_config)
+      - [Proxy Setup](/0113_Tools_Git_config_proxy)
     - [Git Branch](/0115_Tools_Git_branch)
     - [tag](/0116_Tools_Git_tag)
     - [Git Submodule](/0114_Tools_Git_submodule)
-    - [Proxy Setup](/0113_Tools_Git_proxy)
     - [移除 stage 文件](/0119_Tools_Git_RMStageFile)
     - [git bash](/0256_Tools_Git_Bash)
     - [No newline at end of file](/0120_Tools_Git_NoNewline)
@@ -262,4 +262,4 @@
 - [Wiki History](/hist)
 
 ---
-<kbd><sub>@1611521026</sub></kbd>
+<kbd><sub>@0856451027</sub></kbd>
