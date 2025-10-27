@@ -1,8 +1,8 @@
 ---
-Title | Tools Git proxy
+Title | Tools Git config proxy
 -- | --
 Created @ | `2018-12-10T06:05:14Z`
-Updated @| `2024-02-04T08:52:46Z`
+Updated @| `2025-10-27T00:55:47Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/113)
 
