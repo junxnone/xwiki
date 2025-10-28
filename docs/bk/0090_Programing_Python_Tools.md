@@ -3,7 +3,7 @@
 | Title     | Programing Python Tools                             |
 | --------- | --------------------------------------------------- |
 | Created @ | `2020-03-16T00:12:19Z`                              |
-| Updated @ | `2025-10-16T06:17:17Z`                              |
+| Updated @ | `2025-10-28T07:56:45Z`                              |
 | Labels    | \`\`                                                |
 | Edit @    | [here](https://github.com/junxnone/xwiki/issues/90) |
 
@@ -28,6 +28,7 @@
 
 ## 代码Debug 工具
 
+  - [pdb/ipdb](0303_Programing_Python_Tools_pdb)
   - [PySnooper](https://github.com/cool-RR/PySnooper) :
     以装饰器的形式打印函数运行过程中运行了哪些代码行
       - 运行时变量的值及运行的时间(`时间应该不是太准确，有打印操作`)
