@@ -195,7 +195,6 @@
   - [GPU](/0218_Hardware_GPU)
     - [GPU Metrics](/0280_Hardware_GPU_Metrics)
     - [NVIDIA GPU](/0006_Hardware_GPU_NVIDIA)
-    - [Intel iGPU](/0317_Hardware_GPU_iGPU)
     - [Intel GPUs - iGPU/dGPU](/0005_Hardware_GPU_iGPU)
       - [Intel GPUs Arch](/0225_Hardware_GPU_iGPU_Arch)
       - [iGPU Drivers](/0244_Hardware_GPU_iGPU_Drivers)
@@ -205,6 +204,7 @@
         - [intel-gpu-tools](/0169_Hardware_GPU_iGPU_Tools_intelgputools)
         - [intel-telemetry-tool](/0171_Hardware_GPU_iGPU_Tools_telemetry)
       - [Data Center GPUs](/0223_Hardware_GPU_iGPU_dGPU)
+      - [Intel iGPU](/0317_Hardware_GPU_iGPU_iGPU)
       - [Intel GPUs Table](/0224_Hardware_GPU_iGPU_table)
   - [Memory](/0004_Hardware_Memory)
   - [NUMA 架构](/0158_Hardware_NUMA)
@@ -263,4 +263,4 @@
 - [Wiki History](/hist)
 
 ---
-<kbd><sub>@1656560226</sub></kbd>
+<kbd><sub>@1658100226</sub></kbd>
