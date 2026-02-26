@@ -2,17 +2,18 @@
 Title | X BIOS
 -- | --
 Created @ | `2026-02-26T08:14:28Z`
-Updated @| `2026-02-26T08:14:28Z`
+Updated @| `2026-02-26T08:45:08Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/316)
 
 ---
 # BIOS
-- `BIOS` -> `Legacy BIOS` -> `EFI` -> `UEFI`
+- `Legacy BIOS` -> `EFI` -> `UEFI`
 - `BIOS` - `Basic Input/Output System`
 - `EFI` - `Extensible Firmware Interface`
 
----
+
+## BIOS & EFI & UEIF 对比
 
 项目 | Legacy BIOS | EFI | UEFI
 -- | -- | -- | --
@@ -28,6 +29,20 @@ Edit @| [here](https://github.com/junxnone/xwiki/issues/316)
 归属 | 开放但无统一标准 | Intel 私有 | 全行业统一标准
 现状 | 已淘汰，仅兼容用 | 过渡产物，基本不用 | 现在所有新电脑默认使用
 
+
+## 启动流程对比
+
+阶段 | Legacy BIOS 启动流程 | EFI 启动流程 | UEFI 启动流程
+-- | -- | -- | --
+上电自检 | POST 加电自检，16 位实模式初始化 | 模块化自检，32/64 位初始化 | 高效自检，支持快速启动
+引导介质 | 读取 MBR 主引导记录 | 读取 GPT 分区表 | 读取 GPT 分区表
+引导文件 | 无固定引导文件，依赖 MBR 代码 | 读取固定 .efi 引导文件 | 读取 ESP 分区里的 .efi 文件
+分区要求 | MBR，最大 2TB | GPT | GPT
+驱动来源 | BIOS 自带基础驱动 | EFI 驱动 + 系统驱动 | UEFI 原生驱动，支持网卡、NVMe、USB3
+安全校验 | 无任何校验 | 简单校验 | Secure Boot 签名校验
+引导方式 | 被动链式引导 | 主动加载 EFI 程序 | 主动引导，支持多系统菜单
+系统选择 | 靠硬盘顺序，无图形菜单 | 图形化选择 | 图形化、鼠标、网络引导
+核心特点 | 慢、兼容老设备、无安全 | 过渡、Intel 私有 | 快、安全、通用、现代
 
     
 
