@@ -234,6 +234,7 @@
   - [reStructuredText](/0246_Doc_reStructuredText)
 - [未分类](/0263_X)
   - [API Vs ABI](/0252_X_APIvsABI)
+  - [BIOS](/0316_X_BIOS)
   - [BLAS](/0179_X_BLAS)
   - [Base64](/0208_X_Base64)
   - [文件换行 Windows Linux CRLF LF](/0145_X_CRLF)
@@ -262,4 +263,4 @@
 - [Wiki History](/hist)
 
 ---
-<kbd><sub>@1634000225</sub></kbd>
+<kbd><sub>@1615200226</sub></kbd>
