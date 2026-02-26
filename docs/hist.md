@@ -88,22 +88,22 @@
 - 2023-03-01&nbsp;&nbsp; [lambda](/0214_Programing_CPP_lambda)&nbsp;&nbsp; :bookmark:Programing :bookmark:CPP :bookmark:lambda
 - 2023-02-28&nbsp;&nbsp; [存储为 csv 再读入后, 单元格值 `list` 类型会变成 `str` 类型](/0213_Pandas_Issues_csvliststr)&nbsp;&nbsp; :bookmark:Pandas :bookmark:Issues :bookmark:csvliststr
 - 2022-12-28&nbsp;&nbsp; [calendar 日历](/0211_Programing_Python_Tools_calendar)&nbsp;&nbsp; :bookmark:Programing :bookmark:Python :bookmark:Tools :bookmark:calendar
-- 2022-12-22&nbsp;&nbsp; [编程](/0193_Programing)&nbsp;&nbsp; :bookmark:Programing
-- 2022-12-22&nbsp;&nbsp; [简单查看数据](/0197_Pandas_UseCase_ShowSummaryInfo)&nbsp;&nbsp; :bookmark:Pandas :bookmark:UseCase :bookmark:ShowSummaryInfo
-- 2022-12-22&nbsp;&nbsp; [文档文本](/0191_Doc)&nbsp;&nbsp; :bookmark:Doc
-- 2022-12-22&nbsp;&nbsp; [Index 操作](/0202_Pandas_UseCase_Index)&nbsp;&nbsp; :bookmark:Pandas :bookmark:UseCase :bookmark:Index
-- 2022-12-22&nbsp;&nbsp; [列操作](/0198_Pandas_UseCase_columns)&nbsp;&nbsp; :bookmark:Pandas :bookmark:UseCase :bookmark:columns
-- 2022-12-22&nbsp;&nbsp; [抽样](/0203_Pandas_UseCase_sampling)&nbsp;&nbsp; :bookmark:Pandas :bookmark:UseCase :bookmark:sampling
-- 2022-12-22&nbsp;&nbsp; [合并](/0205_Pandas_UseCase_Merge)&nbsp;&nbsp; :bookmark:Pandas :bookmark:UseCase :bookmark:Merge
-- 2022-12-22&nbsp;&nbsp; [字符串处理](/0204_Pandas_UseCase_string)&nbsp;&nbsp; :bookmark:Pandas :bookmark:UseCase :bookmark:string
-- 2022-12-22&nbsp;&nbsp; [条件操作](/0201_Pandas_UseCase_condition)&nbsp;&nbsp; :bookmark:Pandas :bookmark:UseCase :bookmark:condition
-- 2022-12-22&nbsp;&nbsp; [单元格操作](/0200_Pandas_UseCase_xy)&nbsp;&nbsp; :bookmark:Pandas :bookmark:UseCase :bookmark:xy
 - 2022-12-22&nbsp;&nbsp; [构建工具](/0190_Build)&nbsp;&nbsp; :bookmark:Build
+- 2022-12-22&nbsp;&nbsp; [编程](/0193_Programing)&nbsp;&nbsp; :bookmark:Programing
+- 2022-12-22&nbsp;&nbsp; [文档文本](/0191_Doc)&nbsp;&nbsp; :bookmark:Doc
+- 2022-12-22&nbsp;&nbsp; [单元格操作](/0200_Pandas_UseCase_xy)&nbsp;&nbsp; :bookmark:Pandas :bookmark:UseCase :bookmark:xy
+- 2022-12-22&nbsp;&nbsp; [条件操作](/0201_Pandas_UseCase_condition)&nbsp;&nbsp; :bookmark:Pandas :bookmark:UseCase :bookmark:condition
+- 2022-12-22&nbsp;&nbsp; [合并](/0205_Pandas_UseCase_Merge)&nbsp;&nbsp; :bookmark:Pandas :bookmark:UseCase :bookmark:Merge
 - 2022-12-22&nbsp;&nbsp; [行操作](/0199_Pandas_UseCase_row)&nbsp;&nbsp; :bookmark:Pandas :bookmark:UseCase :bookmark:row
 - 2022-12-22&nbsp;&nbsp; [容器](/0192_Hypervisor)&nbsp;&nbsp; :bookmark:Hypervisor
+- 2022-12-22&nbsp;&nbsp; [抽样](/0203_Pandas_UseCase_sampling)&nbsp;&nbsp; :bookmark:Pandas :bookmark:UseCase :bookmark:sampling
+- 2022-12-22&nbsp;&nbsp; [简单查看数据](/0197_Pandas_UseCase_ShowSummaryInfo)&nbsp;&nbsp; :bookmark:Pandas :bookmark:UseCase :bookmark:ShowSummaryInfo
+- 2022-12-22&nbsp;&nbsp; [字符串处理](/0204_Pandas_UseCase_string)&nbsp;&nbsp; :bookmark:Pandas :bookmark:UseCase :bookmark:string
+- 2022-12-22&nbsp;&nbsp; [Index 操作](/0202_Pandas_UseCase_Index)&nbsp;&nbsp; :bookmark:Pandas :bookmark:UseCase :bookmark:Index
+- 2022-12-22&nbsp;&nbsp; [列操作](/0198_Pandas_UseCase_columns)&nbsp;&nbsp; :bookmark:Pandas :bookmark:UseCase :bookmark:columns
 - 2022-12-15&nbsp;&nbsp; [manim](/0141_Tools_manim)&nbsp;&nbsp; :bookmark:Tools :bookmark:manim
-- 2022-08-25&nbsp;&nbsp; [Host UI](/0051_Hypervisor_Docker_UI)&nbsp;&nbsp; :bookmark:Hypervisor :bookmark:Docker :bookmark:UI
 - 2022-08-25&nbsp;&nbsp; [Issues](/0149_Hypervisor_Docker_Issues)&nbsp;&nbsp; :bookmark:Hypervisor :bookmark:Docker :bookmark:Issues
+- 2022-08-25&nbsp;&nbsp; [Host UI](/0051_Hypervisor_Docker_UI)&nbsp;&nbsp; :bookmark:Hypervisor :bookmark:Docker :bookmark:UI
 - 2022-07-11&nbsp;&nbsp; [Base64](/0208_X_Base64)&nbsp;&nbsp; :bookmark:X :bookmark:Base64
 - 2022-06-16&nbsp;&nbsp; [Shell for](/0101_Programing_Shell_for)&nbsp;&nbsp; :bookmark:Programing :bookmark:Shell :bookmark:for
 - 2022-05-27&nbsp;&nbsp; [switch](/0081_Programing_CPP_switch)&nbsp;&nbsp; :bookmark:Programing :bookmark:CPP :bookmark:switch
@@ -117,31 +117,31 @@
 - 2022-01-05&nbsp;&nbsp; [archive](/0118_Tools_Git_archive)&nbsp;&nbsp; :bookmark:Tools :bookmark:Git :bookmark:archive
 - 2022-01-04&nbsp;&nbsp; [UseCase](/0155_Programing_Compiler_GCC_UseCase)&nbsp;&nbsp; :bookmark:Programing :bookmark:Compiler :bookmark:GCC :bookmark:UseCase
 - 2022-01-02&nbsp;&nbsp; [Platforms](/0058_Build_Cmake_Platforms)&nbsp;&nbsp; :bookmark:Build :bookmark:Cmake :bookmark:Platforms
-- 2022-01-02&nbsp;&nbsp; [Debug](/0057_Build_Cmake_Debug)&nbsp;&nbsp; :bookmark:Build :bookmark:Cmake :bookmark:Debug
 - 2022-01-02&nbsp;&nbsp; [Generators](/0156_Build_Cmake_Generators)&nbsp;&nbsp; :bookmark:Build :bookmark:Cmake :bookmark:Generators
+- 2022-01-02&nbsp;&nbsp; [Debug](/0057_Build_Cmake_Debug)&nbsp;&nbsp; :bookmark:Build :bookmark:Cmake :bookmark:Debug
 - 2022-01-02&nbsp;&nbsp; [Windows](/0061_Build_Cmake_Windows)&nbsp;&nbsp; :bookmark:Build :bookmark:Cmake :bookmark:Windows
 - 2021-12-30&nbsp;&nbsp; [变量](/0056_Build_Cmake_VAR)&nbsp;&nbsp; :bookmark:Build :bookmark:Cmake :bookmark:VAR
-- 2021-12-22&nbsp;&nbsp; [Tools](/0011_Programing_Library_Tools)&nbsp;&nbsp; :bookmark:Programing :bookmark:Library :bookmark:Tools
 - 2021-12-22&nbsp;&nbsp; [库 动态库 静态库](/0010_Programing_Library)&nbsp;&nbsp; :bookmark:Programing :bookmark:Library
+- 2021-12-22&nbsp;&nbsp; [Tools](/0011_Programing_Library_Tools)&nbsp;&nbsp; :bookmark:Programing :bookmark:Library :bookmark:Tools
 - 2021-12-13&nbsp;&nbsp; [Intel iGPU Tools](/0153_Hardware_GPU_iGPU_Tools)&nbsp;&nbsp; :bookmark:Hardware :bookmark:GPU :bookmark:iGPU :bookmark:Tools
 - 2021-12-13&nbsp;&nbsp; [Issues](/0154_Hardware_GPU_iGPU_Issues)&nbsp;&nbsp; :bookmark:Hardware :bookmark:GPU :bookmark:iGPU :bookmark:Issues
 - 2021-11-27&nbsp;&nbsp; [Python](/0078_Programing_Python)&nbsp;&nbsp; :bookmark:Programing :bookmark:Python
 - 2021-11-19&nbsp;&nbsp; [VisualStudio](/0144_Tools_VisualStudio)&nbsp;&nbsp; :bookmark:Tools :bookmark:VisualStudio
 - 2021-11-18&nbsp;&nbsp; [NVIDIA GPU](/0006_Hardware_GPU_NVIDIA)&nbsp;&nbsp; :bookmark:Hardware :bookmark:GPU :bookmark:NVIDIA
 - 2021-11-11&nbsp;&nbsp; [Memory](/0004_Hardware_Memory)&nbsp;&nbsp; :bookmark:Hardware :bookmark:Memory
+- 2021-11-10&nbsp;&nbsp; [Intel GPUs - iGPU/dGPU](/0005_Hardware_GPU_iGPU)&nbsp;&nbsp; :bookmark:Hardware :bookmark:GPU :bookmark:iGPU
 - 2021-11-10&nbsp;&nbsp; [硬件](/0001_Hardware)&nbsp;&nbsp; :bookmark:Hardware
-- 2021-11-10&nbsp;&nbsp; [Intel GPUs - iGPU/dGPU](/0005_Hardware_GPU_Intel)&nbsp;&nbsp; :bookmark:Hardware :bookmark:GPU :bookmark:Intel
 - 2021-11-08&nbsp;&nbsp; [iso3dfd](/0209_X_iso3dfd)&nbsp;&nbsp; :bookmark:X :bookmark:iso3dfd
 - 2021-11-04&nbsp;&nbsp; [docsify](/0130_Tools_Github_Pages_docsify)&nbsp;&nbsp; :bookmark:Tools :bookmark:Github :bookmark:Pages :bookmark:docsify
 - 2021-10-28&nbsp;&nbsp; [语法](/0055_Build_Cmake_语法)&nbsp;&nbsp; :bookmark:Build :bookmark:Cmake :bookmark:语法
 - 2021-10-26&nbsp;&nbsp; [cpack](/0062_Build_Cmake_cpack)&nbsp;&nbsp; :bookmark:Build :bookmark:Cmake :bookmark:cpack
 - 2021-10-25&nbsp;&nbsp; [CPP](/0067_Tools_Jupyter_CPP)&nbsp;&nbsp; :bookmark:Tools :bookmark:Jupyter :bookmark:CPP
 - 2021-10-13&nbsp;&nbsp; [pk-config](/0064_Build_pkgconfig)&nbsp;&nbsp; :bookmark:Build :bookmark:pkgconfig
-- 2021-09-22&nbsp;&nbsp; [表格](/0138_Doc_Markdown_Table)&nbsp;&nbsp; :bookmark:Doc :bookmark:Markdown :bookmark:Table
-- 2021-09-22&nbsp;&nbsp; [图像](/0139_Doc_Markdown_Image)&nbsp;&nbsp; :bookmark:Doc :bookmark:Markdown :bookmark:Image
-- 2021-09-22&nbsp;&nbsp; [Github Pages](/0126_Tools_Github_Pages)&nbsp;&nbsp; :bookmark:Tools :bookmark:Github :bookmark:Pages
 - 2021-09-22&nbsp;&nbsp; [Text Format](/0136_Doc_Markdown_Text)&nbsp;&nbsp; :bookmark:Doc :bookmark:Markdown :bookmark:Text
 - 2021-09-22&nbsp;&nbsp; [列表](/0137_Doc_Markdown_List)&nbsp;&nbsp; :bookmark:Doc :bookmark:Markdown :bookmark:List
+- 2021-09-22&nbsp;&nbsp; [Github Pages](/0126_Tools_Github_Pages)&nbsp;&nbsp; :bookmark:Tools :bookmark:Github :bookmark:Pages
+- 2021-09-22&nbsp;&nbsp; [表格](/0138_Doc_Markdown_Table)&nbsp;&nbsp; :bookmark:Doc :bookmark:Markdown :bookmark:Table
+- 2021-09-22&nbsp;&nbsp; [图像](/0139_Doc_Markdown_Image)&nbsp;&nbsp; :bookmark:Doc :bookmark:Markdown :bookmark:Image
 - 2021-08-24&nbsp;&nbsp; [Windows 命令行执行命令时卡住](/0234_Windows_Issues_CommandLineHang)&nbsp;&nbsp; :bookmark:Windows :bookmark:Issues :bookmark:CommandLineHang
 - 2021-08-24&nbsp;&nbsp; [batch for 循环](/0229_Windows_batch_for)&nbsp;&nbsp; :bookmark:Windows :bookmark:batch :bookmark:for
 - 2021-08-09&nbsp;&nbsp; [NUMA 架构](/0158_Hardware_NUMA)&nbsp;&nbsp; :bookmark:Hardware :bookmark:NUMA
@@ -166,8 +166,8 @@
 - 2021-02-07&nbsp;&nbsp; [Markline Timeline](/0131_Tools_Github_Pages_Markline)&nbsp;&nbsp; :bookmark:Tools :bookmark:Github :bookmark:Pages :bookmark:Markline
 - 2021-02-06&nbsp;&nbsp; [Geojson Map](/0177_Tools_Github_Pages_GeojsonMap)&nbsp;&nbsp; :bookmark:Tools :bookmark:Github :bookmark:Pages :bookmark:GeojsonMap
 - 2021-01-13&nbsp;&nbsp; [JupyterLab](/0065_Tools_Jupyter_JupyterLab)&nbsp;&nbsp; :bookmark:Tools :bookmark:Jupyter :bookmark:JupyterLab
-- 2021-01-12&nbsp;&nbsp; [Function](/0110_Programing_Socket_Function)&nbsp;&nbsp; :bookmark:Programing :bookmark:Socket :bookmark:Function
 - 2021-01-12&nbsp;&nbsp; [Socket](/0109_Programing_Socket)&nbsp;&nbsp; :bookmark:Programing :bookmark:Socket
+- 2021-01-12&nbsp;&nbsp; [Function](/0110_Programing_Socket_Function)&nbsp;&nbsp; :bookmark:Programing :bookmark:Socket :bookmark:Function
 - 2020-12-03&nbsp;&nbsp; [Windows SSH 工具](/0173_Tools_WindowsSSHClient)&nbsp;&nbsp; :bookmark:Tools :bookmark:WindowsSSHClient
 - 2020-11-03&nbsp;&nbsp; [Volume](/0049_Hypervisor_Docker_Volume)&nbsp;&nbsp; :bookmark:Hypervisor :bookmark:Docker :bookmark:Volume
 - 2020-11-01&nbsp;&nbsp; [动态显示图片](/0072_Tools_Jupyter_ShowImageDynamic)&nbsp;&nbsp; :bookmark:Tools :bookmark:Jupyter :bookmark:ShowImageDynamic
