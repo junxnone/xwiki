@@ -3,7 +3,7 @@
 | Title     | Programing Python Tools cProfile                     |
 | --------- | ---------------------------------------------------- |
 | Created @ | `2026-02-28T01:17:40Z`                               |
-| Updated @ | `2026-02-28T01:41:05Z`                               |
+| Updated @ | `2026-02-28T01:46:38Z`                               |
 | Labels    | \`\`                                                 |
 | Edit @    | [here](https://github.com/junxnone/xwiki/issues/318) |
 
@@ -98,6 +98,44 @@
     stats.print_stats()  # 打印过滤后的所有结果
     # 保存过滤后的结果到文件
     stats.dump_stats("filtered_my_module.prof")
+
+| 过滤需求        | 正则参数                   | 效果                              |
+| ----------- | ---------------------- | ------------------------------- |
+| 匹配精确文件名     | "my\_module.py"        | 只显示该文件的函数                       |
+| 匹配包含某字符串的文件 | "my\_module"           | 显示文件名含 "my\_module" 的所有文件       |
+| 匹配多个文件（或逻辑） | `"my_module \| utils"` | 显示 my\_module.py 或 utils.py 的函数 |
+| 排除某文件（反向匹配） | "^(?\!.*other).*"      | 排除文件名含 "other" 的函数              |
+
+#### 排序
+
+``` 
+print("=== 按函数自身耗时（TOTTIME）排序 ===")
+stats.sort_stats(pstats.SortKey.TOTTIME).print_stats(5)
+
+# 2. 按「调用次数」排序（看哪个函数被调用最频繁）
+print("\n=== 按调用次数（CALLS）排序 ===")
+stats.sort_stats("calls").print_stats(5)  # 也可以用字符串别名
+
+# 3. 按「累计平均耗时」排序（看单次调用整体开销）
+print("\n=== 按累计平均耗时（CUM_PERCALL）排序 ===")
+stats.sort_stats(pstats.SortKey.CUM_PERCALL).print_stats(5)
+
+# 4. 多维度排序（先按调用次数，再按自身耗时）
+print("\n=== 先按调用次数，再按自身耗时排序 ===")
+stats.sort_stats("calls", "tottime").print_stats(5)
+
+
+stats.sort_stats(pstats.SortKey.CALLS, reverse=True)  # 调用次数少的在前
+
+```
+
+| 排序方式         | 适用场景        | 分析目的                    |
+| ------------ | ----------- | ----------------------- |
+| CUMULATIVE   | 定位整体性能瓶颈    | 找 “调用链中最耗时的函数”          |
+| TOTTIME      | 优化函数自身实现    | 找 “函数本身效率低” 的代码         |
+| CALLS        | 排查高频调用的轻量函数 | 找 “被调用次数过多” 的函数（可能重复执行） |
+| PERCALL      | 分析单次调用的效率   | 对比同类函数的单次执行开销           |
+| CUM\_PERCALL | 评估单次调用的整体成本 | 找 “单次调用就占大量时间” 的函数      |
 
 ### 命令行分析
 
