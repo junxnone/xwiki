@@ -3,7 +3,7 @@
 | Title     | Programing Python Tools cProfile                     |
 | --------- | ---------------------------------------------------- |
 | Created @ | `2026-02-28T01:17:40Z`                               |
-| Updated @ | `2026-02-28T01:17:40Z`                               |
+| Updated @ | `2026-02-28T01:20:17Z`                               |
 | Labels    | \`\`                                                 |
 | Edit @    | [here](https://github.com/junxnone/xwiki/issues/318) |
 
@@ -66,7 +66,9 @@
     if __name__ == "__main__":
         main()
 
-### `.prof` 结果文件分析
+## `.prof` 结果文件分析
+
+### 脚本分析
 
     import pstats
     
@@ -76,3 +78,12 @@
     stats.sort_stats("cumulative").print_stats(20)
     # 还可以过滤结果，比如只显示包含 "slow" 的函数
     stats.print_stats("slow")
+
+### 命令行分析
+
+    # 直接读取并按累计耗时排序显示
+    python -m pstats performance_report.prof
+    # 进入交互模式后，输入命令（比如 sort cumulative 按累计耗时排序，stats 10 显示前10条）
+    pstats> sort cumulative
+    pstats> stats 10
+    pstats> quit  # 退出交互模式
