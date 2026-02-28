@@ -2,7 +2,7 @@
 Title | Programing Python Tools
 -- | --
 Created @ | `2020-03-16T00:12:19Z`
-Updated @| `2025-10-28T07:56:45Z`
+Updated @| `2026-02-28T01:21:50Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/90)
 
@@ -35,6 +35,9 @@ yapf |  | formatter | Google
 - [futurecoder](https://futurecoder.io/course/#ide)： 集成 `snoop`/`Python Tutor`...
 - [heartrate](https://github.com/alexmojaki/heartrate) 浏览器实时显示代码的执行次数
 - [birdseye](https://github.com/alexmojaki/birdseye/tree/master): 浏览器查看执行过的 code stack data
+
+### 性能分析
+- [cProfile](0318_Programing_Python_Tools_cProfile)
 
 ## Config Tools
 - Argparse python 内置的简单的命令行输入
