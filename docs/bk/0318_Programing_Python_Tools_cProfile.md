@@ -3,7 +3,7 @@
 | Title     | Programing Python Tools cProfile                     |
 | --------- | ---------------------------------------------------- |
 | Created @ | `2026-02-28T01:17:40Z`                               |
-| Updated @ | `2026-02-28T01:20:17Z`                               |
+| Updated @ | `2026-02-28T01:41:05Z`                               |
 | Labels    | \`\`                                                 |
 | Edit @    | [here](https://github.com/junxnone/xwiki/issues/318) |
 
@@ -78,6 +78,26 @@
     stats.sort_stats("cumulative").print_stats(20)
     # 还可以过滤结果，比如只显示包含 "slow" 的函数
     stats.print_stats("slow")
+
+#### 过滤
+
+  - pstats.Stats.print\_stats() 方法可以接收正则表达式作为参数，用来过滤只显示文件名 / 函数名匹配的结果。
+
+<!-- end list -->
+
+    # 核心：过滤只显示 "my_module.py" 的函数（正则匹配文件名）
+    # 注意：如果是真实文件，写完整文件名（如 "my_module.py"）或部分名称（如 "my_module"）即可
+    print("=== 只显示 my_module.py 文件的函数统计 ===")
+    # 传入正则 "my_module"，匹配所有文件名包含该字符串的函数
+    stats.print_stats("my_module", 100)  # 100 表示最多显示100条，可按需调整
+    
+    # 【进阶】如果想过滤并保存过滤后的结果（可选）
+    # 先过滤，再打印/保存
+    stats = stats.strip_dirs()  # 去除路径前缀，方便匹配
+    stats = stats.filter_stats("my_module")  # 过滤出匹配的条目
+    stats.print_stats()  # 打印过滤后的所有结果
+    # 保存过滤后的结果到文件
+    stats.dump_stats("filtered_my_module.prof")
 
 ### 命令行分析
 
