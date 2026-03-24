@@ -2,7 +2,7 @@
 Title | Programing Python uv
 -- | --
 Created @ | `2026-03-24T05:55:57Z`
-Updated @| `2026-03-24T05:55:57Z`
+Updated @| `2026-03-24T06:16:44Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/320)
 
@@ -38,14 +38,28 @@ Cmd | Description
 `uv venv --python 3.11` | 指定 Python 版本
 `.venv\Scripts\Activate.ps1` |  Windows (PowerShell) 激活环境
 `source .venv/bin/activate` |  macOS/Linux 激活环境
-`uv install requests` | 安装单个包
-`uv install requests==2.31.0` | 安装指定版本
-`uv install --dev pytest black` | 安装开发依赖
-`uv install -r requirements.txt` | 从 requirements.txt 安装
-`uv uninstall requests` | 卸载包
+`uv pip install requests` | 安装单个包
+`uv pip install requests==2.31.0` | 安装指定版本
+`uv pip install --dev pytest black` | 安装开发依赖
+`uv pip install -r requirements.txt` | 从 requirements.txt 安装
+`uv pip uninstall requests` | 卸载包
 `uv pip list` | 查看已安装包
 `uv pip freeze > requirements.txt` | 导出依赖
 `uv run main.py` | 直接运行 Python 脚本（无需手动激活环境）
 
+### 基于 pyproject.toml 的现代
 
+```
+uv init # 初始化项目
+uv sync # 安装项目依赖（从 pyproject.toml）
+uv add requests # 添加依赖
+uv add --dev pytest # 添加依赖
+
+uv remove requests # 移除依赖
+
+```
+
+## Reference
+
+- [docs](https://docs.astral.sh/uv/)
 
