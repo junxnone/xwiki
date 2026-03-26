@@ -9,6 +9,7 @@
     - [Logging](/0097_Programing_Python_logging)
     - [Argparse](/0258_Programing_Python_Argparse)
     - [编译可执行文件](/0089_Programing_Python_BuildExe)
+    - [Python Debug](/0321_Programing_Python_Debug)
     - [Decorator 装饰器](/0088_Programing_Python_Decorator)
       - [`@property` decorator](/0306_Programing_Python_Decorator_property)
     - [文件操作](/0297_Programing_Python_File)
@@ -266,4 +267,4 @@
 - [Wiki History](/hist)
 
 ---
-<kbd><sub>@1635590325</sub></kbd>
+<kbd><sub>@1628180326</sub></kbd>
