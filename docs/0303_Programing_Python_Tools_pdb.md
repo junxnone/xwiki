@@ -2,7 +2,7 @@
 Title | Programing Python Tools pdb
 -- | --
 Created @ | `2024-04-23T02:03:59Z`
-Updated @| `2025-06-12T08:21:00Z`
+Updated @| `2026-03-26T08:28:22Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/303)
 
@@ -77,6 +77,11 @@ ll (longlist): 列出整个function 或 frame
 
 ```
 
+### Python 脚本异常时自动进入 pdb 调试模式
+
+```
+python -m pdb your_script.py
+```
 
 ## Reference
 - [pdb doc](https://docs.python.org/3/library/pdb.html)
