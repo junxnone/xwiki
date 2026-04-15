@@ -2,7 +2,7 @@
 Title | Windows VSCode
 -- | --
 Created @ | `2023-12-11T03:41:54Z`
-Updated @| `2025-10-21T02:22:11Z`
+Updated @| `2026-04-15T08:14:02Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/299)
 
@@ -96,3 +96,52 @@ Stable-5437499feb04f7a586f677b155b039bc2b3669eb/
 - <kbd>Ctrl</kbd> + <kbd>f</kbd> 查找
 - 选中 `.*` 进入正则匹配模式
 - 替换内容为 `\n` 
+
+
+## 访问远程 Windows
+
+### 远程 windows 安装 sshd
+
+```
+# 安装服务器
+Add-WindowsCapability -Online -Name OpenSSH.Server~~~~0.0.1.0
+# 安装客户端（本地也需要）
+Add-WindowsCapability -Online -Name OpenSSH.Client~~~~0.0.1.0
+```
+
+- 启动 SSH 服务并设为开机自启
+
+```
+# 启动服务
+Start-Service sshd
+# 设为开机自启
+Set-Service -Name sshd -StartupType 'Automatic'
+# 验证状态（Running 即成功）
+Get-Service sshd
+```
+
+- 防火墙 22 端口
+
+```
+New-NetFirewallRule -Name 'OpenSSH-Server-In-TCP' -DisplayName 'OpenSSH Server (sshd)' -Enabled True -Direction Inbound -Protocol TCP -Action Allow -LocalPort 22
+```
+
+> 现在应该可以通过 ssh 连接到改机器了
+> 可能 vscode 的 文件夹浏览功能不能用，需如下设置 sftp 功能
+
+### 设置 sftp
+- 编辑远程 windows sshd 配置文件 `C:\ProgramData\ssh\sshd_config`
+```
+Subsystem sftp sftp-server.exe
+# 允许用户目录访问
+AllowUsers 你的用户名
+# 禁用严格权限（Win11 常见坑）
+StrictModes no
+
+```
+
+- 重启 sshd 服务
+
+```
+Restart-Service sshd
+```
