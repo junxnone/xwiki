@@ -2,7 +2,7 @@
 Title | Windows VSCode
 -- | --
 Created @ | `2023-12-11T03:41:54Z`
-Updated @| `2026-04-15T08:14:02Z`
+Updated @| `2026-04-16T02:11:02Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/299)
 
@@ -145,3 +145,76 @@ StrictModes no
 ```
 Restart-Service sshd
 ```
+
+### 免密登录
+
+
+
+#### 1. 本地电脑：生成密钥（不需要密码）
+打开 **PowerShell** 执行：
+```powershell
+ssh-keygen -t ed25519
+```
+一路回车，**不要设置密码**。
+
+生成位置默认：
+```
+C:\Users\你的用户名\.ssh\
+id_ed25519      （私钥，自己留着）
+id_ed25519.pub  （公钥，要传到远程Windows）
+```
+
+---
+
+#### 2. 把公钥放到远程 Win11（关键步骤）
+- **远程 Win11 操作：**
+
+1. 新建文件（必须这个路径和名字）
+```
+C:\ProgramData\ssh\administrators_authorized_keys
+```
+
+2. 把你本地 `id_ed25519.pub` 里的**一长串内容**复制进去，保存。
+
+3. 管理员 PowerShell 执行**权限修复命令**（必须执行，否则免密无效）：
+```powershell
+icacls "C:\ProgramData\ssh\administrators_authorized_keys" /inheritance:r /grant "Administrators:F" /grant "SYSTEM:F"
+```
+
+4. 重启 sshd
+```powershell
+Restart-Service sshd
+```
+
+---
+
+#### 3. 本地 VSCode 配置免密连接
+打开本地：
+```
+C:\Users\你\.ssh\config
+```
+
+写入：
+```
+Host my-win11
+  HostName 192.168.xxx.xxx    # 远程Windows IP
+  User 远程Windows用户名      # 比如 admin / zhangsan
+  IdentityFile C:\Users\你\.ssh\id_ed25519
+  StrictHostKeyChecking no
+```
+
+保存。
+
+---
+
+#### 4. 测试免密
+本地 PowerShell 直接输：
+```powershell
+ssh my-win11
+```
+**不需要密码直接进去** = 成功。
+
+然后 VSCode 点 `Connect Host` → `my-win11`，也不会要密码。
+
+---
+
