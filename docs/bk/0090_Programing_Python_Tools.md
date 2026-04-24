@@ -3,7 +3,7 @@
 | Title     | Programing Python Tools                             |
 | --------- | --------------------------------------------------- |
 | Created @ | `2020-03-16T00:12:19Z`                              |
-| Updated @ | `2026-02-28T01:21:50Z`                              |
+| Updated @ | `2026-04-24T02:46:36Z`                              |
 | Labels    | \`\`                                                |
 | Edit @    | [here](https://github.com/junxnone/xwiki/issues/90) |
 
@@ -42,6 +42,7 @@
   - [heartrate](https://github.com/alexmojaki/heartrate) 浏览器实时显示代码的执行次数
   - [birdseye](https://github.com/alexmojaki/birdseye/tree/master):
     浏览器查看执行过的 code stack data
+  - [py-spy](0322_Programing_Python_Tools_pyspy)
 
 ### 性能分析
 
