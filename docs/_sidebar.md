@@ -26,6 +26,7 @@
       - [pdb/ipdb](/0303_Programing_Python_Tools_pdb)
       - [psutil](/0098_Programing_Python_Tools_psutil)
       - [pylint 代码分析工具](/0092_Programing_Python_Tools_pylint)
+      - [py-spy](/0322_Programing_Python_Tools_pyspy)
       - [tqdm 进度条工具](/0099_Programing_Python_Tools_tqdm)
       - [uv](/0315_Programing_Python_Tools_uv)
       - [virtualenv](/0176_Programing_Python_Tools_virtualenv)
@@ -267,4 +268,4 @@
 - [Wiki History](/hist)
 
 ---
-<kbd><sub>@1716190423</sub></kbd>
+<kbd><sub>@1045280424</sub></kbd>
