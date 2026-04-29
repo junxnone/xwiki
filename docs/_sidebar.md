@@ -188,6 +188,7 @@
     - [移动数据到新位置](/0052_Hypervisor_Docker_MoveData)
     - [Issues](/0149_Hypervisor_Docker_Issues)
 - [硬件](/0001_Hardware)
+  - [Board 完整板子层级](/0323_Hardware_Board)
   - [CPU](/0002_Hardware_CPU)
     - [Branch Prediction](/0219_Hardware_CPU_BP)
     - [Cache Memory](/0016_Hardware_CPU_Cache)
@@ -268,4 +269,4 @@
 - [Wiki History](/hist)
 
 ---
-<kbd><sub>@1803150428</sub></kbd>
+<kbd><sub>@1404240429</sub></kbd>
