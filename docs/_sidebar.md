@@ -35,6 +35,7 @@
     - [assert](/0094_Programing_Python_assert)
     - [json](/0292_Programing_Python_json)
     - [os package](/0311_Programing_Python_os)
+    - [Python user site 详解](/0324_Programing_Python_usersite)
     - [uv](/0320_Programing_Python_uv)
   - [C++](/0077_Programing_CPP)
     - [Vector](/0080_Programing_CPP_Vector)
@@ -269,4 +270,4 @@
 - [Wiki History](/hist)
 
 ---
-<kbd><sub>@1811390507</sub></kbd>
+<kbd><sub>@1350350508</sub></kbd>
