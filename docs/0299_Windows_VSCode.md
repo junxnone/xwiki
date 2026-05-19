@@ -2,7 +2,7 @@
 Title | Windows VSCode
 -- | --
 Created @ | `2023-12-11T03:41:54Z`
-Updated @| `2026-04-16T02:11:02Z`
+Updated @| `2026-05-19T01:33:11Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/299)
 
@@ -131,6 +131,8 @@ New-NetFirewallRule -Name 'OpenSSH-Server-In-TCP' -DisplayName 'OpenSSH Server (
 
 ### 设置 sftp
 - 编辑远程 windows sshd 配置文件 `C:\ProgramData\ssh\sshd_config`
+
+
 ```
 Subsystem sftp sftp-server.exe
 # 允许用户目录访问
@@ -152,9 +154,11 @@ Restart-Service sshd
 
 #### 1. 本地电脑：生成密钥（不需要密码）
 打开 **PowerShell** 执行：
+
 ```powershell
 ssh-keygen -t ed25519
 ```
+
 一路回车，**不要设置密码**。
 
 生成位置默认：

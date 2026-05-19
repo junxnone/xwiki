@@ -3,7 +3,7 @@
 | Title     | Windows VSCode                                       |
 | --------- | ---------------------------------------------------- |
 | Created @ | `2023-12-11T03:41:54Z`                               |
-| Updated @ | `2026-04-16T02:11:02Z`                               |
+| Updated @ | `2026-05-19T01:33:11Z`                               |
 | Labels    | \`\`                                                 |
 | Edit @    | [here](https://github.com/junxnone/xwiki/issues/299) |
 
