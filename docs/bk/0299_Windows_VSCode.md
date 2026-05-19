@@ -3,7 +3,7 @@
 | Title     | Windows VSCode                                       |
 | --------- | ---------------------------------------------------- |
 | Created @ | `2023-12-11T03:41:54Z`                               |
-| Updated @ | `2026-05-19T01:33:11Z`                               |
+| Updated @ | `2026-05-19T01:47:09Z`                               |
 | Labels    | \`\`                                                 |
 | Edit @    | [here](https://github.com/junxnone/xwiki/issues/299) |
 
@@ -125,11 +125,14 @@
 
 ### 设置 sftp
 
-  - 编辑远程 windows sshd 配置文件 `C:\ProgramData\ssh\sshd_config`
+  - 编辑远程 windows sshd 配置文件
 
 <!-- end list -->
 
 ``` 
+notepad  C:\ProgramData\ssh\sshd_config
+
+
 Subsystem sftp sftp-server.exe
 # 允许用户目录访问
 AllowUsers 你的用户名
@@ -174,7 +177,9 @@ ssh-keygen -t ed25519
 
 <!-- end list -->
 
-    C:\ProgramData\ssh\administrators_authorized_keys
+    notepad C:\ProgramData\ssh\administrators_authorized_keys
+
+> 有一次不知为啥 新建成了 `administrators_authorized_keys.txt`，后续一直不成功。。。
 
 2.  把你本地 `id_ed25519.pub` 里的**一长串内容**复制进去，保存。
 
