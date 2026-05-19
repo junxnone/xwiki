@@ -263,6 +263,7 @@
     - [Windows 命令行执行命令时卡住](/0234_Windows_Issues_CommandLineHang)
     - [命令行不能进入 D 盘](/0293_Windows_Issues_cmdCannotIntoD)
     - [python执行缓慢](/0314_Windows_Issues_python执行缓慢)
+  - [Windows Tips](/0325_Windows_Tips)
   - [Visual Studio Code](/0299_Windows_VSCode)
   - [Win11 关闭右键菜单折叠](/0282_Windows_W11collapse)
   - [Windows Batch 批处理](/0230_Windows_batch)
@@ -270,4 +271,4 @@
 - [Wiki History](/hist)
 
 ---
-<kbd><sub>@0947550519</sub></kbd>
+<kbd><sub>@1351020519</sub></kbd>
