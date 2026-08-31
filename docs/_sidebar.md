@@ -215,6 +215,7 @@
   - [Memory](/0004_Hardware_Memory)
   - [NUMA 架构](/0158_Hardware_NUMA)
   - [PMUs](/0243_Hardware_PMUs)
+  - [PTAT](/0328_Hardware_PTAT)
   - [Precision](/0281_Hardware_Precision)
   - [SIMD](/0007_Hardware_SIMD)
     - [AVX](/0009_Hardware_SIMD_AVX)
@@ -273,4 +274,4 @@
 - [Wiki History](/hist)
 
 ---
-<kbd><sub>@2122470830</sub></kbd>
+<kbd><sub>@1602340831</sub></kbd>
