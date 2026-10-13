@@ -1,5 +1,6 @@
 # Wiki History
 
+- 2026-10-13&nbsp;&nbsp; [GitHub / Git CLI 多账号切换](/0329_Tools_Github_多账号切换)&nbsp;&nbsp; :bookmark:Tools :bookmark:Github :bookmark:多账号切换
 - 2026-08-31&nbsp;&nbsp; [PTAT](/0328_Hardware_PTAT)&nbsp;&nbsp; :bookmark:Hardware :bookmark:PTAT
 - 2026-08-14&nbsp;&nbsp; [Windows  RDP](/0327_Windows_RDP)&nbsp;&nbsp; :bookmark:Windows :bookmark:RDP
 - 2026-07-29&nbsp;&nbsp; [RDP 远程不能复制粘体文件文本](/0326_Windows_Issues_rdp远程不能复制粘体文件文本)&nbsp;&nbsp; :bookmark:Windows :bookmark:Issues :bookmark:rdp远程不能复制粘体文件文本
@@ -18,8 +19,8 @@
 - 2025-05-29&nbsp;&nbsp; [Resizable BAR](/0313_Hardware_GPU_iGPU_ResizableBAR)&nbsp;&nbsp; :bookmark:Hardware :bookmark:GPU :bookmark:iGPU :bookmark:ResizableBAR
 - 2025-01-09&nbsp;&nbsp; [存储](/0312_Hardware_Storage)&nbsp;&nbsp; :bookmark:Hardware :bookmark:Storage
 - 2024-10-16&nbsp;&nbsp; [系统信息获取](/0310_Programing_Python_OSInfo)&nbsp;&nbsp; :bookmark:Programing :bookmark:Python :bookmark:OSInfo
-- 2024-06-22&nbsp;&nbsp; [Anaconda -> Miniforge](/0309_Tools_Conda_anaconda2miniforge)&nbsp;&nbsp; :bookmark:Tools :bookmark:Conda :bookmark:anaconda2miniforge
 - 2024-06-22&nbsp;&nbsp; [JIT vs AOT](/0308_X_JITvsAOT)&nbsp;&nbsp; :bookmark:X :bookmark:JITvsAOT
+- 2024-06-22&nbsp;&nbsp; [Anaconda -> Miniforge](/0309_Tools_Conda_anaconda2miniforge)&nbsp;&nbsp; :bookmark:Tools :bookmark:Conda :bookmark:anaconda2miniforge
 - 2024-06-20&nbsp;&nbsp; [Develop with Github `personal access token`](/0307_Tools_Github_Token)&nbsp;&nbsp; :bookmark:Tools :bookmark:Github :bookmark:Token
 - 2024-06-13&nbsp;&nbsp; [`@property` decorator](/0306_Programing_Python_Decorator_property)&nbsp;&nbsp; :bookmark:Programing :bookmark:Python :bookmark:Decorator :bookmark:property
 - 2024-06-11&nbsp;&nbsp; [Shell Tips](/0305_Programing_Shell_Tips)&nbsp;&nbsp; :bookmark:Programing :bookmark:Shell :bookmark:Tips
@@ -47,32 +48,32 @@
 - 2023-07-04&nbsp;&nbsp; [JavaScript](/0276_Programing_js)&nbsp;&nbsp; :bookmark:Programing :bookmark:js
 - 2023-06-30&nbsp;&nbsp; [VCS 版本控制系统](/0275_X_VCS)&nbsp;&nbsp; :bookmark:X :bookmark:VCS
 - 2023-06-26&nbsp;&nbsp; [Git Rebase](/0274_Tools_Git_Rebase)&nbsp;&nbsp; :bookmark:Tools :bookmark:Git :bookmark:Rebase
-- 2023-06-24&nbsp;&nbsp; [Pandoc: 生成目录TOC](/0273_Doc_Tools_pandoc_mdtoc)&nbsp;&nbsp; :bookmark:Doc :bookmark:Tools :bookmark:pandoc :bookmark:mdtoc
+- 2023-06-24&nbsp;&nbsp; [Pandoc: `合并 markdown`](/0272_Doc_Tools_pandoc_mergemd)&nbsp;&nbsp; :bookmark:Doc :bookmark:Tools :bookmark:pandoc :bookmark:mergemd
 - 2023-06-24&nbsp;&nbsp; [文档工具](/0271_Doc_Tools)&nbsp;&nbsp; :bookmark:Doc :bookmark:Tools
 - 2023-06-24&nbsp;&nbsp; [Pandoc: `提取媒体文件`](/0270_Doc_Tools_pandoc_extractmedia)&nbsp;&nbsp; :bookmark:Doc :bookmark:Tools :bookmark:pandoc :bookmark:extractmedia
-- 2023-06-24&nbsp;&nbsp; [Pandoc](/0268_Doc_Tools_pandoc)&nbsp;&nbsp; :bookmark:Doc :bookmark:Tools :bookmark:pandoc
-- 2023-06-24&nbsp;&nbsp; [Pandoc: `合并 markdown`](/0272_Doc_Tools_pandoc_mergemd)&nbsp;&nbsp; :bookmark:Doc :bookmark:Tools :bookmark:pandoc :bookmark:mergemd
 - 2023-06-24&nbsp;&nbsp; [Pandoc:  `Markdown => Pdf`](/0269_Doc_Tools_pandoc_md2pdf)&nbsp;&nbsp; :bookmark:Doc :bookmark:Tools :bookmark:pandoc :bookmark:md2pdf
+- 2023-06-24&nbsp;&nbsp; [Pandoc: 生成目录TOC](/0273_Doc_Tools_pandoc_mdtoc)&nbsp;&nbsp; :bookmark:Doc :bookmark:Tools :bookmark:pandoc :bookmark:mdtoc
+- 2023-06-24&nbsp;&nbsp; [Pandoc](/0268_Doc_Tools_pandoc)&nbsp;&nbsp; :bookmark:Doc :bookmark:Tools :bookmark:pandoc
 - 2023-06-19&nbsp;&nbsp; [Github fork other fork](/0267_Tools_Github_forkfork)&nbsp;&nbsp; :bookmark:Tools :bookmark:Github :bookmark:forkfork
 - 2023-06-18&nbsp;&nbsp; [Debug Github Pages](/0266_Tools_Github_Pages_Debug)&nbsp;&nbsp; :bookmark:Tools :bookmark:Github :bookmark:Pages :bookmark:Debug
-- 2023-06-17&nbsp;&nbsp; [Github](/0259_Tools_Github)&nbsp;&nbsp; :bookmark:Tools :bookmark:Github
-- 2023-06-17&nbsp;&nbsp; [Windows](/0264_Windows)&nbsp;&nbsp; :bookmark:Windows
 - 2023-06-17&nbsp;&nbsp; [Pandas Issues](/0262_Pandas_Issues)&nbsp;&nbsp; :bookmark:Pandas :bookmark:Issues
 - 2023-06-17&nbsp;&nbsp; [未分类](/0263_X)&nbsp;&nbsp; :bookmark:X
+- 2023-06-17&nbsp;&nbsp; [Windows](/0264_Windows)&nbsp;&nbsp; :bookmark:Windows
 - 2023-06-17&nbsp;&nbsp; [Windows Issues](/0265_Windows_Issues)&nbsp;&nbsp; :bookmark:Windows :bookmark:Issues
+- 2023-06-17&nbsp;&nbsp; [Github](/0259_Tools_Github)&nbsp;&nbsp; :bookmark:Tools :bookmark:Github
 - 2023-06-17&nbsp;&nbsp; [Pandas UseCase](/0260_Pandas_UseCase)&nbsp;&nbsp; :bookmark:Pandas :bookmark:UseCase
 - 2023-06-16&nbsp;&nbsp; [Tools](/0257_Tools)&nbsp;&nbsp; :bookmark:Tools
 - 2023-06-16&nbsp;&nbsp; [git bash](/0256_Tools_Git_Bash)&nbsp;&nbsp; :bookmark:Tools :bookmark:Git :bookmark:Bash
 - 2023-06-13&nbsp;&nbsp; [InfluxDB](/0255_Programing_database_InfluxDB)&nbsp;&nbsp; :bookmark:Programing :bookmark:database :bookmark:InfluxDB
 - 2023-06-13&nbsp;&nbsp; [数据库 Database](/0254_Programing_database)&nbsp;&nbsp; :bookmark:Programing :bookmark:database
 - 2023-06-05&nbsp;&nbsp; [Compiler Explorer](/0253_Tools_CompilerExplorer)&nbsp;&nbsp; :bookmark:Tools :bookmark:CompilerExplorer
-- 2023-06-04&nbsp;&nbsp; [MSVC STL](/0250_Programing_CPP_STD_MSVC)&nbsp;&nbsp; :bookmark:Programing :bookmark:CPP :bookmark:STD :bookmark:MSVC
 - 2023-06-04&nbsp;&nbsp; [API Vs ABI](/0252_X_APIvsABI)&nbsp;&nbsp; :bookmark:X :bookmark:APIvsABI
+- 2023-06-04&nbsp;&nbsp; [MSVC STL](/0250_Programing_CPP_STD_MSVC)&nbsp;&nbsp; :bookmark:Programing :bookmark:CPP :bookmark:STD :bookmark:MSVC
 - 2023-06-04&nbsp;&nbsp; [GNU STD](/0251_Programing_CPP_STD_GNU)&nbsp;&nbsp; :bookmark:Programing :bookmark:CPP :bookmark:STD :bookmark:GNU
-- 2023-06-02&nbsp;&nbsp; [Policy 策略设计模式](/0249_Programing_CPP_Policy)&nbsp;&nbsp; :bookmark:Programing :bookmark:CPP :bookmark:Policy
-- 2023-06-02&nbsp;&nbsp; [参考资源](/0247_Reference)&nbsp;&nbsp; :bookmark:Reference
 - 2023-06-02&nbsp;&nbsp; [C++ 模板](/0248_Programing_CPP_Template)&nbsp;&nbsp; :bookmark:Programing :bookmark:CPP :bookmark:Template
 - 2023-06-02&nbsp;&nbsp; [reStructuredText](/0246_Doc_reStructuredText)&nbsp;&nbsp; :bookmark:Doc :bookmark:reStructuredText
+- 2023-06-02&nbsp;&nbsp; [参考资源](/0247_Reference)&nbsp;&nbsp; :bookmark:Reference
+- 2023-06-02&nbsp;&nbsp; [Policy 策略设计模式](/0249_Programing_CPP_Policy)&nbsp;&nbsp; :bookmark:Programing :bookmark:CPP :bookmark:Policy
 - 2023-05-25&nbsp;&nbsp; [PMUs](/0243_Hardware_PMUs)&nbsp;&nbsp; :bookmark:Hardware :bookmark:PMUs
 - 2023-05-25&nbsp;&nbsp; [iGPU Drivers](/0244_Hardware_GPU_iGPU_Drivers)&nbsp;&nbsp; :bookmark:Hardware :bookmark:GPU :bookmark:iGPU :bookmark:Drivers
 - 2023-05-08&nbsp;&nbsp; [Mermaid](/0242_Doc_Mermaid)&nbsp;&nbsp; :bookmark:Doc :bookmark:Mermaid
@@ -81,16 +82,16 @@
 - 2023-04-06&nbsp;&nbsp; [Boost Arch](/0239_Programing_CPP_Boost_Arch)&nbsp;&nbsp; :bookmark:Programing :bookmark:CPP :bookmark:Boost :bookmark:Arch
 - 2023-04-04&nbsp;&nbsp; [Boost](/0238_Programing_CPP_Boost)&nbsp;&nbsp; :bookmark:Programing :bookmark:CPP :bookmark:Boost
 - 2023-04-02&nbsp;&nbsp; [数据结构](/0237_Programing_DS)&nbsp;&nbsp; :bookmark:Programing :bookmark:DS
-- 2023-03-28&nbsp;&nbsp; [比较 branch/commit](/0236_Tools_Github_Compare)&nbsp;&nbsp; :bookmark:Tools :bookmark:Github :bookmark:Compare
 - 2023-03-28&nbsp;&nbsp; [查看 BIOS 版本号](/0235_Windows_BIOSInfo)&nbsp;&nbsp; :bookmark:Windows :bookmark:BIOSInfo
+- 2023-03-28&nbsp;&nbsp; [比较 branch/commit](/0236_Tools_Github_Compare)&nbsp;&nbsp; :bookmark:Tools :bookmark:Github :bookmark:Compare
 - 2023-03-26&nbsp;&nbsp; [googletest](/0232_Programing_test_googletest)&nbsp;&nbsp; :bookmark:Programing :bookmark:test :bookmark:googletest
 - 2023-03-26&nbsp;&nbsp; [Test](/0231_Programing_test)&nbsp;&nbsp; :bookmark:Programing :bookmark:test
 - 2023-03-24&nbsp;&nbsp; [Windows Batch 批处理](/0230_Windows_batch)&nbsp;&nbsp; :bookmark:Windows :bookmark:batch
 - 2023-03-23&nbsp;&nbsp; [使用 option 添加编译选项](/0228_Build_Cmake_CMD_option)&nbsp;&nbsp; :bookmark:Build :bookmark:Cmake :bookmark:CMD :bookmark:option
-- 2023-03-21&nbsp;&nbsp; [Git Patch](/0226_Tools_Git_Patch)&nbsp;&nbsp; :bookmark:Tools :bookmark:Git :bookmark:Patch
 - 2023-03-21&nbsp;&nbsp; [LLVM](/0227_Programing_Compiler_LLVM)&nbsp;&nbsp; :bookmark:Programing :bookmark:Compiler :bookmark:LLVM
-- 2023-03-17&nbsp;&nbsp; [Data Center GPUs](/0223_Hardware_GPU_iGPU_dGPU)&nbsp;&nbsp; :bookmark:Hardware :bookmark:GPU :bookmark:iGPU :bookmark:dGPU
+- 2023-03-21&nbsp;&nbsp; [Git Patch](/0226_Tools_Git_Patch)&nbsp;&nbsp; :bookmark:Tools :bookmark:Git :bookmark:Patch
 - 2023-03-17&nbsp;&nbsp; [Intel GPUs Arch](/0225_Hardware_GPU_iGPU_Arch)&nbsp;&nbsp; :bookmark:Hardware :bookmark:GPU :bookmark:iGPU :bookmark:Arch
+- 2023-03-17&nbsp;&nbsp; [Data Center GPUs](/0223_Hardware_GPU_iGPU_dGPU)&nbsp;&nbsp; :bookmark:Hardware :bookmark:GPU :bookmark:iGPU :bookmark:dGPU
 - 2023-03-17&nbsp;&nbsp; [Intel GPUs Table](/0224_Hardware_GPU_iGPU_table)&nbsp;&nbsp; :bookmark:Hardware :bookmark:GPU :bookmark:iGPU :bookmark:table
 - 2023-03-14&nbsp;&nbsp; [运算符重载](/0222_Programing_CPP_opoverloading)&nbsp;&nbsp; :bookmark:Programing :bookmark:CPP :bookmark:opoverloading
 - 2023-03-08&nbsp;&nbsp; [GPU](/0218_Hardware_GPU)&nbsp;&nbsp; :bookmark:Hardware :bookmark:GPU
@@ -99,22 +100,22 @@
 - 2023-03-01&nbsp;&nbsp; [lambda](/0214_Programing_CPP_lambda)&nbsp;&nbsp; :bookmark:Programing :bookmark:CPP :bookmark:lambda
 - 2023-02-28&nbsp;&nbsp; [存储为 csv 再读入后, 单元格值 `list` 类型会变成 `str` 类型](/0213_Pandas_Issues_csvliststr)&nbsp;&nbsp; :bookmark:Pandas :bookmark:Issues :bookmark:csvliststr
 - 2022-12-28&nbsp;&nbsp; [calendar 日历](/0211_Programing_Python_Tools_calendar)&nbsp;&nbsp; :bookmark:Programing :bookmark:Python :bookmark:Tools :bookmark:calendar
+- 2022-12-22&nbsp;&nbsp; [编程](/0193_Programing)&nbsp;&nbsp; :bookmark:Programing
 - 2022-12-22&nbsp;&nbsp; [合并](/0205_Pandas_UseCase_Merge)&nbsp;&nbsp; :bookmark:Pandas :bookmark:UseCase :bookmark:Merge
 - 2022-12-22&nbsp;&nbsp; [字符串处理](/0204_Pandas_UseCase_string)&nbsp;&nbsp; :bookmark:Pandas :bookmark:UseCase :bookmark:string
-- 2022-12-22&nbsp;&nbsp; [列操作](/0198_Pandas_UseCase_columns)&nbsp;&nbsp; :bookmark:Pandas :bookmark:UseCase :bookmark:columns
 - 2022-12-22&nbsp;&nbsp; [简单查看数据](/0197_Pandas_UseCase_ShowSummaryInfo)&nbsp;&nbsp; :bookmark:Pandas :bookmark:UseCase :bookmark:ShowSummaryInfo
+- 2022-12-22&nbsp;&nbsp; [列操作](/0198_Pandas_UseCase_columns)&nbsp;&nbsp; :bookmark:Pandas :bookmark:UseCase :bookmark:columns
 - 2022-12-22&nbsp;&nbsp; [构建工具](/0190_Build)&nbsp;&nbsp; :bookmark:Build
-- 2022-12-22&nbsp;&nbsp; [编程](/0193_Programing)&nbsp;&nbsp; :bookmark:Programing
 - 2022-12-22&nbsp;&nbsp; [抽样](/0203_Pandas_UseCase_sampling)&nbsp;&nbsp; :bookmark:Pandas :bookmark:UseCase :bookmark:sampling
-- 2022-12-22&nbsp;&nbsp; [Index 操作](/0202_Pandas_UseCase_Index)&nbsp;&nbsp; :bookmark:Pandas :bookmark:UseCase :bookmark:Index
+- 2022-12-22&nbsp;&nbsp; [行操作](/0199_Pandas_UseCase_row)&nbsp;&nbsp; :bookmark:Pandas :bookmark:UseCase :bookmark:row
 - 2022-12-22&nbsp;&nbsp; [文档文本](/0191_Doc)&nbsp;&nbsp; :bookmark:Doc
 - 2022-12-22&nbsp;&nbsp; [条件操作](/0201_Pandas_UseCase_condition)&nbsp;&nbsp; :bookmark:Pandas :bookmark:UseCase :bookmark:condition
-- 2022-12-22&nbsp;&nbsp; [行操作](/0199_Pandas_UseCase_row)&nbsp;&nbsp; :bookmark:Pandas :bookmark:UseCase :bookmark:row
-- 2022-12-22&nbsp;&nbsp; [容器](/0192_Hypervisor)&nbsp;&nbsp; :bookmark:Hypervisor
 - 2022-12-22&nbsp;&nbsp; [单元格操作](/0200_Pandas_UseCase_xy)&nbsp;&nbsp; :bookmark:Pandas :bookmark:UseCase :bookmark:xy
+- 2022-12-22&nbsp;&nbsp; [Index 操作](/0202_Pandas_UseCase_Index)&nbsp;&nbsp; :bookmark:Pandas :bookmark:UseCase :bookmark:Index
+- 2022-12-22&nbsp;&nbsp; [容器](/0192_Hypervisor)&nbsp;&nbsp; :bookmark:Hypervisor
 - 2022-12-15&nbsp;&nbsp; [manim](/0141_Tools_manim)&nbsp;&nbsp; :bookmark:Tools :bookmark:manim
-- 2022-08-25&nbsp;&nbsp; [Host UI](/0051_Hypervisor_Docker_UI)&nbsp;&nbsp; :bookmark:Hypervisor :bookmark:Docker :bookmark:UI
 - 2022-08-25&nbsp;&nbsp; [Issues](/0149_Hypervisor_Docker_Issues)&nbsp;&nbsp; :bookmark:Hypervisor :bookmark:Docker :bookmark:Issues
+- 2022-08-25&nbsp;&nbsp; [Host UI](/0051_Hypervisor_Docker_UI)&nbsp;&nbsp; :bookmark:Hypervisor :bookmark:Docker :bookmark:UI
 - 2022-07-11&nbsp;&nbsp; [Base64](/0208_X_Base64)&nbsp;&nbsp; :bookmark:X :bookmark:Base64
 - 2022-06-16&nbsp;&nbsp; [Shell for](/0101_Programing_Shell_for)&nbsp;&nbsp; :bookmark:Programing :bookmark:Shell :bookmark:for
 - 2022-05-27&nbsp;&nbsp; [switch](/0081_Programing_CPP_switch)&nbsp;&nbsp; :bookmark:Programing :bookmark:CPP :bookmark:switch
@@ -124,8 +125,8 @@
 - 2022-04-14&nbsp;&nbsp; [计时方法](/0084_Programing_CPP_CountTime)&nbsp;&nbsp; :bookmark:Programing :bookmark:CPP :bookmark:CountTime
 - 2022-01-06&nbsp;&nbsp; [PECOFF](/0152_X_PECOFF)&nbsp;&nbsp; :bookmark:X :bookmark:PECOFF
 - 2022-01-06&nbsp;&nbsp; [命令行](/0151_Build_Cmake_CMD)&nbsp;&nbsp; :bookmark:Build :bookmark:Cmake :bookmark:CMD
-- 2022-01-05&nbsp;&nbsp; [设置安装相关](/0059_Build_Cmake_InstallFiles)&nbsp;&nbsp; :bookmark:Build :bookmark:Cmake :bookmark:InstallFiles
 - 2022-01-05&nbsp;&nbsp; [archive](/0118_Tools_Git_archive)&nbsp;&nbsp; :bookmark:Tools :bookmark:Git :bookmark:archive
+- 2022-01-05&nbsp;&nbsp; [设置安装相关](/0059_Build_Cmake_InstallFiles)&nbsp;&nbsp; :bookmark:Build :bookmark:Cmake :bookmark:InstallFiles
 - 2022-01-04&nbsp;&nbsp; [UseCase](/0155_Programing_Compiler_GCC_UseCase)&nbsp;&nbsp; :bookmark:Programing :bookmark:Compiler :bookmark:GCC :bookmark:UseCase
 - 2022-01-02&nbsp;&nbsp; [Generators](/0156_Build_Cmake_Generators)&nbsp;&nbsp; :bookmark:Build :bookmark:Cmake :bookmark:Generators
 - 2022-01-02&nbsp;&nbsp; [Debug](/0057_Build_Cmake_Debug)&nbsp;&nbsp; :bookmark:Build :bookmark:Cmake :bookmark:Debug
