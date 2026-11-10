@@ -24,6 +24,7 @@
       - [hydra](/0298_Programing_Python_Tools_hydra)
       - [omegaconf](/0296_Programing_Python_Tools_omegaconf)
       - [pdb/ipdb](/0303_Programing_Python_Tools_pdb)
+      - [pipx](/0330_Programing_Python_Tools_pipx)
       - [psutil](/0098_Programing_Python_Tools_psutil)
       - [pylint 代码分析工具](/0092_Programing_Python_Tools_pylint)
       - [py-spy](/0322_Programing_Python_Tools_pyspy)
@@ -275,4 +276,4 @@
 - [Wiki History](/hist)
 
 ---
-<kbd><sub>@1033511110</sub></kbd>
+<kbd><sub>@1132431110</sub></kbd>
