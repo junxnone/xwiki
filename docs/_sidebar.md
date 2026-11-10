@@ -145,6 +145,7 @@
     - [archive](/0118_Tools_Git_archive)
     - [Git diff](/0277_Tools_Git_diff)
     - [precommit](/0117_Tools_Git_precommit)
+    - [git stash](/0331_Tools_Git_stash)
   - [Conda](/0073_Tools_Conda)
     - [Anaconda -> Miniforge](/0309_Tools_Conda_anaconda2miniforge)
   - [Github](/0259_Tools_Github)
@@ -276,4 +277,4 @@
 - [Wiki History](/hist)
 
 ---
-<kbd><sub>@1132431110</sub></kbd>
+<kbd><sub>@1343561110</sub></kbd>
