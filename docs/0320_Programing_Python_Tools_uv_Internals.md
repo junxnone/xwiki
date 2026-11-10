@@ -1,8 +1,8 @@
 ---
-Title | Programing Python uv
+Title | Programing Python Tools uv Internals
 -- | --
 Created @ | `2026-03-24T05:55:57Z`
-Updated @| `2026-03-24T06:16:44Z`
+Updated @| `2026-11-10T02:27:25Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/320)
 
