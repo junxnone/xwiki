@@ -128,7 +128,7 @@
 - 2022-01-06&nbsp;&nbsp; [PECOFF](/0152_X_PECOFF)&nbsp;&nbsp; :bookmark:X :bookmark:PECOFF
 - 2022-01-06&nbsp;&nbsp; [命令行](/0151_Build_Cmake_CMD)&nbsp;&nbsp; :bookmark:Build :bookmark:Cmake :bookmark:CMD
 - 2022-01-05&nbsp;&nbsp; [设置安装相关](/0059_Build_Cmake_InstallFiles)&nbsp;&nbsp; :bookmark:Build :bookmark:Cmake :bookmark:InstallFiles
-- 2022-01-05&nbsp;&nbsp; [archive](/0118_Tools_Git_archive)&nbsp;&nbsp; :bookmark:Tools :bookmark:Git :bookmark:archive
+- 2022-01-05&nbsp;&nbsp; [Git archive](/0118_Tools_Git_archive)&nbsp;&nbsp; :bookmark:Tools :bookmark:Git :bookmark:archive
 - 2022-01-04&nbsp;&nbsp; [UseCase](/0155_Programing_Compiler_GCC_UseCase)&nbsp;&nbsp; :bookmark:Programing :bookmark:Compiler :bookmark:GCC :bookmark:UseCase
 - 2022-01-02&nbsp;&nbsp; [Debug](/0057_Build_Cmake_Debug)&nbsp;&nbsp; :bookmark:Build :bookmark:Cmake :bookmark:Debug
 - 2022-01-02&nbsp;&nbsp; [Generators](/0156_Build_Cmake_Generators)&nbsp;&nbsp; :bookmark:Build :bookmark:Cmake :bookmark:Generators
@@ -210,12 +210,12 @@
 - 2019-11-15&nbsp;&nbsp; [CICD](/0134_Tools_Gitlab_CICD)&nbsp;&nbsp; :bookmark:Tools :bookmark:Gitlab :bookmark:CICD
 - 2019-11-15&nbsp;&nbsp; [assert](/0094_Programing_Python_assert)&nbsp;&nbsp; :bookmark:Programing :bookmark:Python :bookmark:assert
 - 2019-11-14&nbsp;&nbsp; [yapf 代码格式化工具](/0093_Programing_Python_Tools_yapf)&nbsp;&nbsp; :bookmark:Programing :bookmark:Python :bookmark:Tools :bookmark:yapf
-- 2019-11-14&nbsp;&nbsp; [precommit](/0117_Tools_Git_precommit)&nbsp;&nbsp; :bookmark:Tools :bookmark:Git :bookmark:precommit
+- 2019-11-14&nbsp;&nbsp; [Git pre-commit](/0117_Tools_Git_precommit)&nbsp;&nbsp; :bookmark:Tools :bookmark:Git :bookmark:precommit
 - 2019-11-13&nbsp;&nbsp; [pylint 代码分析工具](/0092_Programing_Python_Tools_pylint)&nbsp;&nbsp; :bookmark:Programing :bookmark:Python :bookmark:Tools :bookmark:pylint
 - 2019-11-13&nbsp;&nbsp; [bandit 代码安全分析](/0091_Programing_Python_Tools_bandit)&nbsp;&nbsp; :bookmark:Programing :bookmark:Python :bookmark:Tools :bookmark:bandit
 - 2019-11-02&nbsp;&nbsp; [datetime](/0212_Programing_Python_Tools_datetime)&nbsp;&nbsp; :bookmark:Programing :bookmark:Python :bookmark:Tools :bookmark:datetime
 - 2019-10-29&nbsp;&nbsp; [UseLocalPackage](/0068_Tools_Jupyter_UseLocalPackage)&nbsp;&nbsp; :bookmark:Tools :bookmark:Jupyter :bookmark:UseLocalPackage
-- 2019-10-25&nbsp;&nbsp; [tag](/0116_Tools_Git_tag)&nbsp;&nbsp; :bookmark:Tools :bookmark:Git :bookmark:tag
+- 2019-10-25&nbsp;&nbsp; [Git tag](/0116_Tools_Git_tag)&nbsp;&nbsp; :bookmark:Tools :bookmark:Git :bookmark:tag
 - 2019-09-17&nbsp;&nbsp; [编译可执行文件](/0089_Programing_Python_BuildExe)&nbsp;&nbsp; :bookmark:Programing :bookmark:Python :bookmark:BuildExe
 - 2019-09-08&nbsp;&nbsp; [Docker Image](/0070_Tools_Jupyter_DockerImage)&nbsp;&nbsp; :bookmark:Tools :bookmark:Jupyter :bookmark:DockerImage
 - 2019-09-06&nbsp;&nbsp; [Gitlab](/0133_Tools_Gitlab)&nbsp;&nbsp; :bookmark:Tools :bookmark:Gitlab

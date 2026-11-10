@@ -135,16 +135,16 @@
     - [Git Configs](/0112_Tools_Git_config)
       - [Proxy Setup](/0113_Tools_Git_config_proxy)
     - [Git Branch](/0115_Tools_Git_branch)
-    - [tag](/0116_Tools_Git_tag)
+    - [Git tag](/0116_Tools_Git_tag)
     - [Git Submodule](/0114_Tools_Git_submodule)
     - [移除 stage 文件](/0119_Tools_Git_RMStageFile)
     - [git bash](/0256_Tools_Git_Bash)
     - [No newline at end of file](/0120_Tools_Git_NoNewline)
     - [Git Patch](/0226_Tools_Git_Patch)
     - [Git Rebase](/0274_Tools_Git_Rebase)
-    - [archive](/0118_Tools_Git_archive)
+    - [Git archive](/0118_Tools_Git_archive)
     - [Git diff](/0277_Tools_Git_diff)
-    - [precommit](/0117_Tools_Git_precommit)
+    - [Git pre-commit](/0117_Tools_Git_precommit)
     - [git stash](/0331_Tools_Git_stash)
   - [Conda](/0073_Tools_Conda)
     - [Anaconda -> Miniforge](/0309_Tools_Conda_anaconda2miniforge)
@@ -277,4 +277,4 @@
 - [Wiki History](/hist)
 
 ---
-<kbd><sub>@1343561110</sub></kbd>
+<kbd><sub>@1407501110</sub></kbd>
