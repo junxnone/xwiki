@@ -2,7 +2,7 @@
 Title | Tools Git Bash
 -- | --
 Created @ | `2023-06-16T08:18:07Z`
-Updated @| `2023-06-16T08:18:07Z`
+Updated @| `2026-11-10T06:06:58Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/256)
 
@@ -11,6 +11,62 @@ Edit @| [here](https://github.com/junxnone/xwiki/issues/256)
 
 - Windows 下 git 工具提供了 git bash (`mingw64`)
 - 可以跑简单的处理脚本(Linux下的可以比较简单的移植过来)
+
+Git Bash 是随 [Git for Windows](https://gitforwindows.org/) 安装的一个终端环境，由 **MSYS2**（`bash` + 一套精简的 GNU 工具）和 **mintty**（终端模拟器）组成。它让 Windows 上也能使用 `bash`、`grep`、`sed`、`awk`、`ssh` 等常见 Linux 命令。
+
+## 组成与目录
+
+项目 | 说明
+-- | --
+安装目录 | 默认 `C:\Program Files\Git`
+`usr\bin` | MSYS2 的工具，即下面清单里的 `bash`、`ls`、`grep`、`sed` 等
+`mingw64\bin` | 原生 Windows 程序，如 `git.exe`、`curl.exe`
+`etc\profile` | 启动脚本，可在 `~/.bashrc`、`~/.bash_profile` 中自定义
+`~` | 用户主目录，对应 `%USERPROFILE%`
+mintty | 默认终端窗口，支持复制粘贴、颜色、字体，在标题栏右键 → Options 设置
+
+> 清单里的 `.exe` 来自 MSYS2 的 `usr\bin`，Git Bash 里直接输入 `ls`、`grep` 即可，不用加后缀。
+
+## 路径与盘符
+
+- Windows 的 `C:\Users\xxx` 在 Git Bash 里写成 `/c/Users/xxx`。
+- 反斜杠是转义符，路径用正斜杠 `/`；包含空格的路径要加引号。
+- 路径转换：`cygpath -u 'C:\Users\xxx'`（转成 Unix 风格）、`cygpath -w /c/Users/xxx`（转成 Windows 风格）。
+- 调用 Windows 原生程序时，MSYS2 会自动把形如 `/xxx` 的参数当作路径转换，这有时会造成误转换：
+
+```bash
+MSYS_NO_PATHCONV=1 docker run -v /c/data:/data image   # 关闭路径自动转换
+MSYS2_ARG_CONV_EXCL='*' some.exe /flag                  # 或排除所有参数
+```
+
+## 常用技巧
+
+```bash
+explorer .                       # 在资源管理器中打开当前目录
+start file.pdf                   # 用默认程序打开文件
+clip < file.txt                  # 把文件内容复制到 Windows 剪贴板
+cat file.txt | clip
+winpty python                    # 交互式程序（如 python、node）卡住/无输出时，用 winpty 包一层
+dos2unix file / unix2dos file    # 换行符转换
+file * | grep CRLF               # 找 CRLF 换行的文件
+```
+
+- 交互式 Python / node 在 mintty 里不能正常输入输出，是因为 mintty 不是真正的 Windows 控制台，用 `winpty` 包装即可（清单里的 `winpty.exe`）。
+- 想直接写成别名：`alias python='winpty python'`，放进 `~/.bashrc`。
+
+## 脚本移植到 Windows 的注意
+
+- 脚本需保存成 **LF** 换行，CRLF 会让 bash 报 `$'\r': command not found`。可用 `dos2unix` 转换，或设置 git `core.autocrlf`。见 [No newline at end of file](/0120_Tools_Git_NoNewline)。
+- 没有的命令：`apt`、`yum`、`systemctl`、`sudo`、`lsof`、`top`（有 `ps`）等；管理员权限需要以管理员身份启动 Git Bash。
+- `ln -s` 默认复制而不是创建真正的符号链接，需要设置 `export MSYS=winsymlinks:nativestrict` 并开启开发者模式/管理员权限。
+- 想要更完整的 Linux 环境，可选 WSL，或 MSYS2 本身（可 `pacman` 安装软件）。
+
+## 补充软件
+
+Git Bash 的工具集是精简版，缺少 `make`、`zip`、`jq`、`rsync` 等。简单的做法是把对应的 Windows 版 `.exe` 放进 `C:\Program Files\Git\usr\bin`（或加入 PATH），例如：
+- `jq`、`make`、`zip` 的 Windows 二进制，或通过 `winget`/`scoop` 安装。
+
+## 已包含的工具清单
 
 <details>
 <summary>git bash tools list</summary>
@@ -281,3 +337,9 @@ zipinfo.exe*
 ```
 
 </details>
+
+## Reference
+- [Git for Windows](https://gitforwindows.org/)
+- [MSYS2 路径转换](https://www.msys2.org/docs/filesystem-paths/)
+- [winpty](https://github.com/rprichard/winpty)
+
