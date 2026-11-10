@@ -29,6 +29,7 @@
       - [py-spy](/0322_Programing_Python_Tools_pyspy)
       - [tqdm 进度条工具](/0099_Programing_Python_Tools_tqdm)
       - [uv](/0315_Programing_Python_Tools_uv)
+        - [uv](/0320_Programing_Python_Tools_uv_Internals)
       - [virtualenv](/0176_Programing_Python_Tools_virtualenv)
       - [virtualenvwrapper](/0175_Programing_Python_Tools_virtualenvwrapper)
       - [yapf 代码格式化工具](/0093_Programing_Python_Tools_yapf)
@@ -36,7 +37,6 @@
     - [json](/0292_Programing_Python_json)
     - [os package](/0311_Programing_Python_os)
     - [Python user site 详解](/0324_Programing_Python_usersite)
-    - [uv](/0320_Programing_Python_uv)
   - [C++](/0077_Programing_CPP)
     - [Vector](/0080_Programing_CPP_Vector)
     - [switch](/0081_Programing_CPP_switch)
@@ -275,4 +275,4 @@
 - [Wiki History](/hist)
 
 ---
-<kbd><sub>@2237081028</sub></kbd>
+<kbd><sub>@1028151110</sub></kbd>
