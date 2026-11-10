@@ -29,7 +29,7 @@
       - [py-spy](/0322_Programing_Python_Tools_pyspy)
       - [tqdm 进度条工具](/0099_Programing_Python_Tools_tqdm)
       - [uv](/0315_Programing_Python_Tools_uv)
-        - [uv](/0320_Programing_Python_Tools_uv_Internals)
+        - [uv Internals](/0320_Programing_Python_Tools_uv_Internals)
       - [virtualenv](/0176_Programing_Python_Tools_virtualenv)
       - [virtualenvwrapper](/0175_Programing_Python_Tools_virtualenvwrapper)
       - [yapf 代码格式化工具](/0093_Programing_Python_Tools_yapf)
@@ -275,4 +275,4 @@
 - [Wiki History](/hist)
 
 ---
-<kbd><sub>@1028151110</sub></kbd>
+<kbd><sub>@1033511110</sub></kbd>

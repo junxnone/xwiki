@@ -9,7 +9,7 @@
 - 2026-04-29&nbsp;&nbsp; [Board 完整板子层级](/0323_Hardware_Board)&nbsp;&nbsp; :bookmark:Hardware :bookmark:Board
 - 2026-04-24&nbsp;&nbsp; [py-spy](/0322_Programing_Python_Tools_pyspy)&nbsp;&nbsp; :bookmark:Programing :bookmark:Python :bookmark:Tools :bookmark:pyspy
 - 2026-03-26&nbsp;&nbsp; [Python Debug](/0321_Programing_Python_Debug)&nbsp;&nbsp; :bookmark:Programing :bookmark:Python :bookmark:Debug
-- 2026-03-24&nbsp;&nbsp; [uv](/0320_Programing_Python_Tools_uv_Internals)&nbsp;&nbsp; :bookmark:Programing :bookmark:Python :bookmark:Tools :bookmark:uv :bookmark:Internals
+- 2026-03-24&nbsp;&nbsp; [uv Internals](/0320_Programing_Python_Tools_uv_Internals)&nbsp;&nbsp; :bookmark:Programing :bookmark:Python :bookmark:Tools :bookmark:uv :bookmark:Internals
 - 2026-03-02&nbsp;&nbsp; [VMD](/0319_X_BIOS_VMD)&nbsp;&nbsp; :bookmark:X :bookmark:BIOS :bookmark:VMD
 - 2026-02-28&nbsp;&nbsp; [cProfile](/0318_Programing_Python_Tools_cProfile)&nbsp;&nbsp; :bookmark:Programing :bookmark:Python :bookmark:Tools :bookmark:cProfile
 - 2026-02-26&nbsp;&nbsp; [Intel iGPU](/0317_Hardware_GPU_iGPU_iGPU)&nbsp;&nbsp; :bookmark:Hardware :bookmark:GPU :bookmark:iGPU :bookmark:iGPU
