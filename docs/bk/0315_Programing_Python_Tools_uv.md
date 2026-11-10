@@ -3,7 +3,7 @@
 | Title     | Programing Python Tools uv                           |
 | --------- | ---------------------------------------------------- |
 | Created @ | `2025-07-31T02:49:57Z`                               |
-| Updated @ | `2025-07-31T02:49:57Z`                               |
+| Updated @ | `2026-11-10T02:19:42Z`                               |
 | Labels    | \`\`                                                 |
 | Edit @    | [here](https://github.com/junxnone/xwiki/issues/315) |
 
@@ -11,99 +11,160 @@
 
 # uv
 
-`uv` 是一款由 **Astral Software** 开发的现代化 Python 工具，集 **包管理**、**虚拟环境管理** 和
-**构建功能** 于一体，旨在解决传统工具（如
-`pip`、`virtualenv`、`setuptools`）的速度慢、流程繁琐等问题。其核心优势是
-**极致性能** 和 **一体化工作流**，目前已成为 Python 生态中备受关注的工具。
+`uv` 是 **Astral**（`ruff` 的开发者）用 **Rust** 编写的 Python 包与项目管理工具，一个工具覆盖
+`pip`、`pip-tools`、`virtualenv`、`pyenv`、`pipx`、`poetry`
+等的常见功能。核心特点：**快**（官方称比 `pip` 快 10-100 倍，全局缓存
++ 硬链接复用）、**一体化**、**兼容现有生态**（`pyproject.toml`、`requirements.txt`）。
 
-### **核心功能与优势**
+**优点**
 
-1.  **超快速的包管理**
+  - 极速：依赖解析、安装、创建虚拟环境都远快于 `pip`
+  - 极简：一条命令完成环境创建 + 包安装
+  - 兼容：兼容 PyPI、`requirements.txt`、`pyproject.toml`
+  - 跨平台：Windows / macOS / Linux
+  - 无依赖：单二进制文件，无需预装 Python 也能使用（可用 `uv python install` 自动获取）
+
+## 能力一览
+
+| 能力          | 替代的工具                 | uv 命令                              |
+| ----------- | --------------------- | ---------------------------------- |
+| Python 版本管理 | `pyenv`               | `uv python install/list/pin`       |
+| 项目依赖管理      | `poetry` / `pdm`      | `uv init/add/remove/lock/sync/run` |
+| 虚拟环境        | `venv` / `virtualenv` | `uv venv`                          |
+| pip 兼容接口    | `pip` / `pip-tools`   | `uv pip install/compile/sync`      |
+| 命令行工具安装     | `pipx`                | `uv tool install` / `uvx`          |
+| 单文件脚本       | \-                    | `uv run script.py`（PEP 723）        |
+| 构建与发布       | `build` / `twine`     | `uv build` / `uv publish`          |
+
+> 注意：uv 没有 `uv install` / `uv uninstall` / `uv upgrade` 命令。pip 风格操作要加
+> `pip` 子命令（`uv pip install`），项目依赖用 `uv add`。
+
+## 安装
+
+``` bash
+# Linux / macOS
+curl -LsSf https://astral.sh/uv/install.sh | sh
+
+# Windows PowerShell
+powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
+
+# 其他方式
+pip install uv
+brew install uv
+winget install --id=astral-sh.uv -e
+
+# 升级自身 / 查看版本
+uv self update
+uv --version
+```
+
+## Python 版本管理
+
+``` bash
+uv python list              # 查看可用/已装版本
+uv python install 3.12      # 下载安装 Python（无需系统预装）
+uv python pin 3.12          # 写入 .python-version
+```
+
+## 项目工作流（推荐）
+
+``` bash
+uv init myproj && cd myproj     # 生成 pyproject.toml、.python-version 等
+uv add requests                 # 添加依赖，自动建 .venv 并更新 uv.lock
+uv add --dev pytest             # 开发依赖
+uv add "numpy>=1.26"            # 指定版本约束
+uv remove requests              # 移除依赖
+uv lock --upgrade-package numpy # 升级某个包
+uv lock --upgrade               # 升级全部依赖（在约束范围内）
+uv sync                         # 按 uv.lock 同步环境
+uv sync --frozen                # 不更新 lock，严格按 lock 安装（CI 常用）
+uv run python main.py           # 在项目环境中运行，无需手动激活
+uv run pytest
+uv tree                         # 查看依赖树
+```
+
+  - `uv.lock` 是跨平台的通用锁文件，记录精确版本与哈希，应提交到版本库。
+  - `uv run` / `uv sync` 会自动创建并同步 `.venv`，通常不需要手动 `activate`。
+
+## 虚拟环境
+
+``` bash
+uv venv                         # 在当前目录创建 .venv
+uv venv --python 3.11 myenv     # 指定 Python 版本和目录
+source .venv/bin/activate       # Linux/macOS 激活
+.venv\Scripts\activate          # Windows 激活
+```
+
+## pip 兼容接口
+
+用于不想迁移到项目模式的存量项目：
+
+``` bash
+uv pip install requests
+uv pip install requests==2.31.0                      # 指定版本
+uv pip install -r requirements.txt
+uv pip install -e .                                  # 可编辑安装
+uv pip uninstall pandas
+uv pip list / uv pip show numpy / uv pip freeze
+uv pip compile requirements.in -o requirements.txt   # 类似 pip-compile
+uv pip sync requirements.txt                         # 精确同步
+```
+
+## 工具与脚本
+
+``` bash
+uvx ruff check .                # 临时运行工具（等价 uv tool run），不污染环境
+uv tool install ruff            # 全局安装命令行工具（隔离环境，类似 pipx）
+uv tool list
+uv tool upgrade --all
+
+# 单文件脚本，依赖写在脚本头部（PEP 723）
+uv add --script demo.py requests
+uv run demo.py
+```
+
+## 构建与发布
+
+``` bash
+uv build                        # 生成 sdist 和 wheel 到 dist/
+uv publish                      # 上传到 PyPI
+```
+
+## 常用配置
+
+  - **镜像源**：国内/内网环境可在 `pyproject.toml` 或 `uv.toml` 配置：
     
-      - 底层基于 Rust 语言开发，依赖解析和安装速度远超 `pip`（官方测试显示比 `pip` 快 10-100 倍）。
-      - 支持常见的包操作：安装（`uv install`）、卸载（`uv uninstall`）、升级（`uv
-        upgrade`）、查看依赖（`uv show`）等，命令风格与 `pip` 兼容，学习成本低。
-    
-    示例：
-    
-    ``` bash
-    # 安装第三方包
-    uv install requests
-    # 卸载包
-    uv uninstall pandas
-    # 升级包到最新版本
-    uv upgrade numpy
+    ``` toml
+    [[tool.uv.index]]
+    url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+    default = true
     ```
-
-2.  **一体化虚拟环境管理**
     
-      - 内置虚拟环境功能，无需单独安装 `venv` 或 `virtualenv`。
-      - 支持创建、激活、删除虚拟环境，且切换速度极快。
-    
-    示例：
-    
-    ``` bash
-    # 创建虚拟环境
-    uv venv myenv
-    # 激活环境（Linux/macOS）
-    source myenv/bin/activate
-    # 激活环境（Windows PowerShell）
-    .\myenv\Scripts\Activate.ps1
-    ```
+    或使用环境变量 `UV_DEFAULT_INDEX`；Python 下载镜像可用 `UV_PYTHON_INSTALL_MIRROR`。
 
-3.  **精确的依赖锁定**
-    
-      - 生成 `uv.lock` 文件（类似
-        `package-lock.json`），精确记录所有依赖的版本和来源，确保不同环境安装的依赖完全一致，解决“在我这能跑”的问题。
-      - 支持通过 `uv lock` 生成锁文件，通过 `uv sync` 从锁文件同步依赖。
-    
-    示例：
-    
-    ``` bash
-    # 生成依赖锁文件（基于 pyproject.toml 或 requirements.txt）
-    uv lock
-    # 根据锁文件安装所有依赖（确保环境一致）
-    uv sync
-    ```
+  - **代理**：遵循 `HTTP_PROXY` / `HTTPS_PROXY` 环境变量。
 
-4.  **项目构建支持**
-    
-      - 兼容 Python 打包标准（如 `pyproject.toml`），可替代 `setuptools` 或 `flit` 构建
-        wheel 包或源码包。
-      - 支持本地包安装（如 `uv install .` 安装当前目录项目，`uv install -e .` 以可编辑模式安装）。
+  - **缓存**：`uv cache dir` 查看位置，`uv cache clean` 清理；`UV_CACHE_DIR` 可改路径。
 
-### **与传统工具的对比**
+  - **PyTorch 等特殊索引**：用 `[tool.uv.sources]` 为指定包绑定索引。
 
-| 功能场景   | 传统工具组合                            | `uv` 对应操作              | 优势             |
-| ------ | --------------------------------- | ---------------------- | -------------- |
-| 安装包    | `pip install <package>`           | `uv install <package>` | 速度提升 10-100 倍  |
-| 创建虚拟环境 | `python -m venv myenv`            | `uv venv myenv`        | 无需额外依赖，创建速度更快  |
-| 生成依赖清单 | `pip freeze > requirements.txt`   | `uv lock`（生成 uv.lock）  | 依赖解析更精确，避免版本冲突 |
-| 同步环境依赖 | `pip install -r requirements.txt` | `uv sync`              | 按锁文件精确安装，速度更快  |
+  - **CI**：可使用 `astral-sh/setup-uv` Action，配合 `uv sync --frozen`。
 
-### **安装方式**
+## 迁移对照
 
-  - **Linux/macOS**：通过 curl 一键安装
-    ``` bash
-    curl -LsSf https://astral.sh/uv/install.sh | sh
-    ```
-  - **Windows**：通过 PowerShell 安装
-    ``` powershell
-    Invoke-WebRequest -Uri https://astral.sh/uv/install.ps1 -UseBasicParsing | Invoke-Expression
-    ```
-  - **其他方式**：支持通过 Homebrew（`brew install uv`）、AUR 等包管理器安装，或从 [GitHub
-    Releases](https://github.com/astral-sh/uv/releases) 下载二进制文件。
-
-### **适用场景**
-
-  - 日常开发中替代 `pip` 管理包，提升安装效率；
-  - 管理项目依赖，通过 `uv lock` 和 `uv sync` 确保团队环境一致性；
-  - 快速创建和切换虚拟环境，简化开发流程；
-  - 构建和发布 Python 包（替代 `setuptools` 等工具）。
-
-如果需要具体场景的使用技巧（如配置镜像源、批量操作依赖、与 CI/CD 集成等），可以进一步说明需求\~
+| 原来                                | 现在                                               |
+| --------------------------------- | ------------------------------------------------ |
+| `python -m venv .venv`            | `uv venv`                                        |
+| `pip install x`                   | `uv add x`（项目）/ `uv pip install x`               |
+| `pip freeze > requirements.txt`   | `uv lock` 或 `uv pip freeze`                      |
+| `pip install -r requirements.txt` | `uv sync` / `uv pip install -r requirements.txt` |
+| `pipx run x` / `pipx install x`   | `uvx x` / `uv tool install x`                    |
+| `pyenv install 3.12`              | `uv python install 3.12`                         |
 
 ## Reference
 
   - [uv github](https://github.com/astral-sh/uv)
   - [uv docs](https://docs.astral.sh/uv/)
+  - [uv pip 接口文档](https://docs.astral.sh/uv/pip/)
+  - [PEP 723 – Inline script
+    metadata](https://peps.python.org/pep-0723/)
