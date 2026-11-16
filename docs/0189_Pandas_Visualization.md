@@ -2,15 +2,36 @@
 Title | Pandas Visualization
 -- | --
 Created @ | `2020-04-07T07:07:53Z`
-Updated @| `2023-07-06T15:15:46Z`
+Updated @| `2026-11-16T09:40:01Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/189)
 
 ---
 # 可视化
 
+- `DataFrame.plot()` / `Series.plot()` 基于 `matplotlib`，通过 `kind` 指定图表类型
 
+```python
+import matplotlib.pyplot as plt
+df.plot(kind='line')   # 或 df.plot.line()
+plt.show()
+```
 
+kind | 图表
+-- | --
+`line` | 折线图（默认）
+`bar` / `barh` | 柱状图 / 水平柱状图
+`hist` | 直方图
+`box` | 箱线图
+`kde` / `density` | 核密度图
+`area` | 面积图
+`scatter` | 散点图（需指定 `x`, `y`）
+`pie` | 饼图
+`hexbin` | 六边形分箱图
+
+- 其他：`pd.plotting.scatter_matrix`、`andrews_curves`、`parallel_coordinates` 等
+
+## 示例
 ![image](https://user-images.githubusercontent.com/2216970/168812999-c4079cb5-6023-40aa-8ab8-34c85ad0b4c5.png) | ![image](https://user-images.githubusercontent.com/2216970/168813015-248eda76-326d-4fcf-8d65-eacfe212d63d.png) | ![image](https://user-images.githubusercontent.com/2216970/168813030-72876744-938a-4e0e-a2ed-73ea6ccc5b27.png)
 -- | -- | --
 ![image](https://user-images.githubusercontent.com/2216970/168813038-ec790770-ad19-4a4b-8819-de4aed0c3a8f.png) | ![image](https://user-images.githubusercontent.com/2216970/168813066-ed2a85bf-38b6-4d0b-a7c1-06df1312fd54.png) | ![image](https://user-images.githubusercontent.com/2216970/168813072-9f9afe7b-4272-442e-9a77-d5eff9d1fa14.png)
@@ -18,6 +39,7 @@ Edit @| [here](https://github.com/junxnone/xwiki/issues/189)
 ![image](https://user-images.githubusercontent.com/2216970/168813219-6df9c2a5-9399-4151-99e0-b67ad8221ca5.png) | ![image](https://user-images.githubusercontent.com/2216970/168813240-18b64ab7-843f-463f-acad-6dd88a7b5096.png) | ![image](https://user-images.githubusercontent.com/2216970/168813268-68ab9903-85bb-47e0-928c-d99966d5acfa.png)
 ![image](https://user-images.githubusercontent.com/2216970/168813279-9d6e565d-879f-4710-946b-fa24572f458f.png) | ![image](https://user-images.githubusercontent.com/2216970/168813293-de6733c8-50e2-43ee-b01d-a1a837145770.png) | ![image](https://user-images.githubusercontent.com/2216970/168813310-0e961f64-307c-45d5-8642-cf0a730b7c22.png)
 ![image](https://user-images.githubusercontent.com/2216970/168813360-d1b9caf5-d765-44a3-bf53-fd6ea55a66b5.png)
+
 
 
 ## Reference

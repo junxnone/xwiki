@@ -3,13 +3,41 @@
 | Title     | Pandas Visualization                                 |
 | --------- | ---------------------------------------------------- |
 | Created @ | `2020-04-07T07:07:53Z`                               |
-| Updated @ | `2023-07-06T15:15:46Z`                               |
+| Updated @ | `2026-11-16T09:40:01Z`                               |
 | Labels    | \`\`                                                 |
 | Edit @    | [here](https://github.com/junxnone/xwiki/issues/189) |
 
 -----
 
 # 可视化
+
+  - `DataFrame.plot()` / `Series.plot()` 基于 `matplotlib`，通过 `kind`
+    指定图表类型
+
+<!-- end list -->
+
+``` python
+import matplotlib.pyplot as plt
+df.plot(kind='line')   # 或 df.plot.line()
+plt.show()
+```
+
+| kind              | 图表                |
+| ----------------- | ----------------- |
+| `line`            | 折线图（默认）           |
+| `bar` / `barh`    | 柱状图 / 水平柱状图       |
+| `hist`            | 直方图               |
+| `box`             | 箱线图               |
+| `kde` / `density` | 核密度图              |
+| `area`            | 面积图               |
+| `scatter`         | 散点图（需指定 `x`, `y`） |
+| `pie`             | 饼图                |
+| `hexbin`          | 六边形分箱图            |
+
+  - 其他：`pd.plotting.scatter_matrix`、`andrews_curves`、`parallel_coordinates`
+    等
+
+## 示例
 
 | ![image](media/f1cdda40ce1d7bd7db048e66afea278d1ccc6c08.png) | ![image](media/093aa5642e42748d5e83c48f567a31dcf484e205.png) | ![image](media/f68bce24ab7fc42029cfbe6db3bbcec40e14a5fc.png) |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
