@@ -2,7 +2,7 @@
 Title | Pandas UseCase columns
 -- | --
 Created @ | `2022-12-22T09:27:16Z`
-Last Modify @| `2022-12-22T09:27:16Z`
+Updated @| `2026-11-16T09:40:05Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/198)
 
@@ -43,7 +43,7 @@ df['one_trunc'] = df['one'][:2]
 ### 使用字典添加新列
 
 ```
-df = df.append(dict_a, ignore_index=True)
+df = pd.concat([df, pd.DataFrame([dict_a])], ignore_index=True)  # DataFrame.append 在 pandas 2.0 已移除
 ```
 
 ### 通过 `numpy array` 赋值
@@ -93,7 +93,7 @@ iris.assign(sepal_ratio = lambda x: (x['SepalWidth'] / x['SepalLength'])).head()
 ### 从一列的字符串中分离出部分字符成为新的一列
 
 ```
-df['category'] = df['name'].str.split('_',1).str[0]
+df['category'] = df['name'].str.split('_', n=1).str[0]
 ```
 > 假设 df['name'] 为类似字符 `Class1_0000xxx.png`
 
@@ -119,5 +119,6 @@ del df['two']
 ```
 three = df.pop('three')
 ```
+
 
 
