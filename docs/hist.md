@@ -224,7 +224,7 @@
 - 2019-08-15&nbsp;&nbsp; [排序](/0186_Pandas_UseCase_sort)&nbsp;&nbsp; :bookmark:Pandas :bookmark:UseCase :bookmark:sort
 - 2019-08-14&nbsp;&nbsp; [SettingWithCopyWarning](/0185_Pandas_Issues_SettingWithCopyWarning)&nbsp;&nbsp; :bookmark:Pandas :bookmark:Issues :bookmark:SettingWithCopyWarning
 - 2019-08-14&nbsp;&nbsp; [Series](/0184_Pandas_Series)&nbsp;&nbsp; :bookmark:Pandas :bookmark:Series
-- 2019-08-12&nbsp;&nbsp; [list2csv](/0183_Pandas_UseCase_list2csv)&nbsp;&nbsp; :bookmark:Pandas :bookmark:UseCase :bookmark:list2csv
+- 2019-08-12&nbsp;&nbsp; [list 保存为 csv](/0183_Pandas_UseCase_list2csv)&nbsp;&nbsp; :bookmark:Pandas :bookmark:UseCase :bookmark:list2csv
 - 2019-08-07&nbsp;&nbsp; [YAML](/0140_Doc_YAML)&nbsp;&nbsp; :bookmark:Doc :bookmark:YAML
 - 2019-08-03&nbsp;&nbsp; [backup](/0121_Tools_Github_backup)&nbsp;&nbsp; :bookmark:Tools :bookmark:Github :bookmark:backup
 - 2019-07-25&nbsp;&nbsp; [if  判断](/0102_Programing_Shell_if)&nbsp;&nbsp; :bookmark:Programing :bookmark:Shell :bookmark:if

@@ -115,7 +115,7 @@
     - [合并](/0205_Pandas_UseCase_Merge)
     - [Index 操作](/0202_Pandas_UseCase_Index)
     - [简单查看数据](/0197_Pandas_UseCase_ShowSummaryInfo)
-    - [list2csv](/0183_Pandas_UseCase_list2csv)
+    - [list 保存为 csv](/0183_Pandas_UseCase_list2csv)
   - [可视化](/0189_Pandas_Visualization)
   - [Pandas Issues](/0262_Pandas_Issues)
     - [SettingWithCopyWarning](/0185_Pandas_Issues_SettingWithCopyWarning)
@@ -277,4 +277,4 @@
 - [Wiki History](/hist)
 
 ---
-<kbd><sub>@2345021113</sub></kbd>
+<kbd><sub>@1741031116</sub></kbd>

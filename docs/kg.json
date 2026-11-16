@@ -1488,7 +1488,7 @@
     {
       "id": "xwiki Pandas UseCase list2csv",
       "group": 3,
-      "title": "list2csv",
+      "title": "list 保存为 csv",
       "url": "https://junxnone.github.io/xwiki/#/0183_Pandas_UseCase_list2csv",
       "visible": true,
       "expand": true,
