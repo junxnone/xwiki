@@ -2,7 +2,7 @@
 Title | Pandas UseCase sampling
 -- | --
 Created @ | `2022-12-22T09:33:43Z`
-Last Modify @| `2022-12-22T09:33:43Z`
+Updated @| `2026-11-16T09:40:14Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/203)
 
@@ -20,6 +20,7 @@ frac 为选取的比例 0 ~ 1
 
 ```
 df = df.sample(frac = 1) 
+df = df.sample(frac = 1, random_state=42).reset_index(drop=True)  -> 固定随机种子并重置 index
 ```
 
 ## 按概率抽样
@@ -33,3 +34,12 @@ s.sample(n=3, weights=example_weights)
 4    4
 3    3
 ```
+> 结果随机，上面仅为示例输出
+
+## 划分训练集 / 测试集
+
+```
+train = df.sample(frac=0.8, random_state=0)
+test = df.drop(train.index)
+```
+
