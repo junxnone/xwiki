@@ -2,7 +2,7 @@
 Title | Pandas DataFrame
 -- | --
 Created @ | `2019-03-04T05:50:26Z`
-Updated @| `2023-07-06T15:10:48Z`
+Updated @| `2026-11-16T09:39:48Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/182)
 
@@ -130,7 +130,7 @@ pd.DataFrame(data, columns=['C', 'A', 'B'])
 1  World  2  3.0
 ```
 
-### 使用 Serie 创建
+### 使用 Series 创建
 
 - 索引与输入的 Series 相同，并且单个列的名称是 Series 的原始名称（仅当没有提供其他列名时）
 
@@ -155,7 +155,33 @@ pd.read_hdf('foo.h5', 'df')
 pd.read_excel('foo.xlsx', 'Sheet1', index_col=None, na_values=['NA'])
 ```
 
+
+## 常用属性
+
+```
+df.shape      # (行数, 列数)
+df.index      # 行索引
+df.columns    # 列名
+df.dtypes     # 各列类型
+df.values     # 转 ndarray（推荐 df.to_numpy()）
+df.T          # 转置
+```
+
+## 保存到文件
+
+```
+df.to_csv('foo.csv', index=False)
+df.to_hdf('foo.h5', key='df')
+df.to_excel('foo.xlsx', sheet_name='Sheet1')
+```
+> 更多读写见 [IO](/0188_Pandas_UseCase_IO)
+
+## 常用操作
+
+- [行操作](/0199_Pandas_UseCase_row) / [列操作](/0198_Pandas_UseCase_columns) / [Index](/0202_Pandas_UseCase_Index) / [条件筛选](/0201_Pandas_UseCase_condition)
+
 ## Reference
 - [API](http://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html)
 - [Pandas库之DataFrame](https://www.cnblogs.com/IvyWong/p/9203981.html)
 - [reset_index](http://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.reset_index.html)
+
