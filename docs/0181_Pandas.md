@@ -2,7 +2,7 @@
 Title | Pandas
 -- | --
 Created @ | `2019-03-04T05:45:56Z`
-Updated @| `2026-11-16T09:34:40Z`
+Updated @| `2026-11-16T09:39:46Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/xwiki/issues/181)
 
@@ -21,30 +21,30 @@ import numpy as np
 
 ### 基础数据结构
 
-- [Series](https://github.com/junxnone/xwiki/issues/184) - 带标签的一维数组
-- [DataFrame](https://github.com/junxnone/xwiki/issues/182) - 带行/列索引的二维表格
+- [Series](/0184_Pandas_Series) - 带标签的一维数组
+- [DataFrame](/0182_Pandas_DataFrame) - 带行/列索引的二维表格
 
 ### UseCase（常用操作）
 
-- [Pandas UseCase](https://github.com/junxnone/xwiki/issues/260) - 用例总览
+- [Pandas UseCase](/0260_Pandas_UseCase) - 用例总览
 
 分类 | 文档
 -- | --
-数据读写 | [IO](https://github.com/junxnone/xwiki/issues/188) / [list 保存为 csv](https://github.com/junxnone/xwiki/issues/183)
-行 / 列 / 索引 | [行操作](https://github.com/junxnone/xwiki/issues/199) / [列操作](https://github.com/junxnone/xwiki/issues/198) / [Index](https://github.com/junxnone/xwiki/issues/202) / [xy 取值](https://github.com/junxnone/xwiki/issues/200)
-筛选 / 排序 / 采样 | [条件筛选](https://github.com/junxnone/xwiki/issues/201) / [排序](https://github.com/junxnone/xwiki/issues/186) / [采样](https://github.com/junxnone/xwiki/issues/203)
-清洗 / 合并 | [特殊值处理](https://github.com/junxnone/xwiki/issues/187) / [字符串处理](https://github.com/junxnone/xwiki/issues/204) / [Merge](https://github.com/junxnone/xwiki/issues/205)
-查看信息 | [Summary Info](https://github.com/junxnone/xwiki/issues/197)
+数据读写 | [IO](/0188_Pandas_UseCase_IO) / [list 保存为 csv](/0183_Pandas_UseCase_list2csv)
+行 / 列 / 索引 | [行操作](/0199_Pandas_UseCase_row) / [列操作](/0198_Pandas_UseCase_columns) / [Index](/0202_Pandas_UseCase_Index) / [xy 取值](/0200_Pandas_UseCase_xy)
+筛选 / 排序 / 采样 | [条件筛选](/0201_Pandas_UseCase_condition) / [排序](/0186_Pandas_UseCase_sort) / [采样](/0203_Pandas_UseCase_sampling)
+清洗 / 合并 | [特殊值处理](/0187_Pandas_UseCase_SpecialValue) / [字符串处理](/0204_Pandas_UseCase_string) / [Merge](/0205_Pandas_UseCase_Merge)
+查看信息 | [Summary Info](/0197_Pandas_UseCase_ShowSummaryInfo)
 
 ### 可视化
 
-- [可视化](https://github.com/junxnone/xwiki/issues/189)
+- [可视化](/0189_Pandas_Visualization)
 
 ### Issues（踩坑记录）
 
-- [Pandas Issues](https://github.com/junxnone/xwiki/issues/262) - 总览
-- [SettingWithCopyWarning](https://github.com/junxnone/xwiki/issues/185)
-- [csv 中 list 变成 str](https://github.com/junxnone/xwiki/issues/213)
+- [Pandas Issues](/0262_Pandas_Issues) - 总览
+- [SettingWithCopyWarning](/0185_Pandas_Issues_SettingWithCopyWarning)
+- [csv 中 list 变成 str](/0213_Pandas_Issues_csvliststr)
 
 ## Reference
   - [官网](https://pandas.pydata.org/)
