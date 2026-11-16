@@ -3,7 +3,7 @@
 | Title     | Pandas Series                                        |
 | --------- | ---------------------------------------------------- |
 | Created @ | `2019-08-14T05:12:21Z`                               |
-| Updated @ | `2023-07-06T15:12:20Z`                               |
+| Updated @ | `2026-11-16T09:39:52Z`                               |
 | Labels    | \`\`                                                 |
 | Edit @    | [here](https://github.com/junxnone/xwiki/issues/184) |
 
@@ -113,6 +113,24 @@
     s.get('f')
     s.get('f', np.nan)
     nan
+
+## 常用属性 & 方法
+
+    s.index       # 索引
+    s.values      # 底层 ndarray（推荐 s.to_numpy()）
+    s.dtype       # 数据类型
+    s.name        # Series 名称
+    s.head(3)
+    s.describe()
+    s.value_counts()
+    s.isna()
+    s.to_frame()  # 转 DataFrame
+
+## 与 DataFrame 的关系
+
+  - `DataFrame` 的每一列是一个 `Series`：`df['a']` 返回 `Series`
+  - `Series` 可以通过 `s.to_frame()` 或 `pd.DataFrame(s)` 转为单列 `DataFrame`
+  - 详见 [DataFrame](/0182_Pandas_DataFrame)
 
 ## Reference
 
