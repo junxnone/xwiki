@@ -28,6 +28,7 @@
       - [psutil](/0098_Programing_Python_Tools_psutil)
       - [pylint 代码分析工具](/0092_Programing_Python_Tools_pylint)
       - [py-spy](/0322_Programing_Python_Tools_pyspy)
+      - [ruff](/0332_Programing_Python_Tools_ruff)
       - [tqdm 进度条工具](/0099_Programing_Python_Tools_tqdm)
       - [uv](/0315_Programing_Python_Tools_uv)
         - [uv Internals](/0320_Programing_Python_Tools_uv_Internals)
@@ -277,4 +278,4 @@
 - [Wiki History](/hist)
 
 ---
-<kbd><sub>@1642011120</sub></kbd>
+<kbd><sub>@1037481123</sub></kbd>

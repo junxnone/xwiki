@@ -4,6 +4,7 @@
 
 #### **Created**
 
+- 2026-11-23&nbsp;&nbsp; [ruff](/0332_Programing_Python_Tools_ruff)&nbsp;&nbsp; :bookmark:Programing :bookmark:Python :bookmark:Tools :bookmark:ruff
 - 2026-11-10&nbsp;&nbsp; [git stash](/0331_Tools_Git_stash)&nbsp;&nbsp; :bookmark:Tools :bookmark:Git :bookmark:stash
 - 2026-11-10&nbsp;&nbsp; [pipx](/0330_Programing_Python_Tools_pipx)&nbsp;&nbsp; :bookmark:Programing :bookmark:Python :bookmark:Tools :bookmark:pipx
 - 2026-10-13&nbsp;&nbsp; [GitHub / Git CLI 多账号切换](/0329_Tools_Github_多账号切换)&nbsp;&nbsp; :bookmark:Tools :bookmark:Github :bookmark:多账号切换
@@ -283,6 +284,7 @@
 
 #### **Updated**
 
+- 2026-11-23&nbsp;&nbsp; [ruff](/0332_Programing_Python_Tools_ruff)&nbsp;&nbsp; :bookmark:Programing :bookmark:Python :bookmark:Tools :bookmark:ruff
 - 2026-11-16&nbsp;&nbsp; [Pandas Issues](/0262_Pandas_Issues)&nbsp;&nbsp; :bookmark:Pandas :bookmark:Issues
 - 2026-11-16&nbsp;&nbsp; [Pandas UseCase](/0260_Pandas_UseCase)&nbsp;&nbsp; :bookmark:Pandas :bookmark:UseCase
 - 2026-11-16&nbsp;&nbsp; [存储为 csv 再读入后, 单元格值 `list` 类型会变成 `str` 类型](/0213_Pandas_Issues_csvliststr)&nbsp;&nbsp; :bookmark:Pandas :bookmark:Issues :bookmark:csvliststr

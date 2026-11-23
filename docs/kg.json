@@ -2449,6 +2449,15 @@
       "childLinks": []
     },
     {
+      "id": "xwiki Programing Python Tools ruff",
+      "group": 4,
+      "title": "ruff",
+      "url": "https://junxnone.github.io/xwiki/#/0332_Programing_Python_Tools_ruff",
+      "visible": true,
+      "expand": true,
+      "childLinks": []
+    },
+    {
       "id": "xwiki Hardware GPU iGPU Tools intelgputools",
       "group": 5,
       "title": "intel-gpu-tools",
@@ -4339,6 +4348,13 @@
     {
       "source": "xwiki Programing Python Tools",
       "target": "xwiki Programing Python Tools pipx",
+      "value": 4,
+      "visible": true,
+      "expand": true
+    },
+    {
+      "source": "xwiki Programing Python Tools",
+      "target": "xwiki Programing Python Tools ruff",
       "value": 4,
       "visible": true,
       "expand": true
