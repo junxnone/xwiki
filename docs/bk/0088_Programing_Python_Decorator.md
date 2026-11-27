@@ -3,7 +3,7 @@
 | Title     | Programing Python Decorator                         |
 | --------- | --------------------------------------------------- |
 | Created @ | `2021-04-08T08:24:42Z`                              |
-| Updated @ | `2024-06-13T08:57:04Z`                              |
+| Updated @ | `2026-11-27T07:25:36Z`                              |
 | Labels    | \`\`                                                |
 | Edit @    | [here](https://github.com/junxnone/xwiki/issues/88) |
 
@@ -11,10 +11,8 @@
 
 # Decorator 装饰器
 
-  -   - Decorator - 装饰器
-
+  - Decorator - 装饰器
   - **用途**
-    
       - 测试函数执行时间
       - 添加log/记录log
       - 查询 cache
